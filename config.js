@@ -17,5 +17,20 @@ export const DATA_FILE = path.join(__dirname, 'data', 'data.json');
 
 export const CRAWLER_CONFIG = {
   headless: true,
-  timeout: 10000
+  timeout: 10000,
+  // GitHub Actions 環境配置
+  launchOptions: {
+    headless: true,
+    args: [
+      '--no-sandbox',
+      '--disable-setuid-sandbox',
+      '--disable-dev-shm-usage',
+      '--disable-gpu',
+      '--no-first-run',
+      '--no-zygote',
+      '--deterministic-fetch',
+      '--disable-features=VizDisplayCompositor'
+    ],
+    executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || undefined
+  }
 };

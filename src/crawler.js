@@ -9,9 +9,7 @@ export class PetFriendlyCrawler {
   constructor() {}
 
   async init() {
-    this.#browser = await puppeteer.launch({
-      headless: CRAWLER_CONFIG.headless
-    });
+    this.#browser = await puppeteer.launch(CRAWLER_CONFIG.launchOptions);
 
     this.#page = await this.#browser.newPage();
   }

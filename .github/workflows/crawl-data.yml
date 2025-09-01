@@ -2,88 +2,46 @@ name: Crawl Pet-Friendly Venues Data
 
 on:
   schedule:
-    - cron: '0 0 */3 * *'
-  workflow_dispatch:
-
+    - cron: '0 0 * * 1,4'
+  workflow_dispatch: 
+  
 jobs:
-  crawl:
+  crawl-and-update:
     runs-on: ubuntu-latest
-
+    
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-
+        
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
-
+          
       - name: Install dependencies
-        run: npm ci
-
-      - name: Install Puppeteer dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y \
-            chromium-browser \
-            fonts-liberation \
-            libappindicator3-1 \
-            libasound2 \
-            libatk-bridge2.0-0 \
-            libatk1.0-0 \
-            libcups2 \
-            libdbus-1-3 \
-            libdrm2 \
-            libgtk-3-0 \
-            libnspr4 \
-            libnss3 \
-            libx11-xcb1 \
-            libxcomposite1 \
-            libxdamage1 \
-            libxrandr2 \
-            xdg-utils
-
-      - name: Run crawler
+        run: npm install
+        
+      - name: Run crawler to update data
         run: npm start
-        env:
-          PUPPETEER_EXECUTABLE_PATH: /usr/bin/chromium-browser
-
-      - name: Check for changes
-        id: verify-changed-files
+        timeout-minutes: 5
+        
+      - name: Check if data.json was updated
         run: |
-          if [ -n "$(git status --porcelain)" ]; then
-            echo "changed=true" >> $GITHUB_OUTPUT
+          if [ -f "data/data.json" ]; then
+            echo "data.json found and updated"
           else
-            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "Warning: data.json not found"
+            exit 1
           fi
-
+          
       - name: Commit and push changes
-        if: steps.verify-changed-files.outputs.changed == 'true'
         run: |
           git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.name "GitHub Action Bot"
           git add data/data.json
-          git commit -m "🤖 Auto-update pet-friendly venues data
-
-          Updated via GitHub Actions on $(date -u +"%Y-%m-%d %H:%M:%S UTC")
-
-          🤖 Generated with [Claude Code](https://claude.ai/code)
-
-          Co-Authored-By: Claude <noreply@anthropic.com>"
-          git push
-
-      - name: Create summary
-        if: always()
-        run: |
-          echo "## Crawl Summary" >> $GITHUB_STEP_SUMMARY
-          echo "- **Time**: $(date -u)" >> $GITHUB_STEP_SUMMARY
-          echo "- **Status**: ${{ job.status }}" >> $GITHUB_STEP_SUMMARY
-          if [ -f data/data.json ]; then
-            VENUE_COUNT=$(jq '.petFriendlyVenues | length' data/data.json)
-            LAST_UPDATE=$(jq -r '.lastUpdate' data/data.json)
-            echo "- **Venues Found**: $VENUE_COUNT" >> $GITHUB_STEP_SUMMARY
-            echo "- **Last Update**: $LAST_UPDATE" >> $GITHUB_STEP_SUMMARY
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "🐾 Auto update pet-friendly venues data - $(date +'%Y-%m-%d %H:%M')"
+            git push
           fi

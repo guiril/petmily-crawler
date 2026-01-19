@@ -2,29 +2,29 @@ name: Crawl Pet-Friendly Venues Data
 
 on:
   schedule:
-    - cron: '0 0 * * 1,4'
-  workflow_dispatch: 
-  
+    - cron: '0 0 1 * *'
+  workflow_dispatch:
+
 jobs:
   crawl-and-update:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          
+
       - name: Install dependencies
         run: npm install
-        
+
       - name: Run crawler to update data
         run: npm start
         timeout-minutes: 5
-        
+
       - name: Check if data.json was updated
         run: |
           if [ -f "data/data.json" ]; then
@@ -33,7 +33,7 @@ jobs:
             echo "Warning: data.json not found"
             exit 1
           fi
-          
+
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"

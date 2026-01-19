@@ -36,12 +36,13 @@ jobs:
 
       - name: Commit and push changes
         run: |
+          export TZ='Asia/Taipei'
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action Bot"
           git add data/data.json
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "🐾 Auto update pet-friendly venues data - $(date +'%Y-%m-%d %H:%M')"
+            git commit -m "🐾 Auto update pet-friendly venues data - $(date +'%Y-%m-%d %H:%M') UTC+8"
             git push
           fi

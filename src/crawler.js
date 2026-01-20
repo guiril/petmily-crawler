@@ -3,10 +3,10 @@ import { SELECTORS, CRAWLER_CONFIG } from '../config.js';
 
 export class PetFriendlyCrawler {
   #browser;
-  #page;
-  #nextUrl;
 
-  constructor() {}
+  #page;
+
+  #nextUrl;
 
   async init() {
     this.#browser = await puppeteer.launch(CRAWLER_CONFIG.launchOptions);
@@ -34,7 +34,7 @@ export class PetFriendlyCrawler {
     try {
       return await this.#page.$eval(
         SELECTORS.updateText,
-        (element) => element.textContent
+        (element) => element.textContent,
       );
     } catch (error) {
       console.error('Error getting last update text:', error);
@@ -44,20 +44,18 @@ export class PetFriendlyCrawler {
 
   async extractVenuesFromPage() {
     try {
-      const rowsData = await this.#page.$$eval(SELECTORS.tableRows, (rows) =>
-        rows.map((row) => {
-          const tdElements = [...row.querySelectorAll('td')];
+      const rowsData = await this.#page.$$eval(SELECTORS.tableRows, (rows) => rows.map((row) => {
+        const tdElements = [...row.querySelectorAll('td')];
 
-          return {
-            number: tdElements[0]?.textContent.trim(),
-            name: tdElements[1]?.textContent.trim(),
-            serviceType: tdElements[2]?.textContent.trim(),
-            petType: tdElements[3]?.textContent.trim(),
-            address: tdElements[4]?.textContent.trim(),
-            phone: tdElements[5]?.textContent.trim()
-          };
-        })
-      );
+        return {
+          number: tdElements[0]?.textContent.trim(),
+          name: tdElements[1]?.textContent.trim(),
+          serviceType: tdElements[2]?.textContent.trim(),
+          petType: tdElements[3]?.textContent.trim(),
+          address: tdElements[4]?.textContent.trim(),
+          phone: tdElements[5]?.textContent.trim(),
+        };
+      }));
 
       return rowsData.slice(1);
     } catch (error) {
@@ -68,21 +66,21 @@ export class PetFriendlyCrawler {
 
   async crawlAllPages(allVenues = [], pageCount = 0) {
     const maxPages = 50;
-    pageCount++;
+    const currentPage = pageCount + 1;
 
-    console.log(`Crawling page ${pageCount}...`);
+    console.log(`Crawling page ${currentPage}...`);
 
     const currentPageVenues = await this.extractVenuesFromPage();
     allVenues.push(...currentPageVenues);
 
     await this.#getNextUrl();
 
-    if (this.#nextUrl && pageCount < maxPages) {
+    if (this.#nextUrl && currentPage < maxPages) {
       await this.#goToNextPage();
-      return await this.crawlAllPages(allVenues, pageCount);
+      return this.crawlAllPages(allVenues, currentPage);
     }
 
-    console.log(`Total pages crawled: ${pageCount}`);
+    console.log(`Total pages crawled: ${currentPage}`);
     return allVenues;
   }
 

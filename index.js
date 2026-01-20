@@ -22,7 +22,7 @@ import { TARGET_URL } from './config.js';
       ...existingData,
       lastUpdate: lastUpdateText,
       scrapedAt: Math.floor(Date.now() / 1000),
-      petFriendlyVenues: venues
+      petFriendlyVenues: venues,
     };
 
     writeData(updatedData);

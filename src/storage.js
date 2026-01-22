@@ -1,19 +1,18 @@
 import fs from 'fs';
-import { DATA_FILE } from '../config.js';
 
-export const readData = () => {
+export const readData = (dataFile) => {
   try {
-    return fs.readFileSync(DATA_FILE, 'utf8');
+    return fs.readFileSync(dataFile, 'utf8');
   } catch (error) {
     console.error('Error reading data file:', error);
     return '{}';
   }
 };
 
-export const writeData = (data) => {
+export const writeData = (dataFile, data) => {
   try {
-    fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2));
-    console.log(`Data saved to ${DATA_FILE}`);
+    fs.writeFileSync(dataFile, JSON.stringify(data, null, 2));
+    console.log(`Data saved to ${dataFile}`);
   } catch (error) {
     console.error('Error writing data file:', error);
     throw error;

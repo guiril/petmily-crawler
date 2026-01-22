@@ -1,14 +1,17 @@
 import puppeteer from 'puppeteer';
-import { SELECTORS, CRAWLER_CONFIG } from '../config.js';
+import { CRAWLER_CONFIG } from '../../config.js';
 
-export class PetFriendlyCrawler {
+export class TaichungCrawler {
   #browser;
 
   #page;
 
+  #selectors;
+
   #nextUrl;
 
-  async init() {
+  async init(selectors) {
+    this.#selectors = selectors;
     this.#browser = await puppeteer.launch(CRAWLER_CONFIG.launchOptions);
 
     this.#page = await this.#browser.newPage();
@@ -33,7 +36,7 @@ export class PetFriendlyCrawler {
   async getLastUpdateText() {
     try {
       return await this.#page.$eval(
-        SELECTORS.updateText,
+        this.#selectors.updateText,
         (element) => element.textContent,
       );
     } catch (error) {
@@ -44,7 +47,8 @@ export class PetFriendlyCrawler {
 
   async extractVenuesFromPage() {
     try {
-      const rowsData = await this.#page.$$eval(SELECTORS.tableRows, (rows) => rows.map((row) => {
+      const selector = this.#selectors.tableRows;
+      const rowsData = await this.#page.$$eval(selector, (rows) => rows.map((row) => {
         const tdElements = [...row.querySelectorAll('td')];
 
         return {
@@ -86,7 +90,7 @@ export class PetFriendlyCrawler {
 
   async #getNextUrl() {
     try {
-      const nextButtonEl = await this.#page.$(SELECTORS.nextButton);
+      const nextButtonEl = await this.#page.$(this.#selectors.nextButton);
 
       this.#nextUrl = '';
 

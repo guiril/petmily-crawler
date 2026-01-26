@@ -1,5 +1,6 @@
+import type { GeocodeOptions, GeocodeResult, BatchGeocodeOptions, BatchGeocodeResult } from './types/index.ts';
+
 import { TAIWAN_CITIES } from './constants/cities.ts';
-import { GeocodeOptions, GeocodeResult, BatchGeocodeOptions, BatchGeocodeResult } from './types/index.ts';
 
 const GEOCODING_API_URL = 'https://maps.googleapis.com/maps/api/geocode/json';
 

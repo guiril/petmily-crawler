@@ -1,9 +1,10 @@
 {
+  "sourceCity": "臺中市",
   "lastUpdate": "更新於114/11/11",
-  "scrapedAt": 1768782186,
-  "petFriendlyVenues": [
+  "scrapedAt": 1769413885,
+  "venues": [
     {
-      "number": "1.",
+      "number": "1",
       "name": "3Four 水某人文茶館(水某茶館)",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -11,7 +12,7 @@
       "phone": "04-22135122"
     },
     {
-      "number": "2.",
+      "number": "2",
       "name": "501休閒輕食館-鳳凰飛鏢旗艦32店(五零一商行)",
       "serviceType": "餐飲",
       "petType": "犬,貓,其他",
@@ -19,7 +20,7 @@
       "phone": "04-23173477"
     },
     {
-      "number": "3.",
+      "number": "3",
       "name": "Bullet Burger（勃特商行）",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -27,7 +28,7 @@
       "phone": "04-23011002"
     },
     {
-      "number": "4.",
+      "number": "4",
       "name": "Campaholic 露營家（汪汪也凹豆有限公司）",
       "serviceType": "其他",
       "petType": "犬,貓,其他",
@@ -35,7 +36,7 @@
       "phone": "0965-320302"
     },
     {
-      "number": "5.",
+      "number": "5",
       "name": "Cuppa FS Cafe（上勝商行）",
       "serviceType": "餐飲",
       "petType": "犬,貓,其他",
@@ -43,7 +44,7 @@
       "phone": "04-22232099"
     },
     {
-      "number": "6.",
+      "number": "6",
       "name": "Cuppa VV Cafe（上森商行）",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -51,7 +52,7 @@
       "phone": "04-23237879"
     },
     {
-      "number": "7.",
+      "number": "7",
       "name": "Eartha燒肉餐酒館（紅樂餐飲有限公司）",
       "serviceType": "餐飲",
       "petType": "犬,貓,其他",
@@ -59,7 +60,7 @@
       "phone": "04-22062889"
     },
     {
-      "number": "8.",
+      "number": "8",
       "name": "F&F HAIR STYLES(有熊美藝社)",
       "serviceType": "娛樂",
       "petType": "犬,貓,其他",
@@ -67,7 +68,7 @@
       "phone": "04-22370437"
     },
     {
-      "number": "9.",
+      "number": "9",
       "name": "Gray House灰房子義式餐廳(食恬義式餐廚)",
       "serviceType": "餐飲",
       "petType": "犬,貓,其他",
@@ -75,7 +76,7 @@
       "phone": "04-22200039"
     },
     {
-      "number": "10.",
+      "number": "10",
       "name": "Gyusya 牛舎炭火漢堡排專門店(牛舍小吃部)",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -83,7 +84,7 @@
       "phone": "04-23250085"
     },
     {
-      "number": "11.",
+      "number": "11",
       "name": "HOLA台中北屯店(特力屋股份有限公司和樂北屯分公司)",
       "serviceType": "其他",
       "petType": "犬,貓",
@@ -91,7 +92,7 @@
       "phone": "04-22478000"
     },
     {
-      "number": "12.",
+      "number": "12",
       "name": "HOLA和樂家居台中西屯店(和樂家居股份有限公司)",
       "serviceType": "其他",
       "petType": "犬,貓",
@@ -99,7 +100,7 @@
       "phone": "04-24625518"
     },
     {
-      "number": "13.",
+      "number": "13",
       "name": "HOLA大墩店(特力屋股份有限公司和樂台中大墩分公司)",
       "serviceType": "其他",
       "petType": "犬,貓",
@@ -107,7 +108,7 @@
       "phone": "04-23101000"
     },
     {
-      "number": "14.",
+      "number": "14",
       "name": "Home Home（品銘軒餐旅有限公司）",
       "serviceType": "餐飲",
       "petType": "犬,貓,其他",
@@ -115,7 +116,7 @@
       "phone": "04-23020030"
     },
     {
-      "number": "15.",
+      "number": "15",
       "name": "In Outdoor臥野（野蒼蘭咖啡廳）",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -123,7 +124,7 @@
       "phone": "04-24360281"
     },
     {
-      "number": "16.",
+      "number": "16",
       "name": "It's衣著概念店(伊肆衣著概念店)",
       "serviceType": "娛樂",
       "petType": "犬,貓",
@@ -131,7 +132,7 @@
       "phone": "04-22252219"
     },
     {
-      "number": "17.",
+      "number": "17",
       "name": "Mh juicery&cafe（民海咖啡行）",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -139,7 +140,7 @@
       "phone": "04-22470761"
     },
     {
-      "number": "18.",
+      "number": "18",
       "name": "Momori Café & Bar（毛咖股份有限公司）",
       "serviceType": "餐飲",
       "petType": "犬,貓,其他",
@@ -147,7 +148,7 @@
       "phone": "04-23239222"
     },
     {
-      "number": "19.",
+      "number": "19",
       "name": "Mr.Mantter 曼特先生(曼特有限公司)",
       "serviceType": "住宿",
       "petType": "犬,貓,其他",
@@ -155,7 +156,7 @@
       "phone": "04-37047535"
     },
     {
-      "number": "20.",
+      "number": "20",
       "name": "NO.19 Restaurant（拾玖號餐館）",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -163,7 +164,7 @@
       "phone": "04-23165519"
     },
     {
-      "number": "21.",
+      "number": "21",
       "name": "PARK2草悟廣場（行草悟道股份有限公司）",
       "serviceType": "餐飲,娛樂",
       "petType": "犬,貓",
@@ -171,7 +172,7 @@
       "phone": "04-23050191"
     },
     {
-      "number": "22.",
+      "number": "22",
       "name": "PARNI柏納髮型沙龍",
       "serviceType": "娛樂",
       "petType": "犬,貓,其他",
@@ -179,7 +180,7 @@
       "phone": "04-22985888"
     },
     {
-      "number": "23.",
+      "number": "23",
       "name": "Roundabout Cafe 圓環咖啡．大和店（圓環咖啡）",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -187,7 +188,7 @@
       "phone": "04-23015653"
     },
     {
-      "number": "24.",
+      "number": "24",
       "name": "Roundabout Cafe 圓環咖啡．梅川店（茹菓人生洋行）",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -195,7 +196,7 @@
       "phone": "04-22061988"
     },
     {
-      "number": "25.",
+      "number": "25",
       "name": "TIKIYALO(鐵枝路咖啡交易所 / 名門飲食有限公司)",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -203,7 +204,7 @@
       "phone": "04-35097354"
     },
     {
-      "number": "26.",
+      "number": "26",
       "name": "Tamp Temper(待烘咖啡)",
       "serviceType": "餐飲",
       "petType": "犬,貓,其他",
@@ -211,7 +212,7 @@
       "phone": "0903-162572"
     },
     {
-      "number": "27.",
+      "number": "27",
       "name": "UZO（伊歐斯飲料店）",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -219,7 +220,7 @@
       "phone": "04-23273518"
     },
     {
-      "number": "28.",
+      "number": "28",
       "name": "Uni café 與你咖啡(墨序文創股份有限公司)",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -227,7 +228,7 @@
       "phone": "04-24521330"
     },
     {
-      "number": "29.",
+      "number": "29",
       "name": "WensCO文心會議室-共同工作空間（毅達投資有限公司）",
       "serviceType": "其他",
       "petType": "犬,貓",
@@ -235,7 +236,7 @@
       "phone": "04-22376859"
     },
     {
-      "number": "30.",
+      "number": "30",
       "name": "三澧企業股份有限公司(Molino台中草悟廣場店)",
       "serviceType": "餐飲",
       "petType": "犬",
@@ -243,7 +244,7 @@
       "phone": "04-23020269"
     },
     {
-      "number": "31.",
+      "number": "31",
       "name": "丸文食品(丸文調理食品有限公司光復店)",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -251,7 +252,7 @@
       "phone": "04-36086789"
     },
     {
-      "number": "32.",
+      "number": "32",
       "name": "九天民俗技藝工作室",
       "serviceType": "娛樂",
       "petType": "犬,貓,其他",
@@ -259,7 +260,7 @@
       "phone": "04-25653150"
     },
     {
-      "number": "33.",
+      "number": "33",
       "name": "九房村懷舊食堂",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -267,7 +268,7 @@
       "phone": "04-24362886"
     },
     {
-      "number": "34.",
+      "number": "34",
       "name": "也有咖啡",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -275,7 +276,7 @@
       "phone": "04-22439626"
     },
     {
-      "number": "35.",
+      "number": "35",
       "name": "井閣鍋物（燊咏商行）",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -283,7 +284,7 @@
       "phone": "04-23290192"
     },
     {
-      "number": "36.",
+      "number": "36",
       "name": "交通部觀光署參山國家風景區管理處",
       "serviceType": "其他",
       "petType": "犬,貓,其他",
@@ -291,7 +292,7 @@
       "phone": "04-23312678#540"
     },
     {
-      "number": "37.",
+      "number": "37",
       "name": "仁將咖啡館",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -299,7 +300,7 @@
       "phone": "04-23782320"
     },
     {
-      "number": "38.",
+      "number": "38",
       "name": "倫家Café（倫家好餓）",
       "serviceType": "餐飲",
       "petType": "犬,貓,其他",
@@ -307,7 +308,7 @@
       "phone": "0966-136662"
     },
     {
-      "number": "39.",
+      "number": "39",
       "name": "全國大飯店股份有限公司",
       "serviceType": "住宿",
       "petType": "犬,貓",
@@ -315,7 +316,7 @@
       "phone": "04-23213111"
     },
     {
-      "number": "40.",
+      "number": "40",
       "name": "兩個鍋子商行",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -323,7 +324,7 @@
       "phone": "04-24739263"
     },
     {
-      "number": "41.",
+      "number": "41",
       "name": "凡日bread & meal（凡日企業社）",
       "serviceType": "餐飲",
       "petType": "犬,貓,其他",
@@ -331,7 +332,7 @@
       "phone": "04-23013987"
     },
     {
-      "number": "42.",
+      "number": "42",
       "name": "函館和風火鍋店",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -339,7 +340,7 @@
       "phone": "04-24612669"
     },
     {
-      "number": "43.",
+      "number": "43",
       "name": "創意時尚飯店(創意旅館股份有限公司)",
       "serviceType": "住宿",
       "petType": "犬,貓,其他",
@@ -347,7 +348,7 @@
       "phone": "04-22022666"
     },
     {
-      "number": "44.",
+      "number": "44",
       "name": "勤美 誠品綠園道（勤美股份有限公司台中分公司）",
       "serviceType": "餐飲,娛樂",
       "petType": "犬,貓,其他",
@@ -355,7 +356,7 @@
       "phone": "04-23281000"
     },
     {
-      "number": "45.",
+      "number": "45",
       "name": "匯眾租賃有限公司",
       "serviceType": "交通",
       "petType": "犬,貓",
@@ -363,7 +364,7 @@
       "phone": "04-22512542"
     },
     {
-      "number": "46.",
+      "number": "46",
       "name": "千汌日本料理 (千汌有限公司)",
       "serviceType": "餐飲",
       "petType": "犬,貓,其他",
@@ -371,7 +372,7 @@
       "phone": "04-23768658"
     },
     {
-      "number": "47.",
+      "number": "47",
       "name": "古典小熊屋(豐鼎興業有限公司)",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -379,7 +380,7 @@
       "phone": "04-22251557"
     },
     {
-      "number": "48.",
+      "number": "48",
       "name": "台中保時捷中心（汎德永業汽車股份有限公司永業台中分公司）",
       "serviceType": "其他",
       "petType": "犬,貓",
@@ -387,7 +388,7 @@
       "phone": "04-22587911"
     },
     {
-      "number": "49.",
+      "number": "49",
       "name": "台中幻覺博物館（佳貝有限公司）",
       "serviceType": "娛樂",
       "petType": "犬,貓,其他",
@@ -395,7 +396,7 @@
       "phone": "04-23295008"
     },
     {
-      "number": "50.",
+      "number": "50",
       "name": "合作咖啡商行",
       "serviceType": "餐飲",
       "petType": "犬,貓,其他",
@@ -403,7 +404,7 @@
       "phone": "04-22633221"
     },
     {
-      "number": "51.",
+      "number": "51",
       "name": "合樂商務設計旅店",
       "serviceType": "住宿",
       "petType": "犬,貓",
@@ -411,7 +412,7 @@
       "phone": "04-22555633"
     },
     {
-      "number": "52.",
+      "number": "52",
       "name": "咕咕晨食早餐店",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -419,7 +420,7 @@
       "phone": "04-24854568"
     },
     {
-      "number": "53.",
+      "number": "53",
       "name": "咖啡罵哥",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -427,7 +428,7 @@
       "phone": "04-22388789"
     },
     {
-      "number": "54.",
+      "number": "54",
       "name": "咖啡葉烘焙坊",
       "serviceType": "餐飲",
       "petType": "犬,貓,其他",
@@ -435,7 +436,7 @@
       "phone": "04-25222005"
     },
     {
-      "number": "55.",
+      "number": "55",
       "name": "咖萃咖啡廚房 台中西屯寵物友善餐廳 (承品咖啡有限公司)",
       "serviceType": "餐飲",
       "petType": "犬,貓,其他",
@@ -443,7 +444,7 @@
       "phone": "04-23231668"
     },
     {
-      "number": "56.",
+      "number": "56",
       "name": "嘉寀萌商務中心(嘉寀萌有限公司)",
       "serviceType": "其他",
       "petType": "犬,貓",
@@ -451,7 +452,7 @@
       "phone": "04-22021455"
     },
     {
-      "number": "57.",
+      "number": "57",
       "name": "國家自然公園管理處臺中都會公園",
       "serviceType": "娛樂",
       "petType": "犬,貓",
@@ -459,7 +460,7 @@
       "phone": "04-24612483"
     },
     {
-      "number": "58.",
+      "number": "58",
       "name": "在來飲食店（在來碗粿米糕專門）",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -467,7 +468,7 @@
       "phone": "0989-229522"
     },
     {
-      "number": "59.",
+      "number": "59",
       "name": "地芋添糖&包心粉圓專賣（善美行）",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -475,7 +476,7 @@
       "phone": "0965-334580"
     },
     {
-      "number": "60.",
+      "number": "60",
       "name": "大樹寵物 愛買復興店（大樹寵物股份有限公司台中復興分公司）",
       "serviceType": "其他",
       "petType": "犬,貓,其他",
@@ -483,7 +484,7 @@
       "phone": "04-22636665"
     },
     {
-      "number": "61.",
+      "number": "61",
       "name": "大花朵朵主題餐廳-學士店",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -491,7 +492,7 @@
       "phone": "04-22334660"
     },
     {
-      "number": "62.",
+      "number": "62",
       "name": "天月人文休閒旅館股份有限公司",
       "serviceType": "住宿",
       "petType": "犬,貓,其他",
@@ -499,7 +500,7 @@
       "phone": "04-22582000"
     },
     {
-      "number": "63.",
+      "number": "63",
       "name": "奇異果快捷旅店-中正店",
       "serviceType": "住宿",
       "petType": "犬,貓,其他",
@@ -507,7 +508,7 @@
       "phone": "04-22294466"
     },
     {
-      "number": "64.",
+      "number": "64",
       "name": "好喔餐廳（好喔餐飲工作坊）",
       "serviceType": "餐飲",
       "petType": "犬,貓,其他",
@@ -515,7 +516,7 @@
       "phone": "04-24368874"
     },
     {
-      "number": "65.",
+      "number": "65",
       "name": "好果實商行",
       "serviceType": "餐飲",
       "petType": "犬,貓,其他",
@@ -523,7 +524,7 @@
       "phone": "04-22655535"
     },
     {
-      "number": "66.",
+      "number": "66",
       "name": "好狗命寵物幸福生活城-大墩店（魚中魚樂活有限公司大墩分公司）",
       "serviceType": "其他",
       "petType": "犬,貓,其他",
@@ -531,7 +532,7 @@
       "phone": "04-22596659"
     },
     {
-      "number": "67.",
+      "number": "67",
       "name": "好狗運貓狗福利中心-上石店（大魚寵物有限公司上石分公司）",
       "serviceType": "其他",
       "petType": "犬,貓,其他",
@@ -539,7 +540,7 @@
       "phone": "04-27069666"
     },
     {
-      "number": "68.",
+      "number": "68",
       "name": "好狗運貓狗福利中心-六順店（大魚寵物有限公司六順分公司）",
       "serviceType": "其他",
       "petType": "犬,貓,其他",
@@ -547,7 +548,7 @@
       "phone": "04-24811888"
     },
     {
-      "number": "69.",
+      "number": "69",
       "name": "好狗運貓狗福利中心-十甲店（大魚寵物有限公司十甲分公司）",
       "serviceType": "其他",
       "petType": "犬,貓,其他",
@@ -555,7 +556,7 @@
       "phone": "04-22118807"
     },
     {
-      "number": "70.",
+      "number": "70",
       "name": "好狗運貓狗福利中心-建成店（大魚寵物有限公司建成分公司）",
       "serviceType": "其他",
       "petType": "犬,貓,其他",
@@ -563,7 +564,7 @@
       "phone": "04-22118807"
     },
     {
-      "number": "71.",
+      "number": "71",
       "name": "好狗運貓狗福利中心-潭通店(大魚寵物有限公司 潭通分公司)",
       "serviceType": "其他",
       "petType": "犬,貓,其他",
@@ -571,7 +572,7 @@
       "phone": "04-25381888"
     },
     {
-      "number": "72.",
+      "number": "72",
       "name": "好狗運貓狗福利中心–嶺東店（魚中魚樂活有限公司嶺東分公司）",
       "serviceType": "其他",
       "petType": "犬,貓,其他",
@@ -579,7 +580,7 @@
       "phone": "04-23862266"
     },
     {
-      "number": "73.",
+      "number": "73",
       "name": "好狗運貓狗福利中心–豐東店（大魚寵物有限公司豐原分公司）",
       "serviceType": "其他",
       "petType": "犬,貓,其他",
@@ -587,7 +588,7 @@
       "phone": "04-25229666"
     },
     {
-      "number": "74.",
+      "number": "74",
       "name": "好狗運貓狗福利中心–雅潭店（大魚寵物有限公司雅潭分公司）",
       "serviceType": "其他",
       "petType": "犬,貓,其他",
@@ -595,7 +596,7 @@
       "phone": "04-25315599"
     },
     {
-      "number": "75.",
+      "number": "75",
       "name": "孔雀咖啡（德虹商行）",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -603,7 +604,7 @@
       "phone": "04-22268989"
     },
     {
-      "number": "76.",
+      "number": "76",
       "name": "安妮公主花園餐廳（安妮公主花園有限公司）",
       "serviceType": "餐飲,娛樂",
       "petType": "犬,貓,其他",
@@ -611,7 +612,7 @@
       "phone": "04-25931567"
     },
     {
-      "number": "77.",
+      "number": "77",
       "name": "安妮廚房",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -619,7 +620,7 @@
       "phone": "04-24860787"
     },
     {
-      "number": "78.",
+      "number": "78",
       "name": "容燒居酒屋－北屯二店（容燒餐飲企業社）",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -627,7 +628,7 @@
       "phone": "04-22340100"
     },
     {
-      "number": "79.",
+      "number": "79",
       "name": "容燒居酒屋－南屯文心總店（容燒小吃店）",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -635,7 +636,7 @@
       "phone": "04-23223070"
     },
     {
-      "number": "80.",
+      "number": "80",
       "name": "寶飛寵物用品專賣店",
       "serviceType": "其他",
       "petType": "貓",
@@ -643,7 +644,7 @@
       "phone": "0923-339473"
     },
     {
-      "number": "81.",
+      "number": "81",
       "name": "小王子的花園餐廳(小王子的花園飲食店)",
       "serviceType": "餐飲",
       "petType": "犬,貓,其他",
@@ -651,7 +652,7 @@
       "phone": "0422956488"
     },
     {
-      "number": "82.",
+      "number": "82",
       "name": "尚品港式甜湯",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -659,7 +660,7 @@
       "phone": "04-23203678"
     },
     {
-      "number": "83.",
+      "number": "83",
       "name": "屋七咖啡所（申才國際有限公司）",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -667,7 +668,7 @@
       "phone": "04-23027757"
     },
     {
-      "number": "84.",
+      "number": "84",
       "name": "希琪生活館",
       "serviceType": "其他",
       "petType": "犬",
@@ -675,7 +676,7 @@
       "phone": "0920-369716"
     },
     {
-      "number": "85.",
+      "number": "85",
       "name": "幸福好食咖啡Homecafe",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -683,7 +684,7 @@
       "phone": "04-22337229"
     },
     {
-      "number": "86.",
+      "number": "86",
       "name": "庫克美式燒烤Bar(庫克燒烤店)",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -691,7 +692,7 @@
       "phone": "0422992020"
     },
     {
-      "number": "87.",
+      "number": "87",
       "name": "彼岸森林（彼岸森林有限公司）",
       "serviceType": "餐飲",
       "petType": "犬,貓,其他",
@@ -699,7 +700,7 @@
       "phone": "04-25280013"
     },
     {
-      "number": "88.",
+      "number": "88",
       "name": "心媞SPA休閒旅館(心媞有限公司)",
       "serviceType": "住宿",
       "petType": "犬,貓",
@@ -707,7 +708,7 @@
       "phone": "04-22970177"
     },
     {
-      "number": "89.",
+      "number": "89",
       "name": "怡 喵旅（馥浩興業社）",
       "serviceType": "餐飲",
       "petType": "犬,貓,其他",
@@ -715,7 +716,7 @@
       "phone": "04-23157558"
     },
     {
-      "number": "90.",
+      "number": "90",
       "name": "攜旺cafe台中寵物友善餐廳＆浪浪中途學校(攜旺輕食坊)",
       "serviceType": "餐飲,其他",
       "petType": "犬,貓,其他",
@@ -723,7 +724,7 @@
       "phone": "0936-936736"
     },
     {
-      "number": "91.",
+      "number": "91",
       "name": "斐比樂斯咖啡甜點(萊特福有限公司)",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -731,7 +732,7 @@
       "phone": "04-24916618"
     },
     {
-      "number": "92.",
+      "number": "92",
       "name": "方吐司早餐",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -739,7 +740,7 @@
       "phone": "04-22510010"
     },
     {
-      "number": "93.",
+      "number": "93",
       "name": "方正谷眷村味(兩果文化創意有限公司)",
       "serviceType": "餐飲",
       "petType": "犬",
@@ -747,7 +748,7 @@
       "phone": "04-22339753"
     },
     {
-      "number": "94.",
+      "number": "94",
       "name": "日安87-9 Good Day(日安朝食)",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -755,7 +756,7 @@
       "phone": "04-25279758"
     },
     {
-      "number": "95.",
+      "number": "95",
       "name": "日拓不動產有限公司",
       "serviceType": "其他",
       "petType": "犬,貓",
@@ -763,7 +764,7 @@
       "phone": "04-23385626"
     },
     {
-      "number": "96.",
+      "number": "96",
       "name": "明高溫泉(明高溫泉旅行社)",
       "serviceType": "住宿",
       "petType": "犬,貓,其他",
@@ -771,7 +772,7 @@
       "phone": "04-25951117"
     },
     {
-      "number": "97.",
+      "number": "97",
       "name": "晨熹社 ASAHIKARI繪本書店 (晨熹社)",
       "serviceType": "娛樂",
       "petType": "犬,貓",
@@ -779,7 +780,7 @@
       "phone": "04-23150001"
     },
     {
-      "number": "98.",
+      "number": "98",
       "name": "望高莊園(望高餐飲部)",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -787,7 +788,7 @@
       "phone": "0977-314568"
     },
     {
-      "number": "99.",
+      "number": "99",
       "name": "森林小徑 親子友善餐廳(森林小徑餐飲有限公司)",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -795,7 +796,7 @@
       "phone": "04-22982238"
     },
     {
-      "number": "100.",
+      "number": "100",
       "name": "森林小徑餐飲有限公司大墩分公司",
       "serviceType": "餐飲",
       "petType": "犬,貓,其他",
@@ -803,7 +804,7 @@
       "phone": "04-23100638"
     },
     {
-      "number": "101.",
+      "number": "101",
       "name": "森歐美食坊",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -811,7 +812,7 @@
       "phone": "0968-266993"
     },
     {
-      "number": "102.",
+      "number": "102",
       "name": "森沐 Sun Moon",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -819,7 +820,7 @@
       "phone": "04-22368008"
     },
     {
-      "number": "103.",
+      "number": "103",
       "name": "樂湜cafe早午餐手作料理（樂湜餐廳）",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -827,7 +828,7 @@
       "phone": "04-22631303"
     },
     {
-      "number": "104.",
+      "number": "104",
       "name": "模範貝果（模範街小廚房）",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -835,7 +836,7 @@
       "phone": "04-23027368"
     },
     {
-      "number": "105.",
+      "number": "105",
       "name": "橘光呼嚕ｘ背包Cat咖啡館（橘光呼嚕咖啡）",
       "serviceType": "餐飲",
       "petType": "犬,貓,其他",
@@ -843,7 +844,7 @@
       "phone": "04-26312868"
     },
     {
-      "number": "106.",
+      "number": "106",
       "name": "歐風商旅(歐風商旅旅館事業有限公司)",
       "serviceType": "住宿",
       "petType": "犬,貓",
@@ -851,7 +852,7 @@
       "phone": "04-22599299"
     },
     {
-      "number": "107.",
+      "number": "107",
       "name": "此木二水（晨輝有限公司）",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -859,7 +860,7 @@
       "phone": "04-23106191"
     },
     {
-      "number": "108.",
+      "number": "108",
       "name": "水雲端旗艦概念旅館",
       "serviceType": "住宿",
       "petType": "犬,貓",
@@ -867,7 +868,7 @@
       "phone": "0424525678"
     },
     {
-      "number": "109.",
+      "number": "109",
       "name": "沐心泉休閒農場（沁心泉休閒農場）",
       "serviceType": "餐飲,娛樂",
       "petType": "犬,貓,其他",
@@ -875,7 +876,7 @@
       "phone": "04-25931201"
     },
     {
-      "number": "110.",
+      "number": "110",
       "name": "洄流餐食(鑫長榮餐飲有限公司)",
       "serviceType": "餐飲",
       "petType": "犬,貓,其他",
@@ -883,7 +884,7 @@
       "phone": "04-22260086"
     },
     {
-      "number": "111.",
+      "number": "111",
       "name": "流星花園民宿(流星花園休閒農場)",
       "serviceType": "餐飲",
       "petType": "犬,貓,其他",
@@ -891,7 +892,7 @@
       "phone": "04-25151456"
     },
     {
-      "number": "112.",
+      "number": "112",
       "name": "浪浪別哭(貳捌肆捌企業社)",
       "serviceType": "餐飲",
       "petType": "犬",
@@ -899,7 +900,7 @@
       "phone": "04-22547018"
     },
     {
-      "number": "113.",
+      "number": "113",
       "name": "浮雲客棧股份有限公司",
       "serviceType": "住宿",
       "petType": "犬,貓",
@@ -907,7 +908,7 @@
       "phone": "04-27065855"
     },
     {
-      "number": "114.",
+      "number": "114",
       "name": "海灣樂世界 HiONE 啵比星球(海灣樂世界股份有限公司)",
       "serviceType": "餐飲,娛樂",
       "petType": "犬,貓,其他",
@@ -915,7 +916,7 @@
       "phone": "04-22399520"
     },
     {
-      "number": "115.",
+      "number": "115",
       "name": "深耕寵物森林園區",
       "serviceType": "其他",
       "petType": "犬,貓,其他",
@@ -923,7 +924,7 @@
       "phone": "04-22759189"
     },
     {
-      "number": "116.",
+      "number": "116",
       "name": "淳垚鍋物(港垚有限公司)",
       "serviceType": "餐飲",
       "petType": "犬,貓,其他",
@@ -931,7 +932,7 @@
       "phone": "04-23210029"
     },
     {
-      "number": "117.",
+      "number": "117",
       "name": "無理 WULI（昂宸餐飲店）",
       "serviceType": "餐飲",
       "petType": "犬,貓,其他",
@@ -939,7 +940,7 @@
       "phone": "04-23010123"
     },
     {
-      "number": "118.",
+      "number": "118",
       "name": "特力屋台中北屯店(特力屋股份有限公司北屯分公司)",
       "serviceType": "其他",
       "petType": "犬,貓",
@@ -947,7 +948,7 @@
       "phone": "04-22471000"
     },
     {
-      "number": "119.",
+      "number": "119",
       "name": "特力屋台中西屯店(特力屋股份有限公司西屯分公司)",
       "serviceType": "其他",
       "petType": "犬,貓",
@@ -955,7 +956,7 @@
       "phone": "04-24629333"
     },
     {
-      "number": "120.",
+      "number": "120",
       "name": "特力屋台中豐原店(特力屋股份有限公司豐原分公司)",
       "serviceType": "其他",
       "petType": "犬,貓",
@@ -963,7 +964,7 @@
       "phone": "0425132200"
     },
     {
-      "number": "121.",
+      "number": "121",
       "name": "玩具車庫咖啡店",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -971,7 +972,7 @@
       "phone": "04-25272201"
     },
     {
-      "number": "122.",
+      "number": "122",
       "name": "甜罄工作坊",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -979,7 +980,7 @@
       "phone": "0965117372"
     },
     {
-      "number": "123.",
+      "number": "123",
       "name": "用上自然膳食堂",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -987,7 +988,7 @@
       "phone": "04-26910731"
     },
     {
-      "number": "124.",
+      "number": "124",
       "name": "米克C房 C+Kitchen 港式私房料理（詩家廚房有限公司）",
       "serviceType": "餐飲",
       "petType": "犬,貓,其他",
@@ -995,7 +996,7 @@
       "phone": "0916-446239"
     },
     {
-      "number": "125.",
+      "number": "125",
       "name": "糧薪客棧（糧薪商行沙鹿分部）",
       "serviceType": "餐飲",
       "petType": "犬,貓,其他",
@@ -1003,7 +1004,7 @@
       "phone": "0928-798899"
     },
     {
-      "number": "126.",
+      "number": "126",
       "name": "紙箱王創意園區(紙箱王有限公司)",
       "serviceType": "餐飲,娛樂",
       "petType": "犬,貓",
@@ -1011,7 +1012,7 @@
       "phone": "04-22398868"
     },
     {
-      "number": "127.",
+      "number": "127",
       "name": "綠光計畫(范特喜微創文化股份有限公司)",
       "serviceType": "娛樂",
       "petType": "犬,貓",
@@ -1019,7 +1020,7 @@
       "phone": "04-23050519"
     },
     {
-      "number": "128.",
+      "number": "128",
       "name": "緣橋汽車旅館",
       "serviceType": "住宿",
       "petType": "犬",
@@ -1027,7 +1028,7 @@
       "phone": "0422521868"
     },
     {
-      "number": "129.",
+      "number": "129",
       "name": "美好年代餐飲顧問有限公司",
       "serviceType": "餐飲",
       "petType": "犬,貓,其他",
@@ -1035,7 +1036,7 @@
       "phone": "04-23020330"
     },
     {
-      "number": "130.",
+      "number": "130",
       "name": "翔仔居家（寬承實業有限公司）",
       "serviceType": "其他",
       "petType": "犬,貓",
@@ -1043,7 +1044,7 @@
       "phone": "04-22912328"
     },
     {
-      "number": "131.",
+      "number": "131",
       "name": "老地方寵物生活館 - 十甲店(好地方寵物用品有限公司)",
       "serviceType": "其他",
       "petType": "犬,貓,其他",
@@ -1051,7 +1052,7 @@
       "phone": "04-22136126"
     },
     {
-      "number": "132.",
+      "number": "132",
       "name": "老地方寵物生活館 - 南屯一店(老地方南屯有限公司)",
       "serviceType": "其他",
       "petType": "犬,貓,其他",
@@ -1059,7 +1060,7 @@
       "phone": "04-24715683"
     },
     {
-      "number": "133.",
+      "number": "133",
       "name": "老地方寵物生活館 - 南屯二店(老地方五權有限公司)",
       "serviceType": "其他",
       "petType": "犬,貓,其他",
@@ -1067,7 +1068,7 @@
       "phone": "04-24710918"
     },
     {
-      "number": "134.",
+      "number": "134",
       "name": "老地方寵物生活館 - 大里旗艦店(老地方大里有限公司)",
       "serviceType": "其他",
       "petType": "犬,貓,其他",
@@ -1075,7 +1076,7 @@
       "phone": "04-24060936"
     },
     {
-      "number": "135.",
+      "number": "135",
       "name": "老地方寵物生活館 - 天津店(老地方國際有限公司)",
       "serviceType": "其他",
       "petType": "犬,貓,其他",
@@ -1083,7 +1084,7 @@
       "phone": "04-22341405"
     },
     {
-      "number": "136.",
+      "number": "136",
       "name": "老地方寵物生活館 - 福科店(老地方五權有限公司福科分公司)",
       "serviceType": "其他",
       "petType": "犬,貓,其他",
@@ -1091,7 +1092,7 @@
       "phone": "04-24636183"
     },
     {
-      "number": "137.",
+      "number": "137",
       "name": "老地方寵物生活館 - 西屯旗艦店(老地方國際行銷有限公司)",
       "serviceType": "其他",
       "petType": "犬,貓,其他",
@@ -1099,7 +1100,7 @@
       "phone": "04-22956136"
     },
     {
-      "number": "138.",
+      "number": "138",
       "name": "肉肉燒肉五權店(幸福肉肉燒肉店)",
       "serviceType": "餐飲",
       "petType": "犬,貓,其他",
@@ -1107,7 +1108,7 @@
       "phone": "04-24721166"
     },
     {
-      "number": "139.",
+      "number": "139",
       "name": "肉肉燒肉朝馬店(肉肉燒肉店)",
       "serviceType": "餐飲",
       "petType": "犬,貓,其他",
@@ -1115,7 +1116,7 @@
       "phone": "04-22580090"
     },
     {
-      "number": "140.",
+      "number": "140",
       "name": "背包客饞(喬米莉號)",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -1123,7 +1124,7 @@
       "phone": "0424730316"
     },
     {
-      "number": "141.",
+      "number": "141",
       "name": "自己印紙膠帶(豐鵬商標膠帶股份有限公司)",
       "serviceType": "娛樂",
       "petType": "犬,貓",
@@ -1131,7 +1132,7 @@
       "phone": "04-24739873"
     },
     {
-      "number": "142.",
+      "number": "142",
       "name": "臺中市大雅區公所",
       "serviceType": "其他",
       "petType": "犬,貓",
@@ -1139,7 +1140,7 @@
       "phone": "04-25663316"
     },
     {
-      "number": "143.",
+      "number": "143",
       "name": "臺中市霧峰區公所",
       "serviceType": "其他",
       "petType": "犬,貓",
@@ -1147,7 +1148,7 @@
       "phone": "0423397128"
     },
     {
-      "number": "144.",
+      "number": "144",
       "name": "艸聲手碟（鐵皮駅商行）",
       "serviceType": "娛樂",
       "petType": "犬,貓",
@@ -1155,7 +1156,7 @@
       "phone": "04-23019859"
     },
     {
-      "number": "145.",
+      "number": "145",
       "name": "茶馬司訪山茶店: TEAMARS（上花饌餐飲股份有限公司）",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -1163,7 +1164,7 @@
       "phone": "04-22550011"
     },
     {
-      "number": "146.",
+      "number": "146",
       "name": "薰衣草森林(新社森林股份有限公司)",
       "serviceType": "餐飲,娛樂,其他",
       "petType": "犬,貓",
@@ -1171,7 +1172,7 @@
       "phone": "0425931066"
     },
     {
-      "number": "147.",
+      "number": "147",
       "name": "製餃研所（鶴餃商行）",
       "serviceType": "餐飲",
       "petType": "犬,貓,其他",
@@ -1179,7 +1180,7 @@
       "phone": "0920-022646"
     },
     {
-      "number": "148.",
+      "number": "148",
       "name": "貓老闆",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -1187,7 +1188,7 @@
       "phone": "04-24851983"
     },
     {
-      "number": "149.",
+      "number": "149",
       "name": "貓起來吃(這裡沒有貓)",
       "serviceType": "餐飲",
       "petType": "貓",
@@ -1195,7 +1196,7 @@
       "phone": "04-23139989"
     },
     {
-      "number": "150.",
+      "number": "150",
       "name": "貓邸老咖有限公司",
       "serviceType": "餐飲",
       "petType": "犬,貓,其他",
@@ -1203,7 +1204,7 @@
       "phone": "04-22353855"
     },
     {
-      "number": "151.",
+      "number": "151",
       "name": "踏踏地球 Ta Ta Earth (韋米雲樂寵物生活用品店)",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -1211,7 +1212,7 @@
       "phone": "04-23270776"
     },
     {
-      "number": "152.",
+      "number": "152",
       "name": "逗戶雞蛋糕（逗戶幸福商行）",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -1219,7 +1220,7 @@
       "phone": "04-23201796"
     },
     {
-      "number": "153.",
+      "number": "153",
       "name": "運通機車出租(鑫運通小客車租賃有限公司)",
       "serviceType": "交通",
       "petType": "犬,貓,其他",
@@ -1227,7 +1228,7 @@
       "phone": "04-22250698"
     },
     {
-      "number": "154.",
+      "number": "154",
       "name": "野沐私房菜",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -1235,7 +1236,7 @@
       "phone": "0952-685111"
     },
     {
-      "number": "155.",
+      "number": "155",
       "name": "野菜共和國(德運事業有限公司)",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -1243,7 +1244,7 @@
       "phone": "04-23280558"
     },
     {
-      "number": "156.",
+      "number": "156",
       "name": "金典 綠園道商場（日華金典國際酒店股份有限公司中港分公司）",
       "serviceType": "餐飲,娛樂",
       "petType": "犬,貓,其他",
@@ -1251,7 +1252,7 @@
       "phone": "04-23198000"
     },
     {
-      "number": "157.",
+      "number": "157",
       "name": "金沙時尚有限公司",
       "serviceType": "住宿",
       "petType": "犬,貓",
@@ -1259,7 +1260,7 @@
       "phone": "0422083388"
     },
     {
-      "number": "158.",
+      "number": "158",
       "name": "閒情驛棧民宿（閒情驛站民宿）",
       "serviceType": "住宿",
       "petType": "犬",
@@ -1267,7 +1268,7 @@
       "phone": "0910-541317"
     },
     {
-      "number": "159.",
+      "number": "159",
       "name": "阿利珈多咖啡館",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -1275,7 +1276,7 @@
       "phone": "無電話，請以Instagram聯繫"
     },
     {
-      "number": "160.",
+      "number": "160",
       "name": "阿金食堂",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -1283,7 +1284,7 @@
       "phone": "0902-010657"
     },
     {
-      "number": "161.",
+      "number": "161",
       "name": "露達寵物生活工坊（露達寵物工坊）",
       "serviceType": "娛樂",
       "petType": "犬,貓,其他",
@@ -1291,7 +1292,7 @@
       "phone": "0981816720"
     },
     {
-      "number": "162.",
+      "number": "162",
       "name": "青青湖畔親水花園(陽光樂活飲食店)",
       "serviceType": "餐飲,娛樂",
       "petType": "犬,貓,其他",
@@ -1299,7 +1300,7 @@
       "phone": "04-22393161"
     },
     {
-      "number": "163.",
+      "number": "163",
       "name": "順咖啡(順順咖啡)",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -1307,7 +1308,7 @@
       "phone": "04-22217157"
     },
     {
-      "number": "164.",
+      "number": "164",
       "name": "飪室咖哩-公正店（昂洋有限公司公正分店）",
       "serviceType": "餐飲",
       "petType": "犬,貓,其他",
@@ -1315,7 +1316,7 @@
       "phone": "04-23010857"
     },
     {
-      "number": "165.",
+      "number": "165",
       "name": "飪室咖哩-勤美店（昂洋有限公司）",
       "serviceType": "餐飲",
       "petType": "犬,貓,其他",
@@ -1323,7 +1324,7 @@
       "phone": "04-23220857"
     },
     {
-      "number": "166.",
+      "number": "166",
       "name": "飽屋寵物美容鮮食館",
       "serviceType": "娛樂",
       "petType": "犬",
@@ -1331,7 +1332,7 @@
       "phone": "0966-293606"
     },
     {
-      "number": "167.",
+      "number": "167",
       "name": "養鍋中科店(永亮商行)",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -1339,7 +1340,7 @@
       "phone": "04-24608666"
     },
     {
-      "number": "168.",
+      "number": "168",
       "name": "養鍋南屯黎明店(樂軒家商行)",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -1347,7 +1348,7 @@
       "phone": "0422500586"
     },
     {
-      "number": "169.",
+      "number": "169",
       "name": "養鍋大里店(圓曜商行)",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -1355,7 +1356,7 @@
       "phone": "04-24823889"
     },
     {
-      "number": "170.",
+      "number": "170",
       "name": "養鍋大雅店(耀津小吃部)",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -1363,7 +1364,7 @@
       "phone": "04-25608922"
     },
     {
-      "number": "171.",
+      "number": "171",
       "name": "養鍋忠孝夜市店(品味小吃店)",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -1371,7 +1372,7 @@
       "phone": "04-22850233"
     },
     {
-      "number": "172.",
+      "number": "172",
       "name": "養鍋文心店(佳倍商行)",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -1379,7 +1380,7 @@
       "phone": "04-22435589"
     },
     {
-      "number": "173.",
+      "number": "173",
       "name": "養鍋水湳經貿店(巨會商行)",
       "serviceType": "餐飲",
       "petType": "犬,貓",
@@ -1387,7 +1388,7 @@
       "phone": "04-22954398"
     },
     {
-      "number": "174.",
+      "number": "174",
       "name": "魔技健康運動休閒用品有限公司",
       "serviceType": "娛樂",
       "petType": "犬,貓",
@@ -1395,7 +1396,7 @@
       "phone": "04-24630152"
     },
     {
-      "number": "175.",
+      "number": "175",
       "name": "魚中魚貓狗水族大賣場-北屯店（魚中魚樂活有限公司北屯分公司）",
       "serviceType": "其他",
       "petType": "犬,貓,其他",
@@ -1403,7 +1404,7 @@
       "phone": "04-22478866"
     },
     {
-      "number": "176.",
+      "number": "176",
       "name": "魚中魚貓狗水族大賣場-南屯店（魚中魚樂活有限公司南屯分公司）",
       "serviceType": "其他",
       "petType": "犬,貓,其他",
@@ -1411,7 +1412,7 @@
       "phone": "04-24732266"
     },
     {
-      "number": "177.",
+      "number": "177",
       "name": "魚中魚貓狗水族大賣場-大里店（大魚寵物有限公司）",
       "serviceType": "其他",
       "petType": "犬,貓,其他",
@@ -1419,7 +1420,7 @@
       "phone": "04-24073388"
     },
     {
-      "number": "178.",
+      "number": "178",
       "name": "魚中魚貓狗水族大賣場-文心店（慶福水族有限公司）",
       "serviceType": "其他",
       "petType": "犬,貓,其他",
@@ -1427,7 +1428,7 @@
       "phone": "04-23292999"
     },
     {
-      "number": "179.",
+      "number": "179",
       "name": "魚中魚貓狗水族大賣場-文昌店（大魚寵物有限公司文昌分公司）",
       "serviceType": "其他",
       "petType": "犬,貓,其他",
@@ -1435,7 +1436,7 @@
       "phone": "04-22368818"
     },
     {
-      "number": "180.",
+      "number": "180",
       "name": "魚中魚貓狗水族大賣場–豐原店（魚中魚樂活有限公司豐原分公司）",
       "serviceType": "其他",
       "petType": "犬,貓,其他",
@@ -1443,7 +1444,7 @@
       "phone": "04-25158666"
     },
     {
-      "number": "181.",
+      "number": "181",
       "name": "鵝牌氣密窗(鵝牌科技有限公司)",
       "serviceType": "其他",
       "petType": "犬,貓",
@@ -1451,7 +1452,7 @@
       "phone": "0426150066"
     },
     {
-      "number": "182.",
+      "number": "182",
       "name": "麗寶OutletMall(麗鑫綜合百貨股份有限公司)",
       "serviceType": "餐飲,娛樂",
       "petType": "犬,貓,其他",
@@ -1459,7 +1460,7 @@
       "phone": "0437022888"
     },
     {
-      "number": "183.",
+      "number": "183",
       "name": "麗都賓館(麗都企業社)",
       "serviceType": "住宿",
       "petType": "犬,貓",
@@ -1467,7 +1468,7 @@
       "phone": "04-24250016"
     },
     {
-      "number": "184.",
+      "number": "184",
       "name": "黑虎的肉肉食堂",
       "serviceType": "餐飲,其他",
       "petType": "犬,貓",

@@ -1,10 +1,11 @@
 import { fileURLToPath } from 'url';
 import path from 'path';
+import { DataSource, CrawlerConfig } from './src/types/index.ts';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-export const DATA_SOURCES = [
+export const DATA_SOURCES: DataSource[] = [
   {
     id: 'taichung',
     city: '臺中市',
@@ -18,10 +19,9 @@ export const DATA_SOURCES = [
   },
 ];
 
-export const CRAWLER_CONFIG = {
+export const CRAWLER_CONFIG: CrawlerConfig = {
   headless: true,
   timeout: 10000,
-  // GitHub Actions 環境配置
   launchOptions: {
     headless: true,
     args: [

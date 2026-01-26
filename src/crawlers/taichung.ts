@@ -1,23 +1,24 @@
-import puppeteer from 'puppeteer';
-import { CRAWLER_CONFIG } from '../../config.js';
+import puppeteer, { Browser, Page } from 'puppeteer';
+import { CRAWLER_CONFIG } from '../../config.ts';
+import { CrawlerSelectors, Venue } from '../types/index.ts';
 
 export class TaichungCrawler {
-  #browser;
+  #browser: Browser | null = null;
+  #page: Page | null = null;
+  #selectors: CrawlerSelectors | null = null;
+  #nextUrl: string = '';
 
-  #page;
-
-  #selectors;
-
-  #nextUrl;
-
-  async init(selectors) {
+  async init(selectors: CrawlerSelectors): Promise<void> {
     this.#selectors = selectors;
     this.#browser = await puppeteer.launch(CRAWLER_CONFIG.launchOptions);
-
     this.#page = await this.#browser.newPage();
   }
 
-  async navigateToPage(url) {
+  async navigateToPage(url: string): Promise<void> {
+    if (!this.#page) {
+      throw new Error('Crawler not initialized');
+    }
+
     try {
       await this.#page.goto(url);
       console.log(`Navigated to: ${url}`);
@@ -27,13 +28,17 @@ export class TaichungCrawler {
     }
   }
 
-  async close() {
+  async close(): Promise<void> {
     if (this.#browser) {
       await this.#browser.close();
     }
   }
 
-  async getLastUpdateText() {
+  async getLastUpdateText(): Promise<string | null> {
+    if (!this.#page || !this.#selectors) {
+      throw new Error('Crawler not initialized');
+    }
+
     try {
       return await this.#page.$eval(
         this.#selectors.updateText,
@@ -45,19 +50,23 @@ export class TaichungCrawler {
     }
   }
 
-  async extractVenuesFromPage() {
+  async extractVenuesFromPage(): Promise<Venue[]> {
+    if (!this.#page || !this.#selectors) {
+      throw new Error('Crawler not initialized');
+    }
+
     try {
       const selector = this.#selectors.tableRows;
       const rowsData = await this.#page.$$eval(selector, (rows) => rows.map((row) => {
         const tdElements = [...row.querySelectorAll('td')];
 
         return {
-          number: tdElements[0]?.textContent.trim(),
-          name: tdElements[1]?.textContent.trim(),
-          serviceType: tdElements[2]?.textContent.trim(),
-          petType: tdElements[3]?.textContent.trim(),
-          address: tdElements[4]?.textContent.trim(),
-          phone: tdElements[5]?.textContent.trim(),
+          number: tdElements[0]?.textContent?.trim() ?? '',
+          name: tdElements[1]?.textContent?.trim() ?? '',
+          serviceType: tdElements[2]?.textContent?.trim() ?? '',
+          petType: tdElements[3]?.textContent?.trim() ?? '',
+          address: tdElements[4]?.textContent?.trim() ?? '',
+          phone: tdElements[5]?.textContent?.trim() ?? '',
         };
       }));
 
@@ -68,7 +77,7 @@ export class TaichungCrawler {
     }
   }
 
-  async crawlAllPages(allVenues = [], pageCount = 0) {
+  async crawlAllPages(allVenues: Venue[] = [], pageCount: number = 0): Promise<Venue[]> {
     const maxPages = 50;
     const currentPage = pageCount + 1;
 
@@ -88,14 +97,18 @@ export class TaichungCrawler {
     return allVenues;
   }
 
-  async #getNextUrl() {
+  async #getNextUrl(): Promise<void> {
+    if (!this.#page || !this.#selectors) {
+      throw new Error('Crawler not initialized');
+    }
+
     try {
       const nextButtonEl = await this.#page.$(this.#selectors.nextButton);
 
       this.#nextUrl = '';
 
       if (nextButtonEl) {
-        this.#nextUrl = await nextButtonEl.evaluate((el) => el.href);
+        this.#nextUrl = await nextButtonEl.evaluate((el) => (el as HTMLAnchorElement).href);
 
         console.log(`Next button found: ${this.#nextUrl}`);
       } else {
@@ -106,7 +119,11 @@ export class TaichungCrawler {
     }
   }
 
-  async #goToNextPage() {
+  async #goToNextPage(): Promise<void> {
+    if (!this.#page) {
+      throw new Error('Crawler not initialized');
+    }
+
     try {
       await this.#page.goto(this.#nextUrl);
       console.log(`Navigated to next page: ${this.#nextUrl}`);

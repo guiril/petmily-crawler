@@ -1,8 +1,14 @@
-import { TaichungCrawler } from './src/crawlers/taichung.js';
-import { readData, writeData } from './src/storage.js';
-import { DATA_SOURCES } from './config.js';
+import { TaichungCrawler } from './src/crawlers/taichung.ts';
+import { readData, writeData } from './src/storage.ts';
+import { DATA_SOURCES } from './config.ts';
+import { VenueData } from './src/types/index.ts';
 
 const taichungSource = DATA_SOURCES.find((source) => source.id === 'taichung');
+
+if (!taichungSource) {
+  console.error('Taichung data source not found');
+  process.exit(1);
+}
 
 (async () => {
   const crawler = new TaichungCrawler();
@@ -18,9 +24,9 @@ const taichungSource = DATA_SOURCES.find((source) => source.id === 'taichung');
     console.log('Crawling venues data...');
 
     const venues = await crawler.crawlAllPages();
-    const existingData = JSON.parse(readData(taichungSource.dataFile));
+    const existingData: Partial<VenueData> = JSON.parse(readData(taichungSource.dataFile));
 
-    const updatedData = {
+    const updatedData: VenueData = {
       ...existingData,
       sourceCity: taichungSource.city,
       lastUpdate: lastUpdateText,

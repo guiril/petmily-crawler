@@ -1,17 +1,18 @@
 import 'dotenv/config';
 import { writeFileSync } from 'fs';
-import { readData } from './storage.js';
-import { geocodeAddress } from './geocoding.js';
-import { DATA_SOURCES } from '../config.js';
-import { TAIWAN_CITIES } from './constants/citys.js';
+import { readData } from './storage.ts';
+import { geocodeAddress } from './geocoding.ts';
+import { DATA_SOURCES } from '../config.ts';
+import { TAIWAN_CITIES } from './constants/index.ts';
+import { DataSource, VenueData, CleanerOptions } from './types/index.ts';
 
-const delay = (ms) => new Promise((resolve) => {
+const delay = (ms: number): Promise<void> => new Promise((resolve) => {
   setTimeout(resolve, ms);
 });
 
-const parseArgs = () => {
+const parseArgs = (): CleanerOptions => {
   const args = process.argv.slice(2);
-  const options = { limit: null, dryRun: false };
+  const options: CleanerOptions = { limit: null, dryRun: false };
 
   args.forEach((arg) => {
     if (arg.startsWith('--limit=')) {
@@ -27,7 +28,7 @@ const parseArgs = () => {
   return options;
 };
 
-const needsGeocoding = (address) => {
+const needsGeocoding = (address: string | undefined): boolean => {
   if (!address) return false;
 
   const hasCity = TAIWAN_CITIES.some((city) => address.startsWith(city));
@@ -36,11 +37,15 @@ const needsGeocoding = (address) => {
   return !hasCity || !hasDistrict;
 };
 
-const getCleanedDataFile = (dataFile) => dataFile.replace('.json', '-cleaned.json');
+const getCleanedDataFile = (dataFile: string): string => dataFile.replace('.json', '-cleaned.json');
 
-export const cleanAddresses = async (source, apiKey, options = {}) => {
+export const cleanAddresses = async (
+  source: DataSource,
+  apiKey: string,
+  options: CleanerOptions = {},
+): Promise<void> => {
   const { limit = null, dryRun = false } = options;
-  const venueData = JSON.parse(readData(source.dataFile));
+  const venueData: VenueData = JSON.parse(readData(source.dataFile));
   const { sourceCity, venues } = venueData;
   let ungeocodedVenues = venues.filter((venue) => needsGeocoding(venue.address));
 
@@ -79,10 +84,11 @@ export const cleanAddresses = async (source, apiKey, options = {}) => {
         failed++;
       }
     } catch (error) {
-      console.error(`  Error: ${error.message}`);
+      const errorMessage = error instanceof Error ? error.message : String(error);
+      console.error(`  Error: ${errorMessage}`);
       failed++;
 
-      if (error.message.includes('quota')) {
+      if (errorMessage.includes('quota')) {
         console.error('API quota exceeded. Stopping.');
         break;
       }
@@ -102,7 +108,7 @@ export const cleanAddresses = async (source, apiKey, options = {}) => {
   console.log(`Success: ${processed - failed}`);
 };
 
-const main = async () => {
+const main = async (): Promise<void> => {
   const apiKey = process.env.GOOGLE_MAPS_API_KEY;
   const options = parseArgs();
 

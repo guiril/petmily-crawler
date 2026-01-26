@@ -1,10 +1,16 @@
-import { TAIWAN_CITIES } from './constants/citys.js';
+import { TAIWAN_CITIES } from './constants/cities.ts';
+import { GeocodeOptions, GeocodeResult, BatchGeocodeOptions, BatchGeocodeResult } from './types/index.ts';
 
 const GEOCODING_API_URL = 'https://maps.googleapis.com/maps/api/geocode/json';
 
 const FLOOR_PATTERN = /(\d+[Ff樓]|[Bb]\d+)$/;
 
-const extractFloor = (address) => {
+interface FloorExtraction {
+  addressWithoutFloor: string;
+  floor: string | null;
+}
+
+const extractFloor = (address: string): FloorExtraction => {
   const match = address.match(FLOOR_PATTERN);
   if (match) {
     return {
@@ -15,7 +21,7 @@ const extractFloor = (address) => {
   return { addressWithoutFloor: address, floor: null };
 };
 
-const formatAddress = (googleAddress, floor) => {
+const formatAddress = (googleAddress: string, floor: string | null): string => {
   const cleaned = googleAddress
     .replace(/^\d{3}台灣/, '')
     .replace(/^\d{3}/, '');
@@ -23,11 +29,32 @@ const formatAddress = (googleAddress, floor) => {
   return floor ? `${cleaned}${floor}` : cleaned;
 };
 
-const delay = (ms) => new Promise((resolve) => {
+const delay = (ms: number): Promise<void> => new Promise((resolve) => {
   setTimeout(resolve, ms);
 });
 
-export const geocodeAddress = async (address, apiKey, options = {}) => {
+interface GeocodeApiResponse {
+  status: string;
+  results: Array<{
+    formatted_address: string;
+    address_components: Array<{
+      long_name: string;
+      types: string[];
+    }>;
+    geometry: {
+      location: {
+        lat: number;
+        lng: number;
+      };
+    };
+  }>;
+}
+
+export const geocodeAddress = async (
+  address: string,
+  apiKey: string,
+  options: GeocodeOptions = {},
+): Promise<GeocodeResult | null> => {
   const { defaultCity } = options;
   const { addressWithoutFloor, floor } = extractFloor(address);
 
@@ -44,7 +71,7 @@ export const geocodeAddress = async (address, apiKey, options = {}) => {
   });
 
   const response = await fetch(`${GEOCODING_API_URL}?${params}`);
-  const data = await response.json();
+  const data: GeocodeApiResponse = await response.json();
 
   if (data.status === 'OK' && data.results.length > 0) {
     const result = data.results[0];
@@ -74,9 +101,13 @@ export const geocodeAddress = async (address, apiKey, options = {}) => {
   throw new Error(`Geocoding API error: ${data.status}`);
 };
 
-export const batchGeocode = async (addresses, apiKey, options = {}) => {
+export const batchGeocode = async (
+  addresses: string[],
+  apiKey: string,
+  options: BatchGeocodeOptions = {},
+): Promise<BatchGeocodeResult[]> => {
   const { delayMs = 200, onProgress } = options;
-  const results = [];
+  const results: BatchGeocodeResult[] = [];
 
   for (let i = 0; i < addresses.length; i++) {
     const address = addresses[i];
@@ -85,7 +116,8 @@ export const batchGeocode = async (addresses, apiKey, options = {}) => {
       const result = await geocodeAddress(address, apiKey);
       results.push({ address, result, error: null });
     } catch (error) {
-      results.push({ address, result: null, error: error.message });
+      const errorMessage = error instanceof Error ? error.message : String(error);
+      results.push({ address, result: null, error: errorMessage });
     }
 
     onProgress?.(i + 1, addresses.length, address);

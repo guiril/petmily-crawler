@@ -10,13 +10,19 @@ export interface Venue {
   petType: string;
   address: string;
   phone: string;
+  city?: string;
   district?: string;
   location?: LatLng;
 }
 
-export interface VenueData {
+export interface SourceDataByCity {
   sourceCity: string;
   lastUpdate: string | null;
   scrapedAt: number;
   venues: Venue[];
+}
+
+export interface CleanedData {
+  updatedAt: number;
+  venues: Record<string, Venue[]>;
 }

@@ -1,15 +1,19 @@
-export interface CrawlerSelectors {
-  updateText: string;
-  tableRows: string;
-  nextButton: string;
+import type { Venue } from './venue.ts';
+
+export interface CrawlResult {
+  lastUpdate: string | null;
+  venues: Venue[];
+}
+
+export interface Crawler {
+  crawl(source: DataSource): Promise<CrawlResult>;
+  close(): Promise<void>;
 }
 
 export interface DataSource {
   id: string;
   city: string;
   url: string;
-  dataFile: string;
-  selectors: CrawlerSelectors;
 }
 
 export interface CrawlerConfig {

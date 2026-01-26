@@ -1,46 +1,51 @@
-import { TaichungCrawler } from './src/crawlers/taichung.ts';
+import { fileURLToPath } from 'url';
+import path from 'path';
+import type { DataSource, SourceDataByCity } from './src/types/index.ts';
+import { getCrawler } from './src/crawlers/index.ts';
 import { readData, writeData } from './src/storage.ts';
 import { DATA_SOURCES } from './config.ts';
-import { VenueData } from './src/types/index.ts';
 
-const taichungSource = DATA_SOURCES.find((source) => source.id === 'taichung');
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
-if (!taichungSource) {
-  console.error('Taichung data source not found');
-  process.exit(1);
-}
+const getDataFilePath = (sourceId: string): string => {
+  return path.join(__dirname, 'data', `${sourceId}.json`);
+};
 
-(async () => {
-  const crawler = new TaichungCrawler();
+const crawlSource = async (source: DataSource): Promise<void> => {
+  const crawler = getCrawler(source.id);
 
   try {
-    console.log('Starting crawler...');
+    console.log(`\n=== Starting crawler for ${source.city} ===`);
 
-    await crawler.init(taichungSource.selectors);
-    await crawler.navigateToPage(taichungSource.url);
+    const dataFilePath = getDataFilePath(source.id);
+    const { lastUpdate, venues } = await crawler.crawl(source);
+    const existingData: Partial<SourceDataByCity> = JSON.parse(readData(dataFilePath));
 
-    const lastUpdateText = await crawler.getLastUpdateText();
-
-    console.log('Crawling venues data...');
-
-    const venues = await crawler.crawlAllPages();
-    const existingData: Partial<VenueData> = JSON.parse(readData(taichungSource.dataFile));
-
-    const updatedData: VenueData = {
+    const updatedData: SourceDataByCity = {
       ...existingData,
-      sourceCity: taichungSource.city,
-      lastUpdate: lastUpdateText,
+      sourceCity: source.city,
+      lastUpdate,
       scrapedAt: Math.floor(Date.now() / 1000),
       venues,
     };
 
-    writeData(taichungSource.dataFile, updatedData);
+    writeData(dataFilePath, updatedData);
 
-    console.log('Data saved successfully');
-  } catch (error) {
-    console.error('Crawler failed:', error);
-    process.exit(1);
+    console.log(`Data saved successfully for ${source.city}`);
   } finally {
     await crawler.close();
   }
+};
+
+(async () => {
+  for (const source of DATA_SOURCES) {
+    try {
+      await crawlSource(source);
+    } catch (error) {
+      console.error(`Crawler failed for ${source.city}:`, error);
+    }
+  }
+
+  console.log('\n=== All crawlers completed ===');
 })();

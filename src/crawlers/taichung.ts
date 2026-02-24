@@ -1,7 +1,9 @@
 import puppeteer from 'puppeteer';
-import type { Browser, Page } from 'puppeteer';
-import type { Crawler, CrawlResult, DataSource, Venue } from '../types/index.ts';
+import type { Page } from 'puppeteer';
+import type { CrawlResult, RawVenue } from '../types/index.ts';
 import { CRAWLER_CONFIG } from '../../config.ts';
+
+const MAX_PAGES = 50;
 
 const SELECTORS = {
   updateText: '.multiColumn .bulletin p span',
@@ -9,119 +11,105 @@ const SELECTORS = {
   nextButton: '.page ul li.next a[title="下一頁"]',
 };
 
-export class TaichungCrawler implements Crawler {
-  #browser: Browser | null = null;
-  #page: Page | null = null;
-  #nextUrl: string = '';
+const getLastUpdateText = async (page: Page): Promise<string | null> => {
+  try {
+    return await page.$eval(
+      SELECTORS.updateText,
+      (element) => element.textContent
+    );
+  } catch (error) {
+    console.error('Error getting last update text:', error);
+    return null;
+  }
+};
 
-  async crawl(source: DataSource): Promise<CrawlResult> {
-    await this.#init();
-    await this.#navigateToPage(source.url);
+const parseVenues = (rows: (string | null)[][]): RawVenue[] =>
+  rows
+    .slice(1)
+    .map((cells, index) => ({
+      id: `taichung-${index}`,
+      name: cells[1],
+      address: cells[4],
+      serviceType: cells[2],
+      petType: cells[3],
+      phone: cells[5],
+    }))
+    .filter((venue) => venue.name && venue.address) as RawVenue[];
 
-    const lastUpdate = await this.#getLastUpdateText();
-    const venues = await this.#crawlAllPages();
+const extractVenuesFromTable = async (page: Page): Promise<RawVenue[]> => {
+  try {
+    const rawRows = await page.$$eval(SELECTORS.tableRows, (rows) =>
+      rows.map((row) =>
+        [...row.querySelectorAll('td')].map(
+          (td) => td.textContent?.trim() || null
+        )
+      )
+    );
+
+    return parseVenues(rawRows);
+  } catch (error) {
+    console.error('Error extracting venues:', error);
+    return [];
+  }
+};
+
+const getNextUrl = async (page: Page): Promise<string> => {
+  try {
+    const nextButtonEl = await page.$(SELECTORS.nextButton);
+
+    if (nextButtonEl) {
+      const nextUrl = await nextButtonEl.evaluate(
+        (el) => (el as HTMLAnchorElement).href
+      );
+      console.log(`Next button found: ${nextUrl}`);
+      return nextUrl;
+    }
+
+    console.log('Next button not found');
+    return '';
+  } catch (error) {
+    console.error('Error checking next page:', error);
+    return '';
+  }
+};
+
+const crawlAllPages = async (
+  page: Page,
+  venues: RawVenue[] = [],
+  pageCount: number = 0
+): Promise<RawVenue[]> => {
+  const currentPage = pageCount + 1;
+
+  console.log(`Crawling page ${currentPage}...`);
+
+  const currentPageVenues = await extractVenuesFromTable(page);
+  const updatedVenues = [...venues, ...currentPageVenues];
+
+  const nextUrl = await getNextUrl(page);
+
+  if (nextUrl && currentPage < MAX_PAGES) {
+    await page.goto(nextUrl);
+    console.log(`Navigated to next page: ${nextUrl}`);
+    return crawlAllPages(page, updatedVenues, currentPage);
+  }
+
+  console.log(`Total pages crawled: ${currentPage}`);
+  return updatedVenues;
+};
+
+export const crawlTaichung = async (url: string): Promise<CrawlResult> => {
+  const browser = await puppeteer.launch(CRAWLER_CONFIG.launchOptions);
+
+  try {
+    const page = await browser.newPage();
+    await page.goto(url);
+    console.log(`Navigated to: ${url}`);
+
+    const lastUpdate = await getLastUpdateText(page);
+    const venues = await crawlAllPages(page);
 
     return { lastUpdate, venues };
+  } finally {
+    await browser.close();
   }
-
-  async close(): Promise<void> {
-    if (this.#browser) {
-      await this.#browser.close();
-    }
-  }
-
-  async #init(): Promise<void> {
-    this.#browser = await puppeteer.launch(CRAWLER_CONFIG.launchOptions);
-    this.#page = await this.#browser.newPage();
-  }
-
-  #assertPage(): Page {
-    if (!this.#page) {
-      throw new Error('Crawler not initialized');
-    }
-
-    return this.#page;
-  }
-
-  async #navigateToPage(url: string): Promise<void> {
-    await this.#assertPage().goto(url);
-    console.log(`Navigated to: ${url}`);
-  }
-
-  async #getLastUpdateText(): Promise<string | null> {
-    try {
-      return await this.#assertPage().$eval(
-        SELECTORS.updateText,
-        (element) => element.textContent,
-      );
-    } catch (error) {
-      console.error('Error getting last update text:', error);
-      return null;
-    }
-  }
-
-  async #extractVenuesFromPage(): Promise<Venue[]> {
-    try {
-      const rowsData = await this.#assertPage().$$eval(SELECTORS.tableRows, (rows) => rows.map((row) => {
-        const tdElements = [...row.querySelectorAll('td')];
-
-        return {
-          number: tdElements[0]?.textContent?.trim().slice(0, -1) ?? '',
-          name: tdElements[1]?.textContent?.trim() ?? '',
-          serviceType: tdElements[2]?.textContent?.trim() ?? '',
-          petType: tdElements[3]?.textContent?.trim() ?? '',
-          address: tdElements[4]?.textContent?.trim() ?? '',
-          phone: tdElements[5]?.textContent?.trim() ?? '',
-        };
-      }));
-
-      return rowsData.slice(1);
-    } catch (error) {
-      console.error('Error extracting venues:', error);
-      return [];
-    }
-  }
-
-  async #goToNextPage(): Promise<void> {
-    await this.#assertPage().goto(this.#nextUrl);
-    console.log(`Navigated to next page: ${this.#nextUrl}`);
-  }
-
-  async #getNextUrl(): Promise<void> {
-    try {
-      const nextButtonEl = await this.#assertPage().$(SELECTORS.nextButton);
-
-      this.#nextUrl = '';
-
-      if (nextButtonEl) {
-        this.#nextUrl = await nextButtonEl.evaluate((el) => (el as HTMLAnchorElement).href);
-
-        console.log(`Next button found: ${this.#nextUrl}`);
-      } else {
-        console.log('Next button not found');
-      }
-    } catch (error) {
-      console.error('Error checking next page:', error);
-    }
-  }
-
-  async #crawlAllPages(venues: Venue[] = [], pageCount: number = 0): Promise<Venue[]> {
-    const maxPages = 50;
-    const currentPage = pageCount + 1;
-
-    console.log(`Crawling page ${currentPage}...`);
-
-    const currentPageVenues = await this.#extractVenuesFromPage();
-    venues.push(...currentPageVenues);
-
-    await this.#getNextUrl();
-
-    if (this.#nextUrl && currentPage < maxPages) {
-      await this.#goToNextPage();
-      return this.#crawlAllPages(venues, currentPage);
-    }
-
-    console.log(`Total pages crawled: ${currentPage}`);
-    return venues;
-  }
-}
+};

@@ -22,15 +22,15 @@ jobs:
         run: npm install
 
       - name: Run crawler to update data
-        run: npm start
+        run: npm run crawl
         timeout-minutes: 5
 
-      - name: Check if data.json was updated
+      - name: Check if data was updated
         run: |
-          if [ -f "data/data.json" ]; then
-            echo "data.json found and updated"
+          if [ -f "data/taichung.json" ]; then
+            echo "taichung.json found and updated"
           else
-            echo "Warning: data.json not found"
+            echo "Warning: taichung.json not found"
             exit 1
           fi
 
@@ -39,7 +39,7 @@ jobs:
           export TZ='Asia/Taipei'
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action Bot"
-          git add data/data.json
+          git add data/
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else

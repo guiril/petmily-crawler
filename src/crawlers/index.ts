@@ -1,10 +1,10 @@
-import type { Crawler } from '../types/index.ts';
-import { TaichungCrawler } from './taichung.ts';
+import type { CrawlerFn } from '../types/index.ts';
+import { crawlTaichung } from './taichung.ts';
 
-export const getCrawler = (sourceId: string): Crawler => {
+export const getCrawler = (sourceId: string): CrawlerFn => {
   switch (sourceId) {
     case 'taichung':
-      return new TaichungCrawler();
+      return crawlTaichung;
     default:
       throw new Error(`Unknown crawler source: ${sourceId}`);
   }

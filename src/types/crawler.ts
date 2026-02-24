@@ -1,14 +1,11 @@
-import type { Venue } from './venue.ts';
+import type { RawVenue } from './venue.ts';
 
 export interface CrawlResult {
   lastUpdate: string | null;
-  venues: Venue[];
+  venues: RawVenue[];
 }
 
-export interface Crawler {
-  crawl(source: DataSource): Promise<CrawlResult>;
-  close(): Promise<void>;
-}
+export type CrawlerFn = (url: string) => Promise<CrawlResult>;
 
 export interface DataSource {
   id: string;

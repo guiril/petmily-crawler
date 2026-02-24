@@ -4,7 +4,7 @@
   "main": "index.ts",
   "type": "module",
   "scripts": {
-    "start": "tsx index.ts",
+    "crawl": "tsx index.ts",
     "clean": "tsx src/cleaner.ts",
     "build": "tsc",
     "lint": "eslint .",

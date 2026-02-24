@@ -3,26 +3,31 @@ export interface LatLng {
   lng: number;
 }
 
-export interface Venue {
-  number: string;
+export interface RawVenue {
+  id: string;
   name: string;
-  serviceType: string;
-  petType: string;
   address: string;
-  phone: string;
-  city?: string;
+  serviceType?: string;
+  petType?: string;
+  phone?: string;
+}
+
+export interface Venue extends RawVenue {
+  defaultCity: string;
   district?: string;
   location?: LatLng;
 }
 
-export interface SourceDataByCity {
+export interface SourceData {
   sourceCity: string;
   lastUpdate: string | null;
   scrapedAt: number;
-  venues: Venue[];
+  venues: RawVenue[];
 }
+
+export type OutputVenue = Omit<Venue, 'defaultCity'>;
 
 export interface CleanedData {
   updatedAt: number;
-  venues: Record<string, Venue[]>;
+  venues: Record<string, OutputVenue[]>;
 }

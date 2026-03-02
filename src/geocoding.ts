@@ -1,9 +1,7 @@
-import type { GeocodeOptions, GeocodeResult, BatchGeocodeOptions, BatchGeocodeResult } from './types/index.ts';
-
+import type { GeocodeOptions, GeocodeResult } from './types/index.ts';
 import { TAIWAN_CITIES } from './constants/cities.ts';
 
 const GEOCODING_API_URL = 'https://maps.googleapis.com/maps/api/geocode/json';
-
 const FLOOR_PATTERN = /(\d+[Ff樓]|[Bb]\d+)$/;
 
 interface FloorExtraction {
@@ -11,18 +9,64 @@ interface FloorExtraction {
   floor: string | null;
 }
 
+interface PreparedAddress {
+  searchAddress: string;
+  floor: string | null;
+}
+
+interface ApiResult {
+  formatted_address: string;
+  address_components: Array<{
+    long_name: string;
+    types: string[];
+  }>;
+  geometry: {
+    location: {
+      lat: number;
+      lng: number;
+    };
+  };
+}
+
+interface GeocodeApiResponse {
+  status: string;
+  results: ApiResult[];
+  error_message?: string;
+}
+
 const extractFloor = (address: string): FloorExtraction => {
   const match = address.match(FLOOR_PATTERN);
+
   if (match) {
     return {
       addressWithoutFloor: address.slice(0, match.index).trim(),
       floor: match[0],
     };
   }
+
   return { addressWithoutFloor: address, floor: null };
 };
 
-const formatAddress = (googleAddress: string, floor: string | null): string => {
+const prepareAddress = (
+  address: string,
+  sourceCity: string
+): PreparedAddress => {
+  const { addressWithoutFloor, floor } = extractFloor(address);
+
+  const hasCity = TAIWAN_CITIES.some(
+    (city) => addressWithoutFloor.startsWith(city)
+  );
+
+  return {
+    searchAddress: hasCity ? addressWithoutFloor : `${sourceCity}${addressWithoutFloor}`,
+    floor,
+  };
+};
+
+const formatAddress = (
+  googleAddress: string,
+  floor: string | null
+): string => {
   const cleaned = googleAddress
     .replace(/^\d{3}台灣/, '')
     .replace(/^\d{3}/, '');
@@ -30,39 +74,35 @@ const formatAddress = (googleAddress: string, floor: string | null): string => {
   return floor ? `${cleaned}${floor}` : cleaned;
 };
 
-const delay = (ms: number): Promise<void> => new Promise((resolve) => {
-  setTimeout(resolve, ms);
-});
+const parseResult = (
+  result: ApiResult,
+  floor: string | null
+): GeocodeResult => {
+  const components = result.address_components;
 
-interface GeocodeApiResponse {
-  status: string;
-  results: Array<{
-    formatted_address: string;
-    address_components: Array<{
-      long_name: string;
-      types: string[];
-    }>;
-    geometry: {
-      location: {
-        lat: number;
-        lng: number;
-      };
-    };
-  }>;
-}
+  const city = components.find(
+    (component) => component.types.includes('administrative_area_level_1')
+  )?.long_name;
 
+  const district = components.find(
+    (component) => /[區鄉鎮]$/.test(component.long_name)
+  )?.long_name;
+
+  return {
+    formattedAddress: formatAddress(result.formatted_address, floor),
+    city,
+    district,
+    location: result.geometry.location,
+  };
+};
+
+// https://developers.google.com/maps/documentation/geocoding/requests-geocoding
 export const geocodeAddress = async (
   address: string,
   apiKey: string,
-  options: GeocodeOptions = {},
+  { sourceCity }: GeocodeOptions,
 ): Promise<GeocodeResult | null> => {
-  const { defaultCity } = options;
-  const { addressWithoutFloor, floor } = extractFloor(address);
-
-  const hasCity = TAIWAN_CITIES.some((city) => addressWithoutFloor.startsWith(city));
-  const searchAddress = hasCity || !defaultCity
-    ? addressWithoutFloor
-    : `${defaultCity}${addressWithoutFloor}`;
+  const { searchAddress, floor } = prepareAddress(address, sourceCity);
 
   const params = new URLSearchParams({
     address: searchAddress,
@@ -73,60 +113,22 @@ export const geocodeAddress = async (
 
   const response = await fetch(`${GEOCODING_API_URL}?${params}`);
   const data: GeocodeApiResponse = await response.json();
+  const { status } = data;
 
-  if (data.status === 'OK' && data.results.length > 0) {
-    const result = data.results[0];
-    const components = result.address_components;
-
-    const city = components.find((c) => c.types.includes('administrative_area_level_1'))?.long_name;
-
-    const district = components.find((c) => c.types.includes('administrative_area_level_3'))?.long_name;
-
-    return {
-      formattedAddress: formatAddress(result.formatted_address, floor),
-      city,
-      district,
-      location: result.geometry.location,
-    };
+  if (status === 'OK') {
+    return parseResult(data.results[0], floor);
   }
 
-  if (data.status === 'ZERO_RESULTS') {
-    console.warn(`No results for: ${address}`);
+  if (status === 'ZERO_RESULTS') {
+    console.warn(`No results for: ${address}`, data.error_message);
     return null;
   }
 
-  if (data.status === 'OVER_QUERY_LIMIT') {
-    throw new Error('API quota exceeded');
+  const errorMessage = data.error_message ?? status;
+
+  if (status === 'OVER_QUERY_LIMIT' || status === 'OVER_DAILY_LIMIT') {
+    throw new Error(`API quota exceeded: ${errorMessage}`);
   }
 
-  throw new Error(`Geocoding API error: ${data.status}`);
-};
-
-export const batchGeocode = async (
-  addresses: string[],
-  apiKey: string,
-  options: BatchGeocodeOptions = {},
-): Promise<BatchGeocodeResult[]> => {
-  const { delayMs = 200, onProgress } = options;
-  const results: BatchGeocodeResult[] = [];
-
-  for (let i = 0; i < addresses.length; i++) {
-    const address = addresses[i];
-
-    try {
-      const result = await geocodeAddress(address, apiKey);
-      results.push({ address, result, error: null });
-    } catch (error) {
-      const errorMessage = error instanceof Error ? error.message : String(error);
-      results.push({ address, result: null, error: errorMessage });
-    }
-
-    onProgress?.(i + 1, addresses.length, address);
-
-    if (i < addresses.length - 1) {
-      await delay(delayMs);
-    }
-  }
-
-  return results;
+  throw new Error(`Geocoding API error: ${errorMessage}`);
 };

@@ -13,7 +13,7 @@ export interface RawVenue {
 }
 
 export interface Venue extends RawVenue {
-  defaultCity: string;
+  sourceCity: string;
   district?: string;
   location?: LatLng;
 }
@@ -25,7 +25,7 @@ export interface SourceData {
   venues: RawVenue[];
 }
 
-export type OutputVenue = Omit<Venue, 'defaultCity'>;
+export type OutputVenue = Omit<Venue, 'sourceCity'>;
 
 export interface CleanedData {
   updatedAt: number;

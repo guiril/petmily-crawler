@@ -1,128 +1,209 @@
 import { fileURLToPath } from 'url';
 import path from 'path';
 import { writeFileSync } from 'fs';
-import type { DataSource, SourceDataByCity, Venue, CleanedData, CleanerOptions } from './types/index.ts';
+
+import type {
+  DataSource,
+  SourceData,
+  Venue,
+  CleanedData,
+  CleanerOptions,
+  GeocodeResult,
+} from './types/index.ts';
+
 import 'dotenv/config';
-import { TAIWAN_CITIES } from './constants/index.ts';
+
 import { DATA_SOURCES } from '../config.ts';
 import { geocodeAddress } from './geocoding.ts';
 import { readData } from './storage.ts';
 
+interface VenueWithSource extends Venue {
+  sourceId: string;
+}
+
+interface GeocodeSummary {
+  geocodedVenues: VenueWithSource[];
+  processed: number;
+  failed: number;
+}
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const getDataFilePath = (sourceId: string): string => {
-  return path.join(__dirname, '..', 'data', `${sourceId}.json`);
-};
+const GEOCODE_DELAY_MS = 200;
 
-const getOutputFilePath = (): string => {
-  return path.join(__dirname, '..', 'data', 'venues.json');
-};
+const getDataFilePath = (sourceId: string): string =>
+  path.join(__dirname, '..', 'data', `${sourceId}.json`);
 
-const delay = (ms: number): Promise<void> => new Promise((resolve) => {
-  setTimeout(resolve, ms);
+const getOutputFilePath = (): string =>
+  path.join(__dirname, '..', 'data', 'venues.json');
+
+const mergeGeocodedData = (
+  venue: VenueWithSource,
+  result: GeocodeResult,
+): VenueWithSource => ({
+  ...venue,
+  address: result.formattedAddress,
+  district: result.district,
+  location: result.location,
 });
+
+const groupBySourceId = (
+  venues: VenueWithSource[],
+): Record<string, VenueWithSource[]> =>
+  venues.reduce<Record<string, VenueWithSource[]>>((acc, venue) => {
+    const { sourceId } = venue;
+    return {
+      ...acc,
+      [sourceId]: [...(acc[sourceId] ?? []), venue],
+    };
+  }, {});
 
 const parseArgs = (): CleanerOptions => {
   const args = process.argv.slice(2);
-  const options: CleanerOptions = { limit: null, dryRun: false };
 
-  args.forEach((arg) => {
-    if (arg.startsWith('--limit=')) {
-      const limit = Number(arg.split('=')[1]);
-      options.limit = Number.isNaN(limit) || limit === 0 ? null : limit;
-    }
+  return args.reduce<CleanerOptions>(
+    (acc, arg) => {
+      if (arg.startsWith('--limit=')) {
+        const value = Number(arg.split('=')[1]);
+        const isValid = !Number.isNaN(value) && value > 0;
+        return isValid ? { ...acc, limit: value } : acc;
+      }
 
-    if (arg === '--dry-run') {
-      options.dryRun = true;
-    }
+      if (arg === '--dry-run') {
+        return { ...acc, dryRun: true };
+      }
+
+      return acc;
+    },
+    { limit: null, dryRun: false }
+  );
+};
+
+const delay = (ms: number): Promise<void> =>
+  new Promise((resolve) => setTimeout(resolve, ms));
+
+const toVenuesWithSource = (
+  source: DataSource,
+  venueData: SourceData
+): VenueWithSource[] =>
+  venueData.venues.map((venue) => ({
+    ...venue,
+    sourceCity: venueData.sourceCity,
+    sourceId: source.id,
+  }));
+
+const loadAllVenues = (sources: DataSource[]): VenueWithSource[] => {
+  console.log('=== Loading all sources ===');
+
+  const allVenues = sources.flatMap((source) => {
+    console.log(`Loading ${source.city}...`);
+
+    const dataFilePath = getDataFilePath(source.id);
+    const venueData: SourceData = JSON.parse(readData(dataFilePath));
+    const venues = toVenuesWithSource(source, venueData);
+
+    console.log(` Loaded ${venues.length} venues`);
+    return venues;
   });
 
-  return options;
+  console.log(`\nTotal venues loaded: ${allVenues.length}`);
+  return allVenues;
 };
 
-const needsGeocoding = (address: string | undefined): boolean => {
-  if (!address) return false;
+const buildCleanedData = (venuesBySourceId: Record<string, VenueWithSource[]>): CleanedData => ({
+  updatedAt: Math.floor(Date.now() / 1000),
+  venues: Object.fromEntries(
+    Object.entries(venuesBySourceId).map(
+      ([sourceId, venues]) => [
+      sourceId,
+      venues.map(
+        ({
+          sourceCity: _sourceCity,
+          sourceId: _sourceId,
+          ...rest
+        }) => rest),
+    ])
+  ),
+});
 
-  const hasCity = TAIWAN_CITIES.some((city) => address.startsWith(city));
-  const hasDistrict = /[市縣].{1,3}[區市鎮鄉]/.test(address);
+const saveCleanedData = (
+  venuesBySourceId: Record<string, VenueWithSource[]>
+): void => {
+  const outputPath = getOutputFilePath();
+  const cleanedData = buildCleanedData(venuesBySourceId);
 
-  return !hasCity || !hasDistrict;
+  writeFileSync(outputPath, JSON.stringify(cleanedData, null, 2));
+  console.log(`\nCleaned data saved to: ${outputPath}`);
 };
 
-const loadSourceVenues = (source: DataSource): Venue[] => {
-  const dataFilePath = getDataFilePath(source.id);
-  const venueData: SourceDataByCity = JSON.parse(readData(dataFilePath));
-
-  return venueData.venues.map((venue) => ({
-    ...venue,
-    city: venueData.sourceCity,
-  }));
-};
-
-const processVenues = async (
-  venues: Venue[],
+const geocodeOneVenue = async (
+  venue: VenueWithSource,
   apiKey: string,
-  options: CleanerOptions,
-): Promise<{ processed: number; failed: number }> => {
-  const { limit = null, dryRun = false } = options;
-  let ungeocodedVenues = venues.filter((venue) => needsGeocoding(venue.address));
+): Promise<VenueWithSource> => {
+  console.log(`  Original: ${venue.address}`);
 
-  console.log(`Total venues: ${venues.length}`);
-  console.log(`Need geocoding: ${ungeocodedVenues.length}`);
+  const result = await geocodeAddress(venue.address, apiKey, {
+    sourceCity: venue.sourceCity,
+  });
 
-  if (limit) {
-    ungeocodedVenues = ungeocodedVenues.slice(0, limit);
-    console.log(`Limited to: ${limit} (test mode)`);
+  if (!result) {
+    console.log('  No result found');
+    throw new Error('No geocoding result');
   }
 
-  if (dryRun) {
-    console.log('\n[Dry Run] Would process:');
-    ungeocodedVenues.forEach((venue, index) => console.log(`${index + 1}. ${venue.address}`));
-    return { processed: 0, failed: 0 };
-  }
+  console.log(`  Updated:  ${result.formattedAddress}`);
+  return mergeGeocodedData(venue, result);
+};
+
+// Cannot use Promise.all due to API rate limiting requirements
+const geocodeVenuesSequentially = async (
+  venues: VenueWithSource[],
+  apiKey: string,
+): Promise<GeocodeSummary> => {
+  const geocodedVenues: VenueWithSource[] = [];
 
   let processed = 0;
   let failed = 0;
 
-  for (const venue of ungeocodedVenues) {
-    console.log(`[${processed + 1}/${ungeocodedVenues.length}] ${venue.name}`);
-    console.log(`  Original: ${venue.address}`);
+  for (let i = 0; i < venues.length; i++) {
+    const venue = venues[i];
 
     try {
-      const result = await geocodeAddress(venue.address, apiKey, { defaultCity: venue.city });
+      console.log(`[${i + 1}/${venues.length}] ${venue.name}`);
+      const updatedVenue = await geocodeOneVenue(venue, apiKey);
 
-      if (result) {
-        venue.address = result.formattedAddress;
-        venue.district = result.district;
-        venue.location = result.location;
-        console.log(`  Updated:  ${result.formattedAddress}`);
-      } else {
-        console.log('  No result found');
-        failed++;
-      }
+      geocodedVenues.push(updatedVenue);
+      processed += 1;
     } catch (error) {
-      const errorMessage = error instanceof Error ? error.message : String(error);
-      console.error(`  Error: ${errorMessage}`);
-      failed++;
+      const errorMessage = error instanceof Error
+        ? error.message
+        : String(error);
+
+      geocodedVenues.push(venue);
+      processed += 1;
+      failed += 1;
 
       if (errorMessage.includes('quota')) {
         console.error('API quota exceeded. Stopping.');
+        // Current venue (i) already pushed above; skip remaining
+        geocodedVenues.push(...venues.slice(i + 1));
         break;
+      }
+
+      if (!errorMessage.includes('No geocoding result')) {
+        console.error(`  Error: ${errorMessage}`);
       }
     }
 
-    processed++;
-    await delay(200);
+    if (i < venues.length - 1) await delay(GEOCODE_DELAY_MS);
   }
 
-  return { processed, failed };
+  return { geocodedVenues, processed, failed };
 };
 
-const main = async (): Promise<void> => {
-  const apiKey = process.env.GOOGLE_MAPS_API_KEY;
-  const options = parseArgs();
-
+// TypeScript assertion functions require function declaration syntax
+function validateApiKey(apiKey: string | undefined): asserts apiKey is string {
   if (!apiKey) {
     const message = [
       'Error: GOOGLE_MAPS_API_KEY environment variable is required',
@@ -138,40 +219,62 @@ const main = async (): Promise<void> => {
     console.error(message);
     process.exit(1);
   }
+}
 
-  console.log('=== Loading all sources ===');
-
-  const venuesByCity: Record<string, Venue[]> = {};
-
-  for (const source of DATA_SOURCES) {
-    console.log(`Loading ${source.city}...`);
-    const venues = loadSourceVenues(source);
-    venuesByCity[source.id] = venues;
-    console.log(`  Loaded ${venues.length} venues`);
-  }
-
-  const allVenues = Object.values(venuesByCity).flat();
-  console.log(`\nTotal venues loaded: ${allVenues.length}`);
-  console.log('\n=== Processing geocoding ===');
-
-  const { processed, failed } = await processVenues(allVenues, apiKey, options);
-
-  if (!options.dryRun) {
-    const outputPath = getOutputFilePath();
-    const cleanedData: CleanedData = {
-      updatedAt: Math.floor(Date.now() / 1000),
-      venues: venuesByCity,
-    };
-
-    writeFileSync(outputPath, JSON.stringify(cleanedData, null, 2));
-    console.log(`\nCleaned data saved to: ${outputPath}`);
-  }
-
+const printSummary = (
+  totalCount: number,
+  processed: number,
+  failed: number,
+): void => {
   console.log('\n--- Summary ---');
-  console.log(`Total venues: ${allVenues.length}`);
+  console.log(`Total venues: ${totalCount}`);
   console.log(`Processed: ${processed}`);
   console.log(`Failed: ${failed}`);
   console.log(`Success: ${processed - failed}`);
 };
 
-main();
+(async () => {
+  const apiKey = process.env.GOOGLE_MAPS_API_KEY;
+  const options = parseArgs();
+
+  validateApiKey(apiKey);
+
+  const allVenues = loadAllVenues(DATA_SOURCES);
+
+  console.log('\n=== Processing geocoding ===');
+  console.log(`Total venues: ${allVenues.length}`);
+
+  const venuesToGeocode = options.limit
+    ? allVenues.slice(0, options.limit)
+    : allVenues;
+
+  if (options.limit) {
+    console.log(`Limited to: ${options.limit} (test mode)`);
+  }
+
+  if (options.dryRun) {
+    console.log('\n[Dry Run] Would process:');
+
+    venuesToGeocode.forEach((venue, index) => {
+      console.log(`${index + 1}. ${venue.address}`);
+    });
+
+    printSummary(allVenues.length, 0, 0);
+    return;
+  }
+
+  const geocodeResult = await geocodeVenuesSequentially(venuesToGeocode, apiKey);
+
+  const geocodedById = new Map(
+    geocodeResult.geocodedVenues.map((venue) => [venue.id, venue])
+  );
+
+  const updatedVenues = allVenues.map(
+    (venue) => geocodedById.get(venue.id) ?? venue
+  );
+
+  const venuesGroupedBySourceId = groupBySourceId(updatedVenues);
+
+  saveCleanedData(venuesGroupedBySourceId);
+  printSummary(allVenues.length, geocodeResult.processed, geocodeResult.failed);
+})();

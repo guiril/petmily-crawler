@@ -24,9 +24,16 @@ const getLastUpdateText = async (page: Page): Promise<string | null> => {
 };
 
 const splitField = (value: string | null): string[] =>
-  value ? value.split(',').map((item) => item.trim()).filter(Boolean) : [];
+  value
+    ? value.split(',')
+      .map((item) => item.trim())
+      .filter(Boolean)
+    : [];
 
-const parseVenues = (rows: (string | null)[][], startIndex: number): RawVenue[] =>
+const parseVenues = (
+  rows: (string | null)[][],
+  startIndex: number
+): RawVenue[] =>
   rows
     .slice(1)
     .map((cells, index) => ({
@@ -39,7 +46,10 @@ const parseVenues = (rows: (string | null)[][], startIndex: number): RawVenue[] 
     }))
     .filter((venue) => venue.name && venue.address) as RawVenue[];
 
-const extractVenuesFromTable = async (page: Page, startIndex: number): Promise<RawVenue[]> => {
+const extractVenuesFromTable = async (
+  page: Page,
+  startIndex: number
+): Promise<RawVenue[]> => {
   try {
     const rawRows = await page.$$eval(SELECTORS.tableRows, (rows) =>
       rows.map((row) =>

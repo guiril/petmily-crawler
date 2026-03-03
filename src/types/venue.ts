@@ -7,8 +7,8 @@ export interface RawVenue {
   id: string;
   name: string;
   address: string;
-  serviceType?: string;
-  petType?: string;
+  serviceType?: string[];
+  petType?: string[];
   phone?: string;
 }
 

@@ -23,20 +23,23 @@ const getLastUpdateText = async (page: Page): Promise<string | null> => {
   }
 };
 
-const parseVenues = (rows: (string | null)[][]): RawVenue[] =>
+const splitField = (value: string | null): string[] =>
+  value ? value.split(',').map((item) => item.trim()).filter(Boolean) : [];
+
+const parseVenues = (rows: (string | null)[][], startIndex: number): RawVenue[] =>
   rows
     .slice(1)
     .map((cells, index) => ({
-      id: `taichung-${index}`,
+      id: `taichung-${startIndex + index}`,
       name: cells[1],
       address: cells[4],
-      serviceType: cells[2],
-      petType: cells[3],
+      serviceType: splitField(cells[2]),
+      petType: splitField(cells[3]),
       phone: cells[5],
     }))
     .filter((venue) => venue.name && venue.address) as RawVenue[];
 
-const extractVenuesFromTable = async (page: Page): Promise<RawVenue[]> => {
+const extractVenuesFromTable = async (page: Page, startIndex: number): Promise<RawVenue[]> => {
   try {
     const rawRows = await page.$$eval(SELECTORS.tableRows, (rows) =>
       rows.map((row) =>
@@ -46,7 +49,7 @@ const extractVenuesFromTable = async (page: Page): Promise<RawVenue[]> => {
       )
     );
 
-    return parseVenues(rawRows);
+    return parseVenues(rawRows, startIndex);
   } catch (error) {
     console.error('Error extracting venues:', error);
     return [];
@@ -82,7 +85,7 @@ const crawlAllPages = async (
 
   console.log(`Crawling page ${currentPage}...`);
 
-  const currentPageVenues = await extractVenuesFromTable(page);
+  const currentPageVenues = await extractVenuesFromTable(page, venues.length);
   const updatedVenues = [...venues, ...currentPageVenues];
 
   const nextUrl = await getNextUrl(page);

@@ -2,16 +2,21 @@ import type { GeocodeOptions, GeocodeResult } from './types/index.ts';
 import { TAIWAN_CITIES } from './constants/cities.ts';
 
 const GEOCODING_API_URL = 'https://maps.googleapis.com/maps/api/geocode/json';
-const FLOOR_PATTERN = /(\d+[Ff樓]|[Bb]\d+)$/;
 
-interface FloorExtraction {
-  addressWithoutFloor: string;
-  floor: string | null;
+// Matches the building number (and anything after) at the end of a string.
+// Connectors: -, 、, 之, / cover cases like 82之1號, 64、66號, 1-2號
+const BUILDING_NUMBER_AT_END = /\d[\d\-、之\/]*號$/;
+const BUILDING_NUMBER_WITH_TAIL = /\d[\d\-、之\/]*號.*$/;
+
+interface AddressParts {
+  base: string;
+  suffix: string;
 }
 
 interface PreparedAddress {
   searchAddress: string;
-  floor: string | null;
+  originalBase: string;
+  suffix: string;
 }
 
 interface ApiResult {
@@ -34,62 +39,80 @@ interface GeocodeApiResponse {
   error_message?: string;
 }
 
-const extractFloor = (address: string): FloorExtraction => {
-  const match = address.match(FLOOR_PATTERN);
+const splitAtBuildingNumber = (address: string): AddressParts => {
+  let lastIdx = -1;
 
-  if (match) {
-    return {
-      addressWithoutFloor: address.slice(0, match.index).trim(),
-      floor: match[0],
-    };
+  for (let i = 0; i < address.length; i++) {
+    if (address[i] === '號' && i > 0 && /\d/.test(address[i - 1])) {
+      lastIdx = i;
+    }
   }
 
-  return { addressWithoutFloor: address, floor: null };
+  if (lastIdx === -1 || lastIdx === address.length - 1) {
+    return { base: address, suffix: '' };
+  }
+
+  return {
+    base: address.slice(0, lastIdx + 1),
+    suffix: address.slice(lastIdx + 1),
+  };
 };
 
 const prepareAddress = (
   address: string,
-  sourceCity: string
+  sourceCity: string,
 ): PreparedAddress => {
-  const { addressWithoutFloor, floor } = extractFloor(address);
-
-  const hasCity = TAIWAN_CITIES.some(
-    (city) => addressWithoutFloor.startsWith(city)
-  );
+  const { base, suffix } = splitAtBuildingNumber(address);
+  const hasCity = TAIWAN_CITIES.some((city) => base.startsWith(city));
 
   return {
-    searchAddress: hasCity ? addressWithoutFloor : `${sourceCity}${addressWithoutFloor}`,
-    floor,
+    searchAddress: hasCity ? base : `${sourceCity}${base}`,
+    originalBase: base,
+    suffix,
   };
 };
 
-const formatAddress = (
-  googleAddress: string,
-  floor: string | null
+const buildFormattedAddress = (
+  geocodedAddress: string,
+  originalBase: string,
+  suffix: string,
 ): string => {
-  const cleaned = googleAddress
+  const cleaned = geocodedAddress
     .replace(/^\d{3}台灣/, '')
     .replace(/^\d{3}/, '');
 
-  return floor ? `${cleaned}${floor}` : cleaned;
+  const originalNumberMatch = originalBase.match(BUILDING_NUMBER_AT_END);
+
+  if (!originalNumberMatch) {
+    return suffix ? `${cleaned}${suffix}` : cleaned;
+  }
+
+  const streetPrefix = cleaned.replace(BUILDING_NUMBER_WITH_TAIL, '');
+
+  if (!streetPrefix || streetPrefix === cleaned) {
+    return suffix ? `${cleaned}${suffix}` : cleaned;
+  }
+
+  return `${streetPrefix}${originalNumberMatch[0]}${suffix}`;
 };
 
 const parseResult = (
   result: ApiResult,
-  floor: string | null
+  originalBase: string,
+  suffix: string,
 ): GeocodeResult => {
   const components = result.address_components;
 
   const city = components.find(
-    (component) => component.types.includes('administrative_area_level_1')
+    (component) => component.types.includes('administrative_area_level_1'),
   )?.long_name;
 
   const district = components.find(
-    (component) => /[區鄉鎮]$/.test(component.long_name)
+    (component) => /[區鄉鎮]$/.test(component.long_name),
   )?.long_name;
 
   return {
-    formattedAddress: formatAddress(result.formatted_address, floor),
+    formattedAddress: buildFormattedAddress(result.formatted_address, originalBase, suffix),
     city,
     district,
     location: result.geometry.location,
@@ -102,7 +125,7 @@ export const geocodeAddress = async (
   apiKey: string,
   { sourceCity }: GeocodeOptions,
 ): Promise<GeocodeResult | null> => {
-  const { searchAddress, floor } = prepareAddress(address, sourceCity);
+  const { searchAddress, originalBase, suffix } = prepareAddress(address, sourceCity);
 
   const params = new URLSearchParams({
     address: searchAddress,
@@ -116,7 +139,7 @@ export const geocodeAddress = async (
   const { status } = data;
 
   if (status === 'OK') {
-    return parseResult(data.results[0], floor);
+    return parseResult(data.results[0], originalBase, suffix);
   }
 
   if (status === 'ZERO_RESULTS') {

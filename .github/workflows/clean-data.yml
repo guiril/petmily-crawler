@@ -1,0 +1,60 @@
+name: Clean Pet-Friendly Venues Data
+
+on:
+  workflow_run:
+    workflows: ['Crawl Pet-Friendly Venues Data']
+    types: [completed]
+  workflow_dispatch:
+
+jobs:
+  clean-and-update:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Cache node_modules
+        uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('package-lock.json') }}
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run cleaner to process venues data
+        run: npm run clean
+        timeout-minutes: 30
+        env:
+          GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
+
+      - name: Check if venues data was generated
+        run: |
+          if [ -f "data/venues.json" ]; then
+            echo "venues.json found"
+          else
+            echo "Error: venues.json not found"
+            exit 1
+          fi
+
+      - name: Commit and push changes
+        run: |
+          export TZ='Asia/Taipei'
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action Bot"
+          git add data/venues.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto clean venues data - $(date +'%Y-%m-%d %H:%M') UTC+8"
+            git push
+          fi

@@ -1,65 +1,2858 @@
 {
-  "updatedAt": 1772513725,
+  "updatedAt": 1772519407,
   "venues": {
     "taichung": [
       {
         "id": "taichung-0",
-        "name": "鵝牌氣密窗(鵝牌科技有限公司)",
-        "address": "臺中市沙鹿區東大路二段1536號",
-        "serviceType": "其他",
-        "petType": "犬,貓",
-        "phone": "0426150066",
-        "district": "沙鹿區",
+        "name": "3Four 水某人文茶館(水某茶館)",
+        "address": "臺中市東區三賢街2號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-22135122",
+        "district": "東區",
         "location": {
-          "lat": 24.240883,
-          "lng": 120.6148772
+          "lat": 24.1373652,
+          "lng": 120.7061261
         }
       },
       {
         "id": "taichung-1",
-        "name": "麗寶OutletMall(麗鑫綜合百貨股份有限公司)",
-        "address": "臺中市后里區福容路201 號",
-        "serviceType": "餐飲,娛樂",
-        "petType": "犬,貓,其他",
-        "phone": "0437022888",
-        "district": "后里區",
+        "name": "501休閒輕食館-鳳凰飛鏢旗艦32店(五零一商行)",
+        "address": "臺中市西屯區青海路一段82之4號2F",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-23173477",
+        "district": "西屯區",
         "location": {
-          "lat": 24.3242215,
-          "lng": 120.6991794
+          "lat": 24.1645167,
+          "lng": 120.6550942
         }
       },
       {
         "id": "taichung-2",
-        "name": "麗都賓館(麗都企業社)",
-        "address": "臺中市西屯區中康街81號",
-        "serviceType": "住宿",
-        "petType": "犬,貓",
-        "phone": "04-24250016",
-        "district": "西屯區",
+        "name": "Bullet Burger（勃特商行）",
+        "address": "臺中市西區美村路一段164巷17號1樓",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-23011002",
+        "district": "西區",
         "location": {
-          "lat": 24.1963484,
-          "lng": 120.6594805
+          "lat": 24.1500607,
+          "lng": 120.660379
         }
       },
       {
         "id": "taichung-3",
-        "name": "黑虎的肉肉食堂",
-        "address": "臺中市梧棲區建國北街259巷70號1樓",
-        "serviceType": "餐飲,其他",
-        "petType": "犬,貓",
-        "phone": "0921-096367",
-        "district": "梧棲區",
+        "name": "Campaholic 露營家（汪汪也凹豆有限公司）",
+        "address": "臺中市北屯區長富街310號1樓",
+        "serviceType": [
+          "其他"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "0965-320302",
+        "district": "北屯區",
         "location": {
-          "lat": 24.2494683,
-          "lng": 120.5314808
+          "lat": 24.1814366,
+          "lng": 120.7044101
         }
       },
       {
         "id": "taichung-4",
+        "name": "Cuppa FS Cafe（上勝商行）",
+        "address": "臺中市東區復興路四段17巷14號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-22232099",
+        "district": "東區",
+        "location": {
+          "lat": 24.1352454,
+          "lng": 120.68357
+        }
+      },
+      {
+        "id": "taichung-5",
+        "name": "Cuppa VV Cafe（上森商行）",
+        "address": "臺中市西區博館三街103號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-23237879",
+        "district": "西區",
+        "location": {
+          "lat": 24.1571368,
+          "lng": 120.6619835
+        }
+      },
+      {
+        "id": "taichung-6",
+        "name": "Eartha燒肉餐酒館（紅樂餐飲有限公司）",
+        "address": "臺中市北區德化街457號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-22062889",
+        "district": "北區",
+        "location": {
+          "lat": 24.1616193,
+          "lng": 120.6762606
+        }
+      },
+      {
+        "id": "taichung-7",
+        "name": "F&F HAIR STYLES(有熊美藝社)",
+        "address": "臺中市北區育強街137號",
+        "serviceType": [
+          "娛樂"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-22370437",
+        "district": "北區",
+        "location": {
+          "lat": 24.1612886,
+          "lng": 120.693434
+        }
+      },
+      {
+        "id": "taichung-8",
+        "name": "Gray House灰房子義式餐廳(食恬義式餐廚)",
+        "address": "臺中市北區三民路三段201巷30號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-22200039",
+        "district": "北區",
+        "location": {
+          "lat": 24.1535472,
+          "lng": 120.684671
+        }
+      },
+      {
+        "id": "taichung-9",
+        "name": "Gyusya 牛舎炭火漢堡排專門店(牛舍小吃部)",
+        "address": "臺中市南屯區大英街440號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-23250085",
+        "district": "南屯區",
+        "location": {
+          "lat": 24.1517639,
+          "lng": 120.6487635
+        }
+      },
+      {
+        "id": "taichung-10",
+        "name": "HOLA台中北屯店(特力屋股份有限公司和樂北屯分公司)",
+        "address": "臺中市北屯區北屯路407-1號1F",
+        "serviceType": [
+          "其他"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-22478000",
+        "district": "北屯區",
+        "location": {
+          "lat": 24.1732937,
+          "lng": 120.6978696
+        }
+      },
+      {
+        "id": "taichung-11",
+        "name": "HOLA和樂家居台中西屯店(和樂家居股份有限公司)",
+        "address": "臺中市西屯區台灣大道四段528號",
+        "serviceType": [
+          "其他"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-24625518",
+        "district": "西屯區",
+        "location": {
+          "lat": 24.178581,
+          "lng": 120.6254625
+        }
+      },
+      {
+        "id": "taichung-12",
+        "name": "HOLA大墩店(特力屋股份有限公司和樂台中大墩分公司)",
+        "address": "臺中市南屯區大墩路533號1F",
+        "serviceType": [
+          "其他"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-23101000",
+        "district": "南屯區",
+        "location": {
+          "lat": 24.1496315,
+          "lng": 120.64929
+        }
+      },
+      {
+        "id": "taichung-13",
+        "name": "Home Home（品銘軒餐旅有限公司）",
+        "address": "臺中市西區大和路63號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-23020030",
+        "district": "西區",
+        "location": {
+          "lat": 24.1498643,
+          "lng": 120.6678213
+        }
+      },
+      {
+        "id": "taichung-14",
+        "name": "In Outdoor臥野（野蒼蘭咖啡廳）",
+        "address": "臺中市北屯區太順二街168號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-24360281",
+        "district": "北屯區",
+        "location": {
+          "lat": 24.1602699,
+          "lng": 120.7221756
+        }
+      },
+      {
+        "id": "taichung-15",
+        "name": "It's衣著概念店(伊肆衣著概念店)",
+        "address": "臺中市北區一中街177號",
+        "serviceType": [
+          "娛樂"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-22252219",
+        "district": "北區",
+        "location": {
+          "lat": 24.1519196,
+          "lng": 120.6860627
+        }
+      },
+      {
+        "id": "taichung-16",
+        "name": "Mh juicery&cafe（民海咖啡行）",
+        "address": "臺中市北屯區興安路一段238號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-22470761",
+        "district": "北屯區",
+        "location": {
+          "lat": 24.1716416,
+          "lng": 120.6944021
+        }
+      },
+      {
+        "id": "taichung-17",
+        "name": "Momori Café & Bar（毛咖股份有限公司）",
+        "address": "臺中市西區臺灣大道二段222號一",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-23239222",
+        "district": "西區",
+        "location": {
+          "lat": 24.1523294,
+          "lng": 120.6686101
+        }
+      },
+      {
+        "id": "taichung-18",
+        "name": "Mr.Mantter 曼特先生(曼特有限公司)",
+        "address": "臺中市中區臺灣大道一段271號",
+        "serviceType": [
+          "住宿"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-37047535",
+        "district": "中區",
+        "location": {
+          "lat": 24.141262,
+          "lng": 120.6806337
+        }
+      },
+      {
+        "id": "taichung-19",
+        "name": "NO.19 Restaurant（拾玖號餐館）",
+        "address": "臺中市西屯區何厝街146號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-23165519",
+        "district": "西屯區",
+        "location": {
+          "lat": 24.1641335,
+          "lng": 120.6569962
+        }
+      },
+      {
+        "id": "taichung-20",
+        "name": "PARK2草悟廣場（行草悟道股份有限公司）",
+        "address": "臺中市西區英才路534號",
+        "serviceType": [
+          "餐飲",
+          "娛樂"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-23050191",
+        "district": "西區",
+        "location": {
+          "lat": 24.1462115,
+          "lng": 120.6647464
+        }
+      },
+      {
+        "id": "taichung-21",
+        "name": "PARNI柏納髮型沙龍",
+        "address": "臺中市北區太原四街28號",
+        "serviceType": [
+          "娛樂"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-22985888",
+        "district": "北區",
+        "location": {
+          "lat": 24.1653948,
+          "lng": 120.6689471
+        }
+      },
+      {
+        "id": "taichung-22",
+        "name": "Roundabout Cafe 圓環咖啡．大和店（圓環咖啡）",
+        "address": "臺中市西區大和路73號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-23015653",
+        "district": "西區",
+        "location": {
+          "lat": 24.1499586,
+          "lng": 120.667478
+        }
+      },
+      {
+        "id": "taichung-23",
+        "name": "Roundabout Cafe 圓環咖啡．梅川店（茹菓人生洋行）",
+        "address": "臺中市北區梅川東路三段207號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-22061988",
+        "district": "北區",
+        "location": {
+          "lat": 24.1564619,
+          "lng": 120.6758212
+        }
+      },
+      {
+        "id": "taichung-24",
+        "name": "TIKIYALO(鐵枝路咖啡交易所 / 名門飲食有限公司)",
+        "address": "臺中市中區臺灣大道一段1號b7",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-35097354",
+        "district": "中區",
+        "location": {
+          "lat": 24.1367841,
+          "lng": 120.6849269
+        }
+      },
+      {
+        "id": "taichung-25",
+        "name": "Tamp Temper(待烘咖啡)",
+        "address": "臺中市西區民權路286號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "0903-162572",
+        "district": "西區",
+        "location": {
+          "lat": 24.1466312,
+          "lng": 120.6701333
+        }
+      },
+      {
+        "id": "taichung-26",
+        "name": "UZO（伊歐斯飲料店）",
+        "address": "臺中市西區精誠五街22號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-23273518",
+        "district": "西區",
+        "location": {
+          "lat": 24.1553133,
+          "lng": 120.657378
+        }
+      },
+      {
+        "id": "taichung-27",
+        "name": "Uni café 與你咖啡(墨序文創股份有限公司)",
+        "address": "臺中市西屯區漢翔北街37號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-24521330",
+        "district": "西屯區",
+        "location": {
+          "lat": 24.1859885,
+          "lng": 120.6407286
+        }
+      },
+      {
+        "id": "taichung-28",
+        "name": "WensCO文心會議室-共同工作空間（毅達投資有限公司）",
+        "address": "臺中市北屯區文心路四段936之1號2樓",
+        "serviceType": [
+          "其他"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-22376859",
+        "district": "北屯區",
+        "location": {
+          "lat": 24.1707639,
+          "lng": 120.6944623
+        }
+      },
+      {
+        "id": "taichung-29",
+        "name": "三澧企業股份有限公司(Molino台中草悟廣場店)",
+        "address": "臺中市西區英才路534號b1 柜",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬"
+        ],
+        "phone": "04-23020269",
+        "district": "西區",
+        "location": {
+          "lat": 24.1462115,
+          "lng": 120.6647464
+        }
+      },
+      {
+        "id": "taichung-30",
+        "name": "丸文食品(丸文調理食品有限公司光復店)",
+        "address": "臺中市中區光復路30-1號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-36086789",
+        "district": "中區",
+        "location": {
+          "lat": 24.1404265,
+          "lng": 120.6851062
+        }
+      },
+      {
+        "id": "taichung-31",
+        "name": "九天民俗技藝工作室",
+        "address": "臺中市大雅區清泉路99號",
+        "serviceType": [
+          "娛樂"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-25653150",
+        "district": "大雅區",
+        "location": {
+          "lat": 24.2402363,
+          "lng": 120.6170049
+        }
+      },
+      {
+        "id": "taichung-32",
+        "name": "九房村懷舊食堂",
+        "address": "臺中市北屯區南興三路290號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-24362886",
+        "district": "北屯區",
+        "location": {
+          "lat": 24.1783967,
+          "lng": 120.7033509
+        }
+      },
+      {
+        "id": "taichung-33",
+        "name": "也有咖啡",
+        "address": "臺中市北屯區遼寧路一段26號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-22439626",
+        "district": "北屯區",
+        "location": {
+          "lat": 24.1724299,
+          "lng": 120.6968352
+        }
+      },
+      {
+        "id": "taichung-34",
+        "name": "井閣鍋物（燊咏商行）",
+        "address": "臺中市西區美村路一段25號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-23290192",
+        "district": "西區",
+        "location": {
+          "lat": 24.154701,
+          "lng": 120.662233
+        }
+      },
+      {
+        "id": "taichung-35",
+        "name": "交通部觀光署參山國家風景區管理處",
+        "address": "臺中市霧峰區中正路738號",
+        "serviceType": [
+          "其他"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-23312678#540",
+        "district": "霧峰區",
+        "location": {
+          "lat": 24.0587476,
+          "lng": 120.6981008
+        }
+      },
+      {
+        "id": "taichung-36",
+        "name": "仁將咖啡館",
+        "address": "臺中市西區五權西五街61號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-23782320",
+        "district": "西區",
+        "location": {
+          "lat": 24.1378376,
+          "lng": 120.6602966
+        }
+      },
+      {
+        "id": "taichung-37",
+        "name": "倫家Café（倫家好餓）",
+        "address": "70台灣臺中市太平區中山路二段138號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "0966-136662",
+        "district": "太平區",
+        "location": {
+          "lat": 24.1491543,
+          "lng": 120.7344105
+        }
+      },
+      {
+        "id": "taichung-38",
+        "name": "全國大飯店股份有限公司",
+        "address": "臺中市西區館前路57號",
+        "serviceType": [
+          "住宿"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-23213111",
+        "district": "西區",
+        "location": {
+          "lat": 24.1535329,
+          "lng": 120.6637506
+        }
+      },
+      {
+        "id": "taichung-39",
+        "name": "兩個鍋子商行",
+        "address": "臺中市西區精誠二十三街8號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-24739263",
+        "district": "西區",
+        "location": {
+          "lat": 24.146078,
+          "lng": 120.6555548
+        }
+      },
+      {
+        "id": "taichung-40",
+        "name": "凡日bread & meal（凡日企業社）",
+        "address": "臺中市西區昇平街75號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-23013987",
+        "district": "西區",
+        "location": {
+          "lat": 24.1454819,
+          "lng": 120.6620469
+        }
+      },
+      {
+        "id": "taichung-41",
+        "name": "函館和風火鍋店",
+        "address": "臺中市西屯區福科路591號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-24612669",
+        "district": "西屯區",
+        "location": {
+          "lat": 24.1865936,
+          "lng": 120.6135496
+        }
+      },
+      {
+        "id": "taichung-42",
+        "name": "創意時尚飯店(創意旅館股份有限公司)",
+        "address": "臺中市北區五權路334號",
+        "serviceType": [
+          "住宿"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-22022666",
+        "district": "北區",
+        "location": {
+          "lat": 24.1521769,
+          "lng": 120.6803917
+        }
+      },
+      {
+        "id": "taichung-43",
+        "name": "勤美 誠品綠園道（勤美股份有限公司台中分公司）",
+        "address": "臺中市西區公益路68號底 二",
+        "serviceType": [
+          "餐飲",
+          "娛樂"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-23281000",
+        "district": "西區",
+        "location": {
+          "lat": 24.1509935,
+          "lng": 120.664042
+        }
+      },
+      {
+        "id": "taichung-44",
+        "name": "匯眾租賃有限公司",
+        "address": "臺中市西屯區環中路三段988號",
+        "serviceType": [
+          "交通"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-22512542",
+        "district": "西屯區",
+        "location": {
+          "lat": 24.1590711,
+          "lng": 120.6259337
+        }
+      },
+      {
+        "id": "taichung-45",
+        "name": "千汌日本料理 (千汌有限公司)",
+        "address": "49台灣臺中市西區存中街61巷1號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-23768658",
+        "district": "西區",
+        "location": {
+          "lat": 24.1410677,
+          "lng": 120.6591484
+        }
+      },
+      {
+        "id": "taichung-46",
+        "name": "古典小熊屋(豐鼎興業有限公司)",
+        "address": "臺中市北區三民路三段201巷29號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-22251557",
+        "district": "北區",
+        "location": {
+          "lat": 24.1534259,
+          "lng": 120.6845621
+        }
+      },
+      {
+        "id": "taichung-47",
+        "name": "台中保時捷中心（汎德永業汽車股份有限公司永業台中分公司）",
+        "address": "臺中市南區文心南路545號",
+        "serviceType": [
+          "其他"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-22587911",
+        "district": "南區",
+        "location": {
+          "lat": 24.1195121,
+          "lng": 120.6505309
+        }
+      },
+      {
+        "id": "taichung-48",
+        "name": "台中幻覺博物館（佳貝有限公司）",
+        "address": "臺中市西區精誠路64號",
+        "serviceType": [
+          "娛樂"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-23295008",
+        "district": "西區",
+        "location": {
+          "lat": 24.1561273,
+          "lng": 120.6562761
+        }
+      },
+      {
+        "id": "taichung-49",
+        "name": "合作咖啡商行",
+        "address": "臺中市南區福田三街165號1樓",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-22633221",
+        "district": "南區",
+        "location": {
+          "lat": 24.1108898,
+          "lng": 120.6556271
+        }
+      },
+      {
+        "id": "taichung-50",
+        "name": "合樂商務設計旅店",
+        "address": "臺中市西屯區朝馬路21號",
+        "serviceType": [
+          "住宿"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-22555633",
+        "district": "西屯區",
+        "location": {
+          "lat": 24.1679839,
+          "lng": 120.6374797
+        }
+      },
+      {
+        "id": "taichung-51",
+        "name": "咕咕晨食早餐店",
+        "address": "臺中市大里區文隆街25號1樓",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-24854568",
+        "district": "大里區",
+        "location": {
+          "lat": 24.1068758,
+          "lng": 120.68313
+        }
+      },
+      {
+        "id": "taichung-52",
+        "name": "咖啡罵哥",
+        "address": "臺中市北區三民路三段295號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-22388789",
+        "district": "北區",
+        "location": {
+          "lat": 24.1568297,
+          "lng": 120.6883457
+        }
+      },
+      {
+        "id": "taichung-53",
+        "name": "咖啡葉烘焙坊",
+        "address": "臺中市豐原區西安街95-5號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-25222005",
+        "district": "豐原區",
+        "location": {
+          "lat": 24.2489957,
+          "lng": 120.7120886
+        }
+      },
+      {
+        "id": "taichung-54",
+        "name": "咖萃咖啡廚房 台中西屯寵物友善餐廳 (承品咖啡有限公司)",
+        "address": "臺中市西屯區大墩二十街128號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-23231668",
+        "district": "西屯區",
+        "location": {
+          "lat": 24.1595752,
+          "lng": 120.6529088
+        }
+      },
+      {
+        "id": "taichung-55",
+        "name": "嘉寀萌商務中心(嘉寀萌有限公司)",
+        "address": "臺中市北區中清路一段89號15樓",
+        "serviceType": [
+          "其他"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-22021455",
+        "district": "北區",
+        "location": {
+          "lat": 24.1552686,
+          "lng": 120.6768018
+        }
+      },
+      {
+        "id": "taichung-56",
+        "name": "國家自然公園管理處臺中都會公園",
+        "address": "臺中市西屯區都會園路1215巷140號",
+        "serviceType": [
+          "娛樂"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-24612483",
+        "district": "西屯區",
+        "location": {
+          "lat": 24.2083932,
+          "lng": 120.598321
+        }
+      },
+      {
+        "id": "taichung-57",
+        "name": "在來飲食店（在來碗粿米糕專門）",
+        "address": "臺中市西區向上路一段231號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "0989-229522",
+        "district": "西區",
+        "location": {
+          "lat": 24.146611,
+          "lng": 120.6598093
+        }
+      },
+      {
+        "id": "taichung-58",
+        "name": "地芋添糖&包心粉圓專賣（善美行）",
+        "address": "臺中市北屯區旅順路二段143號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "0965-334580",
+        "district": "北屯區",
+        "location": {
+          "lat": 24.174246,
+          "lng": 120.689782
+        }
+      },
+      {
+        "id": "taichung-59",
+        "name": "大樹寵物 愛買復興店（大樹寵物股份有限公司台中復興分公司）",
+        "address": "臺中市東區復興路一段359號2樓",
+        "serviceType": [
+          "其他"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-22636665",
+        "district": "東區",
+        "location": {
+          "lat": 24.114849,
+          "lng": 120.654248
+        }
+      },
+      {
+        "id": "taichung-60",
+        "name": "大花朵朵主題餐廳-學士店",
+        "address": "54台灣臺中市北區學士路98號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-22334660",
+        "district": "北區",
+        "location": {
+          "lat": 24.1548127,
+          "lng": 120.6821917
+        }
+      },
+      {
+        "id": "taichung-61",
+        "name": "天月人文休閒旅館股份有限公司",
+        "address": "臺中市西屯區朝馬三街18號",
+        "serviceType": [
+          "住宿"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-22582000",
+        "district": "西屯區",
+        "location": {
+          "lat": 24.167505,
+          "lng": 120.635143
+        }
+      },
+      {
+        "id": "taichung-62",
+        "name": "奇異果快捷旅店-中正店",
+        "address": "臺中市中區臺灣大道一段441號不打樓層，要送上樓",
+        "serviceType": [
+          "住宿"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-22294466",
+        "district": "中區",
+        "location": {
+          "lat": 24.1435134,
+          "lng": 120.6781253
+        }
+      },
+      {
+        "id": "taichung-63",
+        "name": "好喔餐廳（好喔餐飲工作坊）",
+        "address": "臺中市北屯區軍福十六路177號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-24368874",
+        "district": "北屯區",
+        "location": {
+          "lat": 24.1752527,
+          "lng": 120.7272108
+        }
+      },
+      {
+        "id": "taichung-64",
+        "name": "好果實商行",
+        "address": "臺中市南區忠明南路1160號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-22655535",
+        "district": "南區",
+        "location": {
+          "lat": 24.1189369,
+          "lng": 120.6705367
+        }
+      },
+      {
+        "id": "taichung-65",
+        "name": "好狗命寵物幸福生活城-大墩店（魚中魚樂活有限公司大墩分公司）",
+        "address": "臺中市南屯區文心路一段385號",
+        "serviceType": [
+          "其他"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-22596659",
+        "district": "南屯區",
+        "location": {
+          "lat": 24.1492045,
+          "lng": 120.6464157
+        }
+      },
+      {
+        "id": "taichung-66",
+        "name": "好狗運貓狗福利中心-上石店（大魚寵物有限公司上石分公司）",
+        "address": "臺中市西屯區上石路190-2號",
+        "serviceType": [
+          "其他"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-27069666",
+        "district": "西屯區",
+        "location": {
+          "lat": 24.1704731,
+          "lng": 120.6463154
+        }
+      },
+      {
+        "id": "taichung-67",
+        "name": "好狗運貓狗福利中心-六順店（大魚寵物有限公司六順分公司）",
+        "address": "臺中市東區環中東路五段130號",
+        "serviceType": [
+          "其他"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-24811888",
+        "district": "東區",
+        "location": {
+          "lat": 24.1251327,
+          "lng": 120.7013729
+        }
+      },
+      {
+        "id": "taichung-68",
+        "name": "好狗運貓狗福利中心-十甲店（大魚寵物有限公司十甲分公司）",
+        "address": "臺中市東區十甲東路616號",
+        "serviceType": [
+          "其他"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-22118807",
+        "district": "東區",
+        "location": {
+          "lat": 24.1430669,
+          "lng": 120.709032
+        }
+      },
+      {
+        "id": "taichung-69",
+        "name": "好狗運貓狗福利中心-建成店（大魚寵物有限公司建成分公司）",
+        "address": "臺中市東區建成路669號",
+        "serviceType": [
+          "其他"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-22118807",
+        "district": "東區",
+        "location": {
+          "lat": 24.1315915,
+          "lng": 120.6904283
+        }
+      },
+      {
+        "id": "taichung-70",
+        "name": "好狗運貓狗福利中心-潭通店(大魚寵物有限公司 潭通分公司)",
+        "address": "臺中市潭子區圓通南路176號",
+        "serviceType": [
+          "其他"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-25381888",
+        "district": "潭子區",
+        "location": {
+          "lat": 24.2073824,
+          "lng": 120.7055293
+        }
+      },
+      {
+        "id": "taichung-71",
+        "name": "好狗運貓狗福利中心–嶺東店（魚中魚樂活有限公司嶺東分公司）",
+        "address": "臺中市南屯區永春南路1-20號",
+        "serviceType": [
+          "其他"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-23862266",
+        "district": "南屯區",
+        "location": {
+          "lat": 24.1388047,
+          "lng": 120.6136257
+        }
+      },
+      {
+        "id": "taichung-72",
+        "name": "好狗運貓狗福利中心–豐東店（大魚寵物有限公司豐原分公司）",
+        "address": "臺中市豐原區圓環東路528號",
+        "serviceType": [
+          "其他"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-25229666",
+        "district": "豐原區",
+        "location": {
+          "lat": 24.247679,
+          "lng": 120.726993
+        }
+      },
+      {
+        "id": "taichung-73",
+        "name": "好狗運貓狗福利中心–雅潭店（大魚寵物有限公司雅潭分公司）",
+        "address": "臺中市潭子區崇德路四段467-1號",
+        "serviceType": [
+          "其他"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-25315599",
+        "district": "潭子區",
+        "location": {
+          "lat": 24.2158527,
+          "lng": 120.687971
+        }
+      },
+      {
+        "id": "taichung-74",
+        "name": "孔雀咖啡（德虹商行）",
+        "address": "臺中市中區大誠街5號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-22268989",
+        "district": "中區",
+        "location": {
+          "lat": 24.1443989,
+          "lng": 120.677785
+        }
+      },
+      {
+        "id": "taichung-75",
+        "name": "安妮公主花園餐廳（安妮公主花園有限公司）",
+        "address": "臺中市新社區中興街223號",
+        "serviceType": [
+          "餐飲",
+          "娛樂"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-25931567",
+        "district": "新社區",
+        "location": {
+          "lat": 24.1681604,
+          "lng": 120.8318654
+        }
+      },
+      {
+        "id": "taichung-76",
+        "name": "安妮廚房",
+        "address": "臺中市大里區大里路107號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-24860787",
+        "district": "大里區",
+        "location": {
+          "lat": 24.1033498,
+          "lng": 120.6858381
+        }
+      },
+      {
+        "id": "taichung-77",
+        "name": "容燒居酒屋－北屯二店（容燒餐飲企業社）",
+        "address": "臺中市北屯區文心路四段504-1號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-22340100",
+        "district": "北屯區",
+        "location": {
+          "lat": 24.1720641,
+          "lng": 120.6835807
+        }
+      },
+      {
+        "id": "taichung-78",
+        "name": "容燒居酒屋－南屯文心總店（容燒小吃店）",
+        "address": "臺中市南屯區文心路一段530號1樓",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-23223070",
+        "district": "南屯區",
+        "location": {
+          "lat": 24.1531734,
+          "lng": 120.6470387
+        }
+      },
+      {
+        "id": "taichung-79",
+        "name": "寶飛寵物用品專賣店",
+        "address": "臺中市太平區中和街457巷41號",
+        "serviceType": [
+          "其他"
+        ],
+        "petType": [
+          "貓"
+        ],
+        "phone": "0923-339473",
+        "district": "太平區",
+        "location": {
+          "lat": 24.1349112,
+          "lng": 120.7271051
+        }
+      },
+      {
+        "id": "taichung-80",
+        "name": "小王子的花園餐廳(小王子的花園飲食店)",
+        "address": "臺中市西屯區中平路178號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "0422956488",
+        "district": "西屯區",
+        "location": {
+          "lat": 24.1761538,
+          "lng": 120.662853
+        }
+      },
+      {
+        "id": "taichung-81",
+        "name": "尚品港式甜湯",
+        "address": "臺中市西屯區大墩路1001號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-23203678",
+        "district": "西屯區",
+        "location": {
+          "lat": 24.160377,
+          "lng": 120.6527553
+        }
+      },
+      {
+        "id": "taichung-82",
+        "name": "屋七咖啡所（申才國際有限公司）",
+        "address": "臺中市西區向上南路一段32號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-23027757",
+        "district": "西區",
+        "location": {
+          "lat": 24.1463942,
+          "lng": 120.6609929
+        }
+      },
+      {
+        "id": "taichung-83",
+        "name": "希琪生活館",
+        "address": "臺中市南屯區大業路361號1樓",
+        "serviceType": [
+          "其他"
+        ],
+        "petType": [
+          "犬"
+        ],
+        "phone": "0920-369716",
+        "district": "南屯區",
+        "location": {
+          "lat": 24.1535021,
+          "lng": 120.6459129
+        }
+      },
+      {
+        "id": "taichung-84",
+        "name": "幸福好食咖啡Homecafe",
+        "address": "臺中市北區興進路58號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-22337229",
+        "district": "北區",
+        "location": {
+          "lat": 24.1557357,
+          "lng": 120.6975064
+        }
+      },
+      {
+        "id": "taichung-85",
+        "name": "庫克美式燒烤Bar(庫克燒烤店)",
+        "address": "臺中市北區漢口路三段46號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "0422992020",
+        "district": "北區",
+        "location": {
+          "lat": 24.1666926,
+          "lng": 120.6673472
+        }
+      },
+      {
+        "id": "taichung-86",
+        "name": "彼岸森林（彼岸森林有限公司）",
+        "address": "臺中市豐原區東陽路7之1號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-25280013",
+        "district": "豐原區",
+        "location": {
+          "lat": 24.231646,
+          "lng": 120.7539592
+        }
+      },
+      {
+        "id": "taichung-87",
+        "name": "心媞SPA休閒旅館(心媞有限公司)",
+        "address": "臺中市北區北平路一段2號",
+        "serviceType": [
+          "住宿"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-22970177",
+        "district": "北區",
+        "location": {
+          "lat": 24.1715134,
+          "lng": 120.6673019
+        }
+      },
+      {
+        "id": "taichung-88",
+        "name": "怡 喵旅（馥浩興業社）",
+        "address": "臺中市西屯區文心路三段120號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-23157558",
+        "district": "西屯區",
+        "location": {
+          "lat": 24.166805,
+          "lng": 120.653251
+        }
+      },
+      {
+        "id": "taichung-89",
+        "name": "攜旺cafe台中寵物友善餐廳＆浪浪中途學校(攜旺輕食坊)",
+        "address": "臺中市北屯區興安路一段128巷13號",
+        "serviceType": [
+          "餐飲",
+          "其他"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "0936-936736",
+        "district": "北屯區",
+        "location": {
+          "lat": 24.1681154,
+          "lng": 120.6936487
+        }
+      },
+      {
+        "id": "taichung-90",
+        "name": "斐比樂斯咖啡甜點(萊特福有限公司)",
+        "address": "臺中市大里區科技路1-16號2 之 26",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-24916618",
+        "district": "大里區",
+        "location": {
+          "lat": 24.0848473,
+          "lng": 120.6962399
+        }
+      },
+      {
+        "id": "taichung-91",
+        "name": "方吐司早餐",
+        "address": "臺中市南屯區大墩十一街348-1號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-22510010",
+        "district": "南屯區",
+        "location": {
+          "lat": 24.1492188,
+          "lng": 120.6446392
+        }
+      },
+      {
+        "id": "taichung-92",
+        "name": "方正谷眷村味(兩果文化創意有限公司)",
+        "address": "臺中市北屯區天祥街19號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬"
+        ],
+        "phone": "04-22339753",
+        "district": "北屯區",
+        "location": {
+          "lat": 24.1612672,
+          "lng": 120.6953022
+        }
+      },
+      {
+        "id": "taichung-93",
+        "name": "日安87-9 Good Day(日安朝食)",
+        "address": "臺中市豐原區府前街87-9號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-25279758",
+        "district": "豐原區",
+        "location": {
+          "lat": 24.2490758,
+          "lng": 120.7176289
+        }
+      },
+      {
+        "id": "taichung-94",
+        "name": "日拓不動產有限公司",
+        "address": "53台灣臺中市烏日區中山路三段546-28號",
+        "serviceType": [
+          "其他"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-23385626",
+        "district": "烏日區",
+        "location": {
+          "lat": 24.1138894,
+          "lng": 120.5909745
+        }
+      },
+      {
+        "id": "taichung-95",
+        "name": "明高溫泉(明高溫泉旅行社)",
+        "address": "臺中市和平區東關路一段92號",
+        "serviceType": [
+          "住宿"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-25951117",
+        "district": "和平區",
+        "location": {
+          "lat": 24.2030471,
+          "lng": 121.0083368
+        }
+      },
+      {
+        "id": "taichung-96",
+        "name": "晨熹社 ASAHIKARI繪本書店 (晨熹社)",
+        "address": "臺中市西區博館路234號",
+        "serviceType": [
+          "娛樂"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-23150001",
+        "district": "西區",
+        "location": {
+          "lat": 24.1595654,
+          "lng": 120.660623
+        }
+      },
+      {
+        "id": "taichung-97",
+        "name": "望高莊園(望高餐飲部)",
+        "address": "臺中市南屯區中台路398號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "0977-314568",
+        "district": "南屯區",
+        "location": {
+          "lat": 24.1459171,
+          "lng": 120.5788811
+        }
+      },
+      {
+        "id": "taichung-98",
+        "name": "森林小徑 親子友善餐廳(森林小徑餐飲有限公司)",
+        "address": "臺中市北屯區文心路四段131號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-22982238",
+        "district": "北屯區",
+        "location": {
+          "lat": 24.1738418,
+          "lng": 120.6754598
+        }
+      },
+      {
+        "id": "taichung-99",
+        "name": "森林小徑餐飲有限公司大墩分公司",
+        "address": "臺中市西屯區大容西街53號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-23100638",
+        "district": "西屯區",
+        "location": {
+          "lat": 24.1567821,
+          "lng": 120.6474923
+        }
+      },
+      {
+        "id": "taichung-100",
+        "name": "森歐美食坊",
+        "address": "臺中市西區模範街19-4號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "0968-266993",
+        "district": "西區",
+        "location": {
+          "lat": 24.148688,
+          "lng": 120.6664931
+        }
+      },
+      {
+        "id": "taichung-101",
+        "name": "森沐 Sun Moon",
+        "address": "臺中市北區益華街79號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-22368008",
+        "district": "北區",
+        "location": {
+          "lat": 24.1600799,
+          "lng": 120.689216
+        }
+      },
+      {
+        "id": "taichung-102",
+        "name": "樂湜cafe早午餐手作料理（樂湜餐廳）",
+        "address": "臺中市南區工學北路376號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-22631303",
+        "district": "南區",
+        "location": {
+          "lat": 24.1153316,
+          "lng": 120.6561872
+        }
+      },
+      {
+        "id": "taichung-103",
+        "name": "模範貝果（模範街小廚房）",
+        "address": "臺中市西區模範街1巷1號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-23027368",
+        "district": "西區",
+        "location": {
+          "lat": 24.1470401,
+          "lng": 120.6664287
+        }
+      },
+      {
+        "id": "taichung-104",
+        "name": "橘光呼嚕ｘ背包Cat咖啡館（橘光呼嚕咖啡）",
+        "address": "臺中市龍井區藝術街85號1樓",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-26312868",
+        "district": "龍井區",
+        "location": {
+          "lat": 24.1879223,
+          "lng": 120.5924555
+        }
+      },
+      {
+        "id": "taichung-105",
+        "name": "歐風商旅(歐風商旅旅館事業有限公司)",
+        "address": "臺中市西屯區惠民路199號",
+        "serviceType": [
+          "住宿"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-22599299",
+        "district": "西屯區",
+        "location": {
+          "lat": 24.1649191,
+          "lng": 120.6405861
+        }
+      },
+      {
+        "id": "taichung-106",
+        "name": "此木二水（晨輝有限公司）",
+        "address": "臺中市西區長春街49號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-23106191",
+        "district": "西區",
+        "location": {
+          "lat": 24.1551921,
+          "lng": 120.6587625
+        }
+      },
+      {
+        "id": "taichung-107",
+        "name": "水雲端旗艦概念旅館",
+        "address": "臺中市西屯區青海南街159號",
+        "serviceType": [
+          "住宿"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "0424525678",
+        "district": "西屯區",
+        "location": {
+          "lat": 24.1742023,
+          "lng": 120.6349939
+        }
+      },
+      {
+        "id": "taichung-108",
+        "name": "沐心泉休閒農場（沁心泉休閒農場）",
+        "address": "臺中市新社區中興街60號",
+        "serviceType": [
+          "餐飲",
+          "娛樂"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-25931201",
+        "district": "新社區",
+        "location": {
+          "lat": 24.1494259,
+          "lng": 120.8472024
+        }
+      },
+      {
+        "id": "taichung-109",
+        "name": "洄流餐食(鑫長榮餐飲有限公司)",
+        "address": "臺中市北區雙十路二段21號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-22260086",
+        "district": "北區",
+        "location": {
+          "lat": 24.152421,
+          "lng": 120.6885402
+        }
+      },
+      {
+        "id": "taichung-110",
+        "name": "流星花園民宿(流星花園休閒農場)",
+        "address": "臺中市豐原區水源路坪頂巷8號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-25151456",
+        "district": "豐原區",
+        "location": {
+          "lat": 24.2595256,
+          "lng": 120.7649057
+        }
+      },
+      {
+        "id": "taichung-111",
+        "name": "浪浪別哭(貳捌肆捌企業社)",
+        "address": "臺中市南屯區干城街214巷1號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬"
+        ],
+        "phone": "04-22547018",
+        "district": "南屯區",
+        "location": {
+          "lat": 24.1519496,
+          "lng": 120.6298387
+        }
+      },
+      {
+        "id": "taichung-112",
+        "name": "浮雲客棧股份有限公司",
+        "address": "臺中市西屯區西安街277巷59號",
+        "serviceType": [
+          "住宿"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-27065855",
+        "district": "西屯區",
+        "location": {
+          "lat": 24.1839396,
+          "lng": 120.6480821
+        }
+      },
+      {
+        "id": "taichung-113",
+        "name": "海灣樂世界 HiONE 啵比星球(海灣樂世界股份有限公司)",
+        "address": "臺中市北屯區東山路二段151-2號",
+        "serviceType": [
+          "餐飲",
+          "娛樂"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-22399520",
+        "district": "北屯區",
+        "location": {
+          "lat": 24.1985861,
+          "lng": 120.7639943
+        }
+      },
+      {
+        "id": "taichung-114",
+        "name": "深耕寵物森林園區",
+        "address": "臺中市太平區山田路26巷5號",
+        "serviceType": [
+          "其他"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-22759189",
+        "district": "太平區",
+        "location": {
+          "lat": 24.1142669,
+          "lng": 120.7861217
+        }
+      },
+      {
+        "id": "taichung-115",
+        "name": "淳垚鍋物(港垚有限公司)",
+        "address": "臺中市南屯區大墩十二街210號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-23210029",
+        "district": "南屯區",
+        "location": {
+          "lat": 24.150068,
+          "lng": 120.6494659
+        }
+      },
+      {
+        "id": "taichung-116",
+        "name": "無理 WULI（昂宸餐飲店）",
+        "address": "臺中市西區公正路156巷4號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-23010123",
+        "district": "西區",
+        "location": {
+          "lat": 24.14957,
+          "lng": 120.6609549
+        }
+      },
+      {
+        "id": "taichung-117",
+        "name": "特力屋台中北屯店(特力屋股份有限公司北屯分公司)",
+        "address": "臺中市北屯區北屯路407之1號",
+        "serviceType": [
+          "其他"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-22471000",
+        "district": "北屯區",
+        "location": {
+          "lat": 24.173462,
+          "lng": 120.6978557
+        }
+      },
+      {
+        "id": "taichung-118",
+        "name": "特力屋台中西屯店(特力屋股份有限公司西屯分公司)",
+        "address": "臺中市西屯區台灣大道四段528號",
+        "serviceType": [
+          "其他"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-24629333",
+        "district": "西屯區",
+        "location": {
+          "lat": 24.178581,
+          "lng": 120.6254625
+        }
+      },
+      {
+        "id": "taichung-119",
+        "name": "特力屋台中豐原店(特力屋股份有限公司豐原分公司)",
+        "address": "臺中市豐原區水源路420號",
+        "serviceType": [
+          "其他"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "0425132200",
+        "district": "豐原區",
+        "location": {
+          "lat": 24.2568576,
+          "lng": 120.7348293
+        }
+      },
+      {
+        "id": "taichung-120",
+        "name": "玩具車庫咖啡店",
+        "address": "臺中市豐原區長壽路北三巷19號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-25272201",
+        "district": "豐原區",
+        "location": {
+          "lat": 24.2536387,
+          "lng": 120.746153
+        }
+      },
+      {
+        "id": "taichung-121",
+        "name": "甜罄工作坊",
+        "address": "臺中市后里區民生路57巷1-6號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "0965117372",
+        "district": "后里區",
+        "location": {
+          "lat": 24.3084513,
+          "lng": 120.7170665
+        }
+      },
+      {
+        "id": "taichung-122",
+        "name": "用上自然膳食堂",
+        "address": "臺中市大肚區大肚藍色公路51號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-26910731",
+        "district": "大肚區",
+        "location": {
+          "lat": 24.1555732,
+          "lng": 120.569352
+        }
+      },
+      {
+        "id": "taichung-123",
+        "name": "米克C房 C+Kitchen 港式私房料理（詩家廚房有限公司）",
+        "address": "臺中市太平區祥順路一段91號青山和園",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "0916-446239",
+        "district": "太平區",
+        "location": {
+          "lat": 24.1375796,
+          "lng": 120.718661
+        }
+      },
+      {
+        "id": "taichung-124",
+        "name": "糧薪客棧（糧薪商行沙鹿分部）",
+        "address": "54台灣臺中市沙鹿區沙田路30-1號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "0928-798899",
+        "district": "沙鹿區",
+        "location": {
+          "lat": 24.22652,
+          "lng": 120.558527
+        }
+      },
+      {
+        "id": "taichung-125",
+        "name": "紙箱王創意園區(紙箱王有限公司)",
+        "address": "臺中市北屯區廊 子 路 六五一巷2號",
+        "serviceType": [
+          "餐飲",
+          "娛樂"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-22398868",
+        "district": "北屯區",
+        "location": {
+          "lat": 24.1776909,
+          "lng": 120.7388276
+        }
+      },
+      {
+        "id": "taichung-126",
+        "name": "綠光計畫(范特喜微創文化股份有限公司)",
+        "address": "臺中市西區中興一巷19號",
+        "serviceType": [
+          "娛樂"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-23050519",
+        "district": "西區",
+        "location": {
+          "lat": 24.1473963,
+          "lng": 120.6623668
+        }
+      },
+      {
+        "id": "taichung-127",
+        "name": "緣橋汽車旅館",
+        "address": "臺中市南屯區大墩十一街433號",
+        "serviceType": [
+          "住宿"
+        ],
+        "petType": [
+          "犬"
+        ],
+        "phone": "0422521868",
+        "district": "南屯區",
+        "location": {
+          "lat": 24.1482729,
+          "lng": 120.6415328
+        }
+      },
+      {
+        "id": "taichung-128",
+        "name": "美好年代餐飲顧問有限公司",
+        "address": "臺中市西區模範街31巷7弄7號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-23020330",
+        "district": "西區",
+        "location": {
+          "lat": 24.1493549,
+          "lng": 120.6656964
+        }
+      },
+      {
+        "id": "taichung-129",
+        "name": "翔仔居家（寬承實業有限公司）",
+        "address": "67台灣臺中市北屯區瀋陽北路30號",
+        "serviceType": [
+          "其他"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-22912328",
+        "district": "北屯區",
+        "location": {
+          "lat": 24.1768024,
+          "lng": 120.6727603
+        }
+      },
+      {
+        "id": "taichung-130",
+        "name": "老地方寵物生活館 - 十甲店(好地方寵物用品有限公司)",
+        "address": "臺中市東區十甲東路622號1樓",
+        "serviceType": [
+          "其他"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-22136126",
+        "district": "東區",
+        "location": {
+          "lat": 24.1434112,
+          "lng": 120.7090249
+        }
+      },
+      {
+        "id": "taichung-131",
+        "name": "老地方寵物生活館 - 南屯一店(老地方南屯有限公司)",
+        "address": "臺中市南屯區五權西路二段82號",
+        "serviceType": [
+          "其他"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-24715683",
+        "district": "南屯區",
+        "location": {
+          "lat": 24.1402606,
+          "lng": 120.652258
+        }
+      },
+      {
+        "id": "taichung-132",
+        "name": "老地方寵物生活館 - 南屯二店(老地方五權有限公司)",
+        "address": "臺中市南屯區五權西路二段207號",
+        "serviceType": [
+          "其他"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-24710918",
+        "district": "南屯區",
+        "location": {
+          "lat": 24.1398114,
+          "lng": 120.6488137
+        }
+      },
+      {
+        "id": "taichung-133",
+        "name": "老地方寵物生活館 - 大里旗艦店(老地方大里有限公司)",
+        "address": "臺中市大里區大明路415號",
+        "serviceType": [
+          "其他"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-24060936",
+        "district": "大里區",
+        "location": {
+          "lat": 24.1147381,
+          "lng": 120.6782787
+        }
+      },
+      {
+        "id": "taichung-134",
+        "name": "老地方寵物生活館 - 天津店(老地方國際有限公司)",
+        "address": "臺中市北屯區天津路三段45號",
+        "serviceType": [
+          "其他"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-22341405",
+        "district": "北屯區",
+        "location": {
+          "lat": 24.1698458,
+          "lng": 120.6809871
+        }
+      },
+      {
+        "id": "taichung-135",
+        "name": "老地方寵物生活館 - 福科店(老地方五權有限公司福科分公司)",
+        "address": "臺中市西屯區福林里福科路635號",
+        "serviceType": [
+          "其他"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-24636183",
+        "district": "西屯區",
+        "location": {
+          "lat": 24.1875771,
+          "lng": 120.6092893
+        }
+      },
+      {
+        "id": "taichung-136",
+        "name": "老地方寵物生活館 - 西屯旗艦店(老地方國際行銷有限公司)",
+        "address": "臺中市西屯區成都路319號",
+        "serviceType": [
+          "其他"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-22956136",
+        "district": "西屯區",
+        "location": {
+          "lat": 24.1728066,
+          "lng": 120.6637445
+        }
+      },
+      {
+        "id": "taichung-137",
+        "name": "肉肉燒肉五權店(幸福肉肉燒肉店)",
+        "address": "臺中市南屯區五權西路二段223號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-24721166",
+        "district": "南屯區",
+        "location": {
+          "lat": 24.1398662,
+          "lng": 120.6486207
+        }
+      },
+      {
+        "id": "taichung-138",
+        "name": "肉肉燒肉朝馬店(肉肉燒肉店)",
+        "address": "臺中市西屯區朝馬路70號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-22580090",
+        "district": "西屯區",
+        "location": {
+          "lat": 24.1689625,
+          "lng": 120.6367118
+        }
+      },
+      {
+        "id": "taichung-139",
+        "name": "背包客饞(喬米莉號)",
+        "address": "臺中市南屯區文心南二路396號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "0424730316",
+        "district": "南屯區",
+        "location": {
+          "lat": 24.136201,
+          "lng": 120.6446085
+        }
+      },
+      {
+        "id": "taichung-140",
+        "name": "自己印紙膠帶(豐鵬商標膠帶股份有限公司)",
+        "address": "臺中市南屯區永春東路195號",
+        "serviceType": [
+          "娛樂"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-24739873",
+        "district": "南屯區",
+        "location": {
+          "lat": 24.1346402,
+          "lng": 120.6515795
+        }
+      },
+      {
+        "id": "taichung-141",
+        "name": "臺中市大雅區公所",
+        "address": "臺中市大雅區雅環路二段301號",
+        "serviceType": [
+          "其他"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-25663316",
+        "district": "大雅區",
+        "location": {
+          "lat": 24.2290415,
+          "lng": 120.6478072
+        }
+      },
+      {
+        "id": "taichung-142",
+        "name": "臺中市霧峰區公所",
+        "address": "臺中市霧峰區大同路20號",
+        "serviceType": [
+          "其他"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "0423397128",
+        "district": "霧峰區",
+        "location": {
+          "lat": 24.06113,
+          "lng": 120.7000959
+        }
+      },
+      {
+        "id": "taichung-143",
+        "name": "艸聲手碟（鐵皮駅商行）",
+        "address": "臺中市西區向上北路106號",
+        "serviceType": [
+          "娛樂"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-23019859",
+        "district": "西區",
+        "location": {
+          "lat": 24.1479951,
+          "lng": 120.6639566
+        }
+      },
+      {
+        "id": "taichung-144",
+        "name": "茶馬司訪山茶店: TEAMARS（上花饌餐飲股份有限公司）",
+        "address": "臺中市南屯區惠文路536號1樓",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-22550011",
+        "district": "南屯區",
+        "location": {
+          "lat": 24.1480787,
+          "lng": 120.6440326
+        }
+      },
+      {
+        "id": "taichung-145",
+        "name": "薰衣草森林(新社森林股份有限公司)",
+        "address": "臺中市新社區中興街20號",
+        "serviceType": [
+          "餐飲",
+          "娛樂",
+          "其他"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "0425931066",
+        "district": "新社區",
+        "location": {
+          "lat": 24.1284934,
+          "lng": 120.8413297
+        }
+      },
+      {
+        "id": "taichung-146",
+        "name": "製餃研所（鶴餃商行）",
+        "address": "臺中市西區中興一巷12號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "0920-022646",
+        "district": "西區",
+        "location": {
+          "lat": 24.1476175,
+          "lng": 120.662627
+        }
+      },
+      {
+        "id": "taichung-147",
+        "name": "貓老闆",
+        "address": "臺中市大里區大里路109號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-24851983",
+        "district": "大里區",
+        "location": {
+          "lat": 24.1033079,
+          "lng": 120.6858043
+        }
+      },
+      {
+        "id": "taichung-148",
+        "name": "貓起來吃(這裡沒有貓)",
+        "address": "臺中市西區臺灣大道二段522號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "貓"
+        ],
+        "phone": "04-23139989",
+        "district": "西區",
+        "location": {
+          "lat": 24.1569437,
+          "lng": 120.6605154
+        }
+      },
+      {
+        "id": "taichung-149",
+        "name": "貓邸老咖有限公司",
+        "address": "臺中市北區東光一街21號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-22353855",
+        "district": "北區",
+        "location": {
+          "lat": 24.1522689,
+          "lng": 120.6998419
+        }
+      },
+      {
+        "id": "taichung-150",
+        "name": "踏踏地球 Ta Ta Earth (韋米雲樂寵物生活用品店)",
+        "address": "臺中市西區精誠九街10號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-23270776",
+        "district": "西區",
+        "location": {
+          "lat": 24.1538804,
+          "lng": 120.655868
+        }
+      },
+      {
+        "id": "taichung-151",
+        "name": "逗戶雞蛋糕（逗戶幸福商行）",
+        "address": "臺中市西區精誠十五街36號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-23201796",
+        "district": "西區",
+        "location": {
+          "lat": 24.151195,
+          "lng": 120.6560698
+        }
+      },
+      {
+        "id": "taichung-152",
+        "name": "運通機車出租(鑫運通小客車租賃有限公司)",
+        "address": "臺中市中區建國路212號",
+        "serviceType": [
+          "交通"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-22250698",
+        "district": "中區",
+        "location": {
+          "lat": 24.1385798,
+          "lng": 120.6859794
+        }
+      },
+      {
+        "id": "taichung-153",
+        "name": "野沐私房菜",
+        "address": "臺中市北屯區南興北二路111號",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
+        "phone": "0952-685111",
+        "district": "北屯區",
+        "location": {
+          "lat": 24.1923318,
+          "lng": 120.7078924
+        }
+      },
+      {
+        "id": "taichung-154",
         "name": "野菜共和國(德運事業有限公司)",
         "address": "臺中市西區博館路111號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
         "phone": "04-23280558",
         "district": "西區",
         "location": {
@@ -68,11 +2861,18 @@
         }
       },
       {
-        "id": "taichung-5",
+        "id": "taichung-155",
         "name": "金典 綠園道商場（日華金典國際酒店股份有限公司中港分公司）",
         "address": "臺中市北區健行路1049號",
-        "serviceType": "餐飲,娛樂",
-        "petType": "犬,貓,其他",
+        "serviceType": [
+          "餐飲",
+          "娛樂"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
         "phone": "04-23198000",
         "district": "北區",
         "location": {
@@ -81,11 +2881,16 @@
         }
       },
       {
-        "id": "taichung-6",
+        "id": "taichung-156",
         "name": "金沙時尚有限公司",
         "address": "臺中市北區太平路201號",
-        "serviceType": "住宿",
-        "petType": "犬,貓",
+        "serviceType": [
+          "住宿"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
         "phone": "0422083388",
         "district": "北區",
         "location": {
@@ -94,11 +2899,15 @@
         }
       },
       {
-        "id": "taichung-7",
+        "id": "taichung-157",
         "name": "閒情驛棧民宿（閒情驛站民宿）",
         "address": "臺中市石岡區豐勢路梅子巷17號",
-        "serviceType": "住宿",
-        "petType": "犬",
+        "serviceType": [
+          "住宿"
+        ],
+        "petType": [
+          "犬"
+        ],
         "phone": "0910-541317",
         "district": "石岡區",
         "location": {
@@ -107,11 +2916,16 @@
         }
       },
       {
-        "id": "taichung-8",
+        "id": "taichung-158",
         "name": "阿利珈多咖啡館",
         "address": "臺中市北區永興街98巷14號1樓",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
         "phone": "無電話，請以Instagram聯繫",
         "district": "北區",
         "location": {
@@ -120,11 +2934,16 @@
         }
       },
       {
-        "id": "taichung-9",
+        "id": "taichung-159",
         "name": "阿金食堂",
         "address": "臺中市大雅區雅環路一段154巷18號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
         "phone": "0902-010657",
         "district": "大雅區",
         "location": {
@@ -133,11 +2952,17 @@
         }
       },
       {
-        "id": "taichung-10",
+        "id": "taichung-160",
         "name": "露達寵物生活工坊（露達寵物工坊）",
         "address": "臺中市霧峰區中正路750號1樓",
-        "serviceType": "娛樂",
-        "petType": "犬,貓,其他",
+        "serviceType": [
+          "娛樂"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
         "phone": "0981816720",
         "district": "霧峰區",
         "location": {
@@ -146,11 +2971,18 @@
         }
       },
       {
-        "id": "taichung-11",
+        "id": "taichung-161",
         "name": "青青湖畔親水花園(陽光樂活飲食店)",
         "address": "臺中市北屯區東山路二段188號",
-        "serviceType": "餐飲,娛樂",
-        "petType": "犬,貓,其他",
+        "serviceType": [
+          "餐飲",
+          "娛樂"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
         "phone": "04-22393161",
         "district": "北屯區",
         "location": {
@@ -159,11 +2991,16 @@
         }
       },
       {
-        "id": "taichung-12",
+        "id": "taichung-162",
         "name": "順咖啡(順順咖啡)",
         "address": "臺中市中區市府路107巷1-2號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
         "phone": "04-22217157",
         "district": "中區",
         "location": {
@@ -172,11 +3009,17 @@
         }
       },
       {
-        "id": "taichung-13",
+        "id": "taichung-163",
         "name": "飪室咖哩-公正店（昂洋有限公司公正分店）",
         "address": "臺中市西區公正路168號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓,其他",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
         "phone": "04-23010857",
         "district": "西區",
         "location": {
@@ -185,11 +3028,17 @@
         }
       },
       {
-        "id": "taichung-14",
+        "id": "taichung-164",
         "name": "飪室咖哩-勤美店（昂洋有限公司）",
         "address": "臺中市西區美村路一段149巷19號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓,其他",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
         "phone": "04-23220857",
         "district": "西區",
         "location": {
@@ -198,11 +3047,15 @@
         }
       },
       {
-        "id": "taichung-15",
+        "id": "taichung-165",
         "name": "飽屋寵物美容鮮食館",
         "address": "臺中市西屯區大隆路72號2樓",
-        "serviceType": "娛樂",
-        "petType": "犬",
+        "serviceType": [
+          "娛樂"
+        ],
+        "petType": [
+          "犬"
+        ],
         "phone": "0966-293606",
         "district": "西屯區",
         "location": {
@@ -211,11 +3064,16 @@
         }
       },
       {
-        "id": "taichung-16",
+        "id": "taichung-166",
         "name": "養鍋中科店(永亮商行)",
         "address": "臺中市西屯區西屯路三段95-1號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
         "phone": "04-24608666",
         "district": "西屯區",
         "location": {
@@ -224,11 +3082,16 @@
         }
       },
       {
-        "id": "taichung-17",
+        "id": "taichung-167",
         "name": "養鍋南屯黎明店(樂軒家商行)",
         "address": "臺中市南屯區干城街309號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
         "phone": "0422500586",
         "district": "南屯區",
         "location": {
@@ -237,11 +3100,16 @@
         }
       },
       {
-        "id": "taichung-18",
+        "id": "taichung-168",
         "name": "養鍋大里店(圓曜商行)",
         "address": "臺中市大里區大明路242號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
         "phone": "04-24823889",
         "district": "大里區",
         "location": {
@@ -250,11 +3118,16 @@
         }
       },
       {
-        "id": "taichung-19",
+        "id": "taichung-169",
         "name": "養鍋大雅店(耀津小吃部)",
         "address": "臺中市大雅區中清東路271號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
         "phone": "04-25608922",
         "district": "大雅區",
         "location": {
@@ -263,11 +3136,16 @@
         }
       },
       {
-        "id": "taichung-20",
+        "id": "taichung-170",
         "name": "養鍋忠孝夜市店(品味小吃店)",
         "address": "臺中市南區忠孝路208號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
         "phone": "04-22850233",
         "district": "南區",
         "location": {
@@ -276,11 +3154,16 @@
         }
       },
       {
-        "id": "taichung-21",
+        "id": "taichung-171",
         "name": "養鍋文心店(佳倍商行)",
         "address": "臺中市北屯區文心路四段679號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
         "phone": "04-22435589",
         "district": "北屯區",
         "location": {
@@ -289,11 +3172,16 @@
         }
       },
       {
-        "id": "taichung-22",
+        "id": "taichung-172",
         "name": "養鍋水湳經貿店(巨會商行)",
         "address": "臺中市西屯區中平路161號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
+        "serviceType": [
+          "餐飲"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
         "phone": "04-22954398",
         "district": "西屯區",
         "location": {
@@ -302,11 +3190,16 @@
         }
       },
       {
-        "id": "taichung-23",
+        "id": "taichung-173",
         "name": "魔技健康運動休閒用品有限公司",
         "address": "臺中市西屯區福星北路31號",
-        "serviceType": "娛樂",
-        "petType": "犬,貓",
+        "serviceType": [
+          "娛樂"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
         "phone": "04-24630152",
         "district": "西屯區",
         "location": {
@@ -315,11 +3208,17 @@
         }
       },
       {
-        "id": "taichung-24",
+        "id": "taichung-174",
         "name": "魚中魚貓狗水族大賣場-北屯店（魚中魚樂活有限公司北屯分公司）",
         "address": "66台灣臺中市北屯區文心路四段319號",
-        "serviceType": "其他",
-        "petType": "犬,貓,其他",
+        "serviceType": [
+          "其他"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
         "phone": "04-22478866",
         "district": "北屯區",
         "location": {
@@ -328,11 +3227,17 @@
         }
       },
       {
-        "id": "taichung-25",
+        "id": "taichung-175",
         "name": "魚中魚貓狗水族大賣場-南屯店（魚中魚樂活有限公司南屯分公司）",
         "address": "臺中市南屯區五權西路二段80號",
-        "serviceType": "其他",
-        "petType": "犬,貓,其他",
+        "serviceType": [
+          "其他"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
         "phone": "04-24732266",
         "district": "南屯區",
         "location": {
@@ -341,11 +3246,17 @@
         }
       },
       {
-        "id": "taichung-26",
+        "id": "taichung-176",
         "name": "魚中魚貓狗水族大賣場-大里店（大魚寵物有限公司）",
         "address": "臺中市大里區國光路二段505號",
-        "serviceType": "其他",
-        "petType": "犬,貓,其他",
+        "serviceType": [
+          "其他"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
         "phone": "04-24073388",
         "district": "大里區",
         "location": {
@@ -354,11 +3265,17 @@
         }
       },
       {
-        "id": "taichung-27",
+        "id": "taichung-177",
         "name": "魚中魚貓狗水族大賣場-文心店（慶福水族有限公司）",
         "address": "62台灣臺中市南屯區文心路一段372號",
-        "serviceType": "其他",
-        "petType": "犬,貓,其他",
+        "serviceType": [
+          "其他"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
         "phone": "04-23292999",
         "district": "南屯區",
         "location": {
@@ -367,11 +3284,17 @@
         }
       },
       {
-        "id": "taichung-28",
+        "id": "taichung-178",
         "name": "魚中魚貓狗水族大賣場-文昌店（大魚寵物有限公司文昌分公司）",
         "address": "臺中市北屯區文心路四段806號",
-        "serviceType": "其他",
-        "petType": "犬,貓,其他",
+        "serviceType": [
+          "其他"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
         "phone": "04-22368818",
         "district": "北屯區",
         "location": {
@@ -380,11 +3303,17 @@
         }
       },
       {
-        "id": "taichung-29",
+        "id": "taichung-179",
         "name": "魚中魚貓狗水族大賣場–豐原店（魚中魚樂活有限公司豐原分公司）",
         "address": "臺中市豐原區豐原大道六段835號",
-        "serviceType": "其他",
-        "petType": "犬,貓,其他",
+        "serviceType": [
+          "其他"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
         "phone": "04-25158666",
         "district": "豐原區",
         "location": {
@@ -393,11 +3322,16 @@
         }
       },
       {
-        "id": "taichung-0",
+        "id": "taichung-180",
         "name": "鵝牌氣密窗(鵝牌科技有限公司)",
         "address": "臺中市沙鹿區東大路二段1536號",
-        "serviceType": "其他",
-        "petType": "犬,貓",
+        "serviceType": [
+          "其他"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
         "phone": "0426150066",
         "district": "沙鹿區",
         "location": {
@@ -406,11 +3340,18 @@
         }
       },
       {
-        "id": "taichung-1",
+        "id": "taichung-181",
         "name": "麗寶OutletMall(麗鑫綜合百貨股份有限公司)",
         "address": "臺中市后里區福容路201 號",
-        "serviceType": "餐飲,娛樂",
-        "petType": "犬,貓,其他",
+        "serviceType": [
+          "餐飲",
+          "娛樂"
+        ],
+        "petType": [
+          "犬",
+          "貓",
+          "其他"
+        ],
         "phone": "0437022888",
         "district": "后里區",
         "location": {
@@ -419,11 +3360,16 @@
         }
       },
       {
-        "id": "taichung-2",
+        "id": "taichung-182",
         "name": "麗都賓館(麗都企業社)",
         "address": "臺中市西屯區中康街81號",
-        "serviceType": "住宿",
-        "petType": "犬,貓",
+        "serviceType": [
+          "住宿"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
         "phone": "04-24250016",
         "district": "西屯區",
         "location": {
@@ -432,1961 +3378,17 @@
         }
       },
       {
-        "id": "taichung-3",
+        "id": "taichung-183",
         "name": "黑虎的肉肉食堂",
         "address": "臺中市梧棲區建國北街259巷70號1樓",
-        "serviceType": "餐飲,其他",
-        "petType": "犬,貓",
-        "phone": "0921-096367",
-        "district": "梧棲區",
-        "location": {
-          "lat": 24.2494683,
-          "lng": 120.5314808
-        }
-      },
-      {
-        "id": "taichung-4",
-        "name": "野菜共和國(德運事業有限公司)",
-        "address": "臺中市西區博館路111號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "04-23280558",
-        "district": "西區",
-        "location": {
-          "lat": 24.156328,
-          "lng": 120.665431
-        }
-      },
-      {
-        "id": "taichung-5",
-        "name": "金典 綠園道商場（日華金典國際酒店股份有限公司中港分公司）",
-        "address": "臺中市北區健行路1049號",
-        "serviceType": "餐飲,娛樂",
-        "petType": "犬,貓,其他",
-        "phone": "04-23198000",
-        "district": "北區",
-        "location": {
-          "lat": 24.1559989,
-          "lng": 120.6631766
-        }
-      },
-      {
-        "id": "taichung-6",
-        "name": "金沙時尚有限公司",
-        "address": "臺中市北區太平路201號",
-        "serviceType": "住宿",
-        "petType": "犬,貓",
-        "phone": "0422083388",
-        "district": "北區",
-        "location": {
-          "lat": 24.1504351,
-          "lng": 120.6785274
-        }
-      },
-      {
-        "id": "taichung-7",
-        "name": "閒情驛棧民宿（閒情驛站民宿）",
-        "address": "臺中市石岡區豐勢路梅子巷17號",
-        "serviceType": "住宿",
-        "petType": "犬",
-        "phone": "0910-541317",
-        "district": "石岡區",
-        "location": {
-          "lat": 24.269526,
-          "lng": 120.8014513
-        }
-      },
-      {
-        "id": "taichung-8",
-        "name": "阿利珈多咖啡館",
-        "address": "臺中市北區永興街98巷14號1樓",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "無電話，請以Instagram聯繫",
-        "district": "北區",
-        "location": {
-          "lat": 24.161059,
-          "lng": 120.6828666
-        }
-      },
-      {
-        "id": "taichung-9",
-        "name": "阿金食堂",
-        "address": "臺中市大雅區雅環路一段154巷18號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "0902-010657",
-        "district": "大雅區",
-        "location": {
-          "lat": 24.2178694,
-          "lng": 120.6538196
-        }
-      },
-      {
-        "id": "taichung-10",
-        "name": "露達寵物生活工坊（露達寵物工坊）",
-        "address": "臺中市霧峰區中正路750號1樓",
-        "serviceType": "娛樂",
-        "petType": "犬,貓,其他",
-        "phone": "0981816720",
-        "district": "霧峰區",
-        "location": {
-          "lat": 24.0597407,
-          "lng": 120.6982501
-        }
-      },
-      {
-        "id": "taichung-11",
-        "name": "青青湖畔親水花園(陽光樂活飲食店)",
-        "address": "臺中市北屯區東山路二段188號",
-        "serviceType": "餐飲,娛樂",
-        "petType": "犬,貓,其他",
-        "phone": "04-22393161",
-        "district": "北屯區",
-        "location": {
-          "lat": 24.204593,
-          "lng": 120.7918208
-        }
-      },
-      {
-        "id": "taichung-12",
-        "name": "順咖啡(順順咖啡)",
-        "address": "臺中市中區市府路107巷1-2號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "04-22217157",
-        "district": "中區",
-        "location": {
-          "lat": 24.1413262,
-          "lng": 120.6814283
-        }
-      },
-      {
-        "id": "taichung-13",
-        "name": "飪室咖哩-公正店（昂洋有限公司公正分店）",
-        "address": "臺中市西區公正路168號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓,其他",
-        "phone": "04-23010857",
-        "district": "西區",
-        "location": {
-          "lat": 24.1491073,
-          "lng": 120.6606352
-        }
-      },
-      {
-        "id": "taichung-14",
-        "name": "飪室咖哩-勤美店（昂洋有限公司）",
-        "address": "臺中市西區美村路一段149巷19號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓,其他",
-        "phone": "04-23220857",
-        "district": "西區",
-        "location": {
-          "lat": 24.1515896,
-          "lng": 120.6624764
-        }
-      },
-      {
-        "id": "taichung-15",
-        "name": "飽屋寵物美容鮮食館",
-        "address": "臺中市西屯區大隆路72號2樓",
-        "serviceType": "娛樂",
-        "petType": "犬",
-        "phone": "0966-293606",
-        "district": "西屯區",
-        "location": {
-          "lat": 24.1567457,
-          "lng": 120.6524542
-        }
-      },
-      {
-        "id": "taichung-16",
-        "name": "養鍋中科店(永亮商行)",
-        "address": "臺中市西屯區西屯路三段95-1號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "04-24608666",
-        "district": "西屯區",
-        "location": {
-          "lat": 24.1839737,
-          "lng": 120.627626
-        }
-      },
-      {
-        "id": "taichung-17",
-        "name": "養鍋南屯黎明店(樂軒家商行)",
-        "address": "臺中市南屯區干城街309號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "0422500586",
-        "district": "南屯區",
-        "location": {
-          "lat": 24.1526536,
-          "lng": 120.6347126
-        }
-      },
-      {
-        "id": "taichung-18",
-        "name": "養鍋大里店(圓曜商行)",
-        "address": "臺中市大里區大明路242號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "04-24823889",
-        "district": "大里區",
-        "location": {
-          "lat": 24.1153688,
-          "lng": 120.6836519
-        }
-      },
-      {
-        "id": "taichung-19",
-        "name": "養鍋大雅店(耀津小吃部)",
-        "address": "臺中市大雅區中清東路271號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "04-25608922",
-        "district": "大雅區",
-        "location": {
-          "lat": 24.2254215,
-          "lng": 120.6459861
-        }
-      },
-      {
-        "id": "taichung-20",
-        "name": "養鍋忠孝夜市店(品味小吃店)",
-        "address": "臺中市南區忠孝路208號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "04-22850233",
-        "district": "南區",
-        "location": {
-          "lat": 24.1303043,
-          "lng": 120.6839625
-        }
-      },
-      {
-        "id": "taichung-21",
-        "name": "養鍋文心店(佳倍商行)",
-        "address": "臺中市北屯區文心路四段679號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "04-22435589",
-        "district": "北屯區",
-        "location": {
-          "lat": 24.1720701,
-          "lng": 120.6878936
-        }
-      },
-      {
-        "id": "taichung-22",
-        "name": "養鍋水湳經貿店(巨會商行)",
-        "address": "臺中市西屯區中平路161號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "04-22954398",
-        "district": "西屯區",
-        "location": {
-          "lat": 24.1764124,
-          "lng": 120.6633975
-        }
-      },
-      {
-        "id": "taichung-23",
-        "name": "魔技健康運動休閒用品有限公司",
-        "address": "臺中市西屯區福星北路31號",
-        "serviceType": "娛樂",
-        "petType": "犬,貓",
-        "phone": "04-24630152",
-        "district": "西屯區",
-        "location": {
-          "lat": 24.1835564,
-          "lng": 120.6446123
-        }
-      },
-      {
-        "id": "taichung-24",
-        "name": "魚中魚貓狗水族大賣場-北屯店（魚中魚樂活有限公司北屯分公司）",
-        "address": "66台灣臺中市北屯區文心路四段319號",
-        "serviceType": "其他",
-        "petType": "犬,貓,其他",
-        "phone": "04-22478866",
-        "district": "北屯區",
-        "location": {
-          "lat": 24.1729666,
-          "lng": 120.68025
-        }
-      },
-      {
-        "id": "taichung-25",
-        "name": "魚中魚貓狗水族大賣場-南屯店（魚中魚樂活有限公司南屯分公司）",
-        "address": "臺中市南屯區五權西路二段80號",
-        "serviceType": "其他",
-        "petType": "犬,貓,其他",
-        "phone": "04-24732266",
-        "district": "南屯區",
-        "location": {
-          "lat": 24.1404182,
-          "lng": 120.6524319
-        }
-      },
-      {
-        "id": "taichung-26",
-        "name": "魚中魚貓狗水族大賣場-大里店（大魚寵物有限公司）",
-        "address": "臺中市大里區國光路二段505號",
-        "serviceType": "其他",
-        "petType": "犬,貓,其他",
-        "phone": "04-24073388",
-        "district": "大里區",
-        "location": {
-          "lat": 24.1113649,
-          "lng": 120.6789902
-        }
-      },
-      {
-        "id": "taichung-27",
-        "name": "魚中魚貓狗水族大賣場-文心店（慶福水族有限公司）",
-        "address": "62台灣臺中市南屯區文心路一段372號",
-        "serviceType": "其他",
-        "petType": "犬,貓,其他",
-        "phone": "04-23292999",
-        "district": "南屯區",
-        "location": {
-          "lat": 24.1491614,
-          "lng": 120.6471518
-        }
-      },
-      {
-        "id": "taichung-28",
-        "name": "魚中魚貓狗水族大賣場-文昌店（大魚寵物有限公司文昌分公司）",
-        "address": "臺中市北屯區文心路四段806號",
-        "serviceType": "其他",
-        "petType": "犬,貓,其他",
-        "phone": "04-22368818",
-        "district": "北屯區",
-        "location": {
-          "lat": 24.1714563,
-          "lng": 120.6898178
-        }
-      },
-      {
-        "id": "taichung-29",
-        "name": "魚中魚貓狗水族大賣場–豐原店（魚中魚樂活有限公司豐原分公司）",
-        "address": "臺中市豐原區豐原大道六段835號",
-        "serviceType": "其他",
-        "petType": "犬,貓,其他",
-        "phone": "04-25158666",
-        "district": "豐原區",
-        "location": {
-          "lat": 24.2638611,
-          "lng": 120.7207308
-        }
-      },
-      {
-        "id": "taichung-0",
-        "name": "鵝牌氣密窗(鵝牌科技有限公司)",
-        "address": "臺中市沙鹿區東大路二段1536號",
-        "serviceType": "其他",
-        "petType": "犬,貓",
-        "phone": "0426150066",
-        "district": "沙鹿區",
-        "location": {
-          "lat": 24.240883,
-          "lng": 120.6148772
-        }
-      },
-      {
-        "id": "taichung-1",
-        "name": "麗寶OutletMall(麗鑫綜合百貨股份有限公司)",
-        "address": "臺中市后里區福容路201 號",
-        "serviceType": "餐飲,娛樂",
-        "petType": "犬,貓,其他",
-        "phone": "0437022888",
-        "district": "后里區",
-        "location": {
-          "lat": 24.3242215,
-          "lng": 120.6991794
-        }
-      },
-      {
-        "id": "taichung-2",
-        "name": "麗都賓館(麗都企業社)",
-        "address": "臺中市西屯區中康街81號",
-        "serviceType": "住宿",
-        "petType": "犬,貓",
-        "phone": "04-24250016",
-        "district": "西屯區",
-        "location": {
-          "lat": 24.1963484,
-          "lng": 120.6594805
-        }
-      },
-      {
-        "id": "taichung-3",
-        "name": "黑虎的肉肉食堂",
-        "address": "臺中市梧棲區建國北街259巷70號1樓",
-        "serviceType": "餐飲,其他",
-        "petType": "犬,貓",
-        "phone": "0921-096367",
-        "district": "梧棲區",
-        "location": {
-          "lat": 24.2494683,
-          "lng": 120.5314808
-        }
-      },
-      {
-        "id": "taichung-4",
-        "name": "野菜共和國(德運事業有限公司)",
-        "address": "臺中市西區博館路111號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "04-23280558",
-        "district": "西區",
-        "location": {
-          "lat": 24.156328,
-          "lng": 120.665431
-        }
-      },
-      {
-        "id": "taichung-5",
-        "name": "金典 綠園道商場（日華金典國際酒店股份有限公司中港分公司）",
-        "address": "臺中市北區健行路1049號",
-        "serviceType": "餐飲,娛樂",
-        "petType": "犬,貓,其他",
-        "phone": "04-23198000",
-        "district": "北區",
-        "location": {
-          "lat": 24.1559989,
-          "lng": 120.6631766
-        }
-      },
-      {
-        "id": "taichung-6",
-        "name": "金沙時尚有限公司",
-        "address": "臺中市北區太平路201號",
-        "serviceType": "住宿",
-        "petType": "犬,貓",
-        "phone": "0422083388",
-        "district": "北區",
-        "location": {
-          "lat": 24.1504351,
-          "lng": 120.6785274
-        }
-      },
-      {
-        "id": "taichung-7",
-        "name": "閒情驛棧民宿（閒情驛站民宿）",
-        "address": "臺中市石岡區豐勢路梅子巷17號",
-        "serviceType": "住宿",
-        "petType": "犬",
-        "phone": "0910-541317",
-        "district": "石岡區",
-        "location": {
-          "lat": 24.269526,
-          "lng": 120.8014513
-        }
-      },
-      {
-        "id": "taichung-8",
-        "name": "阿利珈多咖啡館",
-        "address": "臺中市北區永興街98巷14號1樓",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "無電話，請以Instagram聯繫",
-        "district": "北區",
-        "location": {
-          "lat": 24.161059,
-          "lng": 120.6828666
-        }
-      },
-      {
-        "id": "taichung-9",
-        "name": "阿金食堂",
-        "address": "臺中市大雅區雅環路一段154巷18號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "0902-010657",
-        "district": "大雅區",
-        "location": {
-          "lat": 24.2178694,
-          "lng": 120.6538196
-        }
-      },
-      {
-        "id": "taichung-10",
-        "name": "露達寵物生活工坊（露達寵物工坊）",
-        "address": "臺中市霧峰區中正路750號1樓",
-        "serviceType": "娛樂",
-        "petType": "犬,貓,其他",
-        "phone": "0981816720",
-        "district": "霧峰區",
-        "location": {
-          "lat": 24.0597407,
-          "lng": 120.6982501
-        }
-      },
-      {
-        "id": "taichung-11",
-        "name": "青青湖畔親水花園(陽光樂活飲食店)",
-        "address": "臺中市北屯區東山路二段188號",
-        "serviceType": "餐飲,娛樂",
-        "petType": "犬,貓,其他",
-        "phone": "04-22393161",
-        "district": "北屯區",
-        "location": {
-          "lat": 24.204593,
-          "lng": 120.7918208
-        }
-      },
-      {
-        "id": "taichung-12",
-        "name": "順咖啡(順順咖啡)",
-        "address": "臺中市中區市府路107巷1-2號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "04-22217157",
-        "district": "中區",
-        "location": {
-          "lat": 24.1413262,
-          "lng": 120.6814283
-        }
-      },
-      {
-        "id": "taichung-13",
-        "name": "飪室咖哩-公正店（昂洋有限公司公正分店）",
-        "address": "臺中市西區公正路168號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓,其他",
-        "phone": "04-23010857",
-        "district": "西區",
-        "location": {
-          "lat": 24.1491073,
-          "lng": 120.6606352
-        }
-      },
-      {
-        "id": "taichung-14",
-        "name": "飪室咖哩-勤美店（昂洋有限公司）",
-        "address": "臺中市西區美村路一段149巷19號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓,其他",
-        "phone": "04-23220857",
-        "district": "西區",
-        "location": {
-          "lat": 24.1515896,
-          "lng": 120.6624764
-        }
-      },
-      {
-        "id": "taichung-15",
-        "name": "飽屋寵物美容鮮食館",
-        "address": "臺中市西屯區大隆路72號2樓",
-        "serviceType": "娛樂",
-        "petType": "犬",
-        "phone": "0966-293606",
-        "district": "西屯區",
-        "location": {
-          "lat": 24.1567457,
-          "lng": 120.6524542
-        }
-      },
-      {
-        "id": "taichung-16",
-        "name": "養鍋中科店(永亮商行)",
-        "address": "臺中市西屯區西屯路三段95-1號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "04-24608666",
-        "district": "西屯區",
-        "location": {
-          "lat": 24.1839737,
-          "lng": 120.627626
-        }
-      },
-      {
-        "id": "taichung-17",
-        "name": "養鍋南屯黎明店(樂軒家商行)",
-        "address": "臺中市南屯區干城街309號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "0422500586",
-        "district": "南屯區",
-        "location": {
-          "lat": 24.1526536,
-          "lng": 120.6347126
-        }
-      },
-      {
-        "id": "taichung-18",
-        "name": "養鍋大里店(圓曜商行)",
-        "address": "臺中市大里區大明路242號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "04-24823889",
-        "district": "大里區",
-        "location": {
-          "lat": 24.1153688,
-          "lng": 120.6836519
-        }
-      },
-      {
-        "id": "taichung-19",
-        "name": "養鍋大雅店(耀津小吃部)",
-        "address": "臺中市大雅區中清東路271號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "04-25608922",
-        "district": "大雅區",
-        "location": {
-          "lat": 24.2254215,
-          "lng": 120.6459861
-        }
-      },
-      {
-        "id": "taichung-20",
-        "name": "養鍋忠孝夜市店(品味小吃店)",
-        "address": "臺中市南區忠孝路208號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "04-22850233",
-        "district": "南區",
-        "location": {
-          "lat": 24.1303043,
-          "lng": 120.6839625
-        }
-      },
-      {
-        "id": "taichung-21",
-        "name": "養鍋文心店(佳倍商行)",
-        "address": "臺中市北屯區文心路四段679號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "04-22435589",
-        "district": "北屯區",
-        "location": {
-          "lat": 24.1720701,
-          "lng": 120.6878936
-        }
-      },
-      {
-        "id": "taichung-22",
-        "name": "養鍋水湳經貿店(巨會商行)",
-        "address": "臺中市西屯區中平路161號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "04-22954398",
-        "district": "西屯區",
-        "location": {
-          "lat": 24.1764124,
-          "lng": 120.6633975
-        }
-      },
-      {
-        "id": "taichung-23",
-        "name": "魔技健康運動休閒用品有限公司",
-        "address": "臺中市西屯區福星北路31號",
-        "serviceType": "娛樂",
-        "petType": "犬,貓",
-        "phone": "04-24630152",
-        "district": "西屯區",
-        "location": {
-          "lat": 24.1835564,
-          "lng": 120.6446123
-        }
-      },
-      {
-        "id": "taichung-24",
-        "name": "魚中魚貓狗水族大賣場-北屯店（魚中魚樂活有限公司北屯分公司）",
-        "address": "66台灣臺中市北屯區文心路四段319號",
-        "serviceType": "其他",
-        "petType": "犬,貓,其他",
-        "phone": "04-22478866",
-        "district": "北屯區",
-        "location": {
-          "lat": 24.1729666,
-          "lng": 120.68025
-        }
-      },
-      {
-        "id": "taichung-25",
-        "name": "魚中魚貓狗水族大賣場-南屯店（魚中魚樂活有限公司南屯分公司）",
-        "address": "臺中市南屯區五權西路二段80號",
-        "serviceType": "其他",
-        "petType": "犬,貓,其他",
-        "phone": "04-24732266",
-        "district": "南屯區",
-        "location": {
-          "lat": 24.1404182,
-          "lng": 120.6524319
-        }
-      },
-      {
-        "id": "taichung-26",
-        "name": "魚中魚貓狗水族大賣場-大里店（大魚寵物有限公司）",
-        "address": "臺中市大里區國光路二段505號",
-        "serviceType": "其他",
-        "petType": "犬,貓,其他",
-        "phone": "04-24073388",
-        "district": "大里區",
-        "location": {
-          "lat": 24.1113649,
-          "lng": 120.6789902
-        }
-      },
-      {
-        "id": "taichung-27",
-        "name": "魚中魚貓狗水族大賣場-文心店（慶福水族有限公司）",
-        "address": "62台灣臺中市南屯區文心路一段372號",
-        "serviceType": "其他",
-        "petType": "犬,貓,其他",
-        "phone": "04-23292999",
-        "district": "南屯區",
-        "location": {
-          "lat": 24.1491614,
-          "lng": 120.6471518
-        }
-      },
-      {
-        "id": "taichung-28",
-        "name": "魚中魚貓狗水族大賣場-文昌店（大魚寵物有限公司文昌分公司）",
-        "address": "臺中市北屯區文心路四段806號",
-        "serviceType": "其他",
-        "petType": "犬,貓,其他",
-        "phone": "04-22368818",
-        "district": "北屯區",
-        "location": {
-          "lat": 24.1714563,
-          "lng": 120.6898178
-        }
-      },
-      {
-        "id": "taichung-29",
-        "name": "魚中魚貓狗水族大賣場–豐原店（魚中魚樂活有限公司豐原分公司）",
-        "address": "臺中市豐原區豐原大道六段835號",
-        "serviceType": "其他",
-        "petType": "犬,貓,其他",
-        "phone": "04-25158666",
-        "district": "豐原區",
-        "location": {
-          "lat": 24.2638611,
-          "lng": 120.7207308
-        }
-      },
-      {
-        "id": "taichung-0",
-        "name": "鵝牌氣密窗(鵝牌科技有限公司)",
-        "address": "臺中市沙鹿區東大路二段1536號",
-        "serviceType": "其他",
-        "petType": "犬,貓",
-        "phone": "0426150066",
-        "district": "沙鹿區",
-        "location": {
-          "lat": 24.240883,
-          "lng": 120.6148772
-        }
-      },
-      {
-        "id": "taichung-1",
-        "name": "麗寶OutletMall(麗鑫綜合百貨股份有限公司)",
-        "address": "臺中市后里區福容路201 號",
-        "serviceType": "餐飲,娛樂",
-        "petType": "犬,貓,其他",
-        "phone": "0437022888",
-        "district": "后里區",
-        "location": {
-          "lat": 24.3242215,
-          "lng": 120.6991794
-        }
-      },
-      {
-        "id": "taichung-2",
-        "name": "麗都賓館(麗都企業社)",
-        "address": "臺中市西屯區中康街81號",
-        "serviceType": "住宿",
-        "petType": "犬,貓",
-        "phone": "04-24250016",
-        "district": "西屯區",
-        "location": {
-          "lat": 24.1963484,
-          "lng": 120.6594805
-        }
-      },
-      {
-        "id": "taichung-3",
-        "name": "黑虎的肉肉食堂",
-        "address": "臺中市梧棲區建國北街259巷70號1樓",
-        "serviceType": "餐飲,其他",
-        "petType": "犬,貓",
-        "phone": "0921-096367",
-        "district": "梧棲區",
-        "location": {
-          "lat": 24.2494683,
-          "lng": 120.5314808
-        }
-      },
-      {
-        "id": "taichung-4",
-        "name": "野菜共和國(德運事業有限公司)",
-        "address": "臺中市西區博館路111號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "04-23280558",
-        "district": "西區",
-        "location": {
-          "lat": 24.156328,
-          "lng": 120.665431
-        }
-      },
-      {
-        "id": "taichung-5",
-        "name": "金典 綠園道商場（日華金典國際酒店股份有限公司中港分公司）",
-        "address": "臺中市北區健行路1049號",
-        "serviceType": "餐飲,娛樂",
-        "petType": "犬,貓,其他",
-        "phone": "04-23198000",
-        "district": "北區",
-        "location": {
-          "lat": 24.1559989,
-          "lng": 120.6631766
-        }
-      },
-      {
-        "id": "taichung-6",
-        "name": "金沙時尚有限公司",
-        "address": "臺中市北區太平路201號",
-        "serviceType": "住宿",
-        "petType": "犬,貓",
-        "phone": "0422083388",
-        "district": "北區",
-        "location": {
-          "lat": 24.1504351,
-          "lng": 120.6785274
-        }
-      },
-      {
-        "id": "taichung-7",
-        "name": "閒情驛棧民宿（閒情驛站民宿）",
-        "address": "臺中市石岡區豐勢路梅子巷17號",
-        "serviceType": "住宿",
-        "petType": "犬",
-        "phone": "0910-541317",
-        "district": "石岡區",
-        "location": {
-          "lat": 24.269526,
-          "lng": 120.8014513
-        }
-      },
-      {
-        "id": "taichung-8",
-        "name": "阿利珈多咖啡館",
-        "address": "臺中市北區永興街98巷14號1樓",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "無電話，請以Instagram聯繫",
-        "district": "北區",
-        "location": {
-          "lat": 24.161059,
-          "lng": 120.6828666
-        }
-      },
-      {
-        "id": "taichung-9",
-        "name": "阿金食堂",
-        "address": "臺中市大雅區雅環路一段154巷18號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "0902-010657",
-        "district": "大雅區",
-        "location": {
-          "lat": 24.2178694,
-          "lng": 120.6538196
-        }
-      },
-      {
-        "id": "taichung-10",
-        "name": "露達寵物生活工坊（露達寵物工坊）",
-        "address": "臺中市霧峰區中正路750號1樓",
-        "serviceType": "娛樂",
-        "petType": "犬,貓,其他",
-        "phone": "0981816720",
-        "district": "霧峰區",
-        "location": {
-          "lat": 24.0597407,
-          "lng": 120.6982501
-        }
-      },
-      {
-        "id": "taichung-11",
-        "name": "青青湖畔親水花園(陽光樂活飲食店)",
-        "address": "臺中市北屯區東山路二段188號",
-        "serviceType": "餐飲,娛樂",
-        "petType": "犬,貓,其他",
-        "phone": "04-22393161",
-        "district": "北屯區",
-        "location": {
-          "lat": 24.204593,
-          "lng": 120.7918208
-        }
-      },
-      {
-        "id": "taichung-12",
-        "name": "順咖啡(順順咖啡)",
-        "address": "臺中市中區市府路107巷1-2號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "04-22217157",
-        "district": "中區",
-        "location": {
-          "lat": 24.1413262,
-          "lng": 120.6814283
-        }
-      },
-      {
-        "id": "taichung-13",
-        "name": "飪室咖哩-公正店（昂洋有限公司公正分店）",
-        "address": "臺中市西區公正路168號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓,其他",
-        "phone": "04-23010857",
-        "district": "西區",
-        "location": {
-          "lat": 24.1491073,
-          "lng": 120.6606352
-        }
-      },
-      {
-        "id": "taichung-14",
-        "name": "飪室咖哩-勤美店（昂洋有限公司）",
-        "address": "臺中市西區美村路一段149巷19號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓,其他",
-        "phone": "04-23220857",
-        "district": "西區",
-        "location": {
-          "lat": 24.1515896,
-          "lng": 120.6624764
-        }
-      },
-      {
-        "id": "taichung-15",
-        "name": "飽屋寵物美容鮮食館",
-        "address": "臺中市西屯區大隆路72號2樓",
-        "serviceType": "娛樂",
-        "petType": "犬",
-        "phone": "0966-293606",
-        "district": "西屯區",
-        "location": {
-          "lat": 24.1567457,
-          "lng": 120.6524542
-        }
-      },
-      {
-        "id": "taichung-16",
-        "name": "養鍋中科店(永亮商行)",
-        "address": "臺中市西屯區西屯路三段95-1號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "04-24608666",
-        "district": "西屯區",
-        "location": {
-          "lat": 24.1839737,
-          "lng": 120.627626
-        }
-      },
-      {
-        "id": "taichung-17",
-        "name": "養鍋南屯黎明店(樂軒家商行)",
-        "address": "臺中市南屯區干城街309號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "0422500586",
-        "district": "南屯區",
-        "location": {
-          "lat": 24.1526536,
-          "lng": 120.6347126
-        }
-      },
-      {
-        "id": "taichung-18",
-        "name": "養鍋大里店(圓曜商行)",
-        "address": "臺中市大里區大明路242號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "04-24823889",
-        "district": "大里區",
-        "location": {
-          "lat": 24.1153688,
-          "lng": 120.6836519
-        }
-      },
-      {
-        "id": "taichung-19",
-        "name": "養鍋大雅店(耀津小吃部)",
-        "address": "臺中市大雅區中清東路271號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "04-25608922",
-        "district": "大雅區",
-        "location": {
-          "lat": 24.2254215,
-          "lng": 120.6459861
-        }
-      },
-      {
-        "id": "taichung-20",
-        "name": "養鍋忠孝夜市店(品味小吃店)",
-        "address": "臺中市南區忠孝路208號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "04-22850233",
-        "district": "南區",
-        "location": {
-          "lat": 24.1303043,
-          "lng": 120.6839625
-        }
-      },
-      {
-        "id": "taichung-21",
-        "name": "養鍋文心店(佳倍商行)",
-        "address": "臺中市北屯區文心路四段679號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "04-22435589",
-        "district": "北屯區",
-        "location": {
-          "lat": 24.1720701,
-          "lng": 120.6878936
-        }
-      },
-      {
-        "id": "taichung-22",
-        "name": "養鍋水湳經貿店(巨會商行)",
-        "address": "臺中市西屯區中平路161號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "04-22954398",
-        "district": "西屯區",
-        "location": {
-          "lat": 24.1764124,
-          "lng": 120.6633975
-        }
-      },
-      {
-        "id": "taichung-23",
-        "name": "魔技健康運動休閒用品有限公司",
-        "address": "臺中市西屯區福星北路31號",
-        "serviceType": "娛樂",
-        "petType": "犬,貓",
-        "phone": "04-24630152",
-        "district": "西屯區",
-        "location": {
-          "lat": 24.1835564,
-          "lng": 120.6446123
-        }
-      },
-      {
-        "id": "taichung-24",
-        "name": "魚中魚貓狗水族大賣場-北屯店（魚中魚樂活有限公司北屯分公司）",
-        "address": "66台灣臺中市北屯區文心路四段319號",
-        "serviceType": "其他",
-        "petType": "犬,貓,其他",
-        "phone": "04-22478866",
-        "district": "北屯區",
-        "location": {
-          "lat": 24.1729666,
-          "lng": 120.68025
-        }
-      },
-      {
-        "id": "taichung-25",
-        "name": "魚中魚貓狗水族大賣場-南屯店（魚中魚樂活有限公司南屯分公司）",
-        "address": "臺中市南屯區五權西路二段80號",
-        "serviceType": "其他",
-        "petType": "犬,貓,其他",
-        "phone": "04-24732266",
-        "district": "南屯區",
-        "location": {
-          "lat": 24.1404182,
-          "lng": 120.6524319
-        }
-      },
-      {
-        "id": "taichung-26",
-        "name": "魚中魚貓狗水族大賣場-大里店（大魚寵物有限公司）",
-        "address": "臺中市大里區國光路二段505號",
-        "serviceType": "其他",
-        "petType": "犬,貓,其他",
-        "phone": "04-24073388",
-        "district": "大里區",
-        "location": {
-          "lat": 24.1113649,
-          "lng": 120.6789902
-        }
-      },
-      {
-        "id": "taichung-27",
-        "name": "魚中魚貓狗水族大賣場-文心店（慶福水族有限公司）",
-        "address": "62台灣臺中市南屯區文心路一段372號",
-        "serviceType": "其他",
-        "petType": "犬,貓,其他",
-        "phone": "04-23292999",
-        "district": "南屯區",
-        "location": {
-          "lat": 24.1491614,
-          "lng": 120.6471518
-        }
-      },
-      {
-        "id": "taichung-28",
-        "name": "魚中魚貓狗水族大賣場-文昌店（大魚寵物有限公司文昌分公司）",
-        "address": "臺中市北屯區文心路四段806號",
-        "serviceType": "其他",
-        "petType": "犬,貓,其他",
-        "phone": "04-22368818",
-        "district": "北屯區",
-        "location": {
-          "lat": 24.1714563,
-          "lng": 120.6898178
-        }
-      },
-      {
-        "id": "taichung-29",
-        "name": "魚中魚貓狗水族大賣場–豐原店（魚中魚樂活有限公司豐原分公司）",
-        "address": "臺中市豐原區豐原大道六段835號",
-        "serviceType": "其他",
-        "petType": "犬,貓,其他",
-        "phone": "04-25158666",
-        "district": "豐原區",
-        "location": {
-          "lat": 24.2638611,
-          "lng": 120.7207308
-        }
-      },
-      {
-        "id": "taichung-0",
-        "name": "鵝牌氣密窗(鵝牌科技有限公司)",
-        "address": "臺中市沙鹿區東大路二段1536號",
-        "serviceType": "其他",
-        "petType": "犬,貓",
-        "phone": "0426150066",
-        "district": "沙鹿區",
-        "location": {
-          "lat": 24.240883,
-          "lng": 120.6148772
-        }
-      },
-      {
-        "id": "taichung-1",
-        "name": "麗寶OutletMall(麗鑫綜合百貨股份有限公司)",
-        "address": "臺中市后里區福容路201 號",
-        "serviceType": "餐飲,娛樂",
-        "petType": "犬,貓,其他",
-        "phone": "0437022888",
-        "district": "后里區",
-        "location": {
-          "lat": 24.3242215,
-          "lng": 120.6991794
-        }
-      },
-      {
-        "id": "taichung-2",
-        "name": "麗都賓館(麗都企業社)",
-        "address": "臺中市西屯區中康街81號",
-        "serviceType": "住宿",
-        "petType": "犬,貓",
-        "phone": "04-24250016",
-        "district": "西屯區",
-        "location": {
-          "lat": 24.1963484,
-          "lng": 120.6594805
-        }
-      },
-      {
-        "id": "taichung-3",
-        "name": "黑虎的肉肉食堂",
-        "address": "臺中市梧棲區建國北街259巷70號1樓",
-        "serviceType": "餐飲,其他",
-        "petType": "犬,貓",
-        "phone": "0921-096367",
-        "district": "梧棲區",
-        "location": {
-          "lat": 24.2494683,
-          "lng": 120.5314808
-        }
-      },
-      {
-        "id": "taichung-4",
-        "name": "野菜共和國(德運事業有限公司)",
-        "address": "臺中市西區博館路111號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "04-23280558",
-        "district": "西區",
-        "location": {
-          "lat": 24.156328,
-          "lng": 120.665431
-        }
-      },
-      {
-        "id": "taichung-5",
-        "name": "金典 綠園道商場（日華金典國際酒店股份有限公司中港分公司）",
-        "address": "臺中市北區健行路1049號",
-        "serviceType": "餐飲,娛樂",
-        "petType": "犬,貓,其他",
-        "phone": "04-23198000",
-        "district": "北區",
-        "location": {
-          "lat": 24.1559989,
-          "lng": 120.6631766
-        }
-      },
-      {
-        "id": "taichung-6",
-        "name": "金沙時尚有限公司",
-        "address": "臺中市北區太平路201號",
-        "serviceType": "住宿",
-        "petType": "犬,貓",
-        "phone": "0422083388",
-        "district": "北區",
-        "location": {
-          "lat": 24.1504351,
-          "lng": 120.6785274
-        }
-      },
-      {
-        "id": "taichung-7",
-        "name": "閒情驛棧民宿（閒情驛站民宿）",
-        "address": "臺中市石岡區豐勢路梅子巷17號",
-        "serviceType": "住宿",
-        "petType": "犬",
-        "phone": "0910-541317",
-        "district": "石岡區",
-        "location": {
-          "lat": 24.269526,
-          "lng": 120.8014513
-        }
-      },
-      {
-        "id": "taichung-8",
-        "name": "阿利珈多咖啡館",
-        "address": "臺中市北區永興街98巷14號1樓",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "無電話，請以Instagram聯繫",
-        "district": "北區",
-        "location": {
-          "lat": 24.161059,
-          "lng": 120.6828666
-        }
-      },
-      {
-        "id": "taichung-9",
-        "name": "阿金食堂",
-        "address": "臺中市大雅區雅環路一段154巷18號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "0902-010657",
-        "district": "大雅區",
-        "location": {
-          "lat": 24.2178694,
-          "lng": 120.6538196
-        }
-      },
-      {
-        "id": "taichung-10",
-        "name": "露達寵物生活工坊（露達寵物工坊）",
-        "address": "臺中市霧峰區中正路750號1樓",
-        "serviceType": "娛樂",
-        "petType": "犬,貓,其他",
-        "phone": "0981816720",
-        "district": "霧峰區",
-        "location": {
-          "lat": 24.0597407,
-          "lng": 120.6982501
-        }
-      },
-      {
-        "id": "taichung-11",
-        "name": "青青湖畔親水花園(陽光樂活飲食店)",
-        "address": "臺中市北屯區東山路二段188號",
-        "serviceType": "餐飲,娛樂",
-        "petType": "犬,貓,其他",
-        "phone": "04-22393161",
-        "district": "北屯區",
-        "location": {
-          "lat": 24.204593,
-          "lng": 120.7918208
-        }
-      },
-      {
-        "id": "taichung-12",
-        "name": "順咖啡(順順咖啡)",
-        "address": "臺中市中區市府路107巷1-2號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "04-22217157",
-        "district": "中區",
-        "location": {
-          "lat": 24.1413262,
-          "lng": 120.6814283
-        }
-      },
-      {
-        "id": "taichung-13",
-        "name": "飪室咖哩-公正店（昂洋有限公司公正分店）",
-        "address": "臺中市西區公正路168號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓,其他",
-        "phone": "04-23010857",
-        "district": "西區",
-        "location": {
-          "lat": 24.1491073,
-          "lng": 120.6606352
-        }
-      },
-      {
-        "id": "taichung-14",
-        "name": "飪室咖哩-勤美店（昂洋有限公司）",
-        "address": "臺中市西區美村路一段149巷19號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓,其他",
-        "phone": "04-23220857",
-        "district": "西區",
-        "location": {
-          "lat": 24.1515896,
-          "lng": 120.6624764
-        }
-      },
-      {
-        "id": "taichung-15",
-        "name": "飽屋寵物美容鮮食館",
-        "address": "臺中市西屯區大隆路72號2樓",
-        "serviceType": "娛樂",
-        "petType": "犬",
-        "phone": "0966-293606",
-        "district": "西屯區",
-        "location": {
-          "lat": 24.1567457,
-          "lng": 120.6524542
-        }
-      },
-      {
-        "id": "taichung-16",
-        "name": "養鍋中科店(永亮商行)",
-        "address": "臺中市西屯區西屯路三段95-1號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "04-24608666",
-        "district": "西屯區",
-        "location": {
-          "lat": 24.1839737,
-          "lng": 120.627626
-        }
-      },
-      {
-        "id": "taichung-17",
-        "name": "養鍋南屯黎明店(樂軒家商行)",
-        "address": "臺中市南屯區干城街309號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "0422500586",
-        "district": "南屯區",
-        "location": {
-          "lat": 24.1526536,
-          "lng": 120.6347126
-        }
-      },
-      {
-        "id": "taichung-18",
-        "name": "養鍋大里店(圓曜商行)",
-        "address": "臺中市大里區大明路242號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "04-24823889",
-        "district": "大里區",
-        "location": {
-          "lat": 24.1153688,
-          "lng": 120.6836519
-        }
-      },
-      {
-        "id": "taichung-19",
-        "name": "養鍋大雅店(耀津小吃部)",
-        "address": "臺中市大雅區中清東路271號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "04-25608922",
-        "district": "大雅區",
-        "location": {
-          "lat": 24.2254215,
-          "lng": 120.6459861
-        }
-      },
-      {
-        "id": "taichung-20",
-        "name": "養鍋忠孝夜市店(品味小吃店)",
-        "address": "臺中市南區忠孝路208號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "04-22850233",
-        "district": "南區",
-        "location": {
-          "lat": 24.1303043,
-          "lng": 120.6839625
-        }
-      },
-      {
-        "id": "taichung-21",
-        "name": "養鍋文心店(佳倍商行)",
-        "address": "臺中市北屯區文心路四段679號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "04-22435589",
-        "district": "北屯區",
-        "location": {
-          "lat": 24.1720701,
-          "lng": 120.6878936
-        }
-      },
-      {
-        "id": "taichung-22",
-        "name": "養鍋水湳經貿店(巨會商行)",
-        "address": "臺中市西屯區中平路161號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "04-22954398",
-        "district": "西屯區",
-        "location": {
-          "lat": 24.1764124,
-          "lng": 120.6633975
-        }
-      },
-      {
-        "id": "taichung-23",
-        "name": "魔技健康運動休閒用品有限公司",
-        "address": "臺中市西屯區福星北路31號",
-        "serviceType": "娛樂",
-        "petType": "犬,貓",
-        "phone": "04-24630152",
-        "district": "西屯區",
-        "location": {
-          "lat": 24.1835564,
-          "lng": 120.6446123
-        }
-      },
-      {
-        "id": "taichung-24",
-        "name": "魚中魚貓狗水族大賣場-北屯店（魚中魚樂活有限公司北屯分公司）",
-        "address": "66台灣臺中市北屯區文心路四段319號",
-        "serviceType": "其他",
-        "petType": "犬,貓,其他",
-        "phone": "04-22478866",
-        "district": "北屯區",
-        "location": {
-          "lat": 24.1729666,
-          "lng": 120.68025
-        }
-      },
-      {
-        "id": "taichung-25",
-        "name": "魚中魚貓狗水族大賣場-南屯店（魚中魚樂活有限公司南屯分公司）",
-        "address": "臺中市南屯區五權西路二段80號",
-        "serviceType": "其他",
-        "petType": "犬,貓,其他",
-        "phone": "04-24732266",
-        "district": "南屯區",
-        "location": {
-          "lat": 24.1404182,
-          "lng": 120.6524319
-        }
-      },
-      {
-        "id": "taichung-26",
-        "name": "魚中魚貓狗水族大賣場-大里店（大魚寵物有限公司）",
-        "address": "臺中市大里區國光路二段505號",
-        "serviceType": "其他",
-        "petType": "犬,貓,其他",
-        "phone": "04-24073388",
-        "district": "大里區",
-        "location": {
-          "lat": 24.1113649,
-          "lng": 120.6789902
-        }
-      },
-      {
-        "id": "taichung-27",
-        "name": "魚中魚貓狗水族大賣場-文心店（慶福水族有限公司）",
-        "address": "62台灣臺中市南屯區文心路一段372號",
-        "serviceType": "其他",
-        "petType": "犬,貓,其他",
-        "phone": "04-23292999",
-        "district": "南屯區",
-        "location": {
-          "lat": 24.1491614,
-          "lng": 120.6471518
-        }
-      },
-      {
-        "id": "taichung-28",
-        "name": "魚中魚貓狗水族大賣場-文昌店（大魚寵物有限公司文昌分公司）",
-        "address": "臺中市北屯區文心路四段806號",
-        "serviceType": "其他",
-        "petType": "犬,貓,其他",
-        "phone": "04-22368818",
-        "district": "北屯區",
-        "location": {
-          "lat": 24.1714563,
-          "lng": 120.6898178
-        }
-      },
-      {
-        "id": "taichung-29",
-        "name": "魚中魚貓狗水族大賣場–豐原店（魚中魚樂活有限公司豐原分公司）",
-        "address": "臺中市豐原區豐原大道六段835號",
-        "serviceType": "其他",
-        "petType": "犬,貓,其他",
-        "phone": "04-25158666",
-        "district": "豐原區",
-        "location": {
-          "lat": 24.2638611,
-          "lng": 120.7207308
-        }
-      },
-      {
-        "id": "taichung-0",
-        "name": "鵝牌氣密窗(鵝牌科技有限公司)",
-        "address": "臺中市沙鹿區東大路二段1536號",
-        "serviceType": "其他",
-        "petType": "犬,貓",
-        "phone": "0426150066",
-        "district": "沙鹿區",
-        "location": {
-          "lat": 24.240883,
-          "lng": 120.6148772
-        }
-      },
-      {
-        "id": "taichung-1",
-        "name": "麗寶OutletMall(麗鑫綜合百貨股份有限公司)",
-        "address": "臺中市后里區福容路201 號",
-        "serviceType": "餐飲,娛樂",
-        "petType": "犬,貓,其他",
-        "phone": "0437022888",
-        "district": "后里區",
-        "location": {
-          "lat": 24.3242215,
-          "lng": 120.6991794
-        }
-      },
-      {
-        "id": "taichung-2",
-        "name": "麗都賓館(麗都企業社)",
-        "address": "臺中市西屯區中康街81號",
-        "serviceType": "住宿",
-        "petType": "犬,貓",
-        "phone": "04-24250016",
-        "district": "西屯區",
-        "location": {
-          "lat": 24.1963484,
-          "lng": 120.6594805
-        }
-      },
-      {
-        "id": "taichung-3",
-        "name": "黑虎的肉肉食堂",
-        "address": "臺中市梧棲區建國北街259巷70號1樓",
-        "serviceType": "餐飲,其他",
-        "petType": "犬,貓",
-        "phone": "0921-096367",
-        "district": "梧棲區",
-        "location": {
-          "lat": 24.2494683,
-          "lng": 120.5314808
-        }
-      },
-      {
-        "id": "taichung-4",
-        "name": "野菜共和國(德運事業有限公司)",
-        "address": "臺中市西區博館路111號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "04-23280558",
-        "district": "西區",
-        "location": {
-          "lat": 24.156328,
-          "lng": 120.665431
-        }
-      },
-      {
-        "id": "taichung-5",
-        "name": "金典 綠園道商場（日華金典國際酒店股份有限公司中港分公司）",
-        "address": "臺中市北區健行路1049號",
-        "serviceType": "餐飲,娛樂",
-        "petType": "犬,貓,其他",
-        "phone": "04-23198000",
-        "district": "北區",
-        "location": {
-          "lat": 24.1559989,
-          "lng": 120.6631766
-        }
-      },
-      {
-        "id": "taichung-6",
-        "name": "金沙時尚有限公司",
-        "address": "臺中市北區太平路201號",
-        "serviceType": "住宿",
-        "petType": "犬,貓",
-        "phone": "0422083388",
-        "district": "北區",
-        "location": {
-          "lat": 24.1504351,
-          "lng": 120.6785274
-        }
-      },
-      {
-        "id": "taichung-7",
-        "name": "閒情驛棧民宿（閒情驛站民宿）",
-        "address": "臺中市石岡區豐勢路梅子巷17號",
-        "serviceType": "住宿",
-        "petType": "犬",
-        "phone": "0910-541317",
-        "district": "石岡區",
-        "location": {
-          "lat": 24.269526,
-          "lng": 120.8014513
-        }
-      },
-      {
-        "id": "taichung-8",
-        "name": "阿利珈多咖啡館",
-        "address": "臺中市北區永興街98巷14號1樓",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "無電話，請以Instagram聯繫",
-        "district": "北區",
-        "location": {
-          "lat": 24.161059,
-          "lng": 120.6828666
-        }
-      },
-      {
-        "id": "taichung-9",
-        "name": "阿金食堂",
-        "address": "臺中市大雅區雅環路一段154巷18號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "0902-010657",
-        "district": "大雅區",
-        "location": {
-          "lat": 24.2178694,
-          "lng": 120.6538196
-        }
-      },
-      {
-        "id": "taichung-10",
-        "name": "露達寵物生活工坊（露達寵物工坊）",
-        "address": "臺中市霧峰區中正路750號1樓",
-        "serviceType": "娛樂",
-        "petType": "犬,貓,其他",
-        "phone": "0981816720",
-        "district": "霧峰區",
-        "location": {
-          "lat": 24.0597407,
-          "lng": 120.6982501
-        }
-      },
-      {
-        "id": "taichung-11",
-        "name": "青青湖畔親水花園(陽光樂活飲食店)",
-        "address": "臺中市北屯區東山路二段188號",
-        "serviceType": "餐飲,娛樂",
-        "petType": "犬,貓,其他",
-        "phone": "04-22393161",
-        "district": "北屯區",
-        "location": {
-          "lat": 24.204593,
-          "lng": 120.7918208
-        }
-      },
-      {
-        "id": "taichung-12",
-        "name": "順咖啡(順順咖啡)",
-        "address": "臺中市中區市府路107巷1-2號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "04-22217157",
-        "district": "中區",
-        "location": {
-          "lat": 24.1413262,
-          "lng": 120.6814283
-        }
-      },
-      {
-        "id": "taichung-13",
-        "name": "飪室咖哩-公正店（昂洋有限公司公正分店）",
-        "address": "臺中市西區公正路168號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓,其他",
-        "phone": "04-23010857",
-        "district": "西區",
-        "location": {
-          "lat": 24.1491073,
-          "lng": 120.6606352
-        }
-      },
-      {
-        "id": "taichung-14",
-        "name": "飪室咖哩-勤美店（昂洋有限公司）",
-        "address": "臺中市西區美村路一段149巷19號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓,其他",
-        "phone": "04-23220857",
-        "district": "西區",
-        "location": {
-          "lat": 24.1515896,
-          "lng": 120.6624764
-        }
-      },
-      {
-        "id": "taichung-15",
-        "name": "飽屋寵物美容鮮食館",
-        "address": "臺中市西屯區大隆路72號2樓",
-        "serviceType": "娛樂",
-        "petType": "犬",
-        "phone": "0966-293606",
-        "district": "西屯區",
-        "location": {
-          "lat": 24.1567457,
-          "lng": 120.6524542
-        }
-      },
-      {
-        "id": "taichung-16",
-        "name": "養鍋中科店(永亮商行)",
-        "address": "臺中市西屯區西屯路三段95-1號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "04-24608666",
-        "district": "西屯區",
-        "location": {
-          "lat": 24.1839737,
-          "lng": 120.627626
-        }
-      },
-      {
-        "id": "taichung-17",
-        "name": "養鍋南屯黎明店(樂軒家商行)",
-        "address": "臺中市南屯區干城街309號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "0422500586",
-        "district": "南屯區",
-        "location": {
-          "lat": 24.1526536,
-          "lng": 120.6347126
-        }
-      },
-      {
-        "id": "taichung-18",
-        "name": "養鍋大里店(圓曜商行)",
-        "address": "臺中市大里區大明路242號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "04-24823889",
-        "district": "大里區",
-        "location": {
-          "lat": 24.1153688,
-          "lng": 120.6836519
-        }
-      },
-      {
-        "id": "taichung-19",
-        "name": "養鍋大雅店(耀津小吃部)",
-        "address": "臺中市大雅區中清東路271號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "04-25608922",
-        "district": "大雅區",
-        "location": {
-          "lat": 24.2254215,
-          "lng": 120.6459861
-        }
-      },
-      {
-        "id": "taichung-20",
-        "name": "養鍋忠孝夜市店(品味小吃店)",
-        "address": "臺中市南區忠孝路208號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "04-22850233",
-        "district": "南區",
-        "location": {
-          "lat": 24.1303043,
-          "lng": 120.6839625
-        }
-      },
-      {
-        "id": "taichung-21",
-        "name": "養鍋文心店(佳倍商行)",
-        "address": "臺中市北屯區文心路四段679號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "04-22435589",
-        "district": "北屯區",
-        "location": {
-          "lat": 24.1720701,
-          "lng": 120.6878936
-        }
-      },
-      {
-        "id": "taichung-22",
-        "name": "養鍋水湳經貿店(巨會商行)",
-        "address": "臺中市西屯區中平路161號",
-        "serviceType": "餐飲",
-        "petType": "犬,貓",
-        "phone": "04-22954398",
-        "district": "西屯區",
-        "location": {
-          "lat": 24.1764124,
-          "lng": 120.6633975
-        }
-      },
-      {
-        "id": "taichung-23",
-        "name": "魔技健康運動休閒用品有限公司",
-        "address": "臺中市西屯區福星北路31號",
-        "serviceType": "娛樂",
-        "petType": "犬,貓",
-        "phone": "04-24630152",
-        "district": "西屯區",
-        "location": {
-          "lat": 24.1835564,
-          "lng": 120.6446123
-        }
-      },
-      {
-        "id": "taichung-24",
-        "name": "魚中魚貓狗水族大賣場-北屯店（魚中魚樂活有限公司北屯分公司）",
-        "address": "66台灣臺中市北屯區文心路四段319號",
-        "serviceType": "其他",
-        "petType": "犬,貓,其他",
-        "phone": "04-22478866",
-        "district": "北屯區",
-        "location": {
-          "lat": 24.1729666,
-          "lng": 120.68025
-        }
-      },
-      {
-        "id": "taichung-25",
-        "name": "魚中魚貓狗水族大賣場-南屯店（魚中魚樂活有限公司南屯分公司）",
-        "address": "臺中市南屯區五權西路二段80號",
-        "serviceType": "其他",
-        "petType": "犬,貓,其他",
-        "phone": "04-24732266",
-        "district": "南屯區",
-        "location": {
-          "lat": 24.1404182,
-          "lng": 120.6524319
-        }
-      },
-      {
-        "id": "taichung-26",
-        "name": "魚中魚貓狗水族大賣場-大里店（大魚寵物有限公司）",
-        "address": "臺中市大里區國光路二段505號",
-        "serviceType": "其他",
-        "petType": "犬,貓,其他",
-        "phone": "04-24073388",
-        "district": "大里區",
-        "location": {
-          "lat": 24.1113649,
-          "lng": 120.6789902
-        }
-      },
-      {
-        "id": "taichung-27",
-        "name": "魚中魚貓狗水族大賣場-文心店（慶福水族有限公司）",
-        "address": "62台灣臺中市南屯區文心路一段372號",
-        "serviceType": "其他",
-        "petType": "犬,貓,其他",
-        "phone": "04-23292999",
-        "district": "南屯區",
-        "location": {
-          "lat": 24.1491614,
-          "lng": 120.6471518
-        }
-      },
-      {
-        "id": "taichung-28",
-        "name": "魚中魚貓狗水族大賣場-文昌店（大魚寵物有限公司文昌分公司）",
-        "address": "臺中市北屯區文心路四段806號",
-        "serviceType": "其他",
-        "petType": "犬,貓,其他",
-        "phone": "04-22368818",
-        "district": "北屯區",
-        "location": {
-          "lat": 24.1714563,
-          "lng": 120.6898178
-        }
-      },
-      {
-        "id": "taichung-29",
-        "name": "魚中魚貓狗水族大賣場–豐原店（魚中魚樂活有限公司豐原分公司）",
-        "address": "臺中市豐原區豐原大道六段835號",
-        "serviceType": "其他",
-        "petType": "犬,貓,其他",
-        "phone": "04-25158666",
-        "district": "豐原區",
-        "location": {
-          "lat": 24.2638611,
-          "lng": 120.7207308
-        }
-      },
-      {
-        "id": "taichung-0",
-        "name": "鵝牌氣密窗(鵝牌科技有限公司)",
-        "address": "臺中市沙鹿區東大路二段1536號",
-        "serviceType": "其他",
-        "petType": "犬,貓",
-        "phone": "0426150066",
-        "district": "沙鹿區",
-        "location": {
-          "lat": 24.240883,
-          "lng": 120.6148772
-        }
-      },
-      {
-        "id": "taichung-1",
-        "name": "麗寶OutletMall(麗鑫綜合百貨股份有限公司)",
-        "address": "臺中市后里區福容路201 號",
-        "serviceType": "餐飲,娛樂",
-        "petType": "犬,貓,其他",
-        "phone": "0437022888",
-        "district": "后里區",
-        "location": {
-          "lat": 24.3242215,
-          "lng": 120.6991794
-        }
-      },
-      {
-        "id": "taichung-2",
-        "name": "麗都賓館(麗都企業社)",
-        "address": "臺中市西屯區中康街81號",
-        "serviceType": "住宿",
-        "petType": "犬,貓",
-        "phone": "04-24250016",
-        "district": "西屯區",
-        "location": {
-          "lat": 24.1963484,
-          "lng": 120.6594805
-        }
-      },
-      {
-        "id": "taichung-3",
-        "name": "黑虎的肉肉食堂",
-        "address": "臺中市梧棲區建國北街259巷70號1樓",
-        "serviceType": "餐飲,其他",
-        "petType": "犬,貓",
+        "serviceType": [
+          "餐飲",
+          "其他"
+        ],
+        "petType": [
+          "犬",
+          "貓"
+        ],
         "phone": "0921-096367",
         "district": "梧棲區",
         "location": {

@@ -77,9 +77,7 @@ const buildFormattedAddress = (
   originalBase: string,
   suffix: string,
 ): string => {
-  const cleaned = geocodedAddress
-    .replace(/^\d{3}台灣/, '')
-    .replace(/^\d{3}/, '');
+  const cleaned = geocodedAddress.replace(/^\d+台灣/, '');
 
   const originalNumberMatch = originalBase.match(BUILDING_NUMBER_AT_END);
 

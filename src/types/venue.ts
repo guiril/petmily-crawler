@@ -10,6 +10,7 @@ export interface RawVenue {
   serviceType?: string[];
   petType?: string[];
   phone?: string;
+  imageUrl?: string;
 }
 
 export interface Venue extends RawVenue {

@@ -23,7 +23,7 @@ jobs:
 
       - name: Run crawler to update data
         run: npm run crawl
-        timeout-minutes: 5
+        timeout-minutes: 15
 
       - name: Check if data was updated
         run: |

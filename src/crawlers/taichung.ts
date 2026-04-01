@@ -63,7 +63,9 @@ const extractVenuesFromTable = (
         detailUrl,
       };
     })
-    .filter((item) => item.venue.name && item.venue.address) as VenueWithDetailUrl[];
+    .filter(
+      (item) => item.venue.name && item.venue.address
+    ) as VenueWithDetailUrl[];
 };
 
 const getNextUrl = (html: string, currentUrl: string): string => {
@@ -95,35 +97,42 @@ const crawlAllPages = async (
   return updatedItems;
 };
 
+const CONCURRENCY_LIMIT = 10;
+
+const scrapeVenueImage = async ({
+  venue,
+  detailUrl,
+}: VenueWithDetailUrl): Promise<RawVenue> => {
+  if (!detailUrl) return venue;
+
+  try {
+    const html = await fetchHtml(`${BASE_URL}${detailUrl}`);
+    const $ = cheerio.load(html);
+    const imageSrc = $(SELECTORS.detailImage).first().attr('src');
+
+    console.log(`Scraped image for ${venue.name}: ${imageSrc ?? 'none'}`);
+    return {
+      ...venue,
+      imageUrl: imageSrc ? `${BASE_URL}${imageSrc}` : undefined,
+    };
+  } catch (error) {
+    console.error(`Error scraping detail for ${venue.name}:`, error);
+    return venue;
+  }
+};
+
 const scrapeVenueImages = async (
-  items: VenueWithDetailUrl[]
+  venues: VenueWithDetailUrl[]
 ): Promise<RawVenue[]> => {
-  const result: RawVenue[] = [];
+  const results: RawVenue[] = [];
 
-  for (const { venue, detailUrl } of items) {
-    if (!detailUrl) {
-      result.push(venue);
-      continue;
-    }
-
-    try {
-      const html = await fetchHtml(`${BASE_URL}${detailUrl}`);
-      const $ = cheerio.load(html);
-      const imageSrc = $(SELECTORS.detailImage).first().attr('src');
-
-      result.push({
-        ...venue,
-        imageUrl: imageSrc ? `${BASE_URL}${imageSrc}` : undefined,
-      });
-
-      console.log(`Scraped image for ${venue.name}: ${imageSrc ?? 'none'}`);
-    } catch (error) {
-      console.error(`Error scraping detail for ${venue.name}:`, error);
-      result.push(venue);
-    }
+  for (let i = 0; i < venues.length; i += CONCURRENCY_LIMIT) {
+    const venuesBatch = venues.slice(i, i + CONCURRENCY_LIMIT);
+    const scrapedVenues = await Promise.all(venuesBatch.map(scrapeVenueImage));
+    results.push(...scrapedVenues);
   }
 
-  return result;
+  return results;
 };
 
 export const crawlTaichung = async (url: string): Promise<CrawlResult> => {

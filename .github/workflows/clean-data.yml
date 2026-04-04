@@ -58,3 +58,6 @@ jobs:
             git commit -m "Auto clean venues data - $(date +'%Y-%m-%d %H:%M') UTC+8"
             git push
           fi
+
+      - name: Trigger Vercel deploy
+        run: curl -X POST "${{ secrets.VERCEL_DEPLOY_HOOK_URL }}"

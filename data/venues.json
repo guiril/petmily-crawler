@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1775036257,
+  "updatedAt": 1775282973,
   "venues": {
     "taichung": [
       {
@@ -2366,8 +2366,8 @@
         "imageUrl": "https://www.animal.taichung.gov.tw/media/858581/甜罄工作坊.jpg",
         "district": "后里區",
         "location": {
-          "lat": 24.308474,
-          "lng": 120.7170099
+          "lat": 24.3084813,
+          "lng": 120.7170138
         }
       },
       {

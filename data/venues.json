@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1775282973,
+  "updatedAt": 1775560682,
   "venues": {
     "taichung": [
       {
@@ -2432,7 +2432,7 @@
       {
         "id": "taichung-125",
         "name": "紙箱王創意園區(紙箱王有限公司)",
-        "address": "臺中市北屯區廊 子 路 六五一巷2號",
+        "address": "臺中市北屯區東山路二段二巷2號",
         "serviceType": [
           "餐飲",
           "娛樂"
@@ -2445,8 +2445,8 @@
         "imageUrl": "https://www.animal.taichung.gov.tw/media/651792/紙箱王有限公司.jpg",
         "district": "北屯區",
         "location": {
-          "lat": 24.1776909,
-          "lng": 120.7388276
+          "lat": 24.1783467,
+          "lng": 120.7397288
         }
       },
       {

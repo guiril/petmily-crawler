@@ -1,0 +1,11 @@
+{
+  "taichung-125": {
+    "formattedAddress": "臺中市北屯區東山路二段二巷2號",
+    "city": "臺中市",
+    "district": "北屯區",
+    "location": {
+      "lat": 24.1783467,
+      "lng": 120.7397288
+    }
+  }
+}

@@ -17,6 +17,17 @@ import { DATA_SOURCES } from '../config.ts';
 import { geocodeAddress } from './geocoding.ts';
 import { readData } from './storage.ts';
 
+const getOverridesFilePath = (): string =>
+  path.join(__dirname, '..', 'data', 'geocoding-overrides.json');
+
+const loadOverrides = (): Record<string, GeocodeResult> => {
+  try {
+    return JSON.parse(readData(getOverridesFilePath()));
+  } catch {
+    return {};
+  }
+};
+
 interface VenueWithSource extends Venue {
   sourceId: string;
 }
@@ -140,8 +151,16 @@ const saveCleanedData = (
 const geocodeOneVenue = async (
   venue: VenueWithSource,
   apiKey: string,
+  overrides: Record<string, GeocodeResult>,
 ): Promise<VenueWithSource> => {
   console.log(`  Original: ${venue.address}`);
+
+  const override = overrides[venue.id];
+
+  if (override) {
+    console.log(`  Override: ${override.formattedAddress}`);
+    return mergeGeocodedData(venue, override);
+  }
 
   const result = await geocodeAddress(venue.address, apiKey, {
     sourceCity: venue.sourceCity,
@@ -160,6 +179,7 @@ const geocodeOneVenue = async (
 const geocodeVenuesSequentially = async (
   venues: VenueWithSource[],
   apiKey: string,
+  overrides: Record<string, GeocodeResult>,
 ): Promise<GeocodeSummary> => {
   const geocodedVenues: VenueWithSource[] = [];
 
@@ -171,7 +191,7 @@ const geocodeVenuesSequentially = async (
 
     try {
       console.log(`[${i + 1}/${venues.length}] ${venue.name}`);
-      const updatedVenue = await geocodeOneVenue(venue, apiKey);
+      const updatedVenue = await geocodeOneVenue(venue, apiKey, overrides);
 
       geocodedVenues.push(updatedVenue);
       processed += 1;
@@ -263,7 +283,10 @@ const printSummary = (
     return;
   }
 
-  const geocodeResult = await geocodeVenuesSequentially(venuesToGeocode, apiKey);
+  const overrides = loadOverrides();
+  console.log(`Loaded ${Object.keys(overrides).length} geocoding override(s)`);
+
+  const geocodeResult = await geocodeVenuesSequentially(venuesToGeocode, apiKey, overrides);
 
   const geocodedById = new Map(
     geocodeResult.geocodedVenues.map((venue) => [venue.id, venue])

@@ -34,10 +34,7 @@ const getLastUpdateText = (html: string): string | null => {
   return $(SELECTORS.updateText).first().text() || null;
 };
 
-const extractVenuesFromTable = (
-  html: string,
-  startIndex: number
-): VenueWithDetailUrl[] => {
+const extractVenuesFromTable = (html: string, startIndex: number): VenueWithDetailUrl[] => {
   const $ = cheerio.load(html);
 
   return $(SELECTORS.tableRows)
@@ -63,9 +60,7 @@ const extractVenuesFromTable = (
         detailUrl,
       };
     })
-    .filter(
-      (item) => item.venue.name && item.venue.address
-    ) as VenueWithDetailUrl[];
+    .filter((item) => item.venue.name && item.venue.address) as VenueWithDetailUrl[];
 };
 
 const getNextUrl = (html: string, currentUrl: string): string => {
@@ -77,7 +72,7 @@ const getNextUrl = (html: string, currentUrl: string): string => {
 const crawlAllPages = async (
   url: string,
   items: VenueWithDetailUrl[] = [],
-  pageCount: number = 0
+  pageCount: number = 0,
 ): Promise<VenueWithDetailUrl[]> => {
   const currentPage = pageCount + 1;
   console.log(`Crawling page ${currentPage}...`);
@@ -99,10 +94,7 @@ const crawlAllPages = async (
 
 const CONCURRENCY_LIMIT = 10;
 
-const scrapeVenueImage = async ({
-  venue,
-  detailUrl,
-}: VenueWithDetailUrl): Promise<RawVenue> => {
+const scrapeVenueImage = async ({ venue, detailUrl }: VenueWithDetailUrl): Promise<RawVenue> => {
   if (!detailUrl) return venue;
 
   try {
@@ -121,9 +113,7 @@ const scrapeVenueImage = async ({
   }
 };
 
-const scrapeVenueImages = async (
-  venues: VenueWithDetailUrl[]
-): Promise<RawVenue[]> => {
+const scrapeVenueImages = async (venues: VenueWithDetailUrl[]): Promise<RawVenue[]> => {
   const results: RawVenue[] = [];
 
   for (let i = 0; i < venues.length; i += CONCURRENCY_LIMIT) {
@@ -144,9 +134,7 @@ export const crawlTaichung = async (url: string): Promise<CrawlResult> => {
   const firstPageItems = extractVenuesFromTable(firstPageHtml, 0);
   const nextUrl = getNextUrl(firstPageHtml, url);
 
-  const allItems = nextUrl
-    ? await crawlAllPages(nextUrl, firstPageItems, 1)
-    : firstPageItems;
+  const allItems = nextUrl ? await crawlAllPages(nextUrl, firstPageItems, 1) : firstPageItems;
 
   const venues = await scrapeVenueImages(allItems);
 

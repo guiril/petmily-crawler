@@ -5,8 +5,8 @@ const GEOCODING_API_URL = 'https://maps.googleapis.com/maps/api/geocode/json';
 
 // Matches the building number (and anything after) at the end of a string.
 // Connectors: -, 、, 之, / cover cases like 82之1號, 64、66號, 1-2號
-const BUILDING_NUMBER_AT_END = /\d[\d\-、之\/]*號$/;
-const BUILDING_NUMBER_WITH_TAIL = /\d[\d\-、之\/]*號.*$/;
+const BUILDING_NUMBER_AT_END = /\d[\d\-、之/]*號$/;
+const BUILDING_NUMBER_WITH_TAIL = /\d[\d\-、之/]*號.*$/;
 
 interface AddressParts {
   base: string;
@@ -58,10 +58,7 @@ const splitAtBuildingNumber = (address: string): AddressParts => {
   };
 };
 
-const prepareAddress = (
-  address: string,
-  sourceCity: string,
-): PreparedAddress => {
+const prepareAddress = (address: string, sourceCity: string): PreparedAddress => {
   const { base, suffix } = splitAtBuildingNumber(address);
   const hasCity = TAIWAN_CITIES.some((city) => base.startsWith(city));
 
@@ -94,20 +91,14 @@ const buildFormattedAddress = (
   return `${streetPrefix}${originalNumberMatch[0]}${suffix}`;
 };
 
-const parseResult = (
-  result: ApiResult,
-  originalBase: string,
-  suffix: string,
-): GeocodeResult => {
+const parseResult = (result: ApiResult, originalBase: string, suffix: string): GeocodeResult => {
   const components = result.address_components;
 
-  const city = components.find(
-    (component) => component.types.includes('administrative_area_level_1'),
+  const city = components.find((component) =>
+    component.types.includes('administrative_area_level_1'),
   )?.long_name;
 
-  const district = components.find(
-    (component) => /[區鄉鎮]$/.test(component.long_name),
-  )?.long_name;
+  const district = components.find((component) => /[區鄉鎮]$/.test(component.long_name))?.long_name;
 
   return {
     formattedAddress: buildFormattedAddress(result.formatted_address, originalBase, suffix),

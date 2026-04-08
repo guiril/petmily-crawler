@@ -46,22 +46,16 @@ const GEOCODE_DELAY_MS = 200;
 const getDataFilePath = (sourceId: string): string =>
   path.join(__dirname, '..', 'data', `${sourceId}.json`);
 
-const getOutputFilePath = (): string =>
-  path.join(__dirname, '..', 'data', 'venues.json');
+const getOutputFilePath = (): string => path.join(__dirname, '..', 'data', 'venues.json');
 
-const mergeGeocodedData = (
-  venue: VenueWithSource,
-  result: GeocodeResult,
-): VenueWithSource => ({
+const mergeGeocodedData = (venue: VenueWithSource, result: GeocodeResult): VenueWithSource => ({
   ...venue,
   address: result.formattedAddress,
   district: result.district,
   location: result.location,
 });
 
-const groupBySourceId = (
-  venues: VenueWithSource[],
-): Record<string, VenueWithSource[]> =>
+const groupBySourceId = (venues: VenueWithSource[]): Record<string, VenueWithSource[]> =>
   venues.reduce<Record<string, VenueWithSource[]>>((acc, venue) => {
     const { sourceId } = venue;
     return {
@@ -87,17 +81,13 @@ const parseArgs = (): CleanerOptions => {
 
       return acc;
     },
-    { limit: null, dryRun: false }
+    { limit: null, dryRun: false },
   );
 };
 
-const delay = (ms: number): Promise<void> =>
-  new Promise((resolve) => setTimeout(resolve, ms));
+const delay = (ms: number): Promise<void> => new Promise((resolve) => setTimeout(resolve, ms));
 
-const toVenuesWithSource = (
-  source: DataSource,
-  venueData: SourceData
-): VenueWithSource[] =>
+const toVenuesWithSource = (source: DataSource, venueData: SourceData): VenueWithSource[] =>
   venueData.venues.map((venue) => ({
     ...venue,
     sourceCity: venueData.sourceCity,
@@ -125,22 +115,14 @@ const loadAllVenues = (sources: DataSource[]): VenueWithSource[] => {
 const buildCleanedData = (venuesBySourceId: Record<string, VenueWithSource[]>): CleanedData => ({
   updatedAt: Math.floor(Date.now() / 1000),
   venues: Object.fromEntries(
-    Object.entries(venuesBySourceId).map(
-      ([sourceId, venues]) => [
+    Object.entries(venuesBySourceId).map(([sourceId, venues]) => [
       sourceId,
-      venues.map(
-        ({
-          sourceCity: _sourceCity,
-          sourceId: _sourceId,
-          ...rest
-        }) => rest),
-    ])
+      venues.map(({ sourceCity: _sourceCity, sourceId: _sourceId, ...rest }) => rest),
+    ]),
   ),
 });
 
-const saveCleanedData = (
-  venuesBySourceId: Record<string, VenueWithSource[]>
-): void => {
+const saveCleanedData = (venuesBySourceId: Record<string, VenueWithSource[]>): void => {
   const outputPath = getOutputFilePath();
   const cleanedData = buildCleanedData(venuesBySourceId);
 
@@ -196,9 +178,7 @@ const geocodeVenuesSequentially = async (
       geocodedVenues.push(updatedVenue);
       processed += 1;
     } catch (error) {
-      const errorMessage = error instanceof Error
-        ? error.message
-        : String(error);
+      const errorMessage = error instanceof Error ? error.message : String(error);
 
       geocodedVenues.push(venue);
       processed += 1;
@@ -241,11 +221,7 @@ function validateApiKey(apiKey: string | undefined): asserts apiKey is string {
   }
 }
 
-const printSummary = (
-  totalCount: number,
-  processed: number,
-  failed: number,
-): void => {
+const printSummary = (totalCount: number, processed: number, failed: number): void => {
   console.log('\n--- Summary ---');
   console.log(`Total venues: ${totalCount}`);
   console.log(`Processed: ${processed}`);
@@ -264,9 +240,7 @@ const printSummary = (
   console.log('\n=== Processing geocoding ===');
   console.log(`Total venues: ${allVenues.length}`);
 
-  const venuesToGeocode = options.limit
-    ? allVenues.slice(0, options.limit)
-    : allVenues;
+  const venuesToGeocode = options.limit ? allVenues.slice(0, options.limit) : allVenues;
 
   if (options.limit) {
     console.log(`Limited to: ${options.limit} (test mode)`);
@@ -288,13 +262,9 @@ const printSummary = (
 
   const geocodeResult = await geocodeVenuesSequentially(venuesToGeocode, apiKey, overrides);
 
-  const geocodedById = new Map(
-    geocodeResult.geocodedVenues.map((venue) => [venue.id, venue])
-  );
+  const geocodedById = new Map(geocodeResult.geocodedVenues.map((venue) => [venue.id, venue]));
 
-  const updatedVenues = allVenues.map(
-    (venue) => geocodedById.get(venue.id) ?? venue
-  );
+  const updatedVenues = allVenues.map((venue) => geocodedById.get(venue.id) ?? venue);
 
   const venuesGroupedBySourceId = groupBySourceId(updatedVenues);
 

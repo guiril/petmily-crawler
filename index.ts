@@ -17,7 +17,7 @@ const buildUpdatedData = (
   sourceCity: string,
   crawlResult: CrawlResult,
   currentTime: number,
-): SourceData =>({
+): SourceData => ({
   ...existingData,
   sourceCity,
   lastUpdate: crawlResult.lastUpdate,
@@ -38,7 +38,7 @@ const crawlSource = async (source: DataSource): Promise<void> => {
     existingData,
     source.city,
     crawlResult,
-    Math.floor(Date.now() / 1000)
+    Math.floor(Date.now() / 1000),
   );
 
   writeData(dataFilePath, updatedData);
@@ -54,7 +54,7 @@ const crawlSource = async (source: DataSource): Promise<void> => {
       } catch (error) {
         console.error(`Crawler failed for ${source.city}:`, error);
       }
-    })
+    }),
   );
 
   console.log('\n=== All crawlers completed ===');

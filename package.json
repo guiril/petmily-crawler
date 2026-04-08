@@ -7,6 +7,7 @@
     "crawl": "tsx index.ts",
     "clean": "tsx src/cleaner.ts",
     "build": "tsc",
+    "format": "prettier --write .",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "typecheck": "tsc --noEmit",
@@ -24,13 +25,11 @@
     "@eslint/js": "^9.39.2",
     "@types/cheerio": "^0.22.35",
     "@types/node": "^25.0.10",
-    "@typescript-eslint/eslint-plugin": "^8.53.1",
-    "@typescript-eslint/parser": "^8.53.1",
-    "eslint": "^8.57.1",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.32.0",
+    "eslint": "^10.2.0",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "3.8.1",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.53.1"
+    "typescript-eslint": "^8.58.1"
   }
 }

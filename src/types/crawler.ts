@@ -1,15 +1,10 @@
 import type { RawVenue } from './venue.ts';
 
-export interface CrawlResult {
-  lastUpdate: string | null;
-  venues: RawVenue[];
-}
-
-export type CrawlerFn = (url: string) => Promise<CrawlResult>;
+export type CrawlerFn = (url: string) => Promise<RawVenue[]>;
 
 export interface DataSource {
   id: string;
+  /** City name prepended to addresses during geocoding (e.g. "臺中市") */
   city: string;
   url: string;
 }
-

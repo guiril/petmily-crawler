@@ -1,6 +1,6 @@
 import { fileURLToPath } from 'url';
 import path from 'path';
-import type { DataSource, SourceData, CrawlResult } from './src/types/index.ts';
+import type { DataSource, SourceData, RawVenue } from './src/types/index.ts';
 import { getCrawler } from './src/crawlers/index.ts';
 import { readData, writeData } from './src/storage.ts';
 import { DATA_SOURCES } from './config.ts';
@@ -15,29 +15,29 @@ const getDataFilePath = (sourceId: string): string => {
 const buildUpdatedData = (
   existingData: Partial<SourceData>,
   sourceCity: string,
-  crawlResult: CrawlResult,
+  venues: RawVenue[],
   currentTime: number,
 ): SourceData => ({
   ...existingData,
   sourceCity,
-  lastUpdate: crawlResult.lastUpdate,
-  venues: crawlResult.venues,
+  venues,
   scrapedAt: currentTime,
 });
 
 const crawlSource = async (source: DataSource): Promise<void> => {
-  const crawl = getCrawler(source.id);
+  const { id, city, url } = source;
+  const crawl = getCrawler(id);
 
-  console.log(`\n=== Starting crawler for ${source.city} ===`);
+  console.log(`\n=== Starting crawler for ${city} ===`);
 
-  const dataFilePath = getDataFilePath(source.id);
-  const crawlResult: CrawlResult = await crawl(source.url);
+  const dataFilePath = getDataFilePath(id);
+  const venues = await crawl(url);
   const existingData: Partial<SourceData> = JSON.parse(readData(dataFilePath));
 
   const updatedData = buildUpdatedData(
     existingData,
-    source.city,
-    crawlResult,
+    city,
+    venues,
     Math.floor(Date.now() / 1000),
   );
 

@@ -1,12 +1,13 @@
 import * as cheerio from 'cheerio';
-import type { CrawlResult, RawVenue } from '../types/index.ts';
+import type { RawVenue } from '../types/index.ts';
 
-const MAX_PAGES = 50;
 const BASE_URL = 'https://www.animal.taichung.gov.tw';
+const MAX_PAGES = 50;
+const CONCURRENCY_LIMIT = 10;
 
 const SELECTORS = {
-  updateText: '.multiColumn .bulletin p span',
   tableRows: '.list table tbody tr',
+  detailLink: 'td:nth-child(2) a',
   nextButton: '.page ul li.next a[title="下一頁"]',
   detailImage: 'table.meta img[src^="/media/"]',
 };
@@ -21,7 +22,7 @@ const fetchHtml = async (url: string): Promise<string> => {
   return response.text();
 };
 
-const splitField = (value: string | null | undefined): string[] =>
+const splitField = (value: string | undefined): string[] =>
   value
     ? value
         .split(',')
@@ -29,33 +30,28 @@ const splitField = (value: string | null | undefined): string[] =>
         .filter(Boolean)
     : [];
 
-const getLastUpdateText = (html: string): string | null => {
-  const $ = cheerio.load(html);
-  return $(SELECTORS.updateText).first().text() || null;
-};
-
 const extractVenuesFromTable = (html: string, startIndex: number): VenueWithDetailUrl[] => {
   const $ = cheerio.load(html);
 
   return $(SELECTORS.tableRows)
     .toArray()
-    .slice(1)
+    .slice(1) // skip header row
     .map((row, index) => {
-      const cells = $(row)
+      const cellTexts = $(row)
         .find('td')
         .toArray()
-        .map((td) => $(td).text().trim() || null);
+        .map((td) => $(td).text().trim() || undefined);
 
-      const detailUrl = $(row).find('td:nth-child(2) a').attr('href') || null;
+      const detailUrl = $(row).find(SELECTORS.detailLink).attr('href') || null;
 
       return {
         venue: {
           id: `taichung-${startIndex + index}`,
-          name: cells[1],
-          address: cells[4],
-          serviceType: splitField(cells[2]),
-          petType: splitField(cells[3]),
-          phone: cells[5] ?? undefined,
+          name: cellTexts[1],
+          address: cellTexts[4],
+          serviceTypes: splitField(cellTexts[2]),
+          petTypes: splitField(cellTexts[3]),
+          phone: cellTexts[5],
         } as RawVenue,
         detailUrl,
       };
@@ -71,28 +67,25 @@ const getNextUrl = (html: string, currentUrl: string): string => {
 
 const crawlAllPages = async (
   url: string,
-  items: VenueWithDetailUrl[] = [],
-  pageCount: number = 0,
+  collectedVenues: VenueWithDetailUrl[] = [],
+  pageCount: number = 1,
 ): Promise<VenueWithDetailUrl[]> => {
-  const currentPage = pageCount + 1;
-  console.log(`Crawling page ${currentPage}...`);
+  console.log(`Crawling page ${pageCount}...`);
 
   const html = await fetchHtml(url);
-  const currentPageItems = extractVenuesFromTable(html, items.length);
-  const updatedItems = [...items, ...currentPageItems];
+  const currentPageVenues = extractVenuesFromTable(html, collectedVenues.length);
+  const accumulatedVenues = [...collectedVenues, ...currentPageVenues];
 
   const nextUrl = getNextUrl(html, url);
 
-  if (nextUrl && currentPage < MAX_PAGES) {
+  if (nextUrl && pageCount < MAX_PAGES) {
     console.log(`Next page: ${nextUrl}`);
-    return crawlAllPages(nextUrl, updatedItems, currentPage);
+    return crawlAllPages(nextUrl, accumulatedVenues, pageCount + 1);
   }
 
-  console.log(`Total pages crawled: ${currentPage}`);
-  return updatedItems;
+  console.log(`Total pages crawled: ${pageCount}`);
+  return accumulatedVenues;
 };
-
-const CONCURRENCY_LIMIT = 10;
 
 const scrapeVenueImage = async ({ venue, detailUrl }: VenueWithDetailUrl): Promise<RawVenue> => {
   if (!detailUrl) return venue;
@@ -125,18 +118,10 @@ const scrapeVenueImages = async (venues: VenueWithDetailUrl[]): Promise<RawVenue
   return results;
 };
 
-export const crawlTaichung = async (url: string): Promise<CrawlResult> => {
+export const crawlTaichung = async (url: string): Promise<RawVenue[]> => {
   console.log(`Starting crawl: ${url}`);
 
-  const firstPageHtml = await fetchHtml(url);
-  const lastUpdate = getLastUpdateText(firstPageHtml);
+  const venuesWithDetailUrl = await crawlAllPages(url);
 
-  const firstPageItems = extractVenuesFromTable(firstPageHtml, 0);
-  const nextUrl = getNextUrl(firstPageHtml, url);
-
-  const allItems = nextUrl ? await crawlAllPages(nextUrl, firstPageItems, 1) : firstPageItems;
-
-  const venues = await scrapeVenueImages(allItems);
-
-  return { lastUpdate, venues };
+  return scrapeVenueImages(venuesWithDetailUrl);
 };

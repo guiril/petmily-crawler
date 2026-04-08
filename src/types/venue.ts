@@ -7,8 +7,8 @@ export interface RawVenue {
   id: string;
   name: string;
   address: string;
-  serviceType?: string[];
-  petType?: string[];
+  serviceTypes?: string[];
+  petTypes?: string[];
   phone?: string;
   imageUrl?: string;
 }
@@ -21,12 +21,11 @@ export interface Venue extends RawVenue {
 
 export interface SourceData {
   sourceCity: string;
-  lastUpdate: string | null;
   scrapedAt: number;
   venues: RawVenue[];
 }
 
-export type OutputVenue = Omit<Venue, 'sourceCity'>;
+type OutputVenue = Omit<Venue, 'sourceCity'>;
 
 export interface CleanedData {
   updatedAt: number;

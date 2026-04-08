@@ -13,12 +13,3 @@ export interface DataSource {
   url: string;
 }
 
-export interface CrawlerConfig {
-  headless: boolean;
-  timeout: number;
-  launchOptions: {
-    headless: boolean;
-    args: string[];
-    executablePath: string | undefined;
-  };
-}

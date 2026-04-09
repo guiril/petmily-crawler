@@ -70,9 +70,15 @@ const parseArgs = (): CleanerOptions => {
   return args.reduce<CleanerOptions>(
     (acc, arg) => {
       if (arg.startsWith('--limit=')) {
-        const value = Number(arg.split('=')[1]);
-        const isValid = !Number.isNaN(value) && value > 0;
-        return isValid ? { ...acc, limit: value } : acc;
+        const rawValue = arg.split('=')[1];
+        const value = Number(rawValue);
+
+        if (Number.isNaN(value) || value < 0) {
+          console.error(`Invalid --limit value: ${rawValue}`);
+          process.exit(1);
+        }
+
+        return { ...acc, limit: value };
       }
 
       if (arg === '--dry-run') {
@@ -261,11 +267,9 @@ const printSummary = (totalCount: number, processed: number, failed: number): vo
   console.log(`Loaded ${Object.keys(overrides).length} geocoding override(s)`);
 
   const geocodeResult = await geocodeVenuesSequentially(venuesToGeocode, apiKey, overrides);
-
   const geocodedById = new Map(geocodeResult.geocodedVenues.map((venue) => [venue.id, venue]));
 
   const updatedVenues = allVenues.map((venue) => geocodedById.get(venue.id) ?? venue);
-
   const venuesGroupedBySourceId = groupBySourceId(updatedVenues);
 
   saveCleanedData(venuesGroupedBySourceId);

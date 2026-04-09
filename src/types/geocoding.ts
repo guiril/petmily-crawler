@@ -1,4 +1,4 @@
-import { LatLng } from './venue.ts';
+import type { LatLng } from './venue.ts';
 
 export interface GeocodeOptions {
   sourceCity: string;

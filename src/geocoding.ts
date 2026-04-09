@@ -3,28 +3,29 @@ import { TAIWAN_CITIES } from './constants/cities.ts';
 
 const GEOCODING_API_URL = 'https://maps.googleapis.com/maps/api/geocode/json';
 
-// Matches the building number (and anything after) at the end of a string.
-// Connectors: -, 、, 之, / cover cases like 82之1號, 64、66號, 1-2號
-const BUILDING_NUMBER_AT_END = /\d[\d\-、之/]*號$/;
-const BUILDING_NUMBER_WITH_TAIL = /\d[\d\-、之/]*號.*$/;
+// Google may normalize street numbers (e.g. 82之1號 → different format), so we preserve the original.
+// Connectors (-, 、, 之, /) cover cases like 82之1號, 64、66號, 1-2號
+const STREET_NUMBER_AT_END = /\d[\d\-、之/]*號$/;
+const STREET_NUMBER_WITH_TAIL = /\d[\d\-、之/]*號.*$/;
 
 interface AddressParts {
-  base: string;
-  suffix: string;
+  baseAddress: string;
+  subAddress: string;
 }
 
-interface PreparedAddress {
+interface PreparedAddress extends AddressParts {
   searchAddress: string;
-  originalBase: string;
-  suffix: string;
+}
+
+// https://developers.google.com/maps/documentation/geocoding/requests-geocoding
+interface AddressComponent {
+  long_name: string;
+  types: string[];
 }
 
 interface ApiResult {
   formatted_address: string;
-  address_components: Array<{
-    long_name: string;
-    types: string[];
-  }>;
+  address_components: AddressComponent[];
   geometry: {
     location: {
       lat: number;
@@ -39,82 +40,78 @@ interface GeocodeApiResponse {
   error_message?: string;
 }
 
-const splitAtBuildingNumber = (address: string): AddressParts => {
-  let lastIdx = -1;
+const splitAtStreetNumber = (address: string): AddressParts => {
+  const addressLength = address.length;
+  let lastStreetNumberIndex = -1;
 
-  for (let i = 0; i < address.length; i++) {
+  for (let i = 0; i < addressLength; i++) {
     if (address[i] === '號' && i > 0 && /\d/.test(address[i - 1])) {
-      lastIdx = i;
+      lastStreetNumberIndex = i;
     }
   }
 
-  if (lastIdx === -1 || lastIdx === address.length - 1) {
-    return { base: address, suffix: '' };
+  if (lastStreetNumberIndex === -1 || lastStreetNumberIndex === addressLength - 1) {
+    return { baseAddress: address, subAddress: '' };
   }
 
   return {
-    base: address.slice(0, lastIdx + 1),
-    suffix: address.slice(lastIdx + 1),
+    baseAddress: address.slice(0, lastStreetNumberIndex + 1),
+    subAddress: address.slice(lastStreetNumberIndex + 1),
   };
 };
 
 const prepareAddress = (address: string, sourceCity: string): PreparedAddress => {
-  const { base, suffix } = splitAtBuildingNumber(address);
-  const hasCity = TAIWAN_CITIES.some((city) => base.startsWith(city));
+  const { baseAddress, subAddress } = splitAtStreetNumber(address);
+  const hasCity = TAIWAN_CITIES.some((city) => baseAddress.startsWith(city));
 
   return {
-    searchAddress: hasCity ? base : `${sourceCity}${base}`,
-    originalBase: base,
-    suffix,
+    searchAddress: hasCity ? baseAddress : `${sourceCity}${baseAddress}`,
+    baseAddress,
+    subAddress,
   };
 };
 
 const buildFormattedAddress = (
   geocodedAddress: string,
-  originalBase: string,
-  suffix: string,
+  baseAddress: string,
+  subAddress: string,
 ): string => {
-  const cleaned = geocodedAddress.replace(/^\d+台灣/, '');
+  const trimmedAddress = geocodedAddress.replace(/^\d+台灣/, '');
+  const streetNumberMatch = baseAddress.match(STREET_NUMBER_AT_END);
 
-  const originalNumberMatch = originalBase.match(BUILDING_NUMBER_AT_END);
+  if (!streetNumberMatch) return trimmedAddress;
 
-  if (!originalNumberMatch) {
-    return suffix ? `${cleaned}${suffix}` : cleaned;
+  const streetPrefix = trimmedAddress.replace(STREET_NUMBER_WITH_TAIL, '');
+
+  if (!streetPrefix || streetPrefix === trimmedAddress) {
+    return `${trimmedAddress}${subAddress}`;
   }
 
-  const streetPrefix = cleaned.replace(BUILDING_NUMBER_WITH_TAIL, '');
-
-  if (!streetPrefix || streetPrefix === cleaned) {
-    return suffix ? `${cleaned}${suffix}` : cleaned;
-  }
-
-  return `${streetPrefix}${originalNumberMatch[0]}${suffix}`;
+  return `${streetPrefix}${streetNumberMatch[0]}${subAddress}`;
 };
 
-const parseResult = (result: ApiResult, originalBase: string, suffix: string): GeocodeResult => {
+const findComponentByType = (components: AddressComponent[], type: string): string | undefined =>
+  components.find((component) => component.types.includes(type))?.long_name;
+
+const parseResult = (result: ApiResult, baseAddress: string, subAddress: string): GeocodeResult => {
   const components = result.address_components;
-
-  const city = components.find((component) =>
-    component.types.includes('administrative_area_level_1'),
-  )?.long_name;
-
-  const district = components.find((component) => /[區鄉鎮]$/.test(component.long_name))?.long_name;
+  const city = findComponentByType(components, 'administrative_area_level_1');
+  const district = findComponentByType(components, 'administrative_area_level_2');
 
   return {
-    formattedAddress: buildFormattedAddress(result.formatted_address, originalBase, suffix),
+    formattedAddress: buildFormattedAddress(result.formatted_address, baseAddress, subAddress),
     city,
     district,
     location: result.geometry.location,
   };
 };
 
-// https://developers.google.com/maps/documentation/geocoding/requests-geocoding
 export const geocodeAddress = async (
   address: string,
   apiKey: string,
   { sourceCity }: GeocodeOptions,
 ): Promise<GeocodeResult | null> => {
-  const { searchAddress, originalBase, suffix } = prepareAddress(address, sourceCity);
+  const { searchAddress, baseAddress, subAddress } = prepareAddress(address, sourceCity);
 
   const params = new URLSearchParams({
     address: searchAddress,
@@ -128,7 +125,7 @@ export const geocodeAddress = async (
   const { status } = data;
 
   if (status === 'OK') {
-    return parseResult(data.results[0], originalBase, suffix);
+    return parseResult(data.results[0], baseAddress, subAddress);
   }
 
   if (status === 'ZERO_RESULTS') {

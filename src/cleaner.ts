@@ -4,6 +4,7 @@ import { writeFileSync } from 'fs';
 
 import type {
   DataSource,
+  RawVenue,
   SourceData,
   Venue,
   CleanedData,
@@ -17,16 +18,7 @@ import { DATA_SOURCES } from '../config.ts';
 import { geocodeAddress } from './geocoding.ts';
 import { readData } from './storage.ts';
 
-const getOverridesFilePath = (): string =>
-  path.join(__dirname, '..', 'data', 'geocoding-overrides.json');
-
-const loadOverrides = (): Record<string, GeocodeResult> => {
-  try {
-    return JSON.parse(readData(getOverridesFilePath()));
-  } catch {
-    return {};
-  }
-};
+const GEOCODE_DELAY_MS = 200;
 
 interface VenueWithSource extends Venue {
   sourceId: string;
@@ -41,12 +33,21 @@ interface GeocodeSummary {
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const GEOCODE_DELAY_MS = 200;
-
 const getDataFilePath = (sourceId: string): string =>
   path.join(__dirname, '..', 'data', `${sourceId}.json`);
 
 const getOutputFilePath = (): string => path.join(__dirname, '..', 'data', 'venues.json');
+
+const getOverridesFilePath = (): string =>
+  path.join(__dirname, '..', 'data', 'geocoding-overrides.json');
+
+const loadOverrides = (): Record<string, GeocodeResult> => {
+  try {
+    return JSON.parse(readData(getOverridesFilePath()));
+  } catch {
+    return {};
+  }
+};
 
 const mergeGeocodedData = (venue: VenueWithSource, result: GeocodeResult): VenueWithSource => ({
   ...venue,
@@ -77,7 +78,6 @@ const parseArgs = (): CleanerOptions => {
           console.error(`Invalid --limit value: ${rawValue}`);
           process.exit(1);
         }
-
         return { ...acc, limit: value };
       }
 
@@ -93,12 +93,15 @@ const parseArgs = (): CleanerOptions => {
 
 const delay = (ms: number): Promise<void> => new Promise((resolve) => setTimeout(resolve, ms));
 
-const toVenuesWithSource = (source: DataSource, venueData: SourceData): VenueWithSource[] =>
-  venueData.venues.map((venue) => ({
-    ...venue,
-    sourceCity: venueData.sourceCity,
-    sourceId: source.id,
-  }));
+const toVenueWithSource = (
+  venue: RawVenue,
+  sourceCity: string,
+  sourceId: string,
+): VenueWithSource => ({
+  ...venue,
+  sourceCity,
+  sourceId,
+});
 
 const loadAllVenues = (sources: DataSource[]): VenueWithSource[] => {
   console.log('=== Loading all sources ===');
@@ -106,9 +109,13 @@ const loadAllVenues = (sources: DataSource[]): VenueWithSource[] => {
   const allVenues = sources.flatMap((source) => {
     console.log(`Loading ${source.city}...`);
 
-    const dataFilePath = getDataFilePath(source.id);
+    const sourceId = source.id;
+    const dataFilePath = getDataFilePath(sourceId);
     const venueData: SourceData = JSON.parse(readData(dataFilePath));
-    const venues = toVenuesWithSource(source, venueData);
+
+    const venues = venueData.venues.map((venue) =>
+      toVenueWithSource(venue, venueData.sourceCity, sourceId),
+    );
 
     console.log(` Loaded ${venues.length} venues`);
     return venues;
@@ -139,11 +146,9 @@ const saveCleanedData = (venuesBySourceId: Record<string, VenueWithSource[]>): v
 const geocodeOneVenue = async (
   venue: VenueWithSource,
   apiKey: string,
-  overrides: Record<string, GeocodeResult>,
+  override?: GeocodeResult,
 ): Promise<VenueWithSource> => {
   console.log(`  Original: ${venue.address}`);
-
-  const override = overrides[venue.id];
 
   if (override) {
     console.log(`  Override: ${override.formattedAddress}`);
@@ -179,21 +184,18 @@ const geocodeVenuesSequentially = async (
 
     try {
       console.log(`[${i + 1}/${venues.length}] ${venue.name}`);
-      const updatedVenue = await geocodeOneVenue(venue, apiKey, overrides);
+      const updatedVenue = await geocodeOneVenue(venue, apiKey, overrides[venue.id]);
 
       geocodedVenues.push(updatedVenue);
       processed += 1;
     } catch (error) {
       const errorMessage = error instanceof Error ? error.message : String(error);
 
-      geocodedVenues.push(venue);
       processed += 1;
       failed += 1;
 
       if (errorMessage.includes('quota')) {
         console.error('API quota exceeded. Stopping.');
-        // Current venue (i) already pushed above; skip remaining
-        geocodedVenues.push(...venues.slice(i + 1));
         break;
       }
 

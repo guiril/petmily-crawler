@@ -15,7 +15,7 @@ import type {
 import 'dotenv/config';
 
 import { DATA_SOURCES } from '../config.ts';
-import { geocodeAddress } from './geocoding.ts';
+import { geocodeAddress, reverseGeocodeLocation } from './geocoding.ts';
 import { readData } from './storage.ts';
 
 const GEOCODE_DELAY_MS = 200;
@@ -47,6 +47,28 @@ const loadOverrides = (): Record<string, GeocodeResult> => {
   } catch {
     return {};
   }
+};
+
+type GeocodingCache = Record<string, GeocodeResult>;
+
+const getCacheFilePath = (): string => path.join(__dirname, '..', 'data', 'geocoding-cache.json');
+
+const loadCache = (): GeocodingCache => {
+  try {
+    return JSON.parse(readData(getCacheFilePath()));
+  } catch {
+    return {};
+  }
+};
+
+const saveCache = (cache: GeocodingCache): void => {
+  writeFileSync(getCacheFilePath(), JSON.stringify(cache, null, 2));
+};
+
+const getCacheKey = (venue: VenueWithSource): string | null => {
+  if (venue.address) return venue.address;
+  if (venue.location) return `${venue.location.lat},${venue.location.lng}`;
+  return null;
 };
 
 const mergeGeocodedData = (venue: VenueWithSource, result: GeocodeResult): VenueWithSource => ({
@@ -146,26 +168,39 @@ const saveCleanedData = (venuesBySourceId: Record<string, VenueWithSource[]>): v
 const geocodeOneVenue = async (
   venue: VenueWithSource,
   apiKey: string,
-  override?: GeocodeResult,
+  cache: GeocodingCache,
+  cacheKey: string | null,
 ): Promise<VenueWithSource> => {
-  console.log(`  Original: ${venue.address}`);
+  if (venue.address) {
+    console.log(`  Address: ${venue.address}`);
+    const result = await geocodeAddress(venue.address, apiKey, { sourceCity: venue.sourceCity });
 
-  if (override) {
-    console.log(`  Override: ${override.formattedAddress}`);
-    return mergeGeocodedData(venue, override);
+    if (!result) {
+      console.log('  No result found');
+      throw new Error('No geocoding result');
+    }
+
+    console.log(`  Updated:  ${result.formattedAddress}`);
+    if (cacheKey) cache[cacheKey] = result;
+    return mergeGeocodedData(venue, result);
   }
 
-  const result = await geocodeAddress(venue.address, apiKey, {
-    sourceCity: venue.sourceCity,
-  });
+  if (venue.location) {
+    console.log(`  Location: ${venue.location.lat},${venue.location.lng}`);
+    const result = await reverseGeocodeLocation(venue.location, apiKey);
 
-  if (!result) {
-    console.log('  No result found');
-    throw new Error('No geocoding result');
+    if (!result) {
+      console.log('  No result found');
+      throw new Error('No geocoding result');
+    }
+
+    console.log(`  Updated:  ${result.formattedAddress}`);
+    if (cacheKey) cache[cacheKey] = result;
+    return mergeGeocodedData(venue, result);
   }
 
-  console.log(`  Updated:  ${result.formattedAddress}`);
-  return mergeGeocodedData(venue, result);
+  console.log('  Skipped: no address or location');
+  return venue;
 };
 
 // Cannot use Promise.all due to API rate limiting requirements
@@ -173,6 +208,7 @@ const geocodeVenuesSequentially = async (
   venues: VenueWithSource[],
   apiKey: string,
   overrides: Record<string, GeocodeResult>,
+  cache: GeocodingCache,
 ): Promise<GeocodeSummary> => {
   const geocodedVenues: VenueWithSource[] = [];
 
@@ -181,10 +217,23 @@ const geocodeVenuesSequentially = async (
 
   for (let i = 0; i < venues.length; i++) {
     const venue = venues[i];
+    console.log(`[${i + 1}/${venues.length}] ${venue.name}`);
+
+    const override = overrides[venue.id];
+    const cacheKey = getCacheKey(venue);
+    const cached = cacheKey ? cache[cacheKey] : undefined;
+
+    if (override ?? cached) {
+      const result = (override ?? cached)!;
+      console.log(`  ${override ? 'Override' : 'Cache'}: ${result.formattedAddress}`);
+
+      geocodedVenues.push(mergeGeocodedData(venue, result));
+      processed += 1;
+      continue;
+    }
 
     try {
-      console.log(`[${i + 1}/${venues.length}] ${venue.name}`);
-      const updatedVenue = await geocodeOneVenue(venue, apiKey, overrides[venue.id]);
+      const updatedVenue = await geocodeOneVenue(venue, apiKey, cache, cacheKey);
 
       geocodedVenues.push(updatedVenue);
       processed += 1;
@@ -266,9 +315,15 @@ const printSummary = (totalCount: number, processed: number, failed: number): vo
   }
 
   const overrides = loadOverrides();
-  console.log(`Loaded ${Object.keys(overrides).length} geocoding override(s)`);
+  const cache = loadCache();
 
-  const geocodeResult = await geocodeVenuesSequentially(venuesToGeocode, apiKey, overrides);
+  console.log(`Loaded ${Object.keys(overrides).length} geocoding override(s)`);
+  console.log(`Loaded ${Object.keys(cache).length} cached result(s)`);
+
+  const geocodeResult = await geocodeVenuesSequentially(venuesToGeocode, apiKey, overrides, cache);
+
+  saveCache(cache);
+
   const geocodedById = new Map(geocodeResult.geocodedVenues.map((venue) => [venue.id, venue]));
 
   const updatedVenues = allVenues.map((venue) => geocodedById.get(venue.id) ?? venue);

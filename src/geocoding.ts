@@ -1,4 +1,4 @@
-import type { GeocodeOptions, GeocodeResult } from './types/index.ts';
+import type { GeocodeOptions, GeocodeResult, LatLng } from './types/index.ts';
 import { TAIWAN_CITIES } from './constants/cities.ts';
 
 const GEOCODING_API_URL = 'https://maps.googleapis.com/maps/api/geocode/json';
@@ -106,6 +106,27 @@ const parseResult = (result: ApiResult, baseAddress: string, subAddress: string)
   };
 };
 
+const callGeocodeApi = async (params: URLSearchParams, label: string): Promise<ApiResult | null> => {
+  const response = await fetch(`${GEOCODING_API_URL}?${params}`);
+  const data: GeocodeApiResponse = await response.json();
+  const { status } = data;
+
+  if (status === 'OK') return data.results[0];
+
+  if (status === 'ZERO_RESULTS') {
+    console.warn(`No results for: ${label}`, data.error_message);
+    return null;
+  }
+
+  const errorMessage = data.error_message ?? status;
+
+  if (status === 'OVER_QUERY_LIMIT' || status === 'OVER_DAILY_LIMIT') {
+    throw new Error(`API quota exceeded: ${errorMessage}`);
+  }
+
+  throw new Error(`Geocoding API error: ${errorMessage}`);
+};
+
 export const geocodeAddress = async (
   address: string,
   apiKey: string,
@@ -120,24 +141,21 @@ export const geocodeAddress = async (
     region: 'tw',
   });
 
-  const response = await fetch(`${GEOCODING_API_URL}?${params}`);
-  const data: GeocodeApiResponse = await response.json();
-  const { status } = data;
+  const result = await callGeocodeApi(params, address);
+  return result ? parseResult(result, baseAddress, subAddress) : null;
+};
 
-  if (status === 'OK') {
-    return parseResult(data.results[0], baseAddress, subAddress);
-  }
+export const reverseGeocodeLocation = async (
+  location: LatLng,
+  apiKey: string,
+): Promise<GeocodeResult | null> => {
+  const params = new URLSearchParams({
+    latlng: `${location.lat},${location.lng}`,
+    key: apiKey,
+    language: 'zh-TW',
+    region: 'tw',
+  });
 
-  if (status === 'ZERO_RESULTS') {
-    console.warn(`No results for: ${address}`, data.error_message);
-    return null;
-  }
-
-  const errorMessage = data.error_message ?? status;
-
-  if (status === 'OVER_QUERY_LIMIT' || status === 'OVER_DAILY_LIMIT') {
-    throw new Error(`API quota exceeded: ${errorMessage}`);
-  }
-
-  throw new Error(`Geocoding API error: ${errorMessage}`);
+  const result = await callGeocodeApi(params, `${location.lat},${location.lng}`);
+  return result ? parseResult(result, '', '') : null;
 };

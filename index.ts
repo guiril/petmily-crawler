@@ -8,9 +8,8 @@ import { DATA_SOURCES } from './config.ts';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const getDataFilePath = (sourceId: string): string => {
-  return path.join(__dirname, 'data', `${sourceId}.json`);
-};
+const getDataFilePath = (sourceId: string): string =>
+  path.join(__dirname, 'data', 'raw', `${sourceId}.json`);
 
 const buildUpdatedData = (
   existingData: Partial<SourceData>,

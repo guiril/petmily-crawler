@@ -34,7 +34,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const getDataFilePath = (sourceId: string): string =>
-  path.join(__dirname, '..', 'data', `${sourceId}.json`);
+  path.join(__dirname, '..', 'data', 'raw', `${sourceId}.json`);
 
 const getOutputFilePath = (): string => path.join(__dirname, '..', 'data', 'venues.json');
 

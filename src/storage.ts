@@ -1,4 +1,5 @@
 import fs from 'fs';
+import path from 'path';
 
 export const readData = (dataFile: string): string => {
   try {
@@ -11,6 +12,7 @@ export const readData = (dataFile: string): string => {
 
 export const writeData = (dataFile: string, data: unknown): void => {
   try {
+    fs.mkdirSync(path.dirname(dataFile), { recursive: true });
     fs.writeFileSync(dataFile, JSON.stringify(data, null, 2));
     console.log(`Data saved to ${dataFile}`);
   } catch (error) {

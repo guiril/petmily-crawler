@@ -1,5 +1,13 @@
 import * as cheerio from 'cheerio';
-import type { RawVenue } from '../types/index.ts';
+import type { RawVenue, ServiceType } from '../types/index.ts';
+import { isServiceType } from '../types/index.ts';
+
+const SERVICE_TYPE_MAP: Record<string, ServiceType> = {
+  餐飲: '餐飲',
+  住宿: '住宿',
+  娛樂: '娛樂',
+  其他: '其他',
+};
 
 const BASE_URL = 'https://www.animal.taichung.gov.tw';
 const MAX_PAGES = 50;
@@ -49,7 +57,7 @@ const extractVenuesFromTable = (html: string, startIndex: number): VenueWithDeta
           id: `taichung-${startIndex + index}`,
           name: cellTexts[1],
           address: cellTexts[4],
-          serviceTypes: splitField(cellTexts[2]),
+          serviceTypes: splitField(cellTexts[2]).map((raw) => SERVICE_TYPE_MAP[raw]).filter(isServiceType),
           petTypes: splitField(cellTexts[3]),
           phone: cellTexts[5],
         } as RawVenue,

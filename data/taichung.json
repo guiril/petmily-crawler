@@ -1,10 +1,10 @@
 {
   "sourceCity": "臺中市",
   "lastUpdate": "更新於114/11/11",
-  "scrapedAt": 1775904971,
+  "scrapedAt": 1777535628,
   "venues": [
     {
-      "id": "taichung-0",
+      "id": "taichung-9e3489e1",
       "name": "255 LAB café(秉宸國際有限公司台中南屯分公司)",
       "address": "臺中市南屯區大墩十一街392號",
       "serviceTypes": [
@@ -18,7 +18,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1330913/255-lab-café-秉宸國際有限公司台中南屯分公司-_店外觀.jpg"
     },
     {
-      "id": "taichung-1",
+      "id": "taichung-8401b1c4",
       "name": "3Four 水某人文茶館(水某茶館)",
       "address": "東區三賢街2號",
       "serviceTypes": [
@@ -32,7 +32,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464455/710309203429.jpg"
     },
     {
-      "id": "taichung-2",
+      "id": "taichung-1fb7f726",
       "name": "501休閒輕食館-鳳凰飛鏢旗艦32店(五零一商行)",
       "address": "西屯區青海路一段82之1號2F",
       "serviceTypes": [
@@ -47,7 +47,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464645/961815314729.jpg"
     },
     {
-      "id": "taichung-3",
+      "id": "taichung-77776b0a",
       "name": "Bullet Burger（勃特商行）",
       "address": "美村路一段164巷17號1樓",
       "serviceTypes": [
@@ -61,7 +61,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1110153/bullet-burger.jpg"
     },
     {
-      "id": "taichung-4",
+      "id": "taichung-0b4f4e3c",
       "name": "Campaholic 露營家（汪汪也凹豆有限公司）",
       "address": "臺中市北屯區舊社里長富街310號1樓",
       "serviceTypes": [
@@ -76,7 +76,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1284219/汪汪也凹豆有限公司.jpg"
     },
     {
-      "id": "taichung-5",
+      "id": "taichung-35ccb2c0",
       "name": "Cuppa FS Cafe（上勝商行）",
       "address": "臺中市東區復興路四段17巷14號",
       "serviceTypes": [
@@ -91,7 +91,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1024188/cuppa-fs-cafe.jpg"
     },
     {
-      "id": "taichung-6",
+      "id": "taichung-3bf58112",
       "name": "Cuppa VV Cafe（上森商行）",
       "address": "臺中市西區博館三街103號",
       "serviceTypes": [
@@ -105,7 +105,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1017142/cuppa-vv-cafe.jpg"
     },
     {
-      "id": "taichung-7",
+      "id": "taichung-742be66b",
       "name": "Eartha燒肉餐酒館（紅樂餐飲有限公司）",
       "address": "臺中市北區德化街457號",
       "serviceTypes": [
@@ -120,7 +120,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1017547/eartha燒肉餐酒館.jpg"
     },
     {
-      "id": "taichung-8",
+      "id": "taichung-45fc21b2",
       "name": "F&F HAIR STYLES(有熊美藝社)",
       "address": "北區育強街137號",
       "serviceTypes": [
@@ -135,7 +135,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464649/961816101929.jpg"
     },
     {
-      "id": "taichung-9",
+      "id": "taichung-7c1ec23a",
       "name": "Gray House灰房子義式餐廳(食恬義式餐廚)",
       "address": "北區三民路三段201巷30號",
       "serviceTypes": [
@@ -150,7 +150,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464479/711141023929.jpg"
     },
     {
-      "id": "taichung-10",
+      "id": "taichung-5243dbfd",
       "name": "Gyusya 牛舎炭火漢堡排專門店(牛舍小吃部)",
       "address": "南屯區大英街440號",
       "serviceTypes": [
@@ -164,7 +164,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464615/9641343529.jpg"
     },
     {
-      "id": "taichung-11",
+      "id": "taichung-6aafb360",
       "name": "HOLA台中北屯店(特力屋股份有限公司和樂北屯分公司)",
       "address": "北屯區北屯路407-1號1F",
       "serviceTypes": [
@@ -174,10 +174,11 @@
         "犬",
         "貓"
       ],
-      "phone": "04-22478000"
+      "phone": "04-22478000",
+      "imageUrl": "https://www.animal.taichung.gov.tw/media/464419/783017323653.jpg"
     },
     {
-      "id": "taichung-12",
+      "id": "taichung-1c166b04",
       "name": "HOLA和樂家居台中西屯店(和樂家居股份有限公司)",
       "address": "西屯區台灣大道四段528號",
       "serviceTypes": [
@@ -191,7 +192,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/627248/和樂西屯店.jpg"
     },
     {
-      "id": "taichung-13",
+      "id": "taichung-555b584f",
       "name": "HOLA大墩店(特力屋股份有限公司和樂台中大墩分公司)",
       "address": "南屯區大墩路533號1F",
       "serviceTypes": [
@@ -201,10 +202,11 @@
         "犬",
         "貓"
       ],
-      "phone": "04-23101000"
+      "phone": "04-23101000",
+      "imageUrl": "https://www.animal.taichung.gov.tw/media/627230/和樂大墩店.jpg"
     },
     {
-      "id": "taichung-14",
+      "id": "taichung-141d7156",
       "name": "Home Home（品銘軒餐旅有限公司）",
       "address": "臺中市西區大和路63號",
       "serviceTypes": [
@@ -215,10 +217,11 @@
         "貓",
         "其他"
       ],
-      "phone": "04-23020030"
+      "phone": "04-23020030",
+      "imageUrl": "https://www.animal.taichung.gov.tw/media/1018987/homehome.jpg"
     },
     {
-      "id": "taichung-15",
+      "id": "taichung-a173b35b",
       "name": "In Outdoor臥野（野蒼蘭咖啡廳）",
       "address": "太順二街168號",
       "serviceTypes": [
@@ -228,10 +231,11 @@
         "犬",
         "貓"
       ],
-      "phone": "04-24360281"
+      "phone": "04-24360281",
+      "imageUrl": "https://www.animal.taichung.gov.tw/media/1137128/臥野咖啡.jpg"
     },
     {
-      "id": "taichung-16",
+      "id": "taichung-b3ddf3ad",
       "name": "It's衣著概念店(伊肆衣著概念店)",
       "address": "北區一中街177號",
       "serviceTypes": [
@@ -241,10 +245,11 @@
         "犬",
         "貓"
       ],
-      "phone": "04-22252219"
+      "phone": "04-22252219",
+      "imageUrl": "https://www.animal.taichung.gov.tw/media/464661/96209443529.jpg"
     },
     {
-      "id": "taichung-17",
+      "id": "taichung-d9bdc55e",
       "name": "Mh juicery&cafe（民海咖啡行）",
       "address": "北屯區興安路一段238號",
       "serviceTypes": [
@@ -254,10 +259,11 @@
         "犬",
         "貓"
       ],
-      "phone": "04-22470761"
+      "phone": "04-22470761",
+      "imageUrl": "https://www.animal.taichung.gov.tw/media/766374/民海咖啡行.jpg"
     },
     {
-      "id": "taichung-18",
+      "id": "taichung-f4f0979e",
       "name": "Momori Café & Bar（毛咖股份有限公司）",
       "address": "臺中市西區臺灣大道二段222號一樓",
       "serviceTypes": [
@@ -268,10 +274,11 @@
         "貓",
         "其他"
       ],
-      "phone": "04-23239222"
+      "phone": "04-23239222",
+      "imageUrl": "https://www.animal.taichung.gov.tw/media/1024183/momori-café-bar.jpg"
     },
     {
-      "id": "taichung-19",
+      "id": "taichung-6179894d",
       "name": "Mr.Mantter 曼特先生(曼特有限公司)",
       "address": "中區台灣大道一段271號",
       "serviceTypes": [
@@ -286,7 +293,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1220661/建築外觀_mrmantter_曼特先生.jpg"
     },
     {
-      "id": "taichung-20",
+      "id": "taichung-568e9e8c",
       "name": "NO.19 Restaurant（拾玖號餐館）",
       "address": "臺中市西屯區何厝街146號",
       "serviceTypes": [
@@ -300,7 +307,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1021751/no19-restaurant.jpg"
     },
     {
-      "id": "taichung-21",
+      "id": "taichung-36813344",
       "name": "PARK2草悟廣場（行草悟道股份有限公司）",
       "address": "英才路534號",
       "serviceTypes": [
@@ -315,7 +322,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1111625/park-2.jpg"
     },
     {
-      "id": "taichung-22",
+      "id": "taichung-3bdfaab7",
       "name": "PARNI柏納髮型沙龍",
       "address": "北區太原四街28號",
       "serviceTypes": [
@@ -330,7 +337,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/848088/柏納髮型沙龍.jpg"
     },
     {
-      "id": "taichung-23",
+      "id": "taichung-7e175279",
       "name": "Roundabout Cafe 圓環咖啡．大和店（圓環咖啡）",
       "address": "大和路73號",
       "serviceTypes": [
@@ -344,7 +351,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1101258/圓環咖啡-大和店.jpeg"
     },
     {
-      "id": "taichung-24",
+      "id": "taichung-24f95d13",
       "name": "Roundabout Cafe 圓環咖啡．梅川店（茹菓人生洋行）",
       "address": "梅川東路三段207號",
       "serviceTypes": [
@@ -358,7 +365,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1101249/圓環咖啡-梅川店.jpeg"
     },
     {
-      "id": "taichung-25",
+      "id": "taichung-3339d57e",
       "name": "TIKIYALO(鐵枝路咖啡交易所 / 名門飲食有限公司)",
       "address": "臺中市中區臺灣大道一段1號B7櫃位",
       "serviceTypes": [
@@ -372,7 +379,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1004497/tikiyalo.jpg"
     },
     {
-      "id": "taichung-26",
+      "id": "taichung-05641401",
       "name": "Tamp Temper(待烘咖啡)",
       "address": "西區民權路286號",
       "serviceTypes": [
@@ -387,7 +394,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464611/9641333829.jpg"
     },
     {
-      "id": "taichung-27",
+      "id": "taichung-1bc5c2f4",
       "name": "UZO（伊歐斯飲料店）",
       "address": "精誠五街22號",
       "serviceTypes": [
@@ -401,7 +408,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1111557/uzo.jpg"
     },
     {
-      "id": "taichung-28",
+      "id": "taichung-d932a21e",
       "name": "Uni café 與你咖啡(墨序文創股份有限公司)",
       "address": "臺中市西屯區漢翔北街37號",
       "serviceTypes": [
@@ -415,7 +422,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1011577/line_album_112-uni-cafe_231014_13.jpg"
     },
     {
-      "id": "taichung-29",
+      "id": "taichung-7c14b52f",
       "name": "WensCO文心會議室-共同工作空間（毅達投資有限公司）",
       "address": "北屯區文心路四段936之1號2樓",
       "serviceTypes": [
@@ -429,7 +436,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/725997/毅達投資有限公司.jpg"
     },
     {
-      "id": "taichung-30",
+      "id": "taichung-794523cb",
       "name": "三澧企業股份有限公司(Molino台中草悟廣場店)",
       "address": "台中市西區英才路534號B1樓(櫃號B102)",
       "serviceTypes": [
@@ -442,7 +449,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/898878/三澧企業股份有限公司molino台中草物廣場店.jpg"
     },
     {
-      "id": "taichung-31",
+      "id": "taichung-e9aa19f2",
       "name": "丸文食品(丸文調理食品有限公司光復店)",
       "address": "中區光復路30-1號",
       "serviceTypes": [
@@ -456,7 +463,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464429/79610481729.jpg"
     },
     {
-      "id": "taichung-32",
+      "id": "taichung-60779b6c",
       "name": "九天民俗技藝工作室",
       "address": "大雅區清泉路99號",
       "serviceTypes": [
@@ -471,7 +478,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464543/83611295229.png"
     },
     {
-      "id": "taichung-33",
+      "id": "taichung-08385d2a",
       "name": "九房村懷舊食堂",
       "address": "台中市北屯區南興三路290號",
       "serviceTypes": [
@@ -485,21 +492,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1254706/九房村懷舊食堂.jpg"
     },
     {
-      "id": "taichung-34",
-      "name": "也有咖啡",
-      "address": "北屯區遼寧路一段26號",
-      "serviceTypes": [
-        "餐飲"
-      ],
-      "petTypes": [
-        "犬",
-        "貓"
-      ],
-      "phone": "04-22439626",
-      "imageUrl": "https://www.animal.taichung.gov.tw/media/1210128/不只設計x禾且空間.jpg"
-    },
-    {
-      "id": "taichung-35",
+      "id": "taichung-2aac9a11",
       "name": "井閣鍋物（燊咏商行）",
       "address": "美村路一段25號",
       "serviceTypes": [
@@ -513,7 +506,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1110164/井閣鍋物.jpg"
     },
     {
-      "id": "taichung-36",
+      "id": "taichung-4949ffdc",
       "name": "交通部觀光署參山國家風景區管理處",
       "address": "霧峰區中正路738號",
       "serviceTypes": [
@@ -528,7 +521,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1107722/參山國家風景區管理處處.jpg"
     },
     {
-      "id": "taichung-37",
+      "id": "taichung-20541082",
       "name": "仁將咖啡館",
       "address": "臺中市西區五權西五街61號",
       "serviceTypes": [
@@ -542,7 +535,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1281469/仁將咖啡館-門口.jpg"
     },
     {
-      "id": "taichung-38",
+      "id": "taichung-841464fd",
       "name": "倫家Café（倫家好餓）",
       "address": "臺中市太平區中山路二段138號",
       "serviceTypes": [
@@ -557,7 +550,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1024161/倫家cafe.jpg"
     },
     {
-      "id": "taichung-39",
+      "id": "taichung-4eef51ee",
       "name": "全國大飯店股份有限公司",
       "address": "臺中市西區館前路57號",
       "serviceTypes": [
@@ -571,7 +564,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1240775/全國大飯店外觀-小圖.jpg"
     },
     {
-      "id": "taichung-40",
+      "id": "taichung-f708fca6",
       "name": "凡日bread & meal（凡日企業社）",
       "address": "昇平街75號",
       "serviceTypes": [
@@ -586,7 +579,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1101389/凡日.jpg"
     },
     {
-      "id": "taichung-41",
+      "id": "taichung-67f58adb",
       "name": "函館和風火鍋店",
       "address": "西屯區福科路591號",
       "serviceTypes": [
@@ -600,7 +593,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464465/71113981829.jpg"
     },
     {
-      "id": "taichung-42",
+      "id": "taichung-ddc5a17f",
       "name": "創意時尚飯店(創意旅館股份有限公司)",
       "address": "北區五權路334號",
       "serviceTypes": [
@@ -615,7 +608,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464389/781414342629.jpg"
     },
     {
-      "id": "taichung-43",
+      "id": "taichung-5ff92e62",
       "name": "勤美 誠品綠園道（勤美股份有限公司台中分公司）",
       "address": "公益路68號底二層至三樓",
       "serviceTypes": [
@@ -631,12 +624,10 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1125069/勤美誠品形象照.jpg"
     },
     {
-      "id": "taichung-44",
+      "id": "taichung-c9903c8e",
       "name": "匯眾租賃有限公司",
       "address": "西屯區環中路三段988號",
-      "serviceTypes": [
-        "交通"
-      ],
+      "serviceTypes": [],
       "petTypes": [
         "犬",
         "貓"
@@ -645,7 +636,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464447/7928845929.jpg"
     },
     {
-      "id": "taichung-45",
+      "id": "taichung-7b79db74",
       "name": "千汌日本料理 (千汌有限公司)",
       "address": "西區存中街61巷1號",
       "serviceTypes": [
@@ -660,7 +651,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/744808/千汌有限公司.jpg"
     },
     {
-      "id": "taichung-46",
+      "id": "taichung-5aa8f1e2",
       "name": "古典小熊屋(豐鼎興業有限公司)",
       "address": "北區三民路三段201巷29號",
       "serviceTypes": [
@@ -674,7 +665,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464481/7111410262429.jpg"
     },
     {
-      "id": "taichung-47",
+      "id": "taichung-b9973a3a",
       "name": "台中保時捷中心（汎德永業汽車股份有限公司永業台中分公司）",
       "address": "臺中市南區文心南路545號",
       "serviceTypes": [
@@ -688,7 +679,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1067570/台中保時捷中心.jpg"
     },
     {
-      "id": "taichung-48",
+      "id": "taichung-0d208382",
       "name": "台中幻覺博物館（佳貝有限公司）",
       "address": "精誠路64、66號",
       "serviceTypes": [
@@ -703,7 +694,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1111646/幻覺博物館.jpg"
     },
     {
-      "id": "taichung-49",
+      "id": "taichung-f0bf2223",
       "name": "合作咖啡商行",
       "address": "臺中市南區福田三街165號1樓",
       "serviceTypes": [
@@ -718,7 +709,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1096281/合作咖啡.jpg"
     },
     {
-      "id": "taichung-50",
+      "id": "taichung-53befb51",
       "name": "合樂商務設計旅店",
       "address": "朝馬路21號",
       "serviceTypes": [
@@ -732,7 +723,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/635953/37280987_215689209090042_6010189135929671680_o.jpg"
     },
     {
-      "id": "taichung-51",
+      "id": "taichung-483cf502",
       "name": "咕咕晨食早餐店",
       "address": "大里區國光里文隆街25號1樓",
       "serviceTypes": [
@@ -746,7 +737,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464383/78811232671.jpg"
     },
     {
-      "id": "taichung-52",
+      "id": "taichung-3a3a6960",
       "name": "咖啡罵哥",
       "address": "北區三民路三段295號",
       "serviceTypes": [
@@ -760,7 +751,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/603140/咖啡罵哥.jpg"
     },
     {
-      "id": "taichung-53",
+      "id": "taichung-8f7c3f2b",
       "name": "咖啡葉烘焙坊",
       "address": "豐原區西安街95-5號",
       "serviceTypes": [
@@ -775,7 +766,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464459/71129175929.jpg"
     },
     {
-      "id": "taichung-54",
+      "id": "taichung-37648593",
       "name": "咖萃咖啡廚房 台中西屯寵物友善餐廳 (承品咖啡有限公司)",
       "address": "西屯區大墩二十街128號",
       "serviceTypes": [
@@ -790,7 +781,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464635/961810583929.jpg"
     },
     {
-      "id": "taichung-55",
+      "id": "taichung-37ff4304",
       "name": "嘉寀萌商務中心(嘉寀萌有限公司)",
       "address": "北區中清路一段89號15樓",
       "serviceTypes": [
@@ -804,7 +795,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464555/812410103929.jpg"
     },
     {
-      "id": "taichung-56",
+      "id": "taichung-a7314d26",
       "name": "國家自然公園管理處臺中都會公園",
       "address": "西屯區都會園路1215巷140號",
       "serviceTypes": [
@@ -818,7 +809,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464513/7112417345529.jpg"
     },
     {
-      "id": "taichung-57",
+      "id": "taichung-a3adbc01",
       "name": "在來飲食店（在來碗粿米糕專門）",
       "address": "向上路一段231號",
       "serviceTypes": [
@@ -832,7 +823,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1101364/在來碗粿米糕專門.jpeg"
     },
     {
-      "id": "taichung-58",
+      "id": "taichung-8539531c",
       "name": "地芋添糖&包心粉圓專賣（善美行）",
       "address": "北屯區旅順路二段143號",
       "serviceTypes": [
@@ -846,7 +837,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464411/78259293429.jpg"
     },
     {
-      "id": "taichung-59",
+      "id": "taichung-c5f507ef",
       "name": "大樹寵物 愛買復興店（大樹寵物股份有限公司台中復興分公司）",
       "address": "臺中市南區復興路一段359號2樓",
       "serviceTypes": [
@@ -861,7 +852,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1028309/大樹寵物-愛買復興店.jpg"
     },
     {
-      "id": "taichung-60",
+      "id": "taichung-87b1dfef",
       "name": "大花朵朵主題餐廳-學士店",
       "address": "北區學士路98號",
       "serviceTypes": [
@@ -875,7 +866,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464439/79151333929.jpg"
     },
     {
-      "id": "taichung-61",
+      "id": "taichung-3cf660c3",
       "name": "天月人文休閒旅館股份有限公司",
       "address": "西屯區朝馬三街18號",
       "serviceTypes": [
@@ -890,7 +881,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/617031/天月人文.jpg"
     },
     {
-      "id": "taichung-62",
+      "id": "taichung-6729f54a",
       "name": "奇異果快捷旅店-中正店",
       "address": "中區台灣大道一段441號",
       "serviceTypes": [
@@ -905,7 +896,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1224139/奇異果快捷旅店中正店-外觀.jpg"
     },
     {
-      "id": "taichung-63",
+      "id": "taichung-ed6e310e",
       "name": "好喔餐廳（好喔餐飲工作坊）",
       "address": "北屯區軍福十六路177號",
       "serviceTypes": [
@@ -920,7 +911,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/620893/好喔餐廳.jpg"
     },
     {
-      "id": "taichung-64",
+      "id": "taichung-eba0bb65",
       "name": "好果實商行",
       "address": "臺中市南區忠明南路1160號",
       "serviceTypes": [
@@ -935,7 +926,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1278460/好果實商行.jpg"
     },
     {
-      "id": "taichung-65",
+      "id": "taichung-6ed5eeec",
       "name": "好狗命寵物幸福生活城-大墩店（魚中魚樂活有限公司大墩分公司）",
       "address": "臺中市南屯區文心路一段385號",
       "serviceTypes": [
@@ -950,7 +941,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1053027/好狗命寵物幸福生活城-大墩店.jpg"
     },
     {
-      "id": "taichung-66",
+      "id": "taichung-6a263093",
       "name": "好狗運貓狗福利中心-上石店（大魚寵物有限公司上石分公司）",
       "address": "臺中市西屯區上石路190-2號",
       "serviceTypes": [
@@ -965,7 +956,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1052396/好狗運貓狗福利中心-上石店.jpg"
     },
     {
-      "id": "taichung-67",
+      "id": "taichung-a9b982af",
       "name": "好狗運貓狗福利中心-六順店（大魚寵物有限公司六順分公司）",
       "address": "臺中市東區環中東路五段130號",
       "serviceTypes": [
@@ -980,7 +971,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1053089/好狗運貓狗福利中心-六順店.jpg"
     },
     {
-      "id": "taichung-68",
+      "id": "taichung-bd62abf2",
       "name": "好狗運貓狗福利中心-十甲店（大魚寵物有限公司十甲分公司）",
       "address": "臺中市東區十甲東路616號",
       "serviceTypes": [
@@ -995,7 +986,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1053107/好狗運貓狗福利中心-十甲店.jpg"
     },
     {
-      "id": "taichung-69",
+      "id": "taichung-353f9ecb",
       "name": "好狗運貓狗福利中心-建成店（大魚寵物有限公司建成分公司）",
       "address": "臺中市東區建成路669號",
       "serviceTypes": [
@@ -1010,7 +1001,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1152909/好狗運貓狗福利中心建成店.jpg"
     },
     {
-      "id": "taichung-70",
+      "id": "taichung-8dd6616a",
       "name": "好狗運貓狗福利中心-潭通店(大魚寵物有限公司 潭通分公司)",
       "address": "臺中市潭子區圓通南路176號",
       "serviceTypes": [
@@ -1025,7 +1016,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1185578/好狗運貓狗福利中心-潭通店.jpg"
     },
     {
-      "id": "taichung-71",
+      "id": "taichung-61cfddb9",
       "name": "好狗運貓狗福利中心–嶺東店（魚中魚樂活有限公司嶺東分公司）",
       "address": "臺中市南屯區永春南路1-20號",
       "serviceTypes": [
@@ -1040,7 +1031,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1053000/好狗運貓狗福利中心-嶺東店.jpg"
     },
     {
-      "id": "taichung-72",
+      "id": "taichung-c3e94e9e",
       "name": "好狗運貓狗福利中心–豐東店（大魚寵物有限公司豐原分公司）",
       "address": "臺中市豐原區圓環東路 528 號",
       "serviceTypes": [
@@ -1055,7 +1046,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1052403/好狗運貓狗福利中心-豐東店.jpg"
     },
     {
-      "id": "taichung-73",
+      "id": "taichung-a74ee79a",
       "name": "好狗運貓狗福利中心–雅潭店（大魚寵物有限公司雅潭分公司）",
       "address": "臺中市潭子區崇德路四段467-1號",
       "serviceTypes": [
@@ -1070,7 +1061,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1052407/好狗運貓狗福利中心-雅潭店.jpg"
     },
     {
-      "id": "taichung-74",
+      "id": "taichung-b2aa86b2",
       "name": "孔雀咖啡（德虹商行）",
       "address": "大誠街5號",
       "serviceTypes": [
@@ -1084,7 +1075,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1103256/孔雀咖啡.jpg"
     },
     {
-      "id": "taichung-75",
+      "id": "taichung-75636a61",
       "name": "安妮公主花園餐廳（安妮公主花園有限公司）",
       "address": "新社區中興街223號",
       "serviceTypes": [
@@ -1100,7 +1091,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464583/95301047129.jpg"
     },
     {
-      "id": "taichung-76",
+      "id": "taichung-f19a62e5",
       "name": "安妮廚房",
       "address": "大里區大里路107號",
       "serviceTypes": [
@@ -1114,7 +1105,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464453/710309185229.jpg"
     },
     {
-      "id": "taichung-77",
+      "id": "taichung-62edf6d7",
       "name": "容燒居酒屋－北屯二店（容燒餐飲企業社）",
       "address": "臺中市北屯區文心路四段504之1號",
       "serviceTypes": [
@@ -1128,7 +1119,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1019001/容燒北屯二店.jpg"
     },
     {
-      "id": "taichung-78",
+      "id": "taichung-594f246d",
       "name": "容燒居酒屋－南屯文心總店（容燒小吃店）",
       "address": "臺中市南屯區文心路一段530號1樓",
       "serviceTypes": [
@@ -1142,7 +1133,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1021765/容燒-南屯文心總店.jpg"
     },
     {
-      "id": "taichung-79",
+      "id": "taichung-a50be0b4",
       "name": "寶飛寵物用品專賣店",
       "address": "中和街457巷41號",
       "serviceTypes": [
@@ -1155,7 +1146,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1151411/寶飛寵物用品專賣店.jpg"
     },
     {
-      "id": "taichung-80",
+      "id": "taichung-c383fbba",
       "name": "小王子的花園餐廳(小王子的花園飲食店)",
       "address": "西屯區中平路178號",
       "serviceTypes": [
@@ -1170,7 +1161,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464651/961816261229.jpg"
     },
     {
-      "id": "taichung-81",
+      "id": "taichung-b0899b37",
       "name": "尚品港式甜湯",
       "address": "臺中市西屯區大墩路1001號",
       "serviceTypes": [
@@ -1184,7 +1175,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1258481/尚品港式甜湯店家外觀.jpg"
     },
     {
-      "id": "taichung-82",
+      "id": "taichung-0b3dc6a5",
       "name": "屋七咖啡所（申才國際有限公司）",
       "address": "臺中市西區向上南路一段32號",
       "serviceTypes": [
@@ -1198,7 +1189,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1017152/屋七咖啡所.jpg"
     },
     {
-      "id": "taichung-83",
+      "id": "taichung-b22a481e",
       "name": "希琪生活館",
       "address": "臺中市南屯區大業路361號1樓",
       "serviceTypes": [
@@ -1211,7 +1202,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1281465/希琪生活館-大門.jpg"
     },
     {
-      "id": "taichung-84",
+      "id": "taichung-3a90256a",
       "name": "幸福好食咖啡Homecafe",
       "address": "北區興進路58號",
       "serviceTypes": [
@@ -1225,7 +1216,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464499/7112113571529.jpg"
     },
     {
-      "id": "taichung-85",
+      "id": "taichung-5000856d",
       "name": "庫克美式燒烤Bar(庫克燒烤店)",
       "address": "北區漢口路三段46號",
       "serviceTypes": [
@@ -1239,7 +1230,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464631/961810393729.jpg"
     },
     {
-      "id": "taichung-86",
+      "id": "taichung-1d4d4f16",
       "name": "彼岸森林（彼岸森林有限公司）",
       "address": "臺中市豐原區東陽路獅座巷7號",
       "serviceTypes": [
@@ -1254,7 +1245,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/896308/彼岸森林有限公司.jpg"
     },
     {
-      "id": "taichung-87",
+      "id": "taichung-4ffe9f18",
       "name": "心媞SPA休閒旅館(心媞有限公司)",
       "address": "北區北平路一段2號",
       "serviceTypes": [
@@ -1268,7 +1259,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/477642/78161634829.jpg"
     },
     {
-      "id": "taichung-88",
+      "id": "taichung-2b13f6bd",
       "name": "怡 喵旅（馥浩興業社）",
       "address": "臺中市西屯區文心路三段120號",
       "serviceTypes": [
@@ -1283,7 +1274,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1021754/怡喵旅.jpg"
     },
     {
-      "id": "taichung-89",
+      "id": "taichung-a8bde4fe",
       "name": "攜旺cafe台中寵物友善餐廳＆浪浪中途學校(攜旺輕食坊)",
       "address": "臺中市北屯區興安路一段128巷13號",
       "serviceTypes": [
@@ -1299,7 +1290,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1281462/攜旺-主圖.jpg"
     },
     {
-      "id": "taichung-90",
+      "id": "taichung-cc43c098",
       "name": "斐比樂斯咖啡甜點(萊特福有限公司)",
       "address": "大里區科技路1號2樓之26",
       "serviceTypes": [
@@ -1313,7 +1304,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464671/97110334829.jpg"
     },
     {
-      "id": "taichung-91",
+      "id": "taichung-8880d6cf",
       "name": "方吐司早餐",
       "address": "臺中市南屯區大墩11街348-1號",
       "serviceTypes": [
@@ -1323,11 +1314,10 @@
         "犬",
         "貓"
       ],
-      "phone": "04-22510010",
-      "imageUrl": "https://www.animal.taichung.gov.tw/media/847103/方吐司早餐.jpg"
+      "phone": "04-22510010"
     },
     {
-      "id": "taichung-92",
+      "id": "taichung-1163e83d",
       "name": "方正谷眷村味(兩果文化創意有限公司)",
       "address": "北屯區天祥街19號",
       "serviceTypes": [
@@ -1336,11 +1326,10 @@
       "petTypes": [
         "犬"
       ],
-      "phone": "04-22339753",
-      "imageUrl": "https://www.animal.taichung.gov.tw/media/464653/96208352429.jpg"
+      "phone": "04-22339753"
     },
     {
-      "id": "taichung-93",
+      "id": "taichung-1be3d781",
       "name": "日安87-9 Good Day(日安朝食)",
       "address": "豐原區府前街87-9號",
       "serviceTypes": [
@@ -1350,11 +1339,10 @@
         "犬",
         "貓"
       ],
-      "phone": "04-25279758",
-      "imageUrl": "https://www.animal.taichung.gov.tw/media/464643/961813133829.jpg"
+      "phone": "04-25279758"
     },
     {
-      "id": "taichung-94",
+      "id": "taichung-7cdc01a9",
       "name": "日拓不動產有限公司",
       "address": "臺中市烏日區中山路三段546-28號",
       "serviceTypes": [
@@ -1364,11 +1352,10 @@
         "犬",
         "貓"
       ],
-      "phone": "04-23385626",
-      "imageUrl": "https://www.animal.taichung.gov.tw/media/974221/日拓不動產有限公司.jpg"
+      "phone": "04-23385626"
     },
     {
-      "id": "taichung-95",
+      "id": "taichung-2f2fdeec",
       "name": "明高溫泉(明高溫泉旅行社)",
       "address": "和平區東關路一段92號",
       "serviceTypes": [
@@ -1379,11 +1366,10 @@
         "貓",
         "其他"
       ],
-      "phone": "04-25951117",
-      "imageUrl": "https://www.animal.taichung.gov.tw/media/619490/明高溫泉.jpg"
+      "phone": "04-25951117"
     },
     {
-      "id": "taichung-96",
+      "id": "taichung-54afaf0a",
       "name": "晨熹社 ASAHIKARI繪本書店 (晨熹社)",
       "address": "西區博館路234號",
       "serviceTypes": [
@@ -1393,11 +1379,10 @@
         "犬",
         "貓"
       ],
-      "phone": "04-23150001",
-      "imageUrl": "https://www.animal.taichung.gov.tw/media/464607/9641146229.jpg"
+      "phone": "04-23150001"
     },
     {
-      "id": "taichung-97",
+      "id": "taichung-ec4d0d28",
       "name": "望高莊園(望高餐飲部)",
       "address": "南屯區中台路398號",
       "serviceTypes": [
@@ -1411,7 +1396,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464655/96208593729.jpg"
     },
     {
-      "id": "taichung-98",
+      "id": "taichung-1d7b89ec",
       "name": "森林小徑 親子友善餐廳(森林小徑餐飲有限公司)",
       "address": "北屯區文心路四段131號",
       "serviceTypes": [
@@ -1425,7 +1410,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464441/791513383929.jpg"
     },
     {
-      "id": "taichung-99",
+      "id": "taichung-f5f420a3",
       "name": "森林小徑餐飲有限公司大墩分公司",
       "address": "西屯區大容西街53號",
       "serviceTypes": [
@@ -1436,11 +1421,10 @@
         "貓",
         "其他"
       ],
-      "phone": "04-23100638",
-      "imageUrl": "https://www.animal.taichung.gov.tw/media/635919/91256251_513348472697544_4746722964194459648_o.jpg"
+      "phone": "04-23100638"
     },
     {
-      "id": "taichung-100",
+      "id": "taichung-a28f2a4e",
       "name": "森歐美食坊",
       "address": "臺中市西區模範街19-4號",
       "serviceTypes": [
@@ -1450,11 +1434,10 @@
         "犬",
         "貓"
       ],
-      "phone": "0968-266993",
-      "imageUrl": "https://www.animal.taichung.gov.tw/media/1011548/森歐美食坊.jpg"
+      "phone": "0968-266993"
     },
     {
-      "id": "taichung-101",
+      "id": "taichung-bfb174b7",
       "name": "森沐 Sun Moon",
       "address": "北區益華街79號",
       "serviceTypes": [
@@ -1464,11 +1447,10 @@
         "犬",
         "貓"
       ],
-      "phone": "04-22368008",
-      "imageUrl": "https://www.animal.taichung.gov.tw/media/464669/9719423129.jpg"
+      "phone": "04-22368008"
     },
     {
-      "id": "taichung-102",
+      "id": "taichung-a15d7b21",
       "name": "樂湜cafe早午餐手作料理（樂湜餐廳）",
       "address": "南區工學北路376號",
       "serviceTypes": [
@@ -1482,7 +1464,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464483/7111410373529.jpg"
     },
     {
-      "id": "taichung-103",
+      "id": "taichung-40a6ae58",
       "name": "模範貝果（模範街小廚房）",
       "address": "模範街1巷1號",
       "serviceTypes": [
@@ -1496,7 +1478,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1101263/模範貝果.jpg"
     },
     {
-      "id": "taichung-104",
+      "id": "taichung-d710bd6a",
       "name": "橘光呼嚕ｘ背包Cat咖啡館（橘光呼嚕咖啡）",
       "address": "龍井區東海里藝術街85號1樓",
       "serviceTypes": [
@@ -1511,7 +1493,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464399/78161614329.jpg"
     },
     {
-      "id": "taichung-105",
+      "id": "taichung-c88b3d2c",
       "name": "歐風商旅(歐風商旅旅館事業有限公司)",
       "address": "西屯區惠民路199號",
       "serviceTypes": [
@@ -1525,7 +1507,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464467/711139112829.jpg"
     },
     {
-      "id": "taichung-106",
+      "id": "taichung-a871045e",
       "name": "此木二水（晨輝有限公司）",
       "address": "臺中市西區長春街49號",
       "serviceTypes": [
@@ -1539,7 +1521,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1017105/此木二水.jpg"
     },
     {
-      "id": "taichung-107",
+      "id": "taichung-832464b2",
       "name": "水雲端旗艦概念旅館",
       "address": "西屯區青海南街159號",
       "serviceTypes": [
@@ -1553,7 +1535,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/671765/水雲端棋前概念旅館.jpg"
     },
     {
-      "id": "taichung-108",
+      "id": "taichung-99dca762",
       "name": "沐心泉休閒農場（沁心泉休閒農場）",
       "address": "新社區中和里中興街60號",
       "serviceTypes": [
@@ -1569,7 +1551,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464585/953010551429.jpg"
     },
     {
-      "id": "taichung-109",
+      "id": "taichung-45f4705a",
       "name": "洄流餐食(鑫長榮餐飲有限公司)",
       "address": "臺中市北區雙十路二段21巷16號",
       "serviceTypes": [
@@ -1584,7 +1566,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1278451/洄流餐食-鑫長榮餐飲有限公司.jpg"
     },
     {
-      "id": "taichung-110",
+      "id": "taichung-a8983da5",
       "name": "流星花園民宿(流星花園休閒農場)",
       "address": "豐原區水源路坪頂巷8號",
       "serviceTypes": [
@@ -1599,7 +1581,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464421/783111512329.jpg"
     },
     {
-      "id": "taichung-111",
+      "id": "taichung-f9033804",
       "name": "浪浪別哭(貳捌肆捌企業社)",
       "address": "干城街214巷1號",
       "serviceTypes": [
@@ -1612,7 +1594,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1011566/line_album_112-uni-cafe_231014_11.jpg"
     },
     {
-      "id": "taichung-112",
+      "id": "taichung-eb2a4a67",
       "name": "浮雲客棧股份有限公司",
       "address": "臺中市西屯區西安街277巷59號",
       "serviceTypes": [
@@ -1626,7 +1608,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1210152/浮雲客棧.jpg"
     },
     {
-      "id": "taichung-113",
+      "id": "taichung-5cbffff8",
       "name": "海灣樂世界 HiONE 啵比星球(海灣樂世界股份有限公司)",
       "address": "北屯區東山路二段151-2號",
       "serviceTypes": [
@@ -1642,7 +1624,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/617016/海灣樂世界.jpg"
     },
     {
-      "id": "taichung-114",
+      "id": "taichung-4f12628e",
       "name": "深耕寵物森林園區",
       "address": "太平區山田路26巷5號",
       "serviceTypes": [
@@ -1657,7 +1639,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464457/71129143829.jpg"
     },
     {
-      "id": "taichung-115",
+      "id": "taichung-2ebde0e0",
       "name": "淳垚鍋物(港垚有限公司)",
       "address": "臺中市南屯區大墩13街2號",
       "serviceTypes": [
@@ -1672,7 +1654,21 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1281471/淳垚鍋物-門口.jpg"
     },
     {
-      "id": "taichung-116",
+      "id": "taichung-c08df6da",
+      "name": "溫久熬老火鍋館(昂軒有限公司)",
+      "address": "臺中市中區台灣大道一段138號1樓",
+      "serviceTypes": [
+        "餐飲"
+      ],
+      "petTypes": [
+        "犬",
+        "貓"
+      ],
+      "phone": "04-23265060",
+      "imageUrl": "https://www.animal.taichung.gov.tw/media/1336565/溫久熬老火鍋館-昂軒有限公司-店外觀.jpg"
+    },
+    {
+      "id": "taichung-dc58fa0b",
       "name": "無理 WULI（昂宸餐飲店）",
       "address": "公正路156巷4號",
       "serviceTypes": [
@@ -1687,7 +1683,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1101266/無理.jpg"
     },
     {
-      "id": "taichung-117",
+      "id": "taichung-ec01a225",
       "name": "特力屋台中北屯店(特力屋股份有限公司北屯分公司)",
       "address": "北屯路407之1號",
       "serviceTypes": [
@@ -1701,7 +1697,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464415/783017214653.jpg"
     },
     {
-      "id": "taichung-118",
+      "id": "taichung-d87c1d5d",
       "name": "特力屋台中西屯店(特力屋股份有限公司西屯分公司)",
       "address": "西屯區臺灣大道四段528號",
       "serviceTypes": [
@@ -1715,7 +1711,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464417/783017253053.jpg"
     },
     {
-      "id": "taichung-119",
+      "id": "taichung-d3805610",
       "name": "特力屋台中豐原店(特力屋股份有限公司豐原分公司)",
       "address": "豐原區南村里水源路420號",
       "serviceTypes": [
@@ -1729,7 +1725,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464420/783017353571.jpg"
     },
     {
-      "id": "taichung-120",
+      "id": "taichung-98ab2e42",
       "name": "玩具車庫咖啡店",
       "address": "長壽路北三巷19號",
       "serviceTypes": [
@@ -1743,7 +1739,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1170553/玩具車庫咖啡店.jpg"
     },
     {
-      "id": "taichung-121",
+      "id": "taichung-08133e2a",
       "name": "甜罄工作坊",
       "address": "后里區民生路57巷1號",
       "serviceTypes": [
@@ -1757,7 +1753,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/858581/甜罄工作坊.jpg"
     },
     {
-      "id": "taichung-122",
+      "id": "taichung-c006d42b",
       "name": "用上自然膳食堂",
       "address": "臺中市大肚區大肚藍色公路51號",
       "serviceTypes": [
@@ -1771,7 +1767,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1278417/用上自然膳食堂.jpg"
     },
     {
-      "id": "taichung-123",
+      "id": "taichung-653f2226",
       "name": "米克C房 C+Kitchen 港式私房料理（詩家廚房有限公司）",
       "address": "祥順路一段91號",
       "serviceTypes": [
@@ -1786,7 +1782,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1024198/米克c房.jpg"
     },
     {
-      "id": "taichung-124",
+      "id": "taichung-31ed08b4",
       "name": "糧薪客棧（糧薪商行沙鹿分部）",
       "address": "臺中市沙鹿區沙田路30-1號",
       "serviceTypes": [
@@ -1801,7 +1797,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1024208/糧薪客棧.jpg"
     },
     {
-      "id": "taichung-125",
+      "id": "taichung-7272f609",
       "name": "紙箱王創意園區(紙箱王有限公司)",
       "address": "北屯區東山路二段二巷2號",
       "serviceTypes": [
@@ -1816,7 +1812,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/651792/紙箱王有限公司.jpg"
     },
     {
-      "id": "taichung-126",
+      "id": "taichung-539a4609",
       "name": "綠光計畫(范特喜微創文化股份有限公司)",
       "address": "中興一巷19號",
       "serviceTypes": [
@@ -1829,7 +1825,7 @@
       "phone": "04-23050519"
     },
     {
-      "id": "taichung-127",
+      "id": "taichung-514c5fe5",
       "name": "緣橋汽車旅館",
       "address": "南屯區大墩11街433號",
       "serviceTypes": [
@@ -1842,7 +1838,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/671745/緣橋汽車旅館.jpg"
     },
     {
-      "id": "taichung-128",
+      "id": "taichung-38edba8a",
       "name": "美好年代餐飲顧問有限公司",
       "address": "臺中市西區模範街31巷7弄7號",
       "serviceTypes": [
@@ -1857,7 +1853,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1012309/line_album_112逗戶雞蛋糕_231014_18.jpg"
     },
     {
-      "id": "taichung-129",
+      "id": "taichung-f7d66e60",
       "name": "翔仔居家（寬承實業有限公司）",
       "address": "瀋陽北路30號",
       "serviceTypes": [
@@ -1871,7 +1867,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1137146/翔仔居家.jpg"
     },
     {
-      "id": "taichung-130",
+      "id": "taichung-83b84091",
       "name": "老地方寵物生活館 - 十甲店(好地方寵物用品有限公司)",
       "address": "臺中市東區十甲東路622號1樓",
       "serviceTypes": [
@@ -1886,7 +1882,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1278444/老地方寵物生活館-台中十甲店.jpg"
     },
     {
-      "id": "taichung-131",
+      "id": "taichung-f1275dce",
       "name": "老地方寵物生活館 - 南屯一店(老地方南屯有限公司)",
       "address": "臺中市南屯區五權西路二段82號",
       "serviceTypes": [
@@ -1901,7 +1897,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1278313/老地方寵物生活館-南屯一店.jpg"
     },
     {
-      "id": "taichung-132",
+      "id": "taichung-2dc6bc81",
       "name": "老地方寵物生活館 - 南屯二店(老地方五權有限公司)",
       "address": "臺中市南屯區五權西路二段207號",
       "serviceTypes": [
@@ -1912,11 +1908,10 @@
         "貓",
         "其他"
       ],
-      "phone": "04-24710918",
-      "imageUrl": "https://www.animal.taichung.gov.tw/media/1278414/老地方寵物生活館-南屯二店.jpg"
+      "phone": "04-24710918"
     },
     {
-      "id": "taichung-133",
+      "id": "taichung-06ebd6ae",
       "name": "老地方寵物生活館 - 大里旗艦店(老地方大里有限公司)",
       "address": "臺中市大里區大明路415號",
       "serviceTypes": [
@@ -1931,7 +1926,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1278447/老地方寵物生活館-大里旗艦店-老地方大里有限公司.jpg"
     },
     {
-      "id": "taichung-134",
+      "id": "taichung-ff85be6f",
       "name": "老地方寵物生活館 - 天津店(老地方國際有限公司)",
       "address": "臺中市北屯區天津路三段45號",
       "serviceTypes": [
@@ -1942,11 +1937,10 @@
         "貓",
         "其他"
       ],
-      "phone": "04-22341405",
-      "imageUrl": "https://www.animal.taichung.gov.tw/media/1278424/老地方寵物生活館-天津店.jpg"
+      "phone": "04-22341405"
     },
     {
-      "id": "taichung-135",
+      "id": "taichung-45105cc4",
       "name": "老地方寵物生活館 - 福科店(老地方五權有限公司福科分公司)",
       "address": "臺中市西屯區福林里福科路635號",
       "serviceTypes": [
@@ -1961,7 +1955,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1278431/老地方寵物生活館-福科店-老地方五權有限公司福科分公司.jpg"
     },
     {
-      "id": "taichung-136",
+      "id": "taichung-1c490d86",
       "name": "老地方寵物生活館 - 西屯旗艦店(老地方國際行銷有限公司)",
       "address": "臺中市西屯區成都路319號",
       "serviceTypes": [
@@ -1976,7 +1970,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1278428/老地方寵物生活館-西屯旗艦店.jpg"
     },
     {
-      "id": "taichung-137",
+      "id": "taichung-4c0566ce",
       "name": "肉肉燒肉五權店(幸福肉肉燒肉店)",
       "address": "臺中市南屯區五權西路二段223號",
       "serviceTypes": [
@@ -1991,7 +1985,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1004493/肉肉燒肉五權店.jpg"
     },
     {
-      "id": "taichung-138",
+      "id": "taichung-3dcfcfde",
       "name": "肉肉燒肉朝馬店(肉肉燒肉店)",
       "address": "臺中市西屯區朝馬路70號",
       "serviceTypes": [
@@ -2006,7 +2000,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/995481/肉肉燒肉朝馬店.jpg"
     },
     {
-      "id": "taichung-139",
+      "id": "taichung-5b57d4b3",
       "name": "背包客饞(喬米莉號)",
       "address": "南屯區文心南二路396號",
       "serviceTypes": [
@@ -2020,7 +2014,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/569302/s__72286322-1.jpg"
     },
     {
-      "id": "taichung-140",
+      "id": "taichung-46fd4da0",
       "name": "自己印紙膠帶(豐鵬商標膠帶股份有限公司)",
       "address": "永春東路195號",
       "serviceTypes": [
@@ -2033,7 +2027,7 @@
       "phone": "04-24739873"
     },
     {
-      "id": "taichung-141",
+      "id": "taichung-c9453f56",
       "name": "臺中市大雅區公所",
       "address": "大雅區雅環路二段301號",
       "serviceTypes": [
@@ -2047,7 +2041,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464545/833015384429.jpg"
     },
     {
-      "id": "taichung-142",
+      "id": "taichung-e51dde35",
       "name": "臺中市霧峰區公所",
       "address": "霧峰區本堂里大同路20號",
       "serviceTypes": [
@@ -2061,7 +2055,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464401/781616202429.jpg"
     },
     {
-      "id": "taichung-143",
+      "id": "taichung-a147c717",
       "name": "艸聲手碟（鐵皮駅商行）",
       "address": "向上北路106號",
       "serviceTypes": [
@@ -2075,7 +2069,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1125125/艸聲手碟.jpg"
     },
     {
-      "id": "taichung-144",
+      "id": "taichung-dabb9186",
       "name": "茶馬司訪山茶店: TEAMARS（上花饌餐飲股份有限公司）",
       "address": "臺中市南屯區惠文路536號1樓",
       "serviceTypes": [
@@ -2089,7 +2083,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1053535/茶馬司訪山茶店-teamars.jpg"
     },
     {
-      "id": "taichung-145",
+      "id": "taichung-99a3f492",
       "name": "莫尼早餐北屯和順店(橙澤夠美福)",
       "address": "臺中市北屯區和順路497號",
       "serviceTypes": [
@@ -2103,7 +2097,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1330907/莫尼早餐北屯和順店_店外觀.jpg"
     },
     {
-      "id": "taichung-146",
+      "id": "taichung-7b22c148",
       "name": "薰衣草森林(新社森林股份有限公司)",
       "address": "新社區中興街20號",
       "serviceTypes": [
@@ -2119,7 +2113,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464591/9530137929.jpg"
     },
     {
-      "id": "taichung-147",
+      "id": "taichung-f1553b6c",
       "name": "製餃研所（鶴餃商行）",
       "address": "臺中市西區中興一巷12號",
       "serviceTypes": [
@@ -2134,7 +2128,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1067567/鶴餃商行.jpg"
     },
     {
-      "id": "taichung-148",
+      "id": "taichung-7821a41f",
       "name": "貓老闆",
       "address": "大里區大里路109號",
       "serviceTypes": [
@@ -2148,7 +2142,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464451/710309152929.jpg"
     },
     {
-      "id": "taichung-149",
+      "id": "taichung-2cc195bf",
       "name": "貓起來吃(這裡沒有貓)",
       "address": "西區台灣大道二段522號",
       "serviceTypes": [
@@ -2161,7 +2155,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464563/9517937229.jpg"
     },
     {
-      "id": "taichung-150",
+      "id": "taichung-3a8167d2",
       "name": "貓邸老咖有限公司",
       "address": "臺中市北區東光一街21號",
       "serviceTypes": [
@@ -2176,7 +2170,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1278433/貓邸老咖庭園餐廳.jpg"
     },
     {
-      "id": "taichung-151",
+      "id": "taichung-d0c061a2",
       "name": "踏踏地球 Ta Ta Earth (韋米雲樂寵物生活用品店)",
       "address": "西區精誠九街10號",
       "serviceTypes": [
@@ -2190,7 +2184,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/617921/踏踏地球.jpg"
     },
     {
-      "id": "taichung-152",
+      "id": "taichung-2bed4a35",
       "name": "逗戶雞蛋糕（逗戶幸福商行）",
       "address": "臺中市西區精誠十五街36號",
       "serviceTypes": [
@@ -2204,12 +2198,10 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1012549/逗戶雞蛋糕.jpg"
     },
     {
-      "id": "taichung-153",
+      "id": "taichung-0303e489",
       "name": "運通機車出租(鑫運通小客車租賃有限公司)",
       "address": "中區建國路212號",
-      "serviceTypes": [
-        "交通"
-      ],
+      "serviceTypes": [],
       "petTypes": [
         "犬",
         "貓",
@@ -2219,7 +2211,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464427/79610402629.jpg"
     },
     {
-      "id": "taichung-154",
+      "id": "taichung-ef7881a6",
       "name": "野沐私房菜",
       "address": "臺中市北屯區南興北二路111號",
       "serviceTypes": [
@@ -2233,7 +2225,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/977259/野沐私房菜.jpg"
     },
     {
-      "id": "taichung-155",
+      "id": "taichung-649ece8e",
       "name": "野菜共和國(德運事業有限公司)",
       "address": "西區博館路111號",
       "serviceTypes": [
@@ -2247,7 +2239,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464505/711221441029.jpg"
     },
     {
-      "id": "taichung-156",
+      "id": "taichung-0553d483",
       "name": "金典 綠園道商場（日華金典國際酒店股份有限公司中港分公司）",
       "address": "健行路1049號",
       "serviceTypes": [
@@ -2263,7 +2255,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1111630/金典-綠園道.jpg"
     },
     {
-      "id": "taichung-157",
+      "id": "taichung-ecbb983b",
       "name": "金沙時尚有限公司",
       "address": "北區太平路201號",
       "serviceTypes": [
@@ -2277,7 +2269,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/671751/金沙時尚有限公司.jpg"
     },
     {
-      "id": "taichung-158",
+      "id": "taichung-b972dffb",
       "name": "閒情驛棧民宿（閒情驛站民宿）",
       "address": "石岡區梅子里豐勢路梅子巷17-10號",
       "serviceTypes": [
@@ -2290,7 +2282,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/688091/閒情驛站民宿.jpg"
     },
     {
-      "id": "taichung-159",
+      "id": "taichung-4caba5f9",
       "name": "阿利珈多咖啡館",
       "address": "臺中市北區永興街98巷14號1樓",
       "serviceTypes": [
@@ -2304,7 +2296,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1004495/阿利珈多.jpg"
     },
     {
-      "id": "taichung-160",
+      "id": "taichung-02eca965",
       "name": "阿金食堂",
       "address": "大雅區雅環路一段154巷18號",
       "serviceTypes": [
@@ -2318,7 +2310,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/635921/阿金食堂.jpg"
     },
     {
-      "id": "taichung-161",
+      "id": "taichung-a97a4bff",
       "name": "露達寵物生活工坊（露達寵物工坊）",
       "address": "霧峰區中正路750號1樓",
       "serviceTypes": [
@@ -2333,7 +2325,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464577/952415122929.jpg"
     },
     {
-      "id": "taichung-162",
+      "id": "taichung-ab4d6d46",
       "name": "青青湖畔親水花園(陽光樂活飲食店)",
       "address": "北屯區東山路二段188號",
       "serviceTypes": [
@@ -2349,7 +2341,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464435/79139274529.jpg"
     },
     {
-      "id": "taichung-163",
+      "id": "taichung-3e893731",
       "name": "順咖啡(順順咖啡)",
       "address": "中區市府路107巷1-2號",
       "serviceTypes": [
@@ -2363,7 +2355,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464461/71129234729.jpg"
     },
     {
-      "id": "taichung-164",
+      "id": "taichung-8de97d0e",
       "name": "飪室咖哩-公正店（昂洋有限公司公正分店）",
       "address": "公正路168號",
       "serviceTypes": [
@@ -2374,11 +2366,10 @@
         "貓",
         "其他"
       ],
-      "phone": "04-23010857",
-      "imageUrl": "https://www.animal.taichung.gov.tw/media/1101308/飪室咖哩公正店.jpg"
+      "phone": "04-23010857"
     },
     {
-      "id": "taichung-165",
+      "id": "taichung-99cd2c56",
       "name": "飪室咖哩-勤美店（昂洋有限公司）",
       "address": "美村路一段149巷19號",
       "serviceTypes": [
@@ -2393,7 +2384,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1101290/飪室咖哩勤美店.jpg"
     },
     {
-      "id": "taichung-166",
+      "id": "taichung-0a7ecc86",
       "name": "飽屋寵物美容鮮食館",
       "address": "西屯區大隆路72號2樓",
       "serviceTypes": [
@@ -2402,11 +2393,10 @@
       "petTypes": [
         "犬"
       ],
-      "phone": "0966-293606",
-      "imageUrl": "https://www.animal.taichung.gov.tw/media/464565/951711345929.jpg"
+      "phone": "0966-293606"
     },
     {
-      "id": "taichung-167",
+      "id": "taichung-cf242498",
       "name": "養鍋中科店(永亮商行)",
       "address": "西屯區西屯路三段95-1號",
       "serviceTypes": [
@@ -2419,7 +2409,7 @@
       "phone": "04-24608666"
     },
     {
-      "id": "taichung-168",
+      "id": "taichung-f0e5aec9",
       "name": "養鍋南屯黎明店(樂軒家商行)",
       "address": "南屯區干城街309號",
       "serviceTypes": [
@@ -2433,7 +2423,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464624/96189132129.jpg"
     },
     {
-      "id": "taichung-169",
+      "id": "taichung-9dd6a0cf",
       "name": "養鍋大里店(圓曜商行)",
       "address": "大里區大明路242號",
       "serviceTypes": [
@@ -2447,7 +2437,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/635847/img_2417.jpg"
     },
     {
-      "id": "taichung-170",
+      "id": "taichung-a0c61350",
       "name": "養鍋大雅店(耀津小吃部)",
       "address": "大雅區中清東路271號",
       "serviceTypes": [
@@ -2461,7 +2451,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/635849/37811371_2125546514436876_1807707642752139264_o.jpg"
     },
     {
-      "id": "taichung-171",
+      "id": "taichung-e6e22535",
       "name": "養鍋忠孝夜市店(品味小吃店)",
       "address": "南區忠孝路208號",
       "serviceTypes": [
@@ -2475,7 +2465,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/635897/62426688_361960107787803_6028189094759104512_o.jpg"
     },
     {
-      "id": "taichung-172",
+      "id": "taichung-2d30e27a",
       "name": "養鍋文心店(佳倍商行)",
       "address": "北屯區文心路四段679號",
       "serviceTypes": [
@@ -2489,7 +2479,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464628/96189515529.jpg"
     },
     {
-      "id": "taichung-173",
+      "id": "taichung-c00c7b5e",
       "name": "養鍋水湳經貿店(巨會商行)",
       "address": "西屯區中平路161號",
       "serviceTypes": [
@@ -2503,7 +2493,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/635895/img_2421.jpg"
     },
     {
-      "id": "taichung-174",
+      "id": "taichung-26ba218d",
       "name": "魔技健康運動休閒用品有限公司",
       "address": "西屯區福星北路31號",
       "serviceTypes": [
@@ -2517,7 +2507,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/477648/982311233329.jpg"
     },
     {
-      "id": "taichung-175",
+      "id": "taichung-ef74bd8b",
       "name": "魚中魚貓狗水族大賣場-北屯店（魚中魚樂活有限公司北屯分公司）",
       "address": "臺中市北屯區文心路四段 319 號",
       "serviceTypes": [
@@ -2532,7 +2522,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1052413/魚中魚貓狗水族大賣場-北屯店.jpg"
     },
     {
-      "id": "taichung-176",
+      "id": "taichung-4614c2a6",
       "name": "魚中魚貓狗水族大賣場-南屯店（魚中魚樂活有限公司南屯分公司）",
       "address": "臺中市南屯區五權西路二段80號",
       "serviceTypes": [
@@ -2547,7 +2537,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1052980/魚中魚貓狗水族大賣場-南屯店.jpg"
     },
     {
-      "id": "taichung-177",
+      "id": "taichung-90542a42",
       "name": "魚中魚貓狗水族大賣場-大里店（大魚寵物有限公司）",
       "address": "臺中市大里區國光路二段505號",
       "serviceTypes": [
@@ -2562,7 +2552,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1053054/魚中魚貓狗水族大賣場-大里店.jpg"
     },
     {
-      "id": "taichung-178",
+      "id": "taichung-75e24915",
       "name": "魚中魚貓狗水族大賣場-文心店（慶福水族有限公司）",
       "address": "臺中市南屯區文心路一段372號",
       "serviceTypes": [
@@ -2577,7 +2567,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1052984/魚中魚貓狗水族大賣場-文心店.jpg"
     },
     {
-      "id": "taichung-179",
+      "id": "taichung-3b284125",
       "name": "魚中魚貓狗水族大賣場-文昌店（大魚寵物有限公司文昌分公司）",
       "address": "臺中市北屯區文心路四段 806 號",
       "serviceTypes": [
@@ -2592,7 +2582,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1052450/魚中魚貓狗水族大賣場-文昌店.jpg"
     },
     {
-      "id": "taichung-180",
+      "id": "taichung-80a50efd",
       "name": "魚中魚貓狗水族大賣場–豐原店（魚中魚樂活有限公司豐原分公司）",
       "address": "臺中市豐原區豐原大道六段 835 號",
       "serviceTypes": [
@@ -2607,7 +2597,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1052401/魚中魚貓狗水族大賣場-豐原店.jpg"
     },
     {
-      "id": "taichung-181",
+      "id": "taichung-5b681a38",
       "name": "鵝牌氣密窗(鵝牌科技有限公司)",
       "address": "沙鹿區東大路二段1536號",
       "serviceTypes": [
@@ -2621,7 +2611,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464471/711139192829.jpg"
     },
     {
-      "id": "taichung-182",
+      "id": "taichung-5cfa7672",
       "name": "麗寶OutletMall(麗鑫綜合百貨股份有限公司)",
       "address": "后里區福容路201號",
       "serviceTypes": [
@@ -2637,7 +2627,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464393/781615494729.jpg"
     },
     {
-      "id": "taichung-183",
+      "id": "taichung-578c5fc6",
       "name": "麗都賓館(麗都企業社)",
       "address": "西屯區中康街81號",
       "serviceTypes": [
@@ -2651,7 +2641,7 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464523/712221505929.jpg"
     },
     {
-      "id": "taichung-184",
+      "id": "taichung-5777abee",
       "name": "黑虎的肉肉食堂",
       "address": "臺中市梧棲區建國北街259巷70號1樓",
       "serviceTypes": [

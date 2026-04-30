@@ -1,0 +1,6133 @@
+{
+  "sourceCity": "臺北市",
+  "scrapedAt": 1776836587,
+  "venues": [
+    {
+      "id": "taipei-0",
+      "name": "顧寶寶寵物用品店",
+      "address": "臺北市大安區光復南路702號1樓",
+      "location": {
+        "lat": 25.029582,
+        "lng": 121.557214
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-1",
+      "name": "吳星慧 寵物美容spa館（中山店）",
+      "location": {
+        "lat": 25.067965,
+        "lng": 121.523263
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-2",
+      "name": "啵好寵物生活館",
+      "address": "臺北市中山區北安路472號1樓",
+      "location": {
+        "lat": 25.079596,
+        "lng": 121.544938
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-3",
+      "name": "哈利寵物精緻美容",
+      "location": {
+        "lat": 25.0674022,
+        "lng": 121.5258647
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-4",
+      "name": "金吉旺寵物店",
+      "location": {
+        "lat": 25.0293511,
+        "lng": 121.5570718
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-5",
+      "name": "Wang's Beauty 旺城寵物精品美容林森店",
+      "location": {
+        "lat": 25.0576276,
+        "lng": 121.523889
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-6",
+      "name": "D&Y寵物時尚旅店(誼文寵物生活館)",
+      "location": {
+        "lat": 25.0678607,
+        "lng": 121.5238936
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-7",
+      "name": "搖擺狗寵物美容店",
+      "location": {
+        "lat": 25.0367345,
+        "lng": 121.5577131
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-8",
+      "name": "就甘心Ponpon寵物旅館",
+      "location": {
+        "lat": 25.0556638,
+        "lng": 121.5268666
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-9",
+      "name": "寵物公園金龍店(萬達寵物事業股份有限公司金龍分公司)",
+      "address": "臺北市內湖區內湖路3段3號1樓及地下1樓、5號地下1樓",
+      "location": {
+        "lat": 25.0897419,
+        "lng": 121.5839415
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-10",
+      "name": "寵物公園和平店(萬達寵物事業股份有限公司和平分公司)",
+      "location": {
+        "lat": 25.0243701,
+        "lng": 121.5505373
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-11",
+      "name": "俏妞寵物生活坊",
+      "location": {
+        "lat": 25.056956,
+        "lng": 121.606048
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-12",
+      "name": "寵物公園北和店(萬達寵物事業股份有限公司北和分公司)",
+      "location": {
+        "lat": 25.138618,
+        "lng": 121.502063
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-13",
+      "name": "狗狗好乖寵物旅館",
+      "location": {
+        "lat": 25.051296,
+        "lng": 121.581433
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-14",
+      "name": "Very旺寵物精品旅館",
+      "location": {
+        "lat": 25.0483134,
+        "lng": 121.5466498
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-15",
+      "name": "維樂寵物美容店(Lady gogo 寵物SPA沙龍)",
+      "location": {
+        "lat": 25.0309157,
+        "lng": 121.5572529
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-16",
+      "name": "岱哥寵物精品",
+      "address": "臺北市士林區天母西路3-1號2樓",
+      "location": {
+        "lat": 25.1187822,
+        "lng": 121.5292314
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-17",
+      "name": "LOVELY DOG寵物生活館",
+      "location": {
+        "lat": 24.9881661,
+        "lng": 121.5689678
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-18",
+      "name": "狗ㄗㄞˇ子",
+      "location": {
+        "lat": 25.1322283,
+        "lng": 121.5013221
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-19",
+      "name": "禮來寵物生活館",
+      "location": {
+        "lat": 25.0281632,
+        "lng": 121.5562802
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-20",
+      "name": "毛毛窩寵物精品旅館",
+      "location": {
+        "lat": 24.9985703,
+        "lng": 121.5440837
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-21",
+      "name": "GuGu House 寵物旅館",
+      "location": {
+        "lat": 25.0839281,
+        "lng": 121.553134
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-22",
+      "name": "五號寵物店",
+      "address": "臺北市內湖區內湖路一段737巷8弄14號1樓",
+      "location": {
+        "lat": 25.079457,
+        "lng": 121.5779105
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-23",
+      "name": "一起寵物生活館",
+      "location": {
+        "lat": 25.0229388,
+        "lng": 121.5175382
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-24",
+      "name": "辛普森寵物概念館",
+      "location": {
+        "lat": 25.1175784,
+        "lng": 121.5160255
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-25",
+      "name": "美樂蒂寵物美容用品館",
+      "location": {
+        "lat": 25.083746,
+        "lng": 121.510162
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-26",
+      "name": "幸福時光寵物生活館(幸福時光Cozy寵物旅館)",
+      "address": "臺北市中山區林森北路430號9樓",
+      "location": {
+        "lat": 25.0600735,
+        "lng": 121.525385
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-27",
+      "name": "安琪寵物精品&凱絲寵物精品旅館(安琪國際有限公司)",
+      "location": {
+        "lat": 25.069921,
+        "lng": 121.5927459
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-28",
+      "name": "狗狗家 Doghome Hotel(騰雨寵物國際有限公司)",
+      "location": {
+        "lat": 25.0497273,
+        "lng": 121.5180371
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-29",
+      "name": "犬貓物語生活館",
+      "address": "臺北市中山區林森北路472-5號",
+      "location": {
+        "lat": 25.0611103,
+        "lng": 121.5254629
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-30",
+      "name": "全滿屋寵物生活館",
+      "location": {
+        "lat": 25.0004889,
+        "lng": 121.552858
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-31",
+      "name": "璽喵屋",
+      "location": {
+        "lat": 25.0495766,
+        "lng": 121.5699994
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-32",
+      "name": "喵星小舖",
+      "location": {
+        "lat": 25.0288839,
+        "lng": 121.5568355
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-33",
+      "name": "慵懶貓寵物旅館",
+      "location": {
+        "lat": 25.0671565,
+        "lng": 121.5274422
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-34",
+      "name": "bibiQ puppy learning & care 狗狗幼兒園＆旅館",
+      "location": {
+        "lat": 25.0802587,
+        "lng": 121.560668
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-35",
+      "name": "城市貓旅 City Cat 貓旅館/純貓美容",
+      "location": {
+        "lat": 25.051522,
+        "lng": 121.5134561
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-36",
+      "name": "逗貓坊 FUNNYCAT ★純貓店★ 貓旅館Cat Hotel無麻醉專業貓美容｜貓住宿｜貓洗澡｜貓剃毛｜貓精品｜兇貓專科美容",
+      "location": {
+        "lat": 25.045284,
+        "lng": 121.577347
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-37",
+      "name": "就是貓工作坊",
+      "location": {
+        "lat": 24.98967,
+        "lng": 121.568392
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-38",
+      "name": "樓上遇見貓",
+      "location": {
+        "lat": 25.0494382,
+        "lng": 121.5576476
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-39",
+      "name": "愛貓寒舍有限公司",
+      "address": "臺北市大安區基隆路2段110號5樓",
+      "location": {
+        "lat": 25.0291941,
+        "lng": 121.5569976
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-40",
+      "name": "喵喵屋貓咪旅館",
+      "location": {
+        "lat": 25.0497222,
+        "lng": 121.5736111
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-41",
+      "name": "米香尼寵物美容",
+      "location": {
+        "lat": 25.0561939,
+        "lng": 121.5235312
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-42",
+      "name": "毛旅寵物旅館(毛旅企業社)",
+      "location": {
+        "lat": 25.0480787,
+        "lng": 121.5429057
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-43",
+      "name": "貓室友 Catroommate 貓旅館│台北貓住宿",
+      "location": {
+        "lat": 25.0969928,
+        "lng": 121.5242124
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-44",
+      "name": "可麗貓旅",
+      "location": {
+        "lat": 25.0834564,
+        "lng": 121.5519361
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-45",
+      "name": "『貓森旅』 - 貓旅館 Cat Hotel - 位於大安森林公園旁",
+      "location": {
+        "lat": 25.033739,
+        "lng": 121.537165
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-46",
+      "name": "小花貓寵物生活館",
+      "location": {
+        "lat": 24.9914329,
+        "lng": 121.5438312
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-47",
+      "name": "愛犬小屋",
+      "location": {
+        "lat": 25.0576498,
+        "lng": 121.5599374
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-48",
+      "name": "貓語花香精品貓旅館(貓語花香坊)",
+      "location": {
+        "lat": 25.046119,
+        "lng": 121.543651
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-49",
+      "name": "喵喵度假趣精品貓旅館(喵喵度假趣有限公司)",
+      "location": {
+        "lat": 25.0285596,
+        "lng": 121.5571089
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-50",
+      "name": "松樺犬貓坊",
+      "location": {
+        "lat": 25.0290028,
+        "lng": 121.5568797
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-51",
+      "name": "飛朵寵物美容坊",
+      "location": {
+        "lat": 25.0465007,
+        "lng": 121.5876142
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-52",
+      "name": "大葉白佳代寵物美容沙龍(新葉國際股份有限公司大直分公司)",
+      "location": {
+        "lat": 25.0832024,
+        "lng": 121.5523594
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-53",
+      "name": "好時光寵物旅館",
+      "location": {
+        "lat": 25.068127,
+        "lng": 121.591485
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-54",
+      "name": "有間貓旅精品度假中心(有間貓旅有限公司)",
+      "location": {
+        "lat": 25.0322466,
+        "lng": 121.5163164
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-55",
+      "name": "貓私房生活商行",
+      "address": "臺北市松山區基隆路一段40號3樓",
+      "location": {
+        "lat": 25.04986,
+        "lng": 121.5694018
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-56",
+      "name": "宅貓商行",
+      "address": "臺北市中山區民生東路二段3號1樓",
+      "location": {
+        "lat": 25.0582131,
+        "lng": 121.5279838
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-57",
+      "name": "親密夥伴(旻利寵物用品社)",
+      "location": {
+        "lat": 25.0296576,
+        "lng": 121.5571601
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-58",
+      "name": "讀貓園中途咖啡簡餐廳",
+      "location": {
+        "lat": 25.0191342,
+        "lng": 121.5578638
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-59",
+      "name": "飛米歌寵物旅館(雅米歌寵物精品旅館精品美容)",
+      "location": {
+        "lat": 25.0646089,
+        "lng": 121.5232641
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-60",
+      "name": "逗貓貓pet hotel 精品貓旅館",
+      "location": {
+        "lat": 25.0542851,
+        "lng": 121.5631206
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-61",
+      "name": "日巷貓旅(日巷工作室)",
+      "location": {
+        "lat": 25.0541944,
+        "lng": 121.608258
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-62",
+      "name": "有毛公寓Apt.Meow｜貓咪旅館·咖啡空間",
+      "location": {
+        "lat": 25.0502069,
+        "lng": 121.5753548
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-63",
+      "name": "咕咕G寵物城-木柵店(逸康有限公司)",
+      "location": {
+        "lat": 24.9843165,
+        "lng": 121.5615624
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-64",
+      "name": "嗷嗚寵物旅館",
+      "location": {
+        "lat": 25.0675378,
+        "lng": 121.5267094
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-65",
+      "name": "PetSpot寵點-寵物選品&美容&貓旅館",
+      "location": {
+        "lat": 25.0380581,
+        "lng": 121.5565584
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-66",
+      "name": "貓小姐狗先生寵物美容工作室",
+      "address": "臺北市大同區環河北路2段43號1樓",
+      "location": {
+        "lat": 25.0646917,
+        "lng": 121.508875
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-67",
+      "name": "毛小孩澡堂",
+      "address": "臺北市士林區忠誠路一段184號1樓",
+      "location": {
+        "lat": 25.1076861,
+        "lng": 121.5298866
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-68",
+      "name": "貓狗同萌寵物沙龍",
+      "address": "臺北市中山區新生北路1段138號地下1樓",
+      "location": {
+        "lat": 25.0510626,
+        "lng": 121.5276176
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-69",
+      "name": "咕咕G寵物城-天母店(逸洤有限公司)",
+      "location": {
+        "lat": 25.1182122,
+        "lng": 121.5315355
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-70",
+      "name": "咕咕G寵物城-建國店(逸升有限公司)",
+      "address": "臺北市中山區建國北路2段129號1樓及地下1樓",
+      "location": {
+        "lat": 25.0600535,
+        "lng": 121.5373384
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-71",
+      "name": "一簍毛工作室",
+      "address": "臺北市士林區天母西路3號5樓之20",
+      "location": {
+        "lat": 25.118609,
+        "lng": 121.529291
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-72",
+      "name": "毛孩樂工作室",
+      "location": {
+        "lat": 25.119582,
+        "lng": 121.531099
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-73",
+      "name": "爪子精緻寵物沙龍",
+      "location": {
+        "lat": 25.0555142,
+        "lng": 121.5236429
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-74",
+      "name": "Happi Ours 樂兒",
+      "address": "臺北市內湖區民權東路6段123巷34弄19號1及2樓",
+      "location": {
+        "lat": 25.0705573,
+        "lng": 121.5923872
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-75",
+      "name": "夢露寵物美容(連夢露寵物美容室)",
+      "location": {
+        "lat": 25.052427,
+        "lng": 121.5177739
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-76",
+      "name": "慧果工作室",
+      "address": "臺北市中正區忠孝東路2段35號4樓",
+      "location": {
+        "lat": 25.043868,
+        "lng": 121.527995
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-77",
+      "name": "狗窩窩愛犬旅社",
+      "location": {
+        "lat": 25.059545,
+        "lng": 121.564075
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-78",
+      "name": "樂芙寵物",
+      "location": {
+        "lat": 25.0666253,
+        "lng": 121.5181247
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-79",
+      "name": "WOOF DOG HOTEL 汪の居 (汪堡)",
+      "location": {
+        "lat": 25.0821048,
+        "lng": 121.5530557
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-80",
+      "name": "幸福A+寵物沙龍(幸福寵物生活館)",
+      "location": {
+        "lat": 25.0221675,
+        "lng": 121.5552271
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-81",
+      "name": "貓寶貝寵物園",
+      "location": {
+        "lat": 25.0289356,
+        "lng": 121.5569448
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-82",
+      "name": "丘丘寵物美容精品(樂佩有限公司)",
+      "location": {
+        "lat": 25.0380353,
+        "lng": 121.5294662
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-83",
+      "name": "花襪子的家寵物生活館",
+      "location": {
+        "lat": 25.1201401,
+        "lng": 121.5262992
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-84",
+      "name": "貓管家精緻旅館",
+      "location": {
+        "lat": 25.0512455,
+        "lng": 121.5814775
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-85",
+      "name": "酉家寵物旅館(張羅企業社)",
+      "location": {
+        "lat": 25.1117446,
+        "lng": 121.5269377
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-86",
+      "name": "狗戀寵物精品美容百貨(亮亮狗戀工作室)",
+      "location": {
+        "lat": 24.992275,
+        "lng": 121.573428
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-87",
+      "name": "奇果寵物美容生活館",
+      "location": {
+        "lat": 25.043688,
+        "lng": 121.568685
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-88",
+      "name": "貝多芬寵物造型生活館",
+      "location": {
+        "lat": 25.0491523,
+        "lng": 121.5252183
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-89",
+      "name": "寵物華爾滋",
+      "location": {
+        "lat": 25.0384021,
+        "lng": 121.5335361
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-90",
+      "name": "金草本寵物精品店",
+      "location": {
+        "lat": 25.0292134,
+        "lng": 121.5570356
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-91",
+      "name": "The Cat 貓・旅店",
+      "location": {
+        "lat": 25.0333781,
+        "lng": 121.5551336
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-92",
+      "name": "有狗真好寵物旅館",
+      "location": {
+        "lat": 25.024478,
+        "lng": 121.5113479
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-93",
+      "name": "貓格里拉精緻旅館有限公司",
+      "location": {
+        "lat": 25.024156,
+        "lng": 121.550019
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-94",
+      "name": "李老師犬貓坊",
+      "location": {
+        "lat": 25.0841254,
+        "lng": 121.5934412
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-95",
+      "name": "吃手手寵物精品旅館The Paw Pet Hotel",
+      "location": {
+        "lat": 25.0408599,
+        "lng": 121.529607
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-96",
+      "name": "金狗錐狗狗寵物旅館",
+      "location": {
+        "lat": 25.0519929,
+        "lng": 121.5629674
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-97",
+      "name": "麻吉寵物美容(麻吉寵物用品有限公司)",
+      "address": "臺北市士林區天母東路50巷20-2號1樓",
+      "location": {
+        "lat": 25.1174663,
+        "lng": 121.5333822
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-98",
+      "name": "米屋寵物美容",
+      "location": {
+        "lat": 25.1312204,
+        "lng": 121.4984735
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-99",
+      "name": "耀晟寵物坊",
+      "address": "臺北市大安區基隆路2段130號1樓",
+      "location": {
+        "lat": 25.028817,
+        "lng": 121.5567803
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-100",
+      "name": "寵物夢公園",
+      "location": {
+        "lat": 25.0498762,
+        "lng": 121.5745357
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-101",
+      "name": "北歐寵物旅館(北歐犬舍有限公司)",
+      "address": "臺北市大安區新生南路二段60之1號和60之2號",
+      "location": {
+        "lat": 25.0256184,
+        "lng": 121.5362292
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-102",
+      "name": "宿喜貓旅",
+      "location": {
+        "lat": 25.0240379,
+        "lng": 121.52432
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-103",
+      "name": "犬貓星寵物館",
+      "location": {
+        "lat": 25.0871112,
+        "lng": 121.5256435
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-104",
+      "name": "Let’s Go 樂洗狗寵物美容",
+      "location": {
+        "lat": 25.0537532,
+        "lng": 121.5131944
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-105",
+      "name": "超可愛名犬企業社",
+      "location": {
+        "lat": 25.0285902,
+        "lng": 121.5566802
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-106",
+      "name": "咕咕G寵物城八德店(萬旺商行)",
+      "location": {
+        "lat": 25.0497766,
+        "lng": 121.5708805
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-107",
+      "name": "思心寵物坊",
+      "address": "臺北市內湖區康寧路3段189巷12弄19號1樓",
+      "location": {
+        "lat": 25.0699511,
+        "lng": 121.6131184
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-108",
+      "name": "家裡寵物旅館-幼幼館",
+      "location": {
+        "lat": 25.04836,
+        "lng": 121.5432635
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-109",
+      "name": "北歐寵物旅館 游泳館",
+      "location": {
+        "lat": 25.048038,
+        "lng": 121.5571615
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-110",
+      "name": "Aimee's 艾狗狗",
+      "location": {
+        "lat": 25.079185,
+        "lng": 121.545672
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-111",
+      "name": "大安旺旺愛犬屋",
+      "location": {
+        "lat": 25.0340483,
+        "lng": 121.543851
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-112",
+      "name": "汪福寵物美容 Woof Pet Salon",
+      "location": {
+        "lat": 25.0778537,
+        "lng": 121.5839491
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-113",
+      "name": "寄居喵和風貓旅宿Hermicat",
+      "location": {
+        "lat": 25.033287,
+        "lng": 121.5587329
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-114",
+      "name": "寶貝家族寵物精品店",
+      "location": {
+        "lat": 25.058136,
+        "lng": 121.523526
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-115",
+      "name": "貓僕舍複合式貓旅館",
+      "location": {
+        "lat": 25.0663986,
+        "lng": 121.5139453
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-116",
+      "name": "小客廳寵物旅館 The Living Room Pet Hotel",
+      "location": {
+        "lat": 25.0822982,
+        "lng": 121.5919758
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-117",
+      "name": "狗狗日常寵物旅館/台北寵物旅館/文山區寵物旅館/寵物自助洗/狗安親/狗住宿",
+      "location": {
+        "lat": 24.9985824,
+        "lng": 121.5405283
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-118",
+      "name": "寵物公園天母店",
+      "location": {
+        "lat": 25.1182596,
+        "lng": 121.5281742
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-119",
+      "name": "毛尾巴寵物美容旅店(毛尾巴商行)",
+      "location": {
+        "lat": 25.0352331,
+        "lng": 121.5461046
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-120",
+      "name": "咪皇有限公司",
+      "location": {
+        "lat": 25.0772622,
+        "lng": 121.5843298
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-121",
+      "name": "寵物公園林森店",
+      "location": {
+        "lat": 25.0621378,
+        "lng": 121.5255475
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-122",
+      "name": "寵物公園台北忠五店",
+      "location": {
+        "lat": 25.0412015,
+        "lng": 121.5696809
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-123",
+      "name": "皇良寵物生活館",
+      "location": {
+        "lat": 25.055076,
+        "lng": 121.517958
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-124",
+      "name": "POM POM PET SALON",
+      "location": {
+        "lat": 25.0590248,
+        "lng": 121.519977
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-125",
+      "name": "OnlyCatBeauty 貓當家美容",
+      "location": {
+        "lat": 25.0822805,
+        "lng": 121.5913438
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-126",
+      "name": "福爾摩沙國際貿易有限公司",
+      "location": {
+        "lat": 25.057145,
+        "lng": 121.514741
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-127",
+      "name": "PUFFY寵物之店(Puffy寵物樂園)",
+      "location": {
+        "lat": 25.045867,
+        "lng": 121.553722
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-128",
+      "name": "寵物點子",
+      "address": "臺北市大安區敦化南路2段203號B1",
+      "location": {
+        "lat": 25.0263019,
+        "lng": 121.5493621
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-129",
+      "name": "和平動物用品行",
+      "location": {
+        "lat": 25.0345058,
+        "lng": 121.5043113
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-130",
+      "name": "中圓寵物股份有限公司信安分公司",
+      "location": {
+        "lat": 25.0254919,
+        "lng": 121.5569101
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-131",
+      "name": "凱絲精品貓旅館",
+      "location": {
+        "lat": 25.045704,
+        "lng": 121.574845
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-132",
+      "name": "蕙如商行 (寵物與我)",
+      "location": {
+        "lat": 25.108647,
+        "lng": 121.5314046
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-133",
+      "name": "咕咕G有限公司",
+      "location": {
+        "lat": 25.0682271,
+        "lng": 121.6168826
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-134",
+      "name": "誼加寵物生活館",
+      "location": {
+        "lat": 25.084686,
+        "lng": 121.594716
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-135",
+      "name": "明宸企業有限公司(動物王國-御貓園)",
+      "location": {
+        "lat": 25.0869546,
+        "lng": 121.5257997
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-136",
+      "name": "派對狗生活寵物館",
+      "location": {
+        "lat": 25.1207564,
+        "lng": 121.4687564
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-137",
+      "name": "夢公園有限公司貓館分公司",
+      "location": {
+        "lat": 25.0529621,
+        "lng": 121.5130374
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-138",
+      "name": "雪堡愛犬美容",
+      "location": {
+        "lat": 25.029716,
+        "lng": 121.529339
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-139",
+      "name": "金典寵物美容生活館",
+      "location": {
+        "lat": 25.0835034,
+        "lng": 121.5635644
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-140",
+      "name": "全能狗有限公司",
+      "location": {
+        "lat": 25.0641052,
+        "lng": 121.5659879
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-141",
+      "name": "維勤國際有限公司 (動物王國-北投分公司)",
+      "location": {
+        "lat": 25.140754,
+        "lng": 121.499871
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-142",
+      "name": "巧菲時尚寵物沙龍",
+      "location": {
+        "lat": 25.1017086,
+        "lng": 121.5235152
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-143",
+      "name": "皇詳實業有限公司",
+      "location": {
+        "lat": 24.9898514,
+        "lng": 121.5424901
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-144",
+      "name": "俊賓專業寵物美容坊",
+      "location": {
+        "lat": 25.023801,
+        "lng": 121.556083
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-145",
+      "name": "狗狗花園鄉村寵物館",
+      "location": {
+        "lat": 25.0253752,
+        "lng": 121.5666513
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-146",
+      "name": "酷奇寵物社",
+      "location": {
+        "lat": 25.0283638,
+        "lng": 121.55878
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-147",
+      "name": "九都專業寵物美容精剪店",
+      "location": {
+        "lat": 25.0457851,
+        "lng": 121.5425094
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-148",
+      "name": "狗使寵物美容",
+      "location": {
+        "lat": 25.049661,
+        "lng": 121.557162
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-149",
+      "name": "寵物語寵物美容店",
+      "location": {
+        "lat": 25.129818,
+        "lng": 121.471197
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-150",
+      "name": "寵愛狗寶貝",
+      "location": {
+        "lat": 25.1142141,
+        "lng": 121.5100042
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-151",
+      "name": "寶貝九九寵物用品社",
+      "location": {
+        "lat": 25.0219571,
+        "lng": 121.5563119
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-152",
+      "name": "芭特寵物美容屋",
+      "location": {
+        "lat": 25.0269979,
+        "lng": 121.5535278
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-153",
+      "name": "喜澎澎寵物美容工作室",
+      "location": {
+        "lat": 24.9927524,
+        "lng": 121.5392324
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-154",
+      "name": "寵物愛達人用品企業社",
+      "location": {
+        "lat": 25.0486216,
+        "lng": 121.5633542
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-155",
+      "name": "愛立寵物",
+      "location": {
+        "lat": 25.0206413,
+        "lng": 121.5521017
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-156",
+      "name": "葳峰泗芳101寵物館",
+      "location": {
+        "lat": 25.0609542,
+        "lng": 121.5622434
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-157",
+      "name": "哈克朵琪寵物沙龍",
+      "location": {
+        "lat": 25.0216711,
+        "lng": 121.5539938
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-158",
+      "name": "貓大王波斯貓專賣店",
+      "location": {
+        "lat": 25.0019243,
+        "lng": 121.555055
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-159",
+      "name": "百聲寵物用品店",
+      "location": {
+        "lat": 24.9813676,
+        "lng": 121.5592599
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-160",
+      "name": "艾摩寵物美容屋",
+      "location": {
+        "lat": 25.0838168,
+        "lng": 121.5727899
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-161",
+      "name": "阿Q寵物日式沙龍SPA館",
+      "location": {
+        "lat": 25.0570707,
+        "lng": 121.5650945
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-162",
+      "name": "狗狗愛漂亮名店",
+      "location": {
+        "lat": 25.026727,
+        "lng": 121.5394796
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-163",
+      "name": "川田犬家族(犬家族美容工作室)",
+      "location": {
+        "lat": 25.045001,
+        "lng": 121.572252
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-164",
+      "name": "永遠犬貓美容名店",
+      "location": {
+        "lat": 25.083222,
+        "lng": 121.54929
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-165",
+      "name": "哈娜寵物澡堂",
+      "location": {
+        "lat": 25.0713553,
+        "lng": 121.5167569
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-166",
+      "name": "哆哆醬寵物沙龍會社",
+      "location": {
+        "lat": 25.0310646,
+        "lng": 121.5012812
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-167",
+      "name": "酷寶寵物美容店",
+      "location": {
+        "lat": 25.086275,
+        "lng": 121.60184
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-168",
+      "name": "泡泡寵物生活館",
+      "location": {
+        "lat": 25.110458,
+        "lng": 121.519751
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-169",
+      "name": "Sunday星期天的家",
+      "location": {
+        "lat": 25.037212,
+        "lng": 121.6172542
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-170",
+      "name": "四足寵物用品店",
+      "location": {
+        "lat": 24.982556,
+        "lng": 121.563797
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-171",
+      "name": "狗窩專業寵物美容剪藝(狗窩商行)",
+      "location": {
+        "lat": 24.98366,
+        "lng": 121.561832
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-172",
+      "name": "Prince Pets Salon",
+      "location": {
+        "lat": 25.0405515,
+        "lng": 121.5425124
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-173",
+      "name": "優狗寵物美容工作坊",
+      "location": {
+        "lat": 25.1055268,
+        "lng": 121.5304717
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-174",
+      "name": "阡狗邦寵物家族館",
+      "location": {
+        "lat": 24.985699,
+        "lng": 121.561448
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-175",
+      "name": "宜家宜犬寵物精品館",
+      "location": {
+        "lat": 25.049073,
+        "lng": 121.565203
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-176",
+      "name": "幸福寵物沙龍",
+      "location": {
+        "lat": 25.020206,
+        "lng": 121.5572364
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-177",
+      "name": "集寵洗澡間(得水集寵股份有限公司)",
+      "location": {
+        "lat": 24.988853,
+        "lng": 121.559622
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-178",
+      "name": "貓朋狗友寵物美容館",
+      "location": {
+        "lat": 24.9828889,
+        "lng": 121.56234
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-179",
+      "name": "let‘s狗狗 (那隻狗狗寵物美容)",
+      "location": {
+        "lat": 25.0701178,
+        "lng": 121.6163648
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-180",
+      "name": "艾蜜莉寵物美容工作室",
+      "location": {
+        "lat": 24.9922219,
+        "lng": 121.573432
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-181",
+      "name": "狗狗約定寵物精品沙龍",
+      "location": {
+        "lat": 25.076711,
+        "lng": 121.579227
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-182",
+      "name": "北極光寵物美容",
+      "location": {
+        "lat": 25.0810929,
+        "lng": 121.5779072
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-183",
+      "name": "洗澡吧Let's SPA寵物澡堂",
+      "location": {
+        "lat": 25.08492,
+        "lng": 121.599454
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-184",
+      "name": "吉寵企業社",
+      "location": {
+        "lat": 25.0288888,
+        "lng": 121.5568217
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-185",
+      "name": "MuLuMuLu.Pet姆嚕姆嚕寵物沙龍",
+      "location": {
+        "lat": 25.0463148,
+        "lng": 121.5524095
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-186",
+      "name": "小毛怪幼幼班寵物生活館",
+      "location": {
+        "lat": 25.0700663,
+        "lng": 121.6152445
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-187",
+      "name": "狗樂子寵物沙龍",
+      "location": {
+        "lat": 25.0332839,
+        "lng": 121.5391436
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-188",
+      "name": "狗玩家寵物沙龍",
+      "location": {
+        "lat": 25.0417144,
+        "lng": 121.5874607
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-189",
+      "name": "寶羅寵物用品百貨-永慶實業(股)公司公館分公司",
+      "location": {
+        "lat": 25.015592,
+        "lng": 121.53181
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-190",
+      "name": "寶羅寵物用品百貨-永慶實業(股)公司承德分公司",
+      "location": {
+        "lat": 25.0703457,
+        "lng": 121.518668
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-191",
+      "name": "哈哈窩寵物精品館 (景興店)",
+      "location": {
+        "lat": 24.9931599,
+        "lng": 121.544581
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-192",
+      "name": "哈哈窩寵物精品館 (信義店)",
+      "location": {
+        "lat": 25.035478,
+        "lng": 121.576814
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-193",
+      "name": "優里寵物健康SPA館 寧波門市",
+      "location": {
+        "lat": 25.0299154,
+        "lng": 121.516328
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-194",
+      "name": "優里寵物健康SPA館 永春門市",
+      "location": {
+        "lat": 25.040623,
+        "lng": 121.58086
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-195",
+      "name": "伊珊娜寵物美容國際沙龍-通化店",
+      "location": {
+        "lat": 25.0290157,
+        "lng": 121.5569225
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-196",
+      "name": "HAPET好寵 (樂寵貿易有限公司)",
+      "location": {
+        "lat": 25.0312409,
+        "lng": 121.52933
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-197",
+      "name": "樂兒國際有限公司",
+      "location": {
+        "lat": 25.0682991,
+        "lng": 121.5953806
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-198",
+      "name": "小純寵物生活館",
+      "location": {
+        "lat": 25.01954,
+        "lng": 121.5284593
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-199",
+      "name": "九五樂府有限公司",
+      "location": {
+        "lat": 25.0449179,
+        "lng": 121.5080561
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-200",
+      "name": "峰狗小莫寵物精品坊",
+      "location": {
+        "lat": 25.1149842,
+        "lng": 121.5168803
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-201",
+      "name": "貓自在貓咪旅館",
+      "location": {
+        "lat": 25.0481957,
+        "lng": 121.5564176
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-202",
+      "name": "攝狗狗工作室",
+      "location": {
+        "lat": 25.0480174,
+        "lng": 121.5580802
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-203",
+      "name": "五隻狗寵物美容生活館",
+      "location": {
+        "lat": 25.0216769,
+        "lng": 121.5266967
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-204",
+      "name": "爪伙伴寵物工作室",
+      "location": {
+        "lat": 25.056663,
+        "lng": 121.513625
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-205",
+      "name": "CHIEN BON BON 寵物洗澎澎",
+      "location": {
+        "lat": 25.053925,
+        "lng": 121.562866
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-206",
+      "name": "頂尖寵物用品有限公司",
+      "location": {
+        "lat": 25.0464608,
+        "lng": 121.5551366
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-207",
+      "name": "愛狗生活館",
+      "location": {
+        "lat": 25.0462827,
+        "lng": 121.5549397
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-208",
+      "name": "寵物麻吉鋪",
+      "location": {
+        "lat": 25.0402869,
+        "lng": 121.5528018
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-209",
+      "name": "放放窩From Fun Home",
+      "location": {
+        "lat": 25.0428264,
+        "lng": 121.5634222
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-210",
+      "name": "薇達寵物精品沙龍",
+      "location": {
+        "lat": 25.0481323,
+        "lng": 121.5428431
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-211",
+      "name": "黑鼻子寵物旅館(黑鼻子寵物服務有限公司)",
+      "location": {
+        "lat": 25.082616,
+        "lng": 121.590364
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-212",
+      "name": "伊珊娜寵物沙龍國際學苑－建國店",
+      "location": {
+        "lat": 25.0672793,
+        "lng": 121.5348478
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-213",
+      "name": "動物王國寵物生活館(天母店)",
+      "location": {
+        "lat": 25.108157,
+        "lng": 121.529321
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-214",
+      "name": "肥貓寵物用品店",
+      "location": {
+        "lat": 25.035755,
+        "lng": 121.577255
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-215",
+      "name": "貓云殿工作坊",
+      "location": {
+        "lat": 25.0236581,
+        "lng": 121.5701492
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-216",
+      "name": "群家寵物美妍社",
+      "location": {
+        "lat": 25.0445138,
+        "lng": 121.5562857
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-217",
+      "name": "朝鴻國際有限公司(寵物用品與食品批發)",
+      "location": {
+        "lat": 25.1254309,
+        "lng": 121.531469
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-218",
+      "name": "台灣凱溢有限公司",
+      "location": {
+        "lat": 25.045614,
+        "lng": 121.551747
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-219",
+      "name": "路比寵物美容坊",
+      "location": {
+        "lat": 25.0374008,
+        "lng": 121.5599311
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-220",
+      "name": "洗寶貝寵物美容",
+      "location": {
+        "lat": 25.066632,
+        "lng": 121.513846
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-221",
+      "name": "Well Done Space",
+      "location": {
+        "lat": 25.0447675,
+        "lng": 121.5542781
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-222",
+      "name": "BaganHood 蔬食餐酒館-市政府站(松菸IG美食 推薦人氣 Vegan)",
+      "location": {
+        "lat": 25.0443206,
+        "lng": 121.5634869
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-223",
+      "name": "月光賞茶故事館",
+      "location": {
+        "lat": 24.9712549,
+        "lng": 121.587953
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-224",
+      "name": "阿義師的大茶壺茶餐廳/台北景觀餐廳/台北景點/貓空美食/貓空美食推薦/貓空餐廳/貓空必吃",
+      "location": {
+        "lat": 24.968691,
+        "lng": 121.591771
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-225",
+      "name": "貓空閒咖啡",
+      "location": {
+        "lat": 24.9678,
+        "lng": 121.5917712
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-226",
+      "name": "貓空清泉廣場",
+      "location": {
+        "lat": 24.9669094,
+        "lng": 121.5911331
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-227",
+      "name": "Purrson 呼嚕小酒館",
+      "location": {
+        "lat": 24.986129,
+        "lng": 121.5794662
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-228",
+      "name": "正大休閒茶園",
+      "location": {
+        "lat": 24.9670034,
+        "lng": 121.5911115
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-229",
+      "name": "貓空雙橡園茶坊",
+      "location": {
+        "lat": 24.967369,
+        "lng": 121.5911178
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-230",
+      "name": "心丰御膳日式料理",
+      "location": {
+        "lat": 25.0220535,
+        "lng": 121.4974278
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-231",
+      "name": "貓空龍門客棧 Longmen Restaurant",
+      "location": {
+        "lat": 24.9672139,
+        "lng": 121.5868528
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-232",
+      "name": "Verona創義廚房",
+      "location": {
+        "lat": 25.0308116,
+        "lng": 121.561746
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-233",
+      "name": "吐司股長",
+      "location": {
+        "lat": 25.0422179,
+        "lng": 121.56319
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-234",
+      "name": "加爾第咖啡 莊敬店",
+      "location": {
+        "lat": 25.0275922,
+        "lng": 121.563926
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-235",
+      "name": "加爾第咖啡 吳興店",
+      "location": {
+        "lat": 25.018867,
+        "lng": 121.570703
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-236",
+      "name": "MJ's Pizza Bar 瑪莉珍披薩-信義店",
+      "location": {
+        "lat": 25.0427116,
+        "lng": 121.5662326
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-237",
+      "name": "曰曰cafe",
+      "location": {
+        "lat": 25.0357967,
+        "lng": 121.5747537
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-238",
+      "name": "午后,日光drink&food",
+      "location": {
+        "lat": 25.044273,
+        "lng": 121.570339
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-239",
+      "name": "June Burger 啾漢堡店",
+      "location": {
+        "lat": 25.0392095,
+        "lng": 121.5792782
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-240",
+      "name": "阿公的汪喵厝-寵物友善餐廳",
+      "location": {
+        "lat": 25.045704,
+        "lng": 121.574899
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-241",
+      "name": "胖老爹美式炸雞(台北松山店)",
+      "location": {
+        "lat": 25.0387296,
+        "lng": 121.5781587
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-242",
+      "name": "榕 RON Xinyi",
+      "location": {
+        "lat": 25.0322342,
+        "lng": 121.5589407
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-243",
+      "name": "小春日和 動物雜貨‧珈琲",
+      "location": {
+        "lat": 25.0566294,
+        "lng": 121.5587874
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-244",
+      "name": "嶼人Café-松山必喝咖啡|打卡咖啡|手作甜點|必吃甜點|人氣料理|蔬食咖啡廳",
+      "location": {
+        "lat": 25.0507803,
+        "lng": 121.5682784
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-245",
+      "name": "角落酒吧The Corner One",
+      "location": {
+        "lat": 25.0542296,
+        "lng": 121.5685362
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-246",
+      "name": "四目咖啡寵物美學",
+      "location": {
+        "lat": 25.0571557,
+        "lng": 121.5654546
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-247",
+      "name": "Style Steak 世代歐陸牛排西餐廳",
+      "location": {
+        "lat": 25.0521476,
+        "lng": 121.5534263
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-248",
+      "name": "大烹小饌/胖子八德/台菜/熱炒/聚餐",
+      "location": {
+        "lat": 25.0491507,
+        "lng": 121.5658411
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-249",
+      "name": "獺空間 Aotter Space",
+      "location": {
+        "lat": 25.0508022,
+        "lng": 121.5581623
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-250",
+      "name": "金屋藏車食堂",
+      "location": {
+        "lat": 25.1231589,
+        "lng": 121.5323609
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-251",
+      "name": "BRICK YARD 33 1/3美軍俱樂部",
+      "location": {
+        "lat": 25.1354914,
+        "lng": 121.5435378
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-252",
+      "name": "AN58西班牙創意料理",
+      "location": {
+        "lat": 25.0805149,
+        "lng": 121.5225572
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-253",
+      "name": "森林派對咖啡館",
+      "location": {
+        "lat": 25.0950553,
+        "lng": 121.4977539
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-254",
+      "name": "茶咖",
+      "location": {
+        "lat": 25.090273,
+        "lng": 121.509812
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-255",
+      "name": "璦的小廚 Ann's Kitchen",
+      "location": {
+        "lat": 25.1112523,
+        "lng": 121.5258913
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-256",
+      "name": "貳樓餐廳Second Floor Cafe 師大店",
+      "location": {
+        "lat": 25.025424,
+        "lng": 121.52829
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-257",
+      "name": "貳樓餐廳Second Floor Cafe（敦南店）",
+      "location": {
+        "lat": 25.0309112,
+        "lng": 121.5500217
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-258",
+      "name": "吐司利亞TOASTERiA Cafe-永康店",
+      "location": {
+        "lat": 25.0334547,
+        "lng": 121.5303521
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-259",
+      "name": "吐司利亞TOASTERiA Cafe-三號敦南店",
+      "location": {
+        "lat": 25.043302,
+        "lng": 121.5495064
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-260",
+      "name": "yoh曜日義式餐酒館",
+      "location": {
+        "lat": 25.0361417,
+        "lng": 121.5471461
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-261",
+      "name": "MissGreen",
+      "location": {
+        "lat": 25.030857,
+        "lng": 121.550556
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-262",
+      "name": "TakeOut Burger&Cafe 通化店",
+      "location": {
+        "lat": 25.027514,
+        "lng": 121.555631
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-263",
+      "name": "餵我早餐 The Whale",
+      "location": {
+        "lat": 25.032744,
+        "lng": 121.53929
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-264",
+      "name": "Woodid 우리手作韓食",
+      "location": {
+        "lat": 25.0360963,
+        "lng": 121.5547461
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-265",
+      "name": "Maryjane Pizza 瑪莉珍比薩 台大店",
+      "location": {
+        "lat": 25.019024,
+        "lng": 121.53294
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-266",
+      "name": "Maryjane Pizza 瑪莉珍比薩 師大店",
+      "location": {
+        "lat": 25.023214,
+        "lng": 121.526865
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-267",
+      "name": "Ooh Cha Cha 自然食科技大樓 & Hooch",
+      "location": {
+        "lat": 25.0237379,
+        "lng": 121.5427963
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-268",
+      "name": "PORCO 咖啡、舊物、寵物行為教室",
+      "location": {
+        "lat": 25.036193,
+        "lng": 121.544338
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-269",
+      "name": "Plants",
+      "location": {
+        "lat": 25.0367206,
+        "lng": 121.5442543
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-270",
+      "name": "來吧Cafe'",
+      "location": {
+        "lat": 25.0320034,
+        "lng": 121.539383
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-271",
+      "name": "Mianto 艾果豐",
+      "location": {
+        "lat": 25.039035,
+        "lng": 121.5418451
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-272",
+      "name": "光一肆號",
+      "location": {
+        "lat": 25.0192483,
+        "lng": 121.5335505
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-273",
+      "name": "NoName無名咖哩 台大店",
+      "location": {
+        "lat": 25.019691,
+        "lng": 121.5334205
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-274",
+      "name": "璞豆咖啡.日常",
+      "location": {
+        "lat": 25.0202554,
+        "lng": 121.532886
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-275",
+      "name": "慢步調 咖啡館",
+      "location": {
+        "lat": 25.0421094,
+        "lng": 121.5417836
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-276",
+      "name": "冰淇淋機場",
+      "location": {
+        "lat": 25.0140299,
+        "lng": 121.5331653
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-277",
+      "name": "dee 好得生活 / 餐酒館",
+      "location": {
+        "lat": 25.0436897,
+        "lng": 121.5492312
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-278",
+      "name": "Loving Hut 愛家國際餐飲 台北 和平店",
+      "location": {
+        "lat": 25.0257195,
+        "lng": 121.5419145
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-279",
+      "name": "兜味咖啡",
+      "location": {
+        "lat": 25.0592183,
+        "lng": 121.5100614
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-280",
+      "name": "Her Rose 玫瑰系甜點專賣店",
+      "location": {
+        "lat": 25.0562242,
+        "lng": 121.5202117
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-281",
+      "name": "21工房手工酵素涼麵",
+      "location": {
+        "lat": 25.0698689,
+        "lng": 121.5196623
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-282",
+      "name": "A.K.12 美式小館",
+      "location": {
+        "lat": 25.043407,
+        "lng": 121.507452
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-283",
+      "name": "台北城人文茶館",
+      "location": {
+        "lat": 25.045127,
+        "lng": 121.5045204
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-284",
+      "name": "Flux(富樂市)",
+      "location": {
+        "lat": 25.0395127,
+        "lng": 121.506083
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-285",
+      "name": "金輪轉甜水堂",
+      "location": {
+        "lat": 25.0401613,
+        "lng": 121.5041886
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-286",
+      "name": "本願豆花店 Origin Tofu Pudding",
+      "location": {
+        "lat": 25.0393824,
+        "lng": 121.5070404
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-287",
+      "name": "兩喜號 Liang Xi Hao - 總店",
+      "location": {
+        "lat": 25.0368131,
+        "lng": 121.4978004
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-288",
+      "name": "兩喜號 Liang Xi Hao - 西園店",
+      "location": {
+        "lat": 25.03614,
+        "lng": 121.499215
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-289",
+      "name": "小王煮瓜（小王清湯瓜仔肉）－萬華美食.龍山寺美食.華西街美食.必比登台北美食.黑金魯肉飯",
+      "location": {
+        "lat": 25.0392311,
+        "lng": 121.4985524
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-290",
+      "name": "THE garden",
+      "location": {
+        "lat": 25.0417111,
+        "lng": 121.5067799
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-291",
+      "name": "喜舍居酒屋",
+      "location": {
+        "lat": 25.0257787,
+        "lng": 121.49646
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-292",
+      "name": "貳樓餐廳 Second Floor Cafe 微風台北車站店",
+      "location": {
+        "lat": 25.047749,
+        "lng": 121.517044
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-293",
+      "name": "貳樓餐廳 Second Floor Cafe 公館店",
+      "location": {
+        "lat": 25.0156736,
+        "lng": 121.5315054
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-294",
+      "name": "Mr. 雪腐 公館店",
+      "location": {
+        "lat": 25.0166544,
+        "lng": 121.5304567
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-295",
+      "name": "沐樂咖啡 新生店",
+      "location": {
+        "lat": 25.042346,
+        "lng": 121.531084
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-296",
+      "name": "OOH CHA CHA自然食-南昌店",
+      "location": {
+        "lat": 25.0250761,
+        "lng": 121.5234269
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-297",
+      "name": "貳樓餐廳 Second Floor Cafe 仁愛店",
+      "location": {
+        "lat": 25.037913,
+        "lng": 121.532453
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-298",
+      "name": "Easy coffee",
+      "location": {
+        "lat": 25.0445605,
+        "lng": 121.5248892
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-299",
+      "name": "啼岸VeganResort（嬉皮麵包HipPun/素食髮廊LieblingSalon）動物友善空間 /素食 /Vegan /Bulbs&Roots",
+      "location": {
+        "lat": 25.0236387,
+        "lng": 121.5191494
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-300",
+      "name": "台北北投雅樂軒 Aloft Taipei Beitou(聚聚樂餐廳)",
+      "location": {
+        "lat": 25.128198,
+        "lng": 121.497973
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-301",
+      "name": "正當冰 北投家旁店",
+      "location": {
+        "lat": 25.1423755,
+        "lng": 121.4987945
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-302",
+      "name": "有間鐵板",
+      "location": {
+        "lat": 25.1282277,
+        "lng": 121.4675879
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-303",
+      "name": "陽明山竹子湖故鄉海芋農園-附設餐廳(故鄉農園)",
+      "location": {
+        "lat": 25.1738738,
+        "lng": 121.5329264
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-304",
+      "name": "Slipper Cafe 拖鞋咖啡",
+      "location": {
+        "lat": 25.132782,
+        "lng": 121.49923
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-305",
+      "name": "爐鍋咖啡 Luguo Cafe小藝埕artyard",
+      "location": {
+        "lat": 25.054643,
+        "lng": 121.5099167
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-306",
+      "name": "撲囉咖啡廳 Procaffeinating Cafe",
+      "location": {
+        "lat": 25.062123,
+        "lng": 121.6147883
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-307",
+      "name": "咕咕咕嚕 日式昆布火鍋 | 韓式銅盤烤肉 - 南港店",
+      "location": {
+        "lat": 25.0515,
+        "lng": 121.616116
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-308",
+      "name": "Real café南港展覽館（宇啡商行Real cafe）",
+      "location": {
+        "lat": 25.055062,
+        "lng": 121.6163842
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-309",
+      "name": "陶膳日本料理（商業午晚餐/宵夜場）",
+      "location": {
+        "lat": 25.0600839,
+        "lng": 121.6141289
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-310",
+      "name": "TUMAZ 黑熊咖啡（TUMAZ COFFEE）",
+      "location": {
+        "lat": 25.0632926,
+        "lng": 121.6144086
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-311",
+      "name": "兔兔日子 Tu's Day",
+      "location": {
+        "lat": 25.082244,
+        "lng": 121.570595
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-312",
+      "name": "貳樓餐廳Second Floor Cafe西湖店",
+      "location": {
+        "lat": 25.081926,
+        "lng": 121.568723
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-313",
+      "name": "金鍋盃小火鍋-職人 肉品 海鮮",
+      "location": {
+        "lat": 25.0854465,
+        "lng": 121.5731183
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-314",
+      "name": "金烤盃",
+      "location": {
+        "lat": 25.0773782,
+        "lng": 121.5765775
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-315",
+      "name": "肥婆 Cafe",
+      "location": {
+        "lat": 25.0770131,
+        "lng": 121.5818871
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-316",
+      "name": "白菜小姐義式坊",
+      "location": {
+        "lat": 25.0756114,
+        "lng": 121.5776923
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-317",
+      "name": "Coffee lndustry-Café champ",
+      "location": {
+        "lat": 25.0637662,
+        "lng": 121.5827668
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-318",
+      "name": "Bombay 1987 印度咖哩",
+      "location": {
+        "lat": 25.0794509,
+        "lng": 121.5899168
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-319",
+      "name": "福容燒肉丼",
+      "location": {
+        "lat": 25.0679765,
+        "lng": 121.6121124
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-320",
+      "name": "貳樓餐廳 Second Floor Cafe 南港車站店",
+      "location": {
+        "lat": 25.0528382,
+        "lng": 121.6060375
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-321",
+      "name": "越界茶 YUE JIE CHA精品手搖飲茶品飲料店，好調酒也能外帶！網美拍照嚴選場地，聚會談心首選店家",
+      "location": {
+        "lat": 25.050362,
+        "lng": 121.594715
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-322",
+      "name": "Uncles two 兩位大叔(無訂位服務）",
+      "location": {
+        "lat": 25.0498035,
+        "lng": 121.5933552
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-323",
+      "name": "苒冉小食光",
+      "location": {
+        "lat": 25.0556703,
+        "lng": 121.6068883
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-324",
+      "name": "Hungry Dogs 二犬廚房",
+      "location": {
+        "lat": 25.0558247,
+        "lng": 121.6061576
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-325",
+      "name": "涓邸居酒屋",
+      "location": {
+        "lat": 25.0560555,
+        "lng": 121.6144222
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-326",
+      "name": "棧-直火廚房",
+      "location": {
+        "lat": 25.0502665,
+        "lng": 121.5221025
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-327",
+      "name": "HOUSE CAFE",
+      "location": {
+        "lat": 25.0666334,
+        "lng": 121.5232443
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-328",
+      "name": "喝什麼Ka Pi",
+      "location": {
+        "lat": 25.0625868,
+        "lng": 121.521303
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-329",
+      "name": "TakeOut Burger&Cafe 忠孝新生店",
+      "location": {
+        "lat": 25.0411014,
+        "lng": 121.5322908
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-330",
+      "name": "面對面Face to Face Noodle House",
+      "location": {
+        "lat": 25.0601957,
+        "lng": 121.5375683
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-331",
+      "name": "Olá C.C. Cafe & Eatery",
+      "location": {
+        "lat": 25.06642,
+        "lng": 121.5344394
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-332",
+      "name": "父母 - FuMu - COME TO MAMA & PAPA",
+      "location": {
+        "lat": 25.0561427,
+        "lng": 121.5436896
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-333",
+      "name": "TUTUKAKI 司康小売所",
+      "location": {
+        "lat": 25.0540402,
+        "lng": 121.522092
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-334",
+      "name": "OSKAFE Coffee Wine Sandwich",
+      "location": {
+        "lat": 25.0783679,
+        "lng": 121.5647181
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-335",
+      "name": "HUKI富氣水產 丼飯/刺身/生猛海鮮居酒屋",
+      "location": {
+        "lat": 25.0490614,
+        "lng": 121.5422552
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-336",
+      "name": "嬉皮麵包 HIP PUN",
+      "location": {
+        "lat": 25.0537458,
+        "lng": 121.5306269
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-337",
+      "name": "營養思廚·餐盒",
+      "location": {
+        "lat": 25.078524,
+        "lng": 121.545837
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-338",
+      "name": "處方株式會社",
+      "location": {
+        "lat": 25.0718686,
+        "lng": 121.5135928
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-339",
+      "name": "邀月茶坊Yaoyue Teahouse",
+      "location": {
+        "lat": 24.967582,
+        "lng": 121.597276
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-340",
+      "name": "豐味亭異國素食餐廳",
+      "location": {
+        "lat": 25.0630945,
+        "lng": 121.5245406
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-341",
+      "name": "HBJ kitchen 舒肥健康餐",
+      "location": {
+        "lat": 25.0477185,
+        "lng": 121.5414464
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-342",
+      "name": "小朝日和",
+      "location": {
+        "lat": 25.0477531,
+        "lng": 121.5512745
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-343",
+      "name": "陽光廚坊",
+      "location": {
+        "lat": 25.0839707,
+        "lng": 121.5783727
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-344",
+      "name": "拾米屋",
+      "location": {
+        "lat": 25.1357532,
+        "lng": 121.4988944
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-345",
+      "name": "TMJ_TAIPEI",
+      "location": {
+        "lat": 25.0273931,
+        "lng": 121.5400078
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-346",
+      "name": "Nekko Bar 貓吧",
+      "location": {
+        "lat": 25.0368969,
+        "lng": 121.5478682
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-347",
+      "name": "Breakfirst Cafe&Studio",
+      "location": {
+        "lat": 25.0814718,
+        "lng": 121.5476264
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-348",
+      "name": "夜酌居酒屋",
+      "location": {
+        "lat": 25.0448954,
+        "lng": 121.5508483
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-349",
+      "name": "沐沐家",
+      "location": {
+        "lat": 25.0591152,
+        "lng": 121.5190341
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-350",
+      "name": "Lazzy cafe",
+      "location": {
+        "lat": 25.0366078,
+        "lng": 121.5588129
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-351",
+      "name": "ㄉㄧㄢˇㄉㄧㄢ",
+      "location": {
+        "lat": 25.1382505,
+        "lng": 121.5024157
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-352",
+      "name": "AL REVÉS 顛倒餐廳",
+      "location": {
+        "lat": 25.0413419,
+        "lng": 121.504627
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-353",
+      "name": "艾迪瓦屋",
+      "location": {
+        "lat": 25.0346466,
+        "lng": 121.574806
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-354",
+      "name": "Haooyun Station 好運站",
+      "location": {
+        "lat": 25.0269906,
+        "lng": 121.5032698
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-355",
+      "name": "杯子裡的貓",
+      "location": {
+        "lat": 25.0402864,
+        "lng": 121.5521613
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-356",
+      "name": "東風饌麻辣燙大直店",
+      "location": {
+        "lat": 25.0797136,
+        "lng": 121.5569958
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-357",
+      "name": "樂野食",
+      "location": {
+        "lat": 25.0446502,
+        "lng": 121.5077091
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-358",
+      "name": "思沐咖啡",
+      "location": {
+        "lat": 25.0236331,
+        "lng": 121.4928027
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-359",
+      "name": "Bear Junkies熊飲(早\n午餐&酒吧)",
+      "location": {
+        "lat": 25.0411766,
+        "lng": 121.5043785
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-360",
+      "name": "旭牧高纖沙拉輕食-台北松江店",
+      "location": {
+        "lat": 25.051096,
+        "lng": 121.5304625
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-361",
+      "name": "早樂子手作早午餐",
+      "location": {
+        "lat": 25.0881178,
+        "lng": 121.5868755
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-362",
+      "name": "CHOiCE Gelato義式手工冰淇淋",
+      "location": {
+        "lat": 25.0613671,
+        "lng": 121.5347561
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-363",
+      "name": "小珊食堂",
+      "location": {
+        "lat": 25.0571129,
+        "lng": 121.5198054
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-364",
+      "name": "勺日日好空間店",
+      "location": {
+        "lat": 25.0394946,
+        "lng": 121.5435028
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-365",
+      "name": "JB’S Diner",
+      "location": {
+        "lat": 25.1200517,
+        "lng": 121.5295446
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-366",
+      "name": "MUY 莯以咖啡",
+      "location": {
+        "lat": 25.064164,
+        "lng": 121.5341885
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-367",
+      "name": "WOYAO Burger",
+      "location": {
+        "lat": 25.124701,
+        "lng": 121.467111
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-368",
+      "name": "Yellow Lemon",
+      "location": {
+        "lat": 25.0793701,
+        "lng": 121.5520397
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-369",
+      "name": "Labu cafe",
+      "location": {
+        "lat": 25.034462,
+        "lng": 121.528312
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-370",
+      "name": "克爾咖啡內湖店",
+      "location": {
+        "lat": 25.0778635,
+        "lng": 121.5770085
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-371",
+      "name": "創義麵 萬芳店",
+      "location": {
+        "lat": 25.0002018,
+        "lng": 121.5563129
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-372",
+      "name": "創義麵 信義店",
+      "location": {
+        "lat": 25.0282111,
+        "lng": 121.564004
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-373",
+      "name": "創義麵 錦州店",
+      "location": {
+        "lat": 25.060086,
+        "lng": 121.5430697
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-374",
+      "name": "創義麵 忠孝店",
+      "location": {
+        "lat": 25.0435233,
+        "lng": 121.5464319
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-375",
+      "name": "創義麵 松山店",
+      "location": {
+        "lat": 25.0493066,
+        "lng": 121.5791866
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-376",
+      "name": "創義麵 石牌店",
+      "location": {
+        "lat": 25.1169631,
+        "lng": 121.5164481
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-377",
+      "name": "創義麵 東湖店",
+      "location": {
+        "lat": 25.0689977,
+        "lng": 121.6167317
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-378",
+      "name": "創義麵 士林店",
+      "location": {
+        "lat": 25.094652,
+        "lng": 121.5254088
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-379",
+      "name": "cafe BOMBOM",
+      "location": {
+        "lat": 25.05627,
+        "lng": 121.5578356
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-380",
+      "name": "戲咖啡 ‧ Cine cafe",
+      "location": {
+        "lat": 25.1373438,
+        "lng": 121.5434144
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-381",
+      "name": "夏綠蒂 · 小私廚 | 私房義麵燉飯 | 甜點下午茶 | 寵物友善 | 台北松山機場美食 Charlotte | Taipei Airport Cuisine | Pasta Spaghetti Risotto Bistro台北の料理 타이베이 요리",
+      "location": {
+        "lat": 25.0610181,
+        "lng": 121.547719
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-382",
+      "name": "大山昆陽咖啡",
+      "location": {
+        "lat": 25.0498475,
+        "lng": 121.5936216
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-383",
+      "name": "PapàRoy 義式手作料理",
+      "location": {
+        "lat": 25.0428006,
+        "lng": 121.5629104
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-384",
+      "name": "木咖 Horoka",
+      "location": {
+        "lat": 25.0391461,
+        "lng": 121.5049593
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-385",
+      "name": "時々珈琲/時時咖啡 TokiDoki Coffee Roastery",
+      "location": {
+        "lat": 25.0368966,
+        "lng": 121.524936
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-386",
+      "name": "Compas Pasta House 康帕斯義麵屋 | 手工義大利麵",
+      "location": {
+        "lat": 25.0446865,
+        "lng": 121.5544771
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-387",
+      "name": "鼠皮soopi cafe",
+      "location": {
+        "lat": 25.0555109,
+        "lng": 121.5123367
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-388",
+      "name": "朱里昂廚房",
+      "location": {
+        "lat": 25.1361125,
+        "lng": 121.5431235
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-389",
+      "name": "無眠workshop",
+      "location": {
+        "lat": 25.1419409,
+        "lng": 121.500039
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-390",
+      "name": "他。植物咖啡",
+      "location": {
+        "lat": 25.0503971,
+        "lng": 121.5627908
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-391",
+      "name": "冬湖火鍋",
+      "location": {
+        "lat": 25.0692052,
+        "lng": 121.6118787
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-392",
+      "name": "森林善意廚房 內湖店",
+      "location": {
+        "lat": 25.075518,
+        "lng": 121.576743
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-393",
+      "name": "飲飽食醉",
+      "location": {
+        "lat": 25.0462842,
+        "lng": 121.6153246
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-394",
+      "name": "點八小食 臺北車站店（K區地下街）",
+      "location": {
+        "lat": 25.0469357,
+        "lng": 121.5154329
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-395",
+      "name": "家香味食堂",
+      "location": {
+        "lat": 25.0230313,
+        "lng": 121.5013128
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-396",
+      "name": "Cafejiasong 咖央 | 東區咖啡 / 早午餐 / 下午茶 / 布丁 / 炸雞",
+      "location": {
+        "lat": 25.0430389,
+        "lng": 121.5463668
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-397",
+      "name": "Cozy Quail",
+      "location": {
+        "lat": 25.054855,
+        "lng": 121.5508853
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-398",
+      "name": "大巨星港式飲茶餐酒館",
+      "location": {
+        "lat": 25.0419257,
+        "lng": 121.5604886
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-399",
+      "name": "TOK盡興食光 遠東Garden City大巨蛋店",
+      "location": {
+        "lat": 25.0431125,
+        "lng": 121.5591053
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-400",
+      "name": "PRESERVE 大巨蛋",
+      "location": {
+        "lat": 25.0430378,
+        "lng": 121.5596193
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-401",
+      "name": "1975 Antique’s Cafe Tea Room",
+      "location": {
+        "lat": 25.1374885,
+        "lng": 121.501915
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-402",
+      "name": "兔Dreams兔子餐廳 Bunny Cafe",
+      "location": {
+        "lat": 25.0345429,
+        "lng": 121.5347094
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-403",
+      "name": "The zoo 蔬食主義 vegan food and beverage",
+      "location": {
+        "lat": 25.0489355,
+        "lng": 121.5722678
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-404",
+      "name": "海絲迪亞廚房",
+      "location": {
+        "lat": 25.1324432,
+        "lng": 121.5001973
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-405",
+      "name": "舒曼六號餐館 小巨蛋南京店",
+      "location": {
+        "lat": 25.0529345,
+        "lng": 121.5473244
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-406",
+      "name": "舒曼六號餐館 動物園政大店",
+      "location": {
+        "lat": 24.9878279,
+        "lng": 121.5759685
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-407",
+      "name": "凹屋珈琲Awoo Kohii",
+      "location": {
+        "lat": 25.0932928,
+        "lng": 121.5273079
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-408",
+      "name": "飛起咖咖Fly High CURRY×CAFÉ 咖哩×咖啡(公休日請見粉專｜寵物友善)",
+      "location": {
+        "lat": 24.9932511,
+        "lng": 121.5416401
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-409",
+      "name": "80後碼頭（桌遊cafe|現烤薄餅|港式|慢活|素食|寵物友善|續杯|親子餐廳|不限時|懷舊風）",
+      "location": {
+        "lat": 25.1375595,
+        "lng": 121.4940963
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-410",
+      "name": "牛本色 溫體牛火鍋",
+      "location": {
+        "lat": 25.0447236,
+        "lng": 121.5477298
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-411",
+      "name": "蘭亭燒肉 和牛極緻料理",
+      "location": {
+        "lat": 25.0350217,
+        "lng": 121.5469567
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-412",
+      "name": "日淬 Sun Drip Coffee（完整菜單可點instagram）",
+      "location": {
+        "lat": 25.0231126,
+        "lng": 121.5561911
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-413",
+      "name": "伍食 No.510",
+      "location": {
+        "lat": 25.0701017,
+        "lng": 121.6139152
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-414",
+      "name": "小鍋巴",
+      "location": {
+        "lat": 25.0249819,
+        "lng": 121.5088663
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-415",
+      "name": "本願豆花店-晴光",
+      "location": {
+        "lat": 25.0640659,
+        "lng": 121.5254425
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-416",
+      "name": "本願豆花店-漢中",
+      "location": {
+        "lat": 25.0449773,
+        "lng": 121.5075459
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-417",
+      "name": "喜寶棧 咖啡酒館 & 貓旅館 HIPP CAFE & CATEL",
+      "location": {
+        "lat": 25.0293623,
+        "lng": 121.5063294
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-418",
+      "name": "CHAO 炒炒新亞洲蔬食 - 東區美食熱炒 公司聚餐 創意素食料理 寵物友善 人氣推薦必吃",
+      "location": {
+        "lat": 25.0431752,
+        "lng": 121.5451503
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-419",
+      "name": "Mixigan 美墨創意蔬食料理 -推薦異國料理 人氣美式漢堡餐廳 必吃美食Vegan",
+      "location": {
+        "lat": 25.0418643,
+        "lng": 121.5545828
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-420",
+      "name": "樂子瑞安店",
+      "location": {
+        "lat": 25.0265894,
+        "lng": 121.5396576
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-421",
+      "name": "生蠔哥",
+      "location": {
+        "lat": 25.0503988,
+        "lng": 121.5733713
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-422",
+      "name": "SHUFFLE Brunch & Bar",
+      "location": {
+        "lat": 25.0440942,
+        "lng": 121.5630675
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-423",
+      "name": "李記甜品 Lee Dessert",
+      "location": {
+        "lat": 25.0761681,
+        "lng": 121.5757446
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-424",
+      "name": "西湖市場",
+      "location": {
+        "lat": 25.0824612,
+        "lng": 121.5665585
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-425",
+      "name": "米蘇之間早餐工坊 (原東方美永吉店)",
+      "location": {
+        "lat": 25.0457275,
+        "lng": 121.5728606
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-426",
+      "name": "Modern Mode & Modern Mode Café",
+      "location": {
+        "lat": 25.0609712,
+        "lng": 121.509241
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-427",
+      "name": "TUTUKAKI 司康小売所",
+      "location": {
+        "lat": 25.0455795,
+        "lng": 121.5250572
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-428",
+      "name": "CRO#FEE 咖啡井 - 復興店",
+      "location": {
+        "lat": 25.0407453,
+        "lng": 121.5414294
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-429",
+      "name": "小南風咖啡Minami cafe ﻿ 咖啡豆批發零售/客製咖啡課/各式巴斯克/手工布丁/師大咖啡廳",
+      "location": {
+        "lat": 25.024584,
+        "lng": 121.53128
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-430",
+      "name": "좋은 날 好日子咖啡",
+      "location": {
+        "lat": 25.057045,
+        "lng": 121.5643025
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-431",
+      "name": "離城放感情",
+      "location": {
+        "lat": 25.0222674,
+        "lng": 121.5525494
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-432",
+      "name": "一鷺串燒居酒屋 松江本店",
+      "location": {
+        "lat": 25.0619697,
+        "lng": 121.5347339
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-433",
+      "name": "Rainma Café Bistro/信義老宅餐酒館/寵物友善",
+      "location": {
+        "lat": 25.0352757,
+        "lng": 121.5582138
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-434",
+      "name": "Bonica Pâtisserie & Café",
+      "location": {
+        "lat": 25.0320706,
+        "lng": 121.5519599
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-435",
+      "name": "Riff Coffee Roasters",
+      "location": {
+        "lat": 25.0281121,
+        "lng": 121.5547718
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-436",
+      "name": "Space Time Bistro&Bar | 東區貓咪餐酒館｜東區貓咪酒吧",
+      "location": {
+        "lat": 25.0393364,
+        "lng": 121.5542491
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-437",
+      "name": "Vis cafe 圓山店",
+      "location": {
+        "lat": 25.070564,
+        "lng": 121.5189387
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-438",
+      "name": "一鷺串燒居酒屋 大直旗艦店 （寵物友善）",
+      "location": {
+        "lat": 25.083079,
+        "lng": 121.560913
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-439",
+      "name": "水羿云飛 Wing Prime Tea",
+      "location": {
+        "lat": 25.0560179,
+        "lng": 121.5151489
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-440",
+      "name": "TAKEFIVE 五方食藏 忠孝店",
+      "location": {
+        "lat": 25.040009,
+        "lng": 121.5513127
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-441",
+      "name": "TAKEFIVE 五方食藏 青田店",
+      "location": {
+        "lat": 25.0282635,
+        "lng": 121.530736
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-442",
+      "name": "TAKEFIVE 五方食藏 大稻埕店",
+      "location": {
+        "lat": 25.059011,
+        "lng": 121.509442
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-443",
+      "name": "松松咖啡（阿松不定期出沒）",
+      "location": {
+        "lat": 25.0489364,
+        "lng": 121.5633666
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-444",
+      "name": "說好咖啡",
+      "location": {
+        "lat": 25.0704668,
+        "lng": 121.5135855
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-445",
+      "name": "饗旭咖啡",
+      "location": {
+        "lat": 25.0204761,
+        "lng": 121.5524132
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-446",
+      "name": "紅木屋-文山熱炒推薦|合菜菜廳|家族聚餐推薦|在地推薦|貓空特色餐廳|熱門餐廳|景觀餐廳|人氣餐廳",
+      "location": {
+        "lat": 24.9671039,
+        "lng": 121.590704
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-447",
+      "name": "小公寓Apt.cafe",
+      "location": {
+        "lat": 24.9876541,
+        "lng": 121.5754547
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-448",
+      "name": "INDULGE Taipei Drinking & Eatery",
+      "location": {
+        "lat": 25.0391453,
+        "lng": 121.5447982
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-449",
+      "name": "異世界咖啡館•澐月",
+      "location": {
+        "lat": 25.0661897,
+        "lng": 121.5233654
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-450",
+      "name": "小紅花Cafe｜早午餐｜不限時｜手作體驗｜文創選物店｜鉤針｜毛根花｜拼豆",
+      "location": {
+        "lat": 25.1340395,
+        "lng": 121.4978296
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-451",
+      "name": "Mr. Light 輕食先生",
+      "location": {
+        "lat": 24.989908,
+        "lng": 121.573611
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-452",
+      "name": "Footer機能除臭襪-景美店",
+      "location": {
+        "lat": 24.99076,
+        "lng": 121.542447
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-453",
+      "name": "Dr. O-J傑博士手機平板現場維修（信義店）",
+      "location": {
+        "lat": 25.0237865,
+        "lng": 121.5688928
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-454",
+      "name": "台北保時捷中心",
+      "location": {
+        "lat": 25.062512,
+        "lng": 121.5887382
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-455",
+      "name": "HOLA特力和樂(士林店)",
+      "location": {
+        "lat": 25.0927947,
+        "lng": 121.5203575
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-456",
+      "name": "特力屋-士林店",
+      "location": {
+        "lat": 25.0928867,
+        "lng": 121.5202432
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-457",
+      "name": "馬修單車 MathewBike",
+      "location": {
+        "lat": 25.098121,
+        "lng": 121.523622
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-458",
+      "name": "喬治皮鞋",
+      "location": {
+        "lat": 25.12156,
+        "lng": 121.5317209
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-459",
+      "name": "GIANT 捷安特-樂活式單車館LOHASBIKE",
+      "location": {
+        "lat": 25.0818207,
+        "lng": 121.5232868
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-460",
+      "name": "Argent安爵銀飾工房-創意銀飾訂製專家",
+      "location": {
+        "lat": 25.090384,
+        "lng": 121.526223
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-461",
+      "name": "花庭園藝坊",
+      "location": {
+        "lat": 25.0946761,
+        "lng": 121.4977508
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-462",
+      "name": "君臨花坊",
+      "location": {
+        "lat": 25.0946761,
+        "lng": 121.4977508
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-463",
+      "name": "海人選品",
+      "location": {
+        "lat": 25.1229766,
+        "lng": 121.5324467
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-464",
+      "name": "全家便利商店：和新店",
+      "location": {
+        "lat": 25.025621,
+        "lng": 121.536271
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-465",
+      "name": "阿瘦實業(股)公司: 忠孝店",
+      "location": {
+        "lat": 25.041371,
+        "lng": 121.546524
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-466",
+      "name": "帕帕拉夏藝文中心",
+      "location": {
+        "lat": 25.030934,
+        "lng": 121.53028
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-467",
+      "name": "大華行 - 竹木造咖",
+      "location": {
+        "lat": 25.058494,
+        "lng": 121.509681
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-468",
+      "name": "樂芙莉 LOVELY 大稻埕體驗店",
+      "location": {
+        "lat": 25.0585699,
+        "lng": 121.509531
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-469",
+      "name": "永利百崧食品 - 五色本物",
+      "location": {
+        "lat": 25.0579889,
+        "lng": 121.5097942
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-470",
+      "name": "元氣毛孩子(元氣樂活坊)",
+      "location": {
+        "lat": 25.0541795,
+        "lng": 121.509971
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-471",
+      "name": "六安堂參藥行-迪化街百年老店.中藥行.伴手禮.台湾漢方.養生茶.大稻埕.中醫",
+      "location": {
+        "lat": 25.0561161,
+        "lng": 121.5100172
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-472",
+      "name": "全家便利商店：日祥店",
+      "location": {
+        "lat": 25.021137,
+        "lng": 121.502326
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-473",
+      "name": "Crystal Rose Ribbon 緞帶專賣",
+      "location": {
+        "lat": 25.0326856,
+        "lng": 121.5000883
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-474",
+      "name": "瑞格華有限公司/大海刀品",
+      "location": {
+        "lat": 25.0452236,
+        "lng": 121.5067354
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-475",
+      "name": "全家便利商店：文祥店",
+      "location": {
+        "lat": 25.0359633,
+        "lng": 121.5246081
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-476",
+      "name": "阿瘦實業(股)公司: 公館店",
+      "location": {
+        "lat": 25.016149,
+        "lng": 121.532562
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-477",
+      "name": "快樂數位影像器材有限公司",
+      "location": {
+        "lat": 25.0452649,
+        "lng": 121.5118783
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-478",
+      "name": "成功攝影",
+      "location": {
+        "lat": 25.0432688,
+        "lng": 121.532166
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-479",
+      "name": "林屋照相器材有限公司",
+      "location": {
+        "lat": 25.0454611,
+        "lng": 121.5111915
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-480",
+      "name": "地下街軟體世界二店",
+      "location": {
+        "lat": 25.0487071,
+        "lng": 121.5142185
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-481",
+      "name": "溫泉小舖(HotSpringStore)",
+      "location": {
+        "lat": 25.137926,
+        "lng": 121.4992715
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-482",
+      "name": "HOLA特力和樂(內湖店)",
+      "location": {
+        "lat": 25.062163,
+        "lng": 121.573952
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-483",
+      "name": "特力屋-內湖店",
+      "location": {
+        "lat": 25.062268,
+        "lng": 121.5743258
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-484",
+      "name": "All Ride Skate/Surf/Snow",
+      "location": {
+        "lat": 25.079524,
+        "lng": 121.572026
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-485",
+      "name": "神農市場MAJI FOOD & DELI",
+      "location": {
+        "lat": 25.0700306,
+        "lng": 121.5220499
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-486",
+      "name": "MAJI 集食行樂",
+      "location": {
+        "lat": 25.069644,
+        "lng": 121.5217297
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-487",
+      "name": "紅記珠寶銀樓",
+      "location": {
+        "lat": 25.0504072,
+        "lng": 121.5251449
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-488",
+      "name": "阿立圓山玩具模型社",
+      "location": {
+        "lat": 25.0707297,
+        "lng": 121.5191997
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-489",
+      "name": "迪化街布行 漫花時 Manoirs（原 維鴻布行）- 花布.棉布.工業用布.文創布藝訂製.抱枕.窗簾.布包.女裝訂製.豆花.石花凍.下午茶.美食.甜點",
+      "location": {
+        "lat": 25.0540236,
+        "lng": 121.5101074
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-490",
+      "name": "桌麻吉－ 台北 公館 桌遊店家首選｜桌遊餐廳｜桌遊聚會｜桌上遊戲｜場地租借｜派對聚會 推薦",
+      "location": {
+        "lat": 25.0123847,
+        "lng": 121.5362634
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-491",
+      "name": "翔仔居家-台北中山店",
+      "location": {
+        "lat": 25.0548295,
+        "lng": 121.5199181
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-492",
+      "name": "天草．噶薩爾牛樟芝門市據點｜實體展示牛樟芝選購優惠｜頂級牛樟芝 Antrodia cinnamomea",
+      "location": {
+        "lat": 25.0609372,
+        "lng": 121.5091877
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-493",
+      "name": "天草·噶薩爾 牛樟專賣 忠孝敦化直營店",
+      "location": {
+        "lat": 25.040643,
+        "lng": 121.5473394
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-494",
+      "name": "是日好學文教機構",
+      "location": {
+        "lat": 25.110328,
+        "lng": 121.530038
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-495",
+      "name": "方舟私藏空間",
+      "location": {
+        "lat": 25.0578865,
+        "lng": 121.5505154
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-496",
+      "name": "永憶國際有限公司",
+      "location": {
+        "lat": 25.0330517,
+        "lng": 121.5492185
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-497",
+      "name": "QB HOUSE 北車K區店",
+      "location": {
+        "lat": 25.04646,
+        "lng": 121.5174454
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-498",
+      "name": "日日美髮廊",
+      "location": {
+        "lat": 25.0416893,
+        "lng": 121.5676873
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-499",
+      "name": "攝狗狗寵物寫真工坊",
+      "location": {
+        "lat": 25.0452736,
+        "lng": 121.5575737
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-500",
+      "name": "Remak 髮型工作室",
+      "location": {
+        "lat": 25.0516999,
+        "lng": 121.5599999
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-501",
+      "name": "Painted Nail Salon 東區美甲沙龍",
+      "location": {
+        "lat": 25.039936,
+        "lng": 121.554383
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-502",
+      "name": "晨曦造型工作室Aurora Hair Design",
+      "location": {
+        "lat": 25.0409526,
+        "lng": 121.5455224
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-503",
+      "name": "e書漫小貓中途美食漫畫圖書館",
+      "location": {
+        "lat": 25.0266426,
+        "lng": 121.522988
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-504",
+      "name": "摩爾文教~茱莉安音樂教室/摩爾美術教室（茱莉安摩爾美語音樂美術短期補習班）",
+      "location": {
+        "lat": 25.019906,
+        "lng": 121.531604
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-505",
+      "name": "浮光書店",
+      "location": {
+        "lat": 25.0552559,
+        "lng": 121.5200937
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-506",
+      "name": "Mr.Voice 陳威宇歌唱教學系統",
+      "location": {
+        "lat": 25.0330135,
+        "lng": 121.5019629
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-507",
+      "name": "抱瓶庵藝事空間",
+      "location": {
+        "lat": 25.0465918,
+        "lng": 121.5065478
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-508",
+      "name": "冠婷批發服飾",
+      "location": {
+        "lat": 25.0350557,
+        "lng": 121.5013634
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-509",
+      "name": "A'MOUR hair salon",
+      "location": {
+        "lat": 25.0137476,
+        "lng": 121.5340625
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-510",
+      "name": "艾葳精品婚紗",
+      "location": {
+        "lat": 25.034025,
+        "lng": 121.518417
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-511",
+      "name": "邦尼是個星球 寵物攝影",
+      "location": {
+        "lat": 25.0625575,
+        "lng": 121.5412421
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-512",
+      "name": "Escapeholics密室逃脫(中山國小店)",
+      "location": {
+        "lat": 25.0650202,
+        "lng": 121.523951
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-513",
+      "name": "毛時光出租空間",
+      "location": {
+        "lat": 25.0513836,
+        "lng": 121.5291742
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-514",
+      "name": "Haven hair",
+      "location": {
+        "lat": 25.0599604,
+        "lng": 121.521505
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-515",
+      "name": "誠意中西藥局",
+      "location": {
+        "lat": 25.0663427,
+        "lng": 121.5259772
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-516",
+      "name": "工作樂 Working Ler | 共想空間-松江南京共享空間|場地租借|場地租借|中山咖啡廳|松江南京咖啡廳|松江南京瑜珈",
+      "location": {
+        "lat": 25.048942,
+        "lng": 121.532004
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-517",
+      "name": "瑿美人SPA台北松江館",
+      "location": {
+        "lat": 25.059745,
+        "lng": 121.5328976
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-518",
+      "name": "p'adore 寵愛飼主教育專門學校(寵物友善)",
+      "location": {
+        "lat": 25.0837591,
+        "lng": 121.5772575
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-519",
+      "name": "奔fun 足體工坊 運動伸展 工業風 筋膜刀 景美 新店 大坪林 捷運站 停車 按摩 腳底按摩 全身按摩 運動按摩 油推 油壓 精油放鬆 紓壓 肌貼 貼紮",
+      "location": {
+        "lat": 24.9835228,
+        "lng": 121.5396207
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-520",
+      "name": "青色髮廊 , CYAN Hair Boutique",
+      "location": {
+        "lat": 25.052541,
+        "lng": 121.5216902
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-521",
+      "name": "PG美人網 東森站前店",
+      "location": {
+        "lat": 25.0466412,
+        "lng": 121.5162172
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-522",
+      "name": "拼圖總動員 東森廣場-K區地下街",
+      "location": {
+        "lat": 25.0469357,
+        "lng": 121.5154329
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-523",
+      "name": "Little Cloud Yoga Accessory 小雲雲瑜珈配件 LCYA",
+      "location": {
+        "lat": 25.0609205,
+        "lng": 121.5297908
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-524",
+      "name": "JORDON橋登 - 台北信義門市",
+      "location": {
+        "lat": 25.0338196,
+        "lng": 121.5323717
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-525",
+      "name": "金翠珠寶銀樓(台北士林區、使用驗金機檢測、回收不扣重、存錢小金豆、金條、翡翠、鑽石、瑞士PAMP)",
+      "location": {
+        "lat": 25.1029526,
+        "lng": 121.5246463
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-526",
+      "name": "桔物手作",
+      "location": {
+        "lat": 25.0561041,
+        "lng": 121.5106633
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-527",
+      "name": "練功房 The Pain Cave 運動訓練（全預約制）",
+      "location": {
+        "lat": 25.066504,
+        "lng": 121.5255772
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-528",
+      "name": "京育商務中心",
+      "location": {
+        "lat": 25.0411335,
+        "lng": 121.5548213
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-529",
+      "name": "轉角默默美學Moira Moment 做臉｜台北做臉｜台北清粉刺｜男生清粉刺｜肌膚管理｜水飛梭｜除毛｜岩盤浴｜美胸｜按摩｜中山｜雙連｜",
+      "location": {
+        "lat": 25.0610709,
+        "lng": 121.5212034
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-530",
+      "name": "臺北市私立嘉恩老人長期照顧中心(養護型)",
+      "location": {
+        "lat": 25.0205182,
+        "lng": 121.5545881
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-531",
+      "name": "台北君悅酒店",
+      "location": {
+        "lat": 25.0356905,
+        "lng": 121.5625928
+      },
+      "serviceTypes": [
+        "住宿"
+      ]
+    },
+    {
+      "id": "taipei-532",
+      "name": "金普頓大安酒店",
+      "location": {
+        "lat": 25.0404405,
+        "lng": 121.5454797
+      },
+      "serviceTypes": [
+        "住宿"
+      ]
+    },
+    {
+      "id": "taipei-533",
+      "name": "路境行旅 Finders Hotel",
+      "location": {
+        "lat": 25.0431277,
+        "lng": 121.5130411
+      },
+      "serviceTypes": [
+        "住宿"
+      ]
+    },
+    {
+      "id": "taipei-534",
+      "name": "台北六福萬怡酒店-寵物專屬客房",
+      "location": {
+        "lat": 25.0529044,
+        "lng": 121.6064084
+      },
+      "serviceTypes": [
+        "住宿"
+      ]
+    },
+    {
+      "id": "taipei-535",
+      "name": "千彩格精品旅店 Colors Inn",
+      "location": {
+        "lat": 25.0557593,
+        "lng": 121.5252552
+      },
+      "serviceTypes": [
+        "住宿"
+      ]
+    },
+    {
+      "id": "taipei-536",
+      "name": "迎風狗運動公園",
+      "location": {
+        "lat": 25.071923,
+        "lng": 121.565462
+      },
+      "serviceTypes": [
+        "娛樂"
+      ]
+    },
+    {
+      "id": "taipei-537",
+      "name": "華山公園狗活動區",
+      "location": {
+        "lat": 25.0475229,
+        "lng": 121.5234985
+      },
+      "serviceTypes": [
+        "娛樂"
+      ]
+    },
+    {
+      "id": "taipei-538",
+      "name": "萬興狗活動區",
+      "location": {
+        "lat": 24.997414,
+        "lng": 121.575966
+      },
+      "serviceTypes": [
+        "娛樂"
+      ]
+    },
+    {
+      "id": "taipei-539",
+      "name": "潭美毛寶貝快樂公園",
+      "location": {
+        "lat": 25.0627667,
+        "lng": 121.6078534
+      },
+      "serviceTypes": [
+        "娛樂"
+      ]
+    },
+    {
+      "id": "taipei-540",
+      "name": "至善公園狗活動區",
+      "location": {
+        "lat": 25.098593,
+        "lng": 121.537564
+      },
+      "serviceTypes": [
+        "娛樂"
+      ]
+    },
+    {
+      "id": "taipei-541",
+      "name": "北勢湖公園狗活動區",
+      "location": {
+        "lat": 25.0835505,
+        "lng": 121.5614846
+      },
+      "serviceTypes": [
+        "娛樂"
+      ]
+    },
+    {
+      "id": "taipei-542",
+      "name": "玉成公園狗活動區",
+      "location": {
+        "lat": 25.0424623,
+        "lng": 121.5842006
+      },
+      "serviceTypes": [
+        "娛樂"
+      ]
+    },
+    {
+      "id": "taipei-543",
+      "name": "古亭狗活動區",
+      "location": {
+        "lat": 25.0206188,
+        "lng": 121.5194204
+      },
+      "serviceTypes": [
+        "娛樂"
+      ]
+    },
+    {
+      "id": "taipei-544",
+      "name": "葫東狗活動區",
+      "location": {
+        "lat": 25.0867146,
+        "lng": 121.5104659
+      },
+      "serviceTypes": [
+        "娛樂"
+      ]
+    },
+    {
+      "id": "taipei-545",
+      "name": "洲美狗活動區",
+      "location": {
+        "lat": 25.0999642,
+        "lng": 121.5064213
+      },
+      "serviceTypes": [
+        "娛樂"
+      ]
+    },
+    {
+      "id": "taipei-546",
+      "name": "福順狗運動公園",
+      "location": {
+        "lat": 25.081346,
+        "lng": 121.5144077
+      },
+      "serviceTypes": [
+        "娛樂"
+      ]
+    },
+    {
+      "id": "taipei-547",
+      "name": "大同狗活動區",
+      "location": {
+        "lat": 25.133625,
+        "lng": 121.4972643
+      },
+      "serviceTypes": [
+        "娛樂"
+      ]
+    },
+    {
+      "id": "taipei-548",
+      "name": "華江狗活動區",
+      "location": {
+        "lat": 25.0327636,
+        "lng": 121.4866832
+      },
+      "serviceTypes": [
+        "娛樂"
+      ]
+    },
+    {
+      "id": "taipei-549",
+      "name": "延平狗活動區",
+      "location": {
+        "lat": 25.0739912,
+        "lng": 121.5086348
+      },
+      "serviceTypes": [
+        "娛樂"
+      ]
+    },
+    {
+      "id": "taipei-550",
+      "name": "青峰狗活動區",
+      "location": {
+        "lat": 25.0157439,
+        "lng": 121.5512721
+      },
+      "serviceTypes": [
+        "娛樂"
+      ]
+    },
+    {
+      "id": "taipei-551",
+      "name": "三腳渡狗狗活動區",
+      "location": {
+        "lat": 25.0814371,
+        "lng": 121.5166065
+      },
+      "serviceTypes": [
+        "娛樂"
+      ]
+    },
+    {
+      "id": "taipei-552",
+      "name": "信義廣場狗活動區",
+      "location": {
+        "lat": 25.0336985,
+        "lng": 121.5660461
+      },
+      "serviceTypes": [
+        "娛樂"
+      ]
+    },
+    {
+      "id": "taipei-553",
+      "name": "中山區美堤狗活動區",
+      "location": {
+        "lat": 25.0765628,
+        "lng": 121.5542663
+      },
+      "serviceTypes": [
+        "娛樂"
+      ]
+    },
+    {
+      "id": "taipei-554",
+      "name": "華中狗活動區",
+      "location": {
+        "lat": 25.0166218,
+        "lng": 121.4913182
+      },
+      "serviceTypes": [
+        "娛樂"
+      ]
+    }
+  ]
+}

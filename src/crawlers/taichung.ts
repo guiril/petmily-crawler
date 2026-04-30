@@ -1,3 +1,4 @@
+import { createHash } from 'crypto';
 import * as cheerio from 'cheerio';
 import type { RawVenue, ServiceType } from '../types/index.ts';
 import { isServiceType } from '../types/index.ts';
@@ -7,6 +8,11 @@ const SERVICE_TYPE_MAP: Record<string, ServiceType> = {
   住宿: '住宿',
   娛樂: '娛樂',
   其他: '其他',
+};
+
+const generateId = (name: string, address: string): string => {
+  const hash = createHash('sha256').update(`${name}${address}`).digest('hex').slice(0, 8);
+  return `taichung-${hash}`;
 };
 
 const BASE_URL = 'https://www.animal.taichung.gov.tw';
@@ -38,13 +44,13 @@ const splitField = (value: string | undefined): string[] =>
         .filter(Boolean)
     : [];
 
-const extractVenuesFromTable = (html: string, startIndex: number): VenueWithDetailUrl[] => {
+const extractVenuesFromTable = (html: string): VenueWithDetailUrl[] => {
   const $ = cheerio.load(html);
 
   return $(SELECTORS.tableRows)
     .toArray()
     .slice(1) // skip header row
-    .map((row, index) => {
+    .map((row) => {
       const cellTexts = $(row)
         .find('td')
         .toArray()
@@ -54,12 +60,14 @@ const extractVenuesFromTable = (html: string, startIndex: number): VenueWithDeta
 
       return {
         venue: {
-          id: `taichung-${startIndex + index}`,
+          id: generateId(cellTexts[1] ?? '', cellTexts[5] ?? ''),
           name: cellTexts[1],
-          address: cellTexts[4],
-          serviceTypes: splitField(cellTexts[2]).map((raw) => SERVICE_TYPE_MAP[raw]).filter(isServiceType),
+          address: cellTexts[5],
+          serviceTypes: splitField(cellTexts[2])
+            .map((raw) => SERVICE_TYPE_MAP[raw])
+            .filter(isServiceType),
           petTypes: splitField(cellTexts[3]),
-          phone: cellTexts[5],
+          phone: cellTexts[6],
         } as RawVenue,
         detailUrl,
       };
@@ -81,7 +89,7 @@ const crawlAllPages = async (
   console.log(`Crawling page ${pageCount}...`);
 
   const html = await fetchHtml(url);
-  const currentPageVenues = extractVenuesFromTable(html, collectedVenues.length);
+  const currentPageVenues = extractVenuesFromTable(html);
   const accumulatedVenues = [...collectedVenues, ...currentPageVenues];
 
   const nextUrl = getNextUrl(html, url);

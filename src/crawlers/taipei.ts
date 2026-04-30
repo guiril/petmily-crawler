@@ -1,3 +1,5 @@
+import { createHash } from 'crypto';
+
 import * as cheerio from 'cheerio';
 import type { RawVenue, ServiceType } from '../types/index.ts';
 
@@ -8,6 +10,12 @@ const FOLDER_SERVICE_TYPE_MAP: Record<string, ServiceType> = {
   寵物服務: '其他',
   ㄧ般零售業: '其他',
   其他業者: '其他',
+};
+
+const generateId = (name: string, lat?: number, lng?: number): string => {
+  const input = lat !== undefined && lng !== undefined ? `${lat},${lng}` : name;
+  const hash = createHash('sha256').update(input).digest('hex').slice(0, 8);
+  return `taipei-${hash}`;
 };
 
 const parseCoordinates = (coordText: string) => {
@@ -28,7 +36,6 @@ export const crawlTaipei = async (url: string): Promise<RawVenue[]> => {
 
   const $ = cheerio.load(kmlText, { xmlMode: true });
   const venues: RawVenue[] = [];
-  let index = 0;
 
   $('Folder').each((_, folder) => {
     const folderName = $(folder).children('name').text().trim();
@@ -47,7 +54,7 @@ export const crawlTaipei = async (url: string): Promise<RawVenue[]> => {
         const location = parseCoordinates(coordText);
 
         venues.push({
-          id: `taipei-${index++}`,
+          id: generateId(name, location?.lat, location?.lng),
           name,
           address: description.startsWith('臺北') ? description : undefined,
           location,

@@ -27,12 +27,14 @@ jobs:
 
       - name: Check if data was updated
         run: |
-          if [ -f "data/taichung.json" ]; then
-            echo "taichung.json found and updated"
-          else
-            echo "Warning: taichung.json not found"
-            exit 1
-          fi
+          for city in taipei taichung; do
+            if [ -f "data/raw/${city}.json" ]; then
+              echo "${city}.json found and updated"
+            else
+              echo "Warning: data/raw/${city}.json not found"
+              exit 1
+            fi
+          done
 
       - name: Commit and push changes
         run: |

@@ -51,7 +51,7 @@ jobs:
           export TZ='Asia/Taipei'
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action Bot"
-          git add data/venues.json
+          git add data/venues.json data/geocoding-cache.json
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else

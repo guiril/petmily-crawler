@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1777603922,
+  "updatedAt": 1780276290,
   "venues": {
     "taipei": [
       {
@@ -7870,7 +7870,6 @@
           "貓"
         ],
         "phone": "04-24362886",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/1254706/九房村懷舊食堂.jpg",
         "district": "北屯區",
         "location": {
           "lat": 24.1783967,
@@ -8122,7 +8121,6 @@
           "貓"
         ],
         "phone": "04-22587911",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/1067570/台中保時捷中心.jpg",
         "district": "南區",
         "location": {
           "lat": 24.1195121,
@@ -8394,7 +8392,6 @@
           "其他"
         ],
         "phone": "04-22582000",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/617031/天月人文.jpg",
         "district": "西屯區",
         "location": {
           "lat": 24.1674573,
@@ -8414,7 +8411,6 @@
           "其他"
         ],
         "phone": "04-22294466",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/1224139/奇異果快捷旅店中正店-外觀.jpg",
         "district": "中區",
         "location": {
           "lat": 24.1435134,
@@ -8434,7 +8430,6 @@
           "其他"
         ],
         "phone": "04-24368874",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/620893/好喔餐廳.jpg",
         "district": "北屯區",
         "location": {
           "lat": 24.1752527,
@@ -8474,7 +8469,6 @@
           "其他"
         ],
         "phone": "04-22596659",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/1053027/好狗命寵物幸福生活城-大墩店.jpg",
         "district": "南屯區",
         "location": {
           "lat": 24.1492045,
@@ -8494,6 +8488,7 @@
           "其他"
         ],
         "phone": "04-27069666",
+        "imageUrl": "https://www.animal.taichung.gov.tw/media/1052396/好狗運貓狗福利中心-上石店.jpg",
         "district": "西屯區",
         "location": {
           "lat": 24.1704731,
@@ -8513,7 +8508,6 @@
           "其他"
         ],
         "phone": "04-24811888",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/1053089/好狗運貓狗福利中心-六順店.jpg",
         "district": "東區",
         "location": {
           "lat": 24.1251327,
@@ -9036,7 +9030,6 @@
           "貓"
         ],
         "phone": "04-23385626",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/974221/日拓不動產有限公司.jpg",
         "district": "烏日區",
         "location": {
           "lat": 24.1138598,
@@ -9075,7 +9068,6 @@
           "貓"
         ],
         "phone": "04-23150001",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/464607/9641146229.jpg",
         "district": "西區",
         "location": {
           "lat": 24.1595066,
@@ -9248,7 +9240,6 @@
           "貓"
         ],
         "phone": "04-22599299",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/464467/711139112829.jpg",
         "district": "西屯區",
         "location": {
           "lat": 24.1649191,
@@ -9913,7 +9904,6 @@
           "其他"
         ],
         "phone": "04-22580090",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/995481/肉肉燒肉朝馬店.jpg",
         "district": "西屯區",
         "location": {
           "lat": 24.1689625,
@@ -10143,7 +10133,6 @@
           "其他"
         ],
         "phone": "04-22353855",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/1278433/貓邸老咖庭園餐廳.jpg",
         "district": "北區",
         "location": {
           "lat": 24.152286,
@@ -10162,7 +10151,6 @@
           "貓"
         ],
         "phone": "04-23270776",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/617921/踏踏地球.jpg",
         "district": "西區",
         "location": {
           "lat": 24.1538804,
@@ -10199,7 +10187,6 @@
           "其他"
         ],
         "phone": "04-22250698",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/464427/79610402629.jpg",
         "district": "中區",
         "location": {
           "lat": 24.1385798,
@@ -10218,7 +10205,6 @@
           "貓"
         ],
         "phone": "0952-685111",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/977259/野沐私房菜.jpg",
         "district": "北屯區",
         "location": {
           "lat": 24.1923318,
@@ -10258,7 +10244,6 @@
           "其他"
         ],
         "phone": "04-23198000",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/1111630/金典-綠園道.jpg",
         "district": "北區",
         "location": {
           "lat": 24.1559989,
@@ -10277,7 +10262,6 @@
           "貓"
         ],
         "phone": "0422083388",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/671751/金沙時尚有限公司.jpg",
         "district": "北區",
         "location": {
           "lat": 24.1504351,
@@ -10295,7 +10279,6 @@
           "犬"
         ],
         "phone": "0910-541317",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/688091/閒情驛站民宿.jpg",
         "district": "石岡區",
         "location": {
           "lat": 24.26951,
@@ -10314,7 +10297,6 @@
           "貓"
         ],
         "phone": "無電話，請以Instagram聯繫",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/1004495/阿利珈多.jpg",
         "district": "北區",
         "location": {
           "lat": 24.1610001,
@@ -10526,6 +10508,7 @@
           "貓"
         ],
         "phone": "04-25608922",
+        "imageUrl": "https://www.animal.taichung.gov.tw/media/635849/37811371_2125546514436876_1807707642752139264_o.jpg",
         "district": "大雅區",
         "location": {
           "lat": 24.2254215,

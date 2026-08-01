@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1782868140,
+  "updatedAt": 1785545192,
   "venues": {
     "taipei": [
       {
@@ -7250,7 +7250,6 @@
           "貓"
         ],
         "phone": "04-22135122",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/464455/710309203429.jpg",
         "district": "東區",
         "location": {
           "lat": 24.1373169,
@@ -7446,7 +7445,6 @@
           "貓"
         ],
         "phone": "04-22478000",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/464419/783017323653.jpg",
         "district": "北屯區",
         "location": {
           "lat": 24.1732937,
@@ -7465,7 +7463,6 @@
           "貓"
         ],
         "phone": "04-24625518",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/627248/和樂西屯店.jpg",
         "district": "西屯區",
         "location": {
           "lat": 24.178581,
@@ -7484,7 +7481,6 @@
           "貓"
         ],
         "phone": "04-23101000",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/627230/和樂大墩店.jpg",
         "district": "南屯區",
         "location": {
           "lat": 24.1496315,
@@ -7504,7 +7500,6 @@
           "其他"
         ],
         "phone": "04-23020030",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/1018987/homehome.jpg",
         "district": "西區",
         "location": {
           "lat": 24.1498643,
@@ -7523,7 +7518,6 @@
           "貓"
         ],
         "phone": "04-24360281",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/1137128/臥野咖啡.jpg",
         "district": "北屯區",
         "location": {
           "lat": 24.1602699,
@@ -7542,7 +7536,6 @@
           "貓"
         ],
         "phone": "04-22252219",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/464661/96209443529.jpg",
         "district": "北區",
         "location": {
           "lat": 24.1519196,
@@ -7561,7 +7554,6 @@
           "貓"
         ],
         "phone": "04-22470761",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/766374/民海咖啡行.jpg",
         "district": "北屯區",
         "location": {
           "lat": 24.1716416,
@@ -7581,7 +7573,6 @@
           "其他"
         ],
         "phone": "04-23239222",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/1024183/momori-café-bar.jpg",
         "district": "西區",
         "location": {
           "lat": 24.1523294,
@@ -7601,7 +7592,6 @@
           "其他"
         ],
         "phone": "04-37047535",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/1220661/建築外觀_mrmantter_曼特先生.jpg",
         "district": "中區",
         "location": {
           "lat": 24.141262,
@@ -7625,6 +7615,25 @@
         "location": {
           "lat": 24.1641203,
           "lng": 120.6570184
+        }
+      },
+      {
+        "id": "taichung-949eeef7",
+        "name": "PANO 24",
+        "address": "臺中市中區綠川里建國路111號24樓",
+        "serviceTypes": [
+          "餐飲"
+        ],
+        "petTypes": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-22240888",
+        "imageUrl": "https://www.animal.taichung.gov.tw/media/1377292/pano24.jpg",
+        "district": "中區",
+        "location": {
+          "lat": 24.13679,
+          "lng": 120.6837922
         }
       },
       {
@@ -7679,7 +7688,6 @@
           "貓"
         ],
         "phone": "04-23015653",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/1101258/圓環咖啡-大和店.jpeg",
         "district": "西區",
         "location": {
           "lat": 24.1499586,
@@ -7698,30 +7706,10 @@
           "貓"
         ],
         "phone": "04-22061988",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/1101249/圓環咖啡-梅川店.jpeg",
         "district": "北區",
         "location": {
           "lat": 24.1564619,
           "lng": 120.6758212
-        }
-      },
-      {
-        "id": "taichung-3339d57e",
-        "name": "TIKIYALO(鐵枝路咖啡交易所 / 名門飲食有限公司)",
-        "address": "臺中市中區臺灣大道一段1號B7櫃位",
-        "serviceTypes": [
-          "餐飲"
-        ],
-        "petTypes": [
-          "犬",
-          "貓"
-        ],
-        "phone": "04-35097354",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/1004497/tikiyalo.jpg",
-        "district": "中區",
-        "location": {
-          "lat": 24.1367841,
-          "lng": 120.6849269
         }
       },
       {
@@ -7756,7 +7744,6 @@
           "貓"
         ],
         "phone": "04-23273518",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/1111557/uzo.jpg",
         "district": "西區",
         "location": {
           "lat": 24.1552787,
@@ -7775,7 +7762,6 @@
           "貓"
         ],
         "phone": "04-24521330",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/1011577/line_album_112-uni-cafe_231014_13.jpg",
         "district": "西屯區",
         "location": {
           "lat": 24.185938,
@@ -7794,7 +7780,6 @@
           "貓"
         ],
         "phone": "04-22376859",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/725997/毅達投資有限公司.jpg",
         "district": "北屯區",
         "location": {
           "lat": 24.1707639,
@@ -7856,25 +7841,6 @@
         "location": {
           "lat": 24.24022,
           "lng": 120.6169373
-        }
-      },
-      {
-        "id": "taichung-08385d2a",
-        "name": "九房村懷舊食堂",
-        "address": "臺中市北屯區南興三路290號",
-        "serviceTypes": [
-          "餐飲"
-        ],
-        "petTypes": [
-          "犬",
-          "貓"
-        ],
-        "phone": "04-24362886",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/1254706/九房村懷舊食堂.jpg",
-        "district": "北屯區",
-        "location": {
-          "lat": 24.1783967,
-          "lng": 120.7033509
         }
       },
       {
@@ -8052,6 +8018,25 @@
         "location": {
           "lat": 24.1509935,
           "lng": 120.664042
+        }
+      },
+      {
+        "id": "taichung-7bf93095",
+        "name": "北緯二十四 Latitude 24",
+        "address": "臺中市中區綠川里建國路111號1樓",
+        "serviceTypes": [
+          "餐飲"
+        ],
+        "petTypes": [
+          "犬",
+          "貓"
+        ],
+        "phone": "04-22240888",
+        "imageUrl": "https://www.animal.taichung.gov.tw/media/1377298/北緯二十四-latitude-24.jpg",
+        "district": "中區",
+        "location": {
+          "lat": 24.13679,
+          "lng": 120.6837922
         }
       },
       {
@@ -9191,7 +9176,6 @@
           "貓"
         ],
         "phone": "04-22631303",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/464483/7111410373529.jpg",
         "district": "南區",
         "location": {
           "lat": 24.1153316,
@@ -9235,25 +9219,6 @@
         "location": {
           "lat": 24.1879223,
           "lng": 120.5924555
-        }
-      },
-      {
-        "id": "taichung-c88b3d2c",
-        "name": "歐風商旅(歐風商旅旅館事業有限公司)",
-        "address": "臺中市西屯區惠民路199號",
-        "serviceTypes": [
-          "住宿"
-        ],
-        "petTypes": [
-          "犬",
-          "貓"
-        ],
-        "phone": "04-22599299",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/464467/711139112829.jpg",
-        "district": "西屯區",
-        "location": {
-          "lat": 24.1649191,
-          "lng": 120.6405861
         }
       },
       {
@@ -10027,7 +9992,6 @@
           "貓"
         ],
         "phone": "04-22550011",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/1053535/茶馬司訪山茶店-teamars.jpg",
         "district": "南屯區",
         "location": {
           "lat": 24.1480787,
@@ -10144,7 +10108,6 @@
           "其他"
         ],
         "phone": "04-22353855",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/1278433/貓邸老咖庭園餐廳.jpg",
         "district": "北區",
         "location": {
           "lat": 24.152286,
@@ -10721,7 +10684,6 @@
           "其他"
         ],
         "phone": "04-22368818",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/1052450/魚中魚貓狗水族大賣場-文昌店.jpg",
         "district": "北屯區",
         "location": {
           "lat": 24.1714157,

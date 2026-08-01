@@ -1,7 +1,7 @@
 {
   "sourceCity": "臺中市",
   "lastUpdate": "更新於114/11/11",
-  "scrapedAt": 1782868123,
+  "scrapedAt": 1785545175,
   "venues": [
     {
       "id": "taichung-9e3489e1",
@@ -28,8 +28,7 @@
         "犬",
         "貓"
       ],
-      "phone": "04-22135122",
-      "imageUrl": "https://www.animal.taichung.gov.tw/media/464455/710309203429.jpg"
+      "phone": "04-22135122"
     },
     {
       "id": "taichung-1fb7f726",
@@ -174,8 +173,7 @@
         "犬",
         "貓"
       ],
-      "phone": "04-22478000",
-      "imageUrl": "https://www.animal.taichung.gov.tw/media/464419/783017323653.jpg"
+      "phone": "04-22478000"
     },
     {
       "id": "taichung-1c166b04",
@@ -188,8 +186,7 @@
         "犬",
         "貓"
       ],
-      "phone": "04-24625518",
-      "imageUrl": "https://www.animal.taichung.gov.tw/media/627248/和樂西屯店.jpg"
+      "phone": "04-24625518"
     },
     {
       "id": "taichung-555b584f",
@@ -202,8 +199,7 @@
         "犬",
         "貓"
       ],
-      "phone": "04-23101000",
-      "imageUrl": "https://www.animal.taichung.gov.tw/media/627230/和樂大墩店.jpg"
+      "phone": "04-23101000"
     },
     {
       "id": "taichung-141d7156",
@@ -217,8 +213,7 @@
         "貓",
         "其他"
       ],
-      "phone": "04-23020030",
-      "imageUrl": "https://www.animal.taichung.gov.tw/media/1018987/homehome.jpg"
+      "phone": "04-23020030"
     },
     {
       "id": "taichung-a173b35b",
@@ -231,8 +226,7 @@
         "犬",
         "貓"
       ],
-      "phone": "04-24360281",
-      "imageUrl": "https://www.animal.taichung.gov.tw/media/1137128/臥野咖啡.jpg"
+      "phone": "04-24360281"
     },
     {
       "id": "taichung-b3ddf3ad",
@@ -245,8 +239,7 @@
         "犬",
         "貓"
       ],
-      "phone": "04-22252219",
-      "imageUrl": "https://www.animal.taichung.gov.tw/media/464661/96209443529.jpg"
+      "phone": "04-22252219"
     },
     {
       "id": "taichung-d9bdc55e",
@@ -259,8 +252,7 @@
         "犬",
         "貓"
       ],
-      "phone": "04-22470761",
-      "imageUrl": "https://www.animal.taichung.gov.tw/media/766374/民海咖啡行.jpg"
+      "phone": "04-22470761"
     },
     {
       "id": "taichung-f4f0979e",
@@ -274,8 +266,7 @@
         "貓",
         "其他"
       ],
-      "phone": "04-23239222",
-      "imageUrl": "https://www.animal.taichung.gov.tw/media/1024183/momori-café-bar.jpg"
+      "phone": "04-23239222"
     },
     {
       "id": "taichung-6179894d",
@@ -289,8 +280,7 @@
         "貓",
         "其他"
       ],
-      "phone": "04-37047535",
-      "imageUrl": "https://www.animal.taichung.gov.tw/media/1220661/建築外觀_mrmantter_曼特先生.jpg"
+      "phone": "04-37047535"
     },
     {
       "id": "taichung-568e9e8c",
@@ -305,6 +295,20 @@
       ],
       "phone": "04-23165519",
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1021751/no19-restaurant.jpg"
+    },
+    {
+      "id": "taichung-949eeef7",
+      "name": "PANO 24",
+      "address": "臺中市中區綠川里建國路111號24樓",
+      "serviceTypes": [
+        "餐飲"
+      ],
+      "petTypes": [
+        "犬",
+        "貓"
+      ],
+      "phone": "04-22240888",
+      "imageUrl": "https://www.animal.taichung.gov.tw/media/1377292/pano24.jpg"
     },
     {
       "id": "taichung-36813344",
@@ -347,8 +351,7 @@
         "犬",
         "貓"
       ],
-      "phone": "04-23015653",
-      "imageUrl": "https://www.animal.taichung.gov.tw/media/1101258/圓環咖啡-大和店.jpeg"
+      "phone": "04-23015653"
     },
     {
       "id": "taichung-24f95d13",
@@ -361,22 +364,7 @@
         "犬",
         "貓"
       ],
-      "phone": "04-22061988",
-      "imageUrl": "https://www.animal.taichung.gov.tw/media/1101249/圓環咖啡-梅川店.jpeg"
-    },
-    {
-      "id": "taichung-3339d57e",
-      "name": "TIKIYALO(鐵枝路咖啡交易所 / 名門飲食有限公司)",
-      "address": "臺中市中區臺灣大道一段1號B7櫃位",
-      "serviceTypes": [
-        "餐飲"
-      ],
-      "petTypes": [
-        "犬",
-        "貓"
-      ],
-      "phone": "04-35097354",
-      "imageUrl": "https://www.animal.taichung.gov.tw/media/1004497/tikiyalo.jpg"
+      "phone": "04-22061988"
     },
     {
       "id": "taichung-05641401",
@@ -404,8 +392,7 @@
         "犬",
         "貓"
       ],
-      "phone": "04-23273518",
-      "imageUrl": "https://www.animal.taichung.gov.tw/media/1111557/uzo.jpg"
+      "phone": "04-23273518"
     },
     {
       "id": "taichung-d932a21e",
@@ -418,8 +405,7 @@
         "犬",
         "貓"
       ],
-      "phone": "04-24521330",
-      "imageUrl": "https://www.animal.taichung.gov.tw/media/1011577/line_album_112-uni-cafe_231014_13.jpg"
+      "phone": "04-24521330"
     },
     {
       "id": "taichung-7c14b52f",
@@ -432,8 +418,7 @@
         "犬",
         "貓"
       ],
-      "phone": "04-22376859",
-      "imageUrl": "https://www.animal.taichung.gov.tw/media/725997/毅達投資有限公司.jpg"
+      "phone": "04-22376859"
     },
     {
       "id": "taichung-794523cb",
@@ -476,20 +461,6 @@
       ],
       "phone": "04-25653150",
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464543/83611295229.png"
-    },
-    {
-      "id": "taichung-08385d2a",
-      "name": "九房村懷舊食堂",
-      "address": "台中市北屯區南興三路290號",
-      "serviceTypes": [
-        "餐飲"
-      ],
-      "petTypes": [
-        "犬",
-        "貓"
-      ],
-      "phone": "04-24362886",
-      "imageUrl": "https://www.animal.taichung.gov.tw/media/1254706/九房村懷舊食堂.jpg"
     },
     {
       "id": "taichung-2aac9a11",
@@ -622,6 +593,20 @@
       ],
       "phone": "04-23281000",
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1125069/勤美誠品形象照.jpg"
+    },
+    {
+      "id": "taichung-7bf93095",
+      "name": "北緯二十四 Latitude 24",
+      "address": "臺中市中區建國路111號1樓",
+      "serviceTypes": [
+        "餐飲"
+      ],
+      "petTypes": [
+        "犬",
+        "貓"
+      ],
+      "phone": "04-22240888",
+      "imageUrl": "https://www.animal.taichung.gov.tw/media/1377298/北緯二十四-latitude-24.jpg"
     },
     {
       "id": "taichung-c9903c8e",
@@ -1469,8 +1454,7 @@
         "犬",
         "貓"
       ],
-      "phone": "04-22631303",
-      "imageUrl": "https://www.animal.taichung.gov.tw/media/464483/7111410373529.jpg"
+      "phone": "04-22631303"
     },
     {
       "id": "taichung-40a6ae58",
@@ -1500,20 +1484,6 @@
       ],
       "phone": "04-26312868",
       "imageUrl": "https://www.animal.taichung.gov.tw/media/464399/78161614329.jpg"
-    },
-    {
-      "id": "taichung-c88b3d2c",
-      "name": "歐風商旅(歐風商旅旅館事業有限公司)",
-      "address": "西屯區惠民路199號",
-      "serviceTypes": [
-        "住宿"
-      ],
-      "petTypes": [
-        "犬",
-        "貓"
-      ],
-      "phone": "04-22599299",
-      "imageUrl": "https://www.animal.taichung.gov.tw/media/464467/711139112829.jpg"
     },
     {
       "id": "taichung-a871045e",
@@ -2090,8 +2060,7 @@
         "犬",
         "貓"
       ],
-      "phone": "04-22550011",
-      "imageUrl": "https://www.animal.taichung.gov.tw/media/1053535/茶馬司訪山茶店-teamars.jpg"
+      "phone": "04-22550011"
     },
     {
       "id": "taichung-99a3f492",
@@ -2177,8 +2146,7 @@
         "貓",
         "其他"
       ],
-      "phone": "04-22353855",
-      "imageUrl": "https://www.animal.taichung.gov.tw/media/1278433/貓邸老咖庭園餐廳.jpg"
+      "phone": "04-22353855"
     },
     {
       "id": "taichung-d0c061a2",
@@ -2604,8 +2572,7 @@
         "貓",
         "其他"
       ],
-      "phone": "04-22368818",
-      "imageUrl": "https://www.animal.taichung.gov.tw/media/1052450/魚中魚貓狗水族大賣場-文昌店.jpg"
+      "phone": "04-22368818"
     },
     {
       "id": "taichung-80a50efd",

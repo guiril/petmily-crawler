@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1785545192,
+  "updatedAt": 1788236415,
   "venues": {
     "taipei": [
       {
@@ -5879,6 +5879,84 @@
         "district": "文山區"
       },
       {
+        "id": "taipei-d636dbec",
+        "name": "弘弘朝食（南港1店）",
+        "location": {
+          "lat": 25.0549534,
+          "lng": 121.6140941
+        },
+        "serviceTypes": [
+          "餐飲"
+        ],
+        "address": "臺北市南港區南港里南港路一段129號",
+        "district": "南港區"
+      },
+      {
+        "id": "taipei-c118acb8",
+        "name": "弘弘朝食（新民2店）",
+        "location": {
+          "lat": 25.0557843,
+          "lng": 121.6110716
+        },
+        "serviceTypes": [
+          "餐飲"
+        ],
+        "address": "臺北市南港區南港里新民街78號",
+        "district": "南港區"
+      },
+      {
+        "id": "taipei-61756456",
+        "name": "IM beauty salon💈彩妝造型｜睫毛角蛋白 | 采耳｜洗頭 ｜修眉 ｜肌膚管理 ｜cos妝｜演唱會妝髮｜教學課程",
+        "location": {
+          "lat": 25.0450312,
+          "lng": 121.5038649
+        },
+        "serviceTypes": [
+          "其他"
+        ],
+        "address": "臺北市萬華區萬壽里武昌街二段120巷2號",
+        "district": "萬華區"
+      },
+      {
+        "id": "taipei-36095033",
+        "name": "Fur Sure Caf’e｜寵物友善",
+        "location": {
+          "lat": 25.0322958,
+          "lng": 121.55652
+        },
+        "serviceTypes": [
+          "餐飲"
+        ],
+        "address": "臺北市大安區通化里文昌街295號1樓",
+        "district": "大安區"
+      },
+      {
+        "id": "taipei-c6a5bab1",
+        "name": "Gaia Flow 全植料理 | 純素 | 無麩質 | 有機 | 自然 | 友善農法 | Vegan Restaurant | Gluten Free",
+        "location": {
+          "lat": 25.039796,
+          "lng": 121.5225474
+        },
+        "serviceTypes": [
+          "餐飲"
+        ],
+        "address": "臺北市中正區東門里林森南路61巷9號",
+        "district": "中正區"
+      },
+      {
+        "id": "taipei-766db026",
+        "name": "甘蔗渣男(甘杯bar)",
+        "location": {
+          "lat": 25.0137162,
+          "lng": 121.5340067
+        },
+        "serviceTypes": [
+          "餐飲"
+        ],
+        "address": "臺北市中正區水源里汀州路三段146號",
+        "district": "中正區"
+      },
+      {
         "id": "taipei-204d853a",
         "name": "Footer機能除臭襪-景美店",
         "location": {
@@ -6425,6 +6503,19 @@
         "district": "大安區"
       },
       {
+        "id": "taipei-b1be1fd9",
+        "name": "House of Story Wear 永續百貨",
+        "location": {
+          "lat": 25.0546662,
+          "lng": 121.5089807
+        },
+        "serviceTypes": [
+          "其他"
+        ],
+        "address": "臺北市大同區永樂里西寧北路65號",
+        "district": "大同區"
+      },
+      {
         "id": "taipei-97828dc1",
         "name": "是日好學文教機構",
         "location": {
@@ -6906,6 +6997,32 @@
         "district": "大安區"
       },
       {
+        "id": "taipei-b5ccf0b0",
+        "name": "JoinX 哲煜科技｜客製化開發、AI 導入、技術顧問",
+        "location": {
+          "lat": 25.058032,
+          "lng": 121.535354
+        },
+        "serviceTypes": [
+          "其他"
+        ],
+        "address": "臺北市中山區民生松江路口",
+        "district": "中山區"
+      },
+      {
+        "id": "taipei-61756456",
+        "name": "IM beauty salon💈彩妝造型｜睫毛角蛋白 | 采耳｜洗頭 ｜修眉 ｜肌膚管理 ｜cos妝｜演唱會妝髮｜教學課程",
+        "location": {
+          "lat": 25.0450312,
+          "lng": 121.5038649
+        },
+        "serviceTypes": [
+          "其他"
+        ],
+        "address": "臺北市萬華區萬壽里武昌街二段120巷2號",
+        "district": "萬華區"
+      },
+      {
         "id": "taipei-b7186325",
         "name": "台北君悅酒店",
         "location": {
@@ -6969,6 +7086,19 @@
         ],
         "address": "臺北市中山區林森北路286號2樓",
         "district": "中山區"
+      },
+      {
+        "id": "taipei-9d1edba3",
+        "name": "大湖璞旅 boutech hotel Dahu Park",
+        "location": {
+          "lat": 25.0732079,
+          "lng": 121.6065494
+        },
+        "serviceTypes": [
+          "住宿"
+        ],
+        "address": "臺北市內湖區成功路五段462號",
+        "district": "內湖區"
       },
       {
         "id": "taipei-a119eba5",
@@ -7250,6 +7380,7 @@
           "貓"
         ],
         "phone": "04-22135122",
+        "imageUrl": "https://www.animal.taichung.gov.tw/media/464455/710309203429.jpg",
         "district": "東區",
         "location": {
           "lat": 24.1373169,
@@ -7445,6 +7576,7 @@
           "貓"
         ],
         "phone": "04-22478000",
+        "imageUrl": "https://www.animal.taichung.gov.tw/media/464419/783017323653.jpg",
         "district": "北屯區",
         "location": {
           "lat": 24.1732937,
@@ -7463,6 +7595,7 @@
           "貓"
         ],
         "phone": "04-24625518",
+        "imageUrl": "https://www.animal.taichung.gov.tw/media/627248/和樂西屯店.jpg",
         "district": "西屯區",
         "location": {
           "lat": 24.178581,
@@ -7481,6 +7614,7 @@
           "貓"
         ],
         "phone": "04-23101000",
+        "imageUrl": "https://www.animal.taichung.gov.tw/media/627230/和樂大墩店.jpg",
         "district": "南屯區",
         "location": {
           "lat": 24.1496315,
@@ -7500,6 +7634,7 @@
           "其他"
         ],
         "phone": "04-23020030",
+        "imageUrl": "https://www.animal.taichung.gov.tw/media/1018987/homehome.jpg",
         "district": "西區",
         "location": {
           "lat": 24.1498643,
@@ -7518,6 +7653,7 @@
           "貓"
         ],
         "phone": "04-24360281",
+        "imageUrl": "https://www.animal.taichung.gov.tw/media/1137128/臥野咖啡.jpg",
         "district": "北屯區",
         "location": {
           "lat": 24.1602699,
@@ -7536,10 +7672,31 @@
           "貓"
         ],
         "phone": "04-22252219",
+        "imageUrl": "https://www.animal.taichung.gov.tw/media/464661/96209443529.jpg",
         "district": "北區",
         "location": {
           "lat": 24.1519196,
           "lng": 120.6860627
+        }
+      },
+      {
+        "id": "taichung-34e768a5",
+        "name": "MAGiC TOUCH点爭鮮勤美店",
+        "address": "臺中市西區民龍里公益路68號B1F (勤美誠品綠園道B1F)",
+        "serviceTypes": [
+          "餐飲"
+        ],
+        "petTypes": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-23231977",
+        "imageUrl": "https://www.animal.taichung.gov.tw/media/1390488/magic-touch点爭鮮勤美店-門口.jpg",
+        "district": "西區",
+        "location": {
+          "lat": 24.1513197,
+          "lng": 120.6639377
         }
       },
       {
@@ -7554,6 +7711,7 @@
           "貓"
         ],
         "phone": "04-22470761",
+        "imageUrl": "https://www.animal.taichung.gov.tw/media/766374/民海咖啡行.jpg",
         "district": "北屯區",
         "location": {
           "lat": 24.1716416,
@@ -7573,6 +7731,7 @@
           "其他"
         ],
         "phone": "04-23239222",
+        "imageUrl": "https://www.animal.taichung.gov.tw/media/1024183/momori-café-bar.jpg",
         "district": "西區",
         "location": {
           "lat": 24.1523294,
@@ -7592,6 +7751,7 @@
           "其他"
         ],
         "phone": "04-37047535",
+        "imageUrl": "https://www.animal.taichung.gov.tw/media/1220661/建築外觀_mrmantter_曼特先生.jpg",
         "district": "中區",
         "location": {
           "lat": 24.141262,
@@ -7610,7 +7770,6 @@
           "貓"
         ],
         "phone": "04-23165519",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/1021751/no19-restaurant.jpg",
         "district": "西屯區",
         "location": {
           "lat": 24.1641203,
@@ -7649,7 +7808,6 @@
           "貓"
         ],
         "phone": "04-23050191",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/1111625/park-2.jpg",
         "district": "西區",
         "location": {
           "lat": 24.1462115,
@@ -7688,6 +7846,7 @@
           "貓"
         ],
         "phone": "04-23015653",
+        "imageUrl": "https://www.animal.taichung.gov.tw/media/1101258/圓環咖啡-大和店.jpeg",
         "district": "西區",
         "location": {
           "lat": 24.1499586,
@@ -7706,6 +7865,7 @@
           "貓"
         ],
         "phone": "04-22061988",
+        "imageUrl": "https://www.animal.taichung.gov.tw/media/1101249/圓環咖啡-梅川店.jpeg",
         "district": "北區",
         "location": {
           "lat": 24.1564619,
@@ -7762,6 +7922,7 @@
           "貓"
         ],
         "phone": "04-24521330",
+        "imageUrl": "https://www.animal.taichung.gov.tw/media/1011577/line_album_112-uni-cafe_231014_13.jpg",
         "district": "西屯區",
         "location": {
           "lat": 24.185938,
@@ -7780,6 +7941,7 @@
           "貓"
         ],
         "phone": "04-22376859",
+        "imageUrl": "https://www.animal.taichung.gov.tw/media/725997/毅達投資有限公司.jpg",
         "district": "北屯區",
         "location": {
           "lat": 24.1707639,
@@ -7816,7 +7978,6 @@
           "貓"
         ],
         "phone": "04-36086789",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/464429/79610481729.jpg",
         "district": "中區",
         "location": {
           "lat": 24.1404265,
@@ -8185,7 +8346,6 @@
           "貓"
         ],
         "phone": "04-24854568",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/464383/78811232671.jpg",
         "district": "大里區",
         "location": {
           "lat": 24.1068427,
@@ -8915,6 +9075,26 @@
         }
       },
       {
+        "id": "taichung-70c7556a",
+        "name": "拉亞漢堡台中美村店",
+        "address": "臺中市北屯區平陽里大連路二段99號",
+        "serviceTypes": [
+          "餐飲"
+        ],
+        "petTypes": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-36054540",
+        "imageUrl": "https://www.animal.taichung.gov.tw/media/1390503/拉亞漢堡美村店.jpg",
+        "district": "北屯區",
+        "location": {
+          "lat": 24.1760953,
+          "lng": 120.6848528
+        }
+      },
+      {
         "id": "taichung-a8bde4fe",
         "name": "攜旺cafe台中寵物友善餐廳＆浪浪中途學校(攜旺輕食坊)",
         "address": "臺中市北屯區興安路一段128巷13號",
@@ -9176,6 +9356,7 @@
           "貓"
         ],
         "phone": "04-22631303",
+        "imageUrl": "https://www.animal.taichung.gov.tw/media/464483/7111410373529.jpg",
         "district": "南區",
         "location": {
           "lat": 24.1153316,
@@ -9954,7 +10135,6 @@
           "貓"
         ],
         "phone": "0423397128",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/464401/781616202429.jpg",
         "district": "霧峰區",
         "location": {
           "lat": 24.06113,
@@ -9992,6 +10172,7 @@
           "貓"
         ],
         "phone": "04-22550011",
+        "imageUrl": "https://www.animal.taichung.gov.tw/media/1053535/茶馬司訪山茶店-teamars.jpg",
         "district": "南屯區",
         "location": {
           "lat": 24.1480787,
@@ -10108,6 +10289,7 @@
           "其他"
         ],
         "phone": "04-22353855",
+        "imageUrl": "https://www.animal.taichung.gov.tw/media/1278433/貓邸老咖庭園餐廳.jpg",
         "district": "北區",
         "location": {
           "lat": 24.152286,
@@ -10356,7 +10538,6 @@
           "其他"
         ],
         "phone": "04-22393161",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/464435/79139274529.jpg",
         "district": "北屯區",
         "location": {
           "lat": 24.204593,
@@ -10375,7 +10556,6 @@
           "貓"
         ],
         "phone": "04-22217157",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/464461/71129234729.jpg",
         "district": "中區",
         "location": {
           "lat": 24.1413262,
@@ -10415,7 +10595,6 @@
           "其他"
         ],
         "phone": "04-23220857",
-        "imageUrl": "https://www.animal.taichung.gov.tw/media/1101290/飪室咖哩勤美店.jpg",
         "district": "西區",
         "location": {
           "lat": 24.1515896,
@@ -10684,10 +10863,31 @@
           "其他"
         ],
         "phone": "04-22368818",
+        "imageUrl": "https://www.animal.taichung.gov.tw/media/1052450/魚中魚貓狗水族大賣場-文昌店.jpg",
         "district": "北屯區",
         "location": {
           "lat": 24.1714157,
           "lng": 120.6897731
+        }
+      },
+      {
+        "id": "taichung-33bbd749",
+        "name": "魚中魚貓狗水族大賣場-清水店",
+        "address": "臺中市清水區武鹿里五權路63號",
+        "serviceTypes": [
+          "其他"
+        ],
+        "petTypes": [
+          "犬",
+          "貓",
+          "其他"
+        ],
+        "phone": "04-26269977",
+        "imageUrl": "https://www.animal.taichung.gov.tw/media/1390501/魚中魚貓狗水族大賣場-清水店.jpg",
+        "district": "清水區",
+        "location": {
+          "lat": 24.2806558,
+          "lng": 120.5528091
         }
       },
       {

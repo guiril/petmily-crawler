@@ -1,7 +1,7 @@
 {
   "sourceCity": "臺中市",
   "lastUpdate": "更新於114/11/11",
-  "scrapedAt": 1785545175,
+  "scrapedAt": 1788236394,
   "venues": [
     {
       "id": "taichung-9e3489e1",
@@ -28,7 +28,8 @@
         "犬",
         "貓"
       ],
-      "phone": "04-22135122"
+      "phone": "04-22135122",
+      "imageUrl": "https://www.animal.taichung.gov.tw/media/464455/710309203429.jpg"
     },
     {
       "id": "taichung-1fb7f726",
@@ -173,7 +174,8 @@
         "犬",
         "貓"
       ],
-      "phone": "04-22478000"
+      "phone": "04-22478000",
+      "imageUrl": "https://www.animal.taichung.gov.tw/media/464419/783017323653.jpg"
     },
     {
       "id": "taichung-1c166b04",
@@ -186,7 +188,8 @@
         "犬",
         "貓"
       ],
-      "phone": "04-24625518"
+      "phone": "04-24625518",
+      "imageUrl": "https://www.animal.taichung.gov.tw/media/627248/和樂西屯店.jpg"
     },
     {
       "id": "taichung-555b584f",
@@ -199,7 +202,8 @@
         "犬",
         "貓"
       ],
-      "phone": "04-23101000"
+      "phone": "04-23101000",
+      "imageUrl": "https://www.animal.taichung.gov.tw/media/627230/和樂大墩店.jpg"
     },
     {
       "id": "taichung-141d7156",
@@ -213,7 +217,8 @@
         "貓",
         "其他"
       ],
-      "phone": "04-23020030"
+      "phone": "04-23020030",
+      "imageUrl": "https://www.animal.taichung.gov.tw/media/1018987/homehome.jpg"
     },
     {
       "id": "taichung-a173b35b",
@@ -226,7 +231,8 @@
         "犬",
         "貓"
       ],
-      "phone": "04-24360281"
+      "phone": "04-24360281",
+      "imageUrl": "https://www.animal.taichung.gov.tw/media/1137128/臥野咖啡.jpg"
     },
     {
       "id": "taichung-b3ddf3ad",
@@ -239,7 +245,23 @@
         "犬",
         "貓"
       ],
-      "phone": "04-22252219"
+      "phone": "04-22252219",
+      "imageUrl": "https://www.animal.taichung.gov.tw/media/464661/96209443529.jpg"
+    },
+    {
+      "id": "taichung-34e768a5",
+      "name": "MAGiC TOUCH点爭鮮勤美店",
+      "address": "臺中市西區公益路68號B1F (勤美誠品綠園道B1F)",
+      "serviceTypes": [
+        "餐飲"
+      ],
+      "petTypes": [
+        "犬",
+        "貓",
+        "其他"
+      ],
+      "phone": "04-23231977",
+      "imageUrl": "https://www.animal.taichung.gov.tw/media/1390488/magic-touch点爭鮮勤美店-門口.jpg"
     },
     {
       "id": "taichung-d9bdc55e",
@@ -252,7 +274,8 @@
         "犬",
         "貓"
       ],
-      "phone": "04-22470761"
+      "phone": "04-22470761",
+      "imageUrl": "https://www.animal.taichung.gov.tw/media/766374/民海咖啡行.jpg"
     },
     {
       "id": "taichung-f4f0979e",
@@ -266,7 +289,8 @@
         "貓",
         "其他"
       ],
-      "phone": "04-23239222"
+      "phone": "04-23239222",
+      "imageUrl": "https://www.animal.taichung.gov.tw/media/1024183/momori-café-bar.jpg"
     },
     {
       "id": "taichung-6179894d",
@@ -280,7 +304,8 @@
         "貓",
         "其他"
       ],
-      "phone": "04-37047535"
+      "phone": "04-37047535",
+      "imageUrl": "https://www.animal.taichung.gov.tw/media/1220661/建築外觀_mrmantter_曼特先生.jpg"
     },
     {
       "id": "taichung-568e9e8c",
@@ -293,8 +318,7 @@
         "犬",
         "貓"
       ],
-      "phone": "04-23165519",
-      "imageUrl": "https://www.animal.taichung.gov.tw/media/1021751/no19-restaurant.jpg"
+      "phone": "04-23165519"
     },
     {
       "id": "taichung-949eeef7",
@@ -322,8 +346,7 @@
         "犬",
         "貓"
       ],
-      "phone": "04-23050191",
-      "imageUrl": "https://www.animal.taichung.gov.tw/media/1111625/park-2.jpg"
+      "phone": "04-23050191"
     },
     {
       "id": "taichung-3bdfaab7",
@@ -351,7 +374,8 @@
         "犬",
         "貓"
       ],
-      "phone": "04-23015653"
+      "phone": "04-23015653",
+      "imageUrl": "https://www.animal.taichung.gov.tw/media/1101258/圓環咖啡-大和店.jpeg"
     },
     {
       "id": "taichung-24f95d13",
@@ -364,7 +388,8 @@
         "犬",
         "貓"
       ],
-      "phone": "04-22061988"
+      "phone": "04-22061988",
+      "imageUrl": "https://www.animal.taichung.gov.tw/media/1101249/圓環咖啡-梅川店.jpeg"
     },
     {
       "id": "taichung-05641401",
@@ -405,7 +430,8 @@
         "犬",
         "貓"
       ],
-      "phone": "04-24521330"
+      "phone": "04-24521330",
+      "imageUrl": "https://www.animal.taichung.gov.tw/media/1011577/line_album_112-uni-cafe_231014_13.jpg"
     },
     {
       "id": "taichung-7c14b52f",
@@ -418,7 +444,8 @@
         "犬",
         "貓"
       ],
-      "phone": "04-22376859"
+      "phone": "04-22376859",
+      "imageUrl": "https://www.animal.taichung.gov.tw/media/725997/毅達投資有限公司.jpg"
     },
     {
       "id": "taichung-794523cb",
@@ -444,8 +471,7 @@
         "犬",
         "貓"
       ],
-      "phone": "04-36086789",
-      "imageUrl": "https://www.animal.taichung.gov.tw/media/464429/79610481729.jpg"
+      "phone": "04-36086789"
     },
     {
       "id": "taichung-60779b6c",
@@ -718,8 +744,7 @@
         "犬",
         "貓"
       ],
-      "phone": "04-24854568",
-      "imageUrl": "https://www.animal.taichung.gov.tw/media/464383/78811232671.jpg"
+      "phone": "04-24854568"
     },
     {
       "id": "taichung-3a3a6960",
@@ -1259,6 +1284,21 @@
       "imageUrl": "https://www.animal.taichung.gov.tw/media/1021754/怡喵旅.jpg"
     },
     {
+      "id": "taichung-70c7556a",
+      "name": "拉亞漢堡台中美村店",
+      "address": "臺中市南區福平里美村路二段99號",
+      "serviceTypes": [
+        "餐飲"
+      ],
+      "petTypes": [
+        "犬",
+        "貓",
+        "其他"
+      ],
+      "phone": "04-36054540",
+      "imageUrl": "https://www.animal.taichung.gov.tw/media/1390503/拉亞漢堡美村店.jpg"
+    },
+    {
       "id": "taichung-a8bde4fe",
       "name": "攜旺cafe台中寵物友善餐廳＆浪浪中途學校(攜旺輕食坊)",
       "address": "臺中市北屯區興安路一段128巷13號",
@@ -1454,7 +1494,8 @@
         "犬",
         "貓"
       ],
-      "phone": "04-22631303"
+      "phone": "04-22631303",
+      "imageUrl": "https://www.animal.taichung.gov.tw/media/464483/7111410373529.jpg"
     },
     {
       "id": "taichung-40a6ae58",
@@ -2032,8 +2073,7 @@
         "犬",
         "貓"
       ],
-      "phone": "0423397128",
-      "imageUrl": "https://www.animal.taichung.gov.tw/media/464401/781616202429.jpg"
+      "phone": "0423397128"
     },
     {
       "id": "taichung-a147c717",
@@ -2060,7 +2100,8 @@
         "犬",
         "貓"
       ],
-      "phone": "04-22550011"
+      "phone": "04-22550011",
+      "imageUrl": "https://www.animal.taichung.gov.tw/media/1053535/茶馬司訪山茶店-teamars.jpg"
     },
     {
       "id": "taichung-99a3f492",
@@ -2146,7 +2187,8 @@
         "貓",
         "其他"
       ],
-      "phone": "04-22353855"
+      "phone": "04-22353855",
+      "imageUrl": "https://www.animal.taichung.gov.tw/media/1278433/貓邸老咖庭園餐廳.jpg"
     },
     {
       "id": "taichung-d0c061a2",
@@ -2329,8 +2371,7 @@
         "貓",
         "其他"
       ],
-      "phone": "04-22393161",
-      "imageUrl": "https://www.animal.taichung.gov.tw/media/464435/79139274529.jpg"
+      "phone": "04-22393161"
     },
     {
       "id": "taichung-3e893731",
@@ -2343,8 +2384,7 @@
         "犬",
         "貓"
       ],
-      "phone": "04-22217157",
-      "imageUrl": "https://www.animal.taichung.gov.tw/media/464461/71129234729.jpg"
+      "phone": "04-22217157"
     },
     {
       "id": "taichung-8de97d0e",
@@ -2373,8 +2413,7 @@
         "貓",
         "其他"
       ],
-      "phone": "04-23220857",
-      "imageUrl": "https://www.animal.taichung.gov.tw/media/1101290/飪室咖哩勤美店.jpg"
+      "phone": "04-23220857"
     },
     {
       "id": "taichung-0a7ecc86",
@@ -2572,7 +2611,23 @@
         "貓",
         "其他"
       ],
-      "phone": "04-22368818"
+      "phone": "04-22368818",
+      "imageUrl": "https://www.animal.taichung.gov.tw/media/1052450/魚中魚貓狗水族大賣場-文昌店.jpg"
+    },
+    {
+      "id": "taichung-33bbd749",
+      "name": "魚中魚貓狗水族大賣場-清水店",
+      "address": "臺中市清水區武鹿里五權路63號",
+      "serviceTypes": [
+        "其他"
+      ],
+      "petTypes": [
+        "犬",
+        "貓",
+        "其他"
+      ],
+      "phone": "04-26269977",
+      "imageUrl": "https://www.animal.taichung.gov.tw/media/1390501/魚中魚貓狗水族大賣場-清水店.jpg"
     },
     {
       "id": "taichung-80a50efd",

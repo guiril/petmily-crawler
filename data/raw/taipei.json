@@ -1,6 +1,6 @@
 {
   "sourceCity": "臺北市",
-  "scrapedAt": 1785545111,
+  "scrapedAt": 1788236325,
   "venues": [
     {
       "id": "taipei-35dc623d",
@@ -4997,6 +4997,72 @@
       ]
     },
     {
+      "id": "taipei-d636dbec",
+      "name": "弘弘朝食（南港1店）",
+      "location": {
+        "lat": 25.054951,
+        "lng": 121.614096
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-c118acb8",
+      "name": "弘弘朝食（新民2店）",
+      "location": {
+        "lat": 25.0557843,
+        "lng": 121.6110716
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-61756456",
+      "name": "Dvibe",
+      "location": {
+        "lat": 25.0450312,
+        "lng": 121.5038649
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-36095033",
+      "name": "Fur Sure Caf’e｜寵物友善",
+      "location": {
+        "lat": 25.0322958,
+        "lng": 121.55652
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-c6a5bab1",
+      "name": "Gaia Flow 全植料理 | 純素 | 無麩質 | 有機 | 自然 | 友善農法 | Vegan Restaurant | Gluten Free",
+      "location": {
+        "lat": 25.039796,
+        "lng": 121.5225474
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-766db026",
+      "name": "甘蔗渣男(甘杯bar)",
+      "location": {
+        "lat": 25.0137162,
+        "lng": 121.5340067
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
       "id": "taipei-204d853a",
       "name": "Footer機能除臭襪-景美店",
       "location": {
@@ -5459,6 +5525,17 @@
       ]
     },
     {
+      "id": "taipei-b1be1fd9",
+      "name": "House of Story Wear 永續百貨",
+      "location": {
+        "lat": 25.0546662,
+        "lng": 121.5089807
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
       "id": "taipei-97828dc1",
       "name": "是日好學文教機構",
       "location": {
@@ -5866,6 +5943,28 @@
       ]
     },
     {
+      "id": "taipei-b5ccf0b0",
+      "name": "JoinX 哲煜科技｜客製化開發、AI 導入、技術顧問",
+      "location": {
+        "lat": 25.0577172,
+        "lng": 121.5350981
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-61756456",
+      "name": "IM beauty salon💈彩妝造型｜睫毛角蛋白 | 采耳｜洗頭 ｜修眉 ｜肌膚管理 ｜cos妝｜演唱會妝髮｜教學課程",
+      "location": {
+        "lat": 25.0450312,
+        "lng": 121.5038649
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
       "id": "taipei-b7186325",
       "name": "台北君悅酒店",
       "location": {
@@ -5915,6 +6014,17 @@
       "location": {
         "lat": 25.0557593,
         "lng": 121.5252552
+      },
+      "serviceTypes": [
+        "住宿"
+      ]
+    },
+    {
+      "id": "taipei-9d1edba3",
+      "name": "大湖璞旅 boutech hotel Dahu Park",
+      "location": {
+        "lat": 25.0732079,
+        "lng": 121.6065494
       },
       "serviceTypes": [
         "住宿"

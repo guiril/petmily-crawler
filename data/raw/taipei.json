@@ -1,6 +1,6 @@
 {
   "sourceCity": "臺北市",
-  "scrapedAt": 1790830764,
+  "scrapedAt": 1793509804,
   "venues": [
     {
       "id": "taipei-35dc623d",
@@ -5063,6 +5063,127 @@
       ]
     },
     {
+      "id": "taipei-e723ae62",
+      "name": "葉甘單蔬食",
+      "location": {
+        "lat": 25.0242314,
+        "lng": 121.5537924
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-4038c501",
+      "name": "碌碌洋食 Lulu Yoshoku",
+      "location": {
+        "lat": 25.0585182,
+        "lng": 121.5519345
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-b99c67b0",
+      "name": "甲蟲秘境自然生態館（親子寵物友善餐廳）",
+      "location": {
+        "lat": 25.1091372,
+        "lng": 121.5232939
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-1137ba4b",
+      "name": "花嶼輕食館",
+      "location": {
+        "lat": 25.0948742,
+        "lng": 121.5261247
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-735c39ca",
+      "name": "畊 PLOW Yunong",
+      "location": {
+        "lat": 25.0985738,
+        "lng": 121.5325606
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-36095033",
+      "name": "Fur Sure Caf’e｜寵物友善",
+      "location": {
+        "lat": 25.0322958,
+        "lng": 121.55652
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-7b243d0a",
+      "name": "優鮮主意 Açaí巴西莓 · Premium Fruits · Private Members' Club",
+      "location": {
+        "lat": 25.0337419,
+        "lng": 121.5366592
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-d4798152",
+      "name": "甜DD工作室(可以外送)",
+      "location": {
+        "lat": 25.0474971,
+        "lng": 121.4737607
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-c26a58d0",
+      "name": "莫古咖啡 MEET GRACE COFFEE",
+      "location": {
+        "lat": 25.0262647,
+        "lng": 121.5176924
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-a60f21a8",
+      "name": "BACKMOUNT後山咖啡",
+      "location": {
+        "lat": 25.039684,
+        "lng": 121.591435
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
+      "id": "taipei-ee4a66cb",
+      "name": "Vagus 餐酒館 Lounge",
+      "location": {
+        "lat": 25.0510298,
+        "lng": 121.523379
+      },
+      "serviceTypes": [
+        "餐飲"
+      ]
+    },
+    {
       "id": "taipei-204d853a",
       "name": "Footer機能除臭襪-景美店",
       "location": {
@@ -5536,6 +5657,17 @@
       ]
     },
     {
+      "id": "taipei-f204fd1f",
+      "name": "House of Story Wear 永續百貨",
+      "location": {
+        "lat": 25.0547134,
+        "lng": 121.5090114
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
       "id": "taipei-97828dc1",
       "name": "是日好學文教機構",
       "location": {
@@ -5965,6 +6097,28 @@
       ]
     },
     {
+      "id": "taipei-f174e6d8",
+      "name": "蓓兒聽力語言聯合治療所",
+      "location": {
+        "lat": 25.118342,
+        "lng": 121.531115
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
+      "id": "taipei-61756456",
+      "name": "IM beauty salon💈彩妝造型｜睫毛角蛋白 | 采耳｜洗頭 ｜修眉 ｜肌膚管理 ｜cos妝｜演唱會妝髮｜教學課程",
+      "location": {
+        "lat": 25.0450312,
+        "lng": 121.5038649
+      },
+      "serviceTypes": [
+        "其他"
+      ]
+    },
+    {
       "id": "taipei-b7186325",
       "name": "台北君悅酒店",
       "location": {
@@ -6025,6 +6179,28 @@
       "location": {
         "lat": 25.0732079,
         "lng": 121.6065494
+      },
+      "serviceTypes": [
+        "住宿"
+      ]
+    },
+    {
+      "id": "taipei-9d1edba3",
+      "name": "大湖璞旅 boutech hotel Dahu Park",
+      "location": {
+        "lat": 25.0732079,
+        "lng": 121.6065494
+      },
+      "serviceTypes": [
+        "住宿"
+      ]
+    },
+    {
+      "id": "taipei-ee4a66cb",
+      "name": "天津大酒店",
+      "location": {
+        "lat": 25.0510298,
+        "lng": 121.523379
       },
       "serviceTypes": [
         "住宿"
